@@ -1,0 +1,432 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.kepler.harmonices_geometry &mdash; GEOMETOR • kepler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/kepler_codex.css?v=e1380a77" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • kepler</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">kepler</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../cosmos_and_harmony/index.html"  >Cosmos & Harmony Codex</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >Modules</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; kepler</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • kepler</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">Modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../strena_packing/index.html" title="geometor.kepler.strena_packing">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../cli/index.html" title="geometor.kepler.cli"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.kepler.harmonices_geometry">
+        <span id="geometor-kepler-harmonices-geometry"></span><h1>geometor.kepler.harmonices_geometry<a class="headerlink" href="#module-geometor.kepler.harmonices_geometry" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic geometry of Kepler’s <em>Harmonices Mundi</em> (1619) &amp; 1597 Kepler Triangle.</p>
+        <p>Implements:</p>
+        <ol class="arabic simple">
+        <li><p>Pure straightedge-and-compass <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> construction &amp; Rational
+        Trigonometry proof of the <strong>Kepler Right Triangle</strong> <code class="docutils literal notranslate"><span class="pre">(1,</span> <span class="pre">sqrt(phi),</span> <span class="pre">phi)</span></code>
+        over <code class="docutils literal notranslate"><span class="pre">Q(sqrt(phi))</span></code> (<em>Epistola ad Mästlinum</em>, Oct 1597).</p></li>
+        <li><p>Exact cyclotomic minimal-polynomial classifier separating constructible
+        polygons (<em>Scibilia</em>) from the non-constructible <strong>Regular Heptagon</strong>
+        <code class="docutils literal notranslate"><span class="pre">x^3</span> <span class="pre">+</span> <span class="pre">x^2</span> <span class="pre">-</span> <span class="pre">2*x</span> <span class="pre">-</span> <span class="pre">1</span> <span class="pre">=</span> <span class="pre">0</span></code> and Bürgi’s cossic chord equation (<em>Book I</em>).</p></li>
+        <li><p>Exact Diophantine + global edge-consistency solver deriving all <strong>11 uniform
+        Archimedean planar tilings</strong> and verifying Kepler’s pentagonal/decagonal star
+        congruence Figure Aa (<em>Book II</em>).</p></li>
+        <li><p>Exact rational verification of <strong>Kepler’s Third Law</strong> <code class="docutils literal notranslate"><span class="pre">(T1/T2)^2</span> <span class="pre">=</span> <span class="pre">(a1/a2)^3</span></code>
+        and planetary aphelion/perihelion musical consonances (<em>Book V</em>).</p></li>
+        </ol>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.PHI" title="geometor.kepler.harmonices_geometry.PHI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PHI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.SQRT_PHI" title="geometor.kepler.harmonices_geometry.SQRT_PHI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SQRT_PHI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas" title="geometor.kepler.harmonices_geometry.PolygonScibilitas"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PolygonScibilitas</span></code></a></p></td>
+        <td><p>Algebraic and Euclidean constructibility profile of a regular n-gon (<em>Book I</em>).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling" title="geometor.kepler.harmonices_geometry.ArchimedeanTiling"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ArchimedeanTiling</span></code></a></p></td>
+        <td><p>Uniform vertex-transitive planar tessellation in <em>Harmonices Mundi</em> Book II.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony" title="geometor.kepler.harmonices_geometry.PlanetaryHarmony"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PlanetaryHarmony</span></code></a></p></td>
+        <td><p>Planetary extremal angular speeds and harmonic interval (<em>Harmonices Mundi</em> Book V).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.construct_kepler_right_triangle" title="geometor.kepler.harmonices_geometry.construct_kepler_right_triangle"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_kepler_right_triangle</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct the Kepler Right Triangle <code class="docutils literal notranslate"><span class="pre">(1,</span> <span class="pre">sqrt(phi),</span> <span class="pre">phi)</span></code> purely from <code class="docutils literal notranslate"><span class="pre">(0,0)</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">(1,0)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal" title="geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_maestlin_1597_decimal</span></code></a>() → dict[str, sympy.Expr | bool]</p></td>
+        <td><p>Verify Michael Mästlin's October 1597 decimal <code class="docutils literal notranslate"><span class="pre">0.6180340</span></code> for <code class="docutils literal notranslate"><span class="pre">1/phi</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.classify_polygon_scibilitas" title="geometor.kepler.harmonices_geometry.classify_polygon_scibilitas"><code class="xref py py-obj docutils literal notranslate"><span class="pre">classify_polygon_scibilitas</span></code></a>([n_values]) → tuple[PolygonScibilitas, ...]</p></td>
+        <td><p>Classify regular polygons by minimal polynomial of <code class="docutils literal notranslate"><span class="pre">2*cos(2*pi/n)</span></code> (<em>Book I</em>).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction" title="geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_heptagon_cubic_obstruction</span></code></a>() → dict[str, sympy.Poly | bool]</p></td>
+        <td><p>Verify Prop. XLV heptagon cubic <code class="docutils literal notranslate"><span class="pre">x^3</span> <span class="pre">+</span> <span class="pre">x^2</span> <span class="pre">-</span> <span class="pre">2*x</span> <span class="pre">-</span> <span class="pre">1</span></code> and Bürgi's chord sextic.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings" title="geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enumerate_archimedean_planar_tilings</span></code></a>() → tuple[ArchimedeanTiling, ...]</p></td>
+        <td><p>Derive from scratch all <strong>11 uniform Archimedean planar tilings</strong> (<em>Book II</em>).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.verify_pentagram_star_congruence" title="geometor.kepler.harmonices_geometry.verify_pentagram_star_congruence"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_pentagram_star_congruence</span></code></a>() → dict[str, bool]</p></td>
+        <td><p>Verify exact rational angle closures in Kepler's Figure Aa star tiling (<em>Book II</em>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.analyze_planetary_harmonies" title="geometor.kepler.harmonices_geometry.analyze_planetary_harmonies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_planetary_harmonies</span></code></a>() → tuple[PlanetaryHarmony, ...]</p></td>
+        <td><p>Return Kepler's six-planet harmonic consonances (<em>Harmonices Mundi</em> Book V, Chs. IV–IX).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.harmonices_geometry.verify_kepler_third_law" title="geometor.kepler.harmonices_geometry.verify_kepler_third_law"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_kepler_third_law</span></code></a>() → dict[str, sympy.Expr | bool]</p></td>
+        <td><p>Verify Kepler's <em>Proportio Sesquialtera</em> <code class="docutils literal notranslate"><span class="pre">(T1/T2)^2</span> <span class="pre">==</span> <span class="pre">(a1/a2)^3</span></code> (<em>Book V</em>, Ch. III).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PHI">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">PHI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PHI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.SQRT_PHI">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">SQRT_PHI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.SQRT_PHI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">PolygonScibilitas</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas" title="Link to this definition">¶</a></dt>
+        <dd><p>Algebraic and Euclidean constructibility profile of a regular n-gon (<em>Book I</em>).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.n_sides">
+        <span class="sig-name descname"><span class="pre">n_sides</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.n_sides" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.name">
+        <span class="sig-name descname"><span class="pre">name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.minimal_poly_2cos">
+        <span class="sig-name descname"><span class="pre">minimal_poly_2cos</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Poly</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.minimal_poly_2cos" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.algebraic_degree">
+        <span class="sig-name descname"><span class="pre">algebraic_degree</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.algebraic_degree" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.constructible">
+        <span class="sig-name descname"><span class="pre">constructible</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.constructible" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PolygonScibilitas.kepler_scibilitas_rank">
+        <span class="sig-name descname"><span class="pre">kepler_scibilitas_rank</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas.kepler_scibilitas_rank" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">ArchimedeanTiling</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling" title="Link to this definition">¶</a></dt>
+        <dd><p>Uniform vertex-transitive planar tessellation in <em>Harmonices Mundi</em> Book II.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling.vertex_symbol">
+        <span class="sig-name descname"><span class="pre">vertex_symbol</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling.vertex_symbol" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling.notation">
+        <span class="sig-name descname"><span class="pre">notation</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling.notation" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling.is_pure_regular">
+        <span class="sig-name descname"><span class="pre">is_pure_regular</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling.is_pure_regular" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling.chiral">
+        <span class="sig-name descname"><span class="pre">chiral</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling.chiral" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.ArchimedeanTiling.interior_angles_deg">
+        <span class="sig-name descname"><span class="pre">interior_angles_deg</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling.interior_angles_deg" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">PlanetaryHarmony</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony" title="Link to this definition">¶</a></dt>
+        <dd><p>Planetary extremal angular speeds and harmonic interval (<em>Harmonices Mundi</em> Book V).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.planet">
+        <span class="sig-name descname"><span class="pre">planet</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.planet" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.aphelion_arcsec_per_day">
+        <span class="sig-name descname"><span class="pre">aphelion_arcsec_per_day</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.aphelion_arcsec_per_day" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.perihelion_arcsec_per_day">
+        <span class="sig-name descname"><span class="pre">perihelion_arcsec_per_day</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.perihelion_arcsec_per_day" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.harmonic_ratio_aph_over_per">
+        <span class="sig-name descname"><span class="pre">harmonic_ratio_aph_over_per</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.harmonic_ratio_aph_over_per" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.musical_interval">
+        <span class="sig-name descname"><span class="pre">musical_interval</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.musical_interval" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.semi_major_au_kepler">
+        <span class="sig-name descname"><span class="pre">semi_major_au_kepler</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.semi_major_au_kepler" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.PlanetaryHarmony.period_days_kepler">
+        <span class="sig-name descname"><span class="pre">period_days_kepler</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony.period_days_kepler" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.construct_kepler_right_triangle">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">construct_kepler_right_triangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.construct_kepler_right_triangle" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the Kepler Right Triangle <code class="docutils literal notranslate"><span class="pre">(1,</span> <span class="pre">sqrt(phi),</span> <span class="pre">phi)</span></code> purely from <code class="docutils literal notranslate"><span class="pre">(0,0)</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">(1,0)</span></code>.</p>
+        <p>Uses <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> straightedge-and-compass intersections (<code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code>):</p>
+        <ol class="arabic simple">
+        <li><p>Constructs <code class="docutils literal notranslate"><span class="pre">W</span> <span class="pre">=</span> <span class="pre">(-1,</span> <span class="pre">0)</span></code>, perpendicular axis <code class="docutils literal notranslate"><span class="pre">ON</span></code> through <code class="docutils literal notranslate"><span class="pre">O</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span></code> with
+        <code class="docutils literal notranslate"><span class="pre">N</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">1)</span></code>, and midpoint <code class="docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">(1/2,</span> <span class="pre">0)</span></code> of <code class="docutils literal notranslate"><span class="pre">OA</span></code>.</p></li>
+        <li><p>Circle centered at <code class="docutils literal notranslate"><span class="pre">E</span></code> through <code class="docutils literal notranslate"><span class="pre">N</span></code> cuts <code class="docutils literal notranslate"><span class="pre">OA</span></code> extended at <code class="docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">(phi,</span> <span class="pre">0)</span></code> (II.11).</p></li>
+        <li><p>Midpoint <code class="docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">((phi</span> <span class="pre">-</span> <span class="pre">1)/2,</span> <span class="pre">0)</span></code> of <code class="docutils literal notranslate"><span class="pre">WP</span></code> centers the Thales circle through <code class="docutils literal notranslate"><span class="pre">P</span></code>
+        and <code class="docutils literal notranslate"><span class="pre">W</span> <span class="pre">=</span> <span class="pre">(-1,</span> <span class="pre">0)</span></code>, cutting the positive y-axis at <code class="docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">sqrt(phi))</span></code> (VI.13).</p></li>
+        <li><p>Triangle <code class="docutils literal notranslate"><span class="pre">OAB</span></code> has exact quadrances <code class="docutils literal notranslate"><span class="pre">Q(O,A)</span> <span class="pre">=</span> <span class="pre">1</span></code>, <code class="docutils literal notranslate"><span class="pre">Q(O,B)</span> <span class="pre">=</span> <span class="pre">phi</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">Q(A,B)</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">+</span> <span class="pre">phi</span> <span class="pre">=</span> <span class="pre">phi^2</span></code>, and altitude <code class="docutils literal notranslate"><span class="pre">OH</span></code> cuts <code class="docutils literal notranslate"><span class="pre">AB</span></code> into <code class="docutils literal notranslate"><span class="pre">BH</span> <span class="pre">=</span> <span class="pre">1</span></code>
+        and <code class="docutils literal notranslate"><span class="pre">HA</span> <span class="pre">=</span> <span class="pre">1/phi</span> <span class="pre">=</span> <span class="pre">phi</span> <span class="pre">-</span> <span class="pre">1</span></code>.</p></li>
+        </ol>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">verify_maestlin_1597_decimal</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Michael Mästlin’s October 1597 decimal <code class="docutils literal notranslate"><span class="pre">0.6180340</span></code> for <code class="docutils literal notranslate"><span class="pre">1/phi</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.classify_polygon_scibilitas">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">classify_polygon_scibilitas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n_values</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">(3,</span> <span class="pre">4,</span> <span class="pre">5,</span> <span class="pre">6,</span> <span class="pre">7,</span> <span class="pre">8,</span> <span class="pre">9,</span> <span class="pre">10,</span> <span class="pre">11,</span> <span class="pre">12,</span> <span class="pre">15,</span> <span class="pre">16)</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.harmonices_geometry.PolygonScibilitas" title="geometor.kepler.harmonices_geometry.PolygonScibilitas"><span class="pre">PolygonScibilitas</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.classify_polygon_scibilitas" title="Link to this definition">¶</a></dt>
+        <dd><p>Classify regular polygons by minimal polynomial of <code class="docutils literal notranslate"><span class="pre">2*cos(2*pi/n)</span></code> (<em>Book I</em>).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">verify_heptagon_cubic_obstruction</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Poly</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Prop. XLV heptagon cubic <code class="docutils literal notranslate"><span class="pre">x^3</span> <span class="pre">+</span> <span class="pre">x^2</span> <span class="pre">-</span> <span class="pre">2*x</span> <span class="pre">-</span> <span class="pre">1</span></code> and Bürgi’s chord sextic.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">enumerate_archimedean_planar_tilings</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.harmonices_geometry.ArchimedeanTiling" title="geometor.kepler.harmonices_geometry.ArchimedeanTiling"><span class="pre">ArchimedeanTiling</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings" title="Link to this definition">¶</a></dt>
+        <dd><p>Derive from scratch all <strong>11 uniform Archimedean planar tilings</strong> (<em>Book II</em>).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.verify_pentagram_star_congruence">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">verify_pentagram_star_congruence</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.verify_pentagram_star_congruence" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify exact rational angle closures in Kepler’s Figure Aa star tiling (<em>Book II</em>).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.analyze_planetary_harmonies">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">analyze_planetary_harmonies</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.harmonices_geometry.PlanetaryHarmony" title="geometor.kepler.harmonices_geometry.PlanetaryHarmony"><span class="pre">PlanetaryHarmony</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.analyze_planetary_harmonies" title="Link to this definition">¶</a></dt>
+        <dd><p>Return Kepler’s six-planet harmonic consonances (<em>Harmonices Mundi</em> Book V, Chs. IV–IX).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.harmonices_geometry.verify_kepler_third_law">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.harmonices_geometry.</span></span><span class="sig-name descname"><span class="pre">verify_kepler_third_law</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.harmonices_geometry.verify_kepler_third_law" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Kepler’s <em>Proportio Sesquialtera</em> <code class="docutils literal notranslate"><span class="pre">(T1/T2)^2</span> <span class="pre">==</span> <span class="pre">(a1/a2)^3</span></code> (<em>Book V</em>, Ch. III).</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../strena_packing/index.html" title="geometor.kepler.strena_packing">&larr; <span class="nav-label">geometor.kepler.strena_packing</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • kepler</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../cli/index.html" title="geometor.kepler.cli"><span class="nav-label">geometor.kepler.cli</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-150000/index.html">Initial Bilingual Book Codex & Symbolic Engine of Kepler’s Cosmography, Strena & Harmonices</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/golden-ratio.html">golden-ratio</a></li>
+        <li><a href="../../../../../tags/harmonices-mundi.html">harmonices-mundi</a></li>
+        <li><a href="../../../../../tags/kepler.html">kepler</a></li>
+        <li><a href="../../../../../tags/mysterium.html">mysterium</a></li>
+        <li><a href="../../../../../tags/polyhedra.html">polyhedra</a></li>
+        <li><a href="../../../../../tags/strena.html">strena</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../../../../categories/codex.html">codex</a></li>
+        <li><a href="../../../../../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../../../../../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >About GEOMETOR Kepler</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+geometor.kepler.harmonices_geometry
+===================================
+
+.. py:module:: geometor.kepler.harmonices_geometry
+
+.. autoapi-nested-parse::
+
+   Exact symbolic geometry of Kepler's *Harmonices Mundi* (1619) & 1597 Kepler Triangle.
+
+   Implements:
+
+   1. Pure straightedge-and-compass ``geometor.model`` construction & Rational
+      Trigonometry proof of the **Kepler Right Triangle** ``(1, sqrt(phi), phi)``
+      over ``Q(sqrt(phi))`` (*Epistola ad Mästlinum*, Oct 1597).
+   2. Exact cyclotomic minimal-polynomial classifier separating constructible
+      polygons (*Scibilia*) from the non-constructible **Regular Heptagon**
+      ``x^3 + x^2 - 2*x - 1 = 0`` and Bürgi's cossic chord equation (*Book I*).
+   3. Exact Diophantine + global edge-consistency solver deriving all **11 uniform
+      Archimedean planar tilings** and verifying Kepler's pentagonal/decagonal star
+      congruence Figure Aa (*Book II*).
+   4. Exact rational verification of **Kepler's Third Law** ``(T1/T2)^2 = (a1/a2)^3``
+      and planetary aphelion/perihelion musical consonances (*Book V*).
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.kepler.harmonices_geometry.PHI
+   geometor.kepler.harmonices_geometry.SQRT_PHI
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.kepler.harmonices_geometry.PolygonScibilitas
+   geometor.kepler.harmonices_geometry.ArchimedeanTiling
+   geometor.kepler.harmonices_geometry.PlanetaryHarmony
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.harmonices_geometry.construct_kepler_right_triangle
+   geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal
+   geometor.kepler.harmonices_geometry.classify_polygon_scibilitas
+   geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction
+   geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings
+   geometor.kepler.harmonices_geometry.verify_pentagram_star_congruence
+   geometor.kepler.harmonices_geometry.analyze_planetary_harmonies
+   geometor.kepler.harmonices_geometry.verify_kepler_third_law
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:data:: SQRT_PHI
+   :type:  sympy.Expr
+
+.. py:class:: PolygonScibilitas
+
+   Algebraic and Euclidean constructibility profile of a regular n-gon (*Book I*).
+
+
+   .. py:attribute:: n_sides
+      :type:  int
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: minimal_poly_2cos
+      :type:  sympy.Poly
+
+
+   .. py:attribute:: algebraic_degree
+      :type:  int
+
+
+   .. py:attribute:: constructible
+      :type:  bool
+
+
+   .. py:attribute:: kepler_scibilitas_rank
+      :type:  str
+
+
+.. py:class:: ArchimedeanTiling
+
+   Uniform vertex-transitive planar tessellation in *Harmonices Mundi* Book II.
+
+
+   .. py:attribute:: vertex_symbol
+      :type:  tuple[int, ...]
+
+
+   .. py:attribute:: notation
+      :type:  str
+
+
+   .. py:attribute:: is_pure_regular
+      :type:  bool
+
+
+   .. py:attribute:: chiral
+      :type:  bool
+
+
+   .. py:attribute:: interior_angles_deg
+      :type:  tuple[sympy.Rational, ...]
+
+
+.. py:class:: PlanetaryHarmony
+
+   Planetary extremal angular speeds and harmonic interval (*Harmonices Mundi* Book V).
+
+
+   .. py:attribute:: planet
+      :type:  str
+
+
+   .. py:attribute:: aphelion_arcsec_per_day
+      :type:  int
+
+
+   .. py:attribute:: perihelion_arcsec_per_day
+      :type:  int
+
+
+   .. py:attribute:: harmonic_ratio_aph_over_per
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: musical_interval
+      :type:  str
+
+
+   .. py:attribute:: semi_major_au_kepler
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: period_days_kepler
+      :type:  sympy.Rational
+
+
+.. py:function:: construct_kepler_right_triangle(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct the Kepler Right Triangle ``(1, sqrt(phi), phi)`` purely from ``(0,0)`` & ``(1,0)``.
+
+   Uses ``geometor.model`` straightedge-and-compass intersections (``auto_intersect=False``):
+
+   1. Constructs ``W = (-1, 0)``, perpendicular axis ``ON`` through ``O = (0, 0)`` with
+      ``N = (0, 1)``, and midpoint ``E = (1/2, 0)`` of ``OA``.
+   2. Circle centered at ``E`` through ``N`` cuts ``OA`` extended at ``P = (phi, 0)`` (II.11).
+   3. Midpoint ``K = ((phi - 1)/2, 0)`` of ``WP`` centers the Thales circle through ``P``
+      and ``W = (-1, 0)``, cutting the positive y-axis at ``B = (0, sqrt(phi))`` (VI.13).
+   4. Triangle ``OAB`` has exact quadrances ``Q(O,A) = 1``, ``Q(O,B) = phi``,
+      ``Q(A,B) = 1 + phi = phi^2``, and altitude ``OH`` cuts ``AB`` into ``BH = 1``
+      and ``HA = 1/phi = phi - 1``.
+
+
+.. py:function:: verify_maestlin_1597_decimal() -> dict[str, sympy.Expr | bool]
+
+   Verify Michael Mästlin's October 1597 decimal ``0.6180340`` for ``1/phi``.
+
+
+.. py:function:: classify_polygon_scibilitas(n_values: tuple[int, ...] = (3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16)) -> tuple[PolygonScibilitas, ...]
+
+   Classify regular polygons by minimal polynomial of ``2*cos(2*pi/n)`` (*Book I*).
+
+
+.. py:function:: verify_heptagon_cubic_obstruction() -> dict[str, sympy.Poly | bool]
+
+   Verify Prop. XLV heptagon cubic ``x^3 + x^2 - 2*x - 1`` and Bürgi's chord sextic.
+
+
+.. py:function:: enumerate_archimedean_planar_tilings() -> tuple[ArchimedeanTiling, ...]
+
+   Derive from scratch all **11 uniform Archimedean planar tilings** (*Book II*).
+
+
+.. py:function:: verify_pentagram_star_congruence() -> dict[str, bool]
+
+   Verify exact rational angle closures in Kepler's Figure Aa star tiling (*Book II*).
+
+
+.. py:function:: analyze_planetary_harmonies() -> tuple[PlanetaryHarmony, ...]
+
+   Return Kepler's six-planet harmonic consonances (*Harmonices Mundi* Book V, Chs. IV–IX).
+
+
+.. py:function:: verify_kepler_third_law() -> dict[str, sympy.Expr | bool]
+
+   Verify Kepler's *Proportio Sesquialtera* ``(T1/T2)^2 == (a1/a2)^3`` (*Book V*, Ch. III).
+
+

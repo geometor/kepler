@@ -1,0 +1,56 @@
+geometor.kepler.sphinx_ext
+==========================
+
+.. py:module:: geometor.kepler.sphinx_ext
+
+.. autoapi-nested-parse::
+
+   Runtime Sphinx & photon-platform/publish integration for GEOMETOR Kepler.
+
+   Ensures synchronized 4-track ``:layout: book`` companion navigation
+   (``en``, ``la``, ``summary``, ``notes``) and configures offline-safe local
+   ``intersphinx`` inventories across sister GEOMETOR repositories.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.kepler.sphinx_ext.SISTER_REPOS
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.sphinx_ext.register_latin_book_track
+   geometor.kepler.sphinx_ext.configure_local_intersphinx
+   geometor.kepler.sphinx_ext.setup
+
+
+Module Contents
+---------------
+
+.. py:data:: SISTER_REPOS
+   :type:  tuple[str, ...]
+   :value: ('model', 'euclid', 'elements', 'divine', 'pacioli', 'pappus', 'proclus', 'aristotle',...
+
+
+.. py:function:: register_latin_book_track() -> None
+
+   Ensure ``<stem>-la`` Latin primary-source tracks are registered in ``book``.
+
+
+.. py:function:: configure_local_intersphinx(intersphinx_mapping: dict[str, Any], project_root: pathlib.Path) -> None
+
+   Bind local ``objects.inv`` files for sister GEOMETOR repositories offline.
+
+
+.. py:function:: setup(app: sphinx.application.Sphinx) -> dict[str, Any]
+
+   Sphinx extension entry point.
+
+

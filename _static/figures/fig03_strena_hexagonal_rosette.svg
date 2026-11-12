@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 560 440" role="img" aria-label="Strena 1611 Six-Cornered Snowflake and 7-Circle Close-Packing Rosette">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="280.00" cy="212.00" r="52.00" fill="none" data-ref="S_center" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="384.00" cy="212.00" r="52.00" fill="none" data-ref="S_0" stroke-width="1.60"/>
+    <path class="geom-line" d="M 384.00 212.00 L 358.00 166.97 L 332.00 121.93" fill="none" data-ref="P0P1" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 332.00 212.00 L 384.00 212.00" fill="none" data-ref="OP0" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 384.00 212.00 L 416.00 212.00 L 448.00 212.00" fill="none" data-ref="ray_0" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 408.32 212.00 L 412.32 205.07 L 416.32 198.14" fill="none" data-ref="barb_0_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 408.32 212.00 L 412.32 218.93 L 416.32 225.86" fill="none" data-ref="barb_0_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 427.52 212.00 L 431.52 205.07 L 435.52 198.14" fill="none" data-ref="barb_0_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 427.52 212.00 L 431.52 218.93 L 435.52 225.86" fill="none" data-ref="barb_0_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <circle class="geom-circle" cx="332.00" cy="121.93" r="52.00" fill="none" data-ref="S_1" stroke-width="1.60"/>
+    <path class="geom-line" d="M 332.00 121.93 L 280.00 121.93 L 228.00 121.93" fill="none" data-ref="P1P2" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 306.00 166.97 L 332.00 121.93" fill="none" data-ref="OP1" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 332.00 121.93 L 348.00 94.22 L 364.00 66.51" fill="none" data-ref="ray_1" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 344.16 100.87 L 340.16 93.94 L 336.16 87.02" fill="none" data-ref="barb_1_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 344.16 100.87 L 352.16 100.87 L 360.16 100.87" fill="none" data-ref="barb_1_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 353.76 84.24 L 349.76 77.32 L 345.76 70.39" fill="none" data-ref="barb_1_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 353.76 84.24 L 361.76 84.24 L 369.76 84.24" fill="none" data-ref="barb_1_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <circle class="geom-circle" cx="228.00" cy="121.93" r="52.00" fill="none" data-ref="S_2" stroke-width="1.60"/>
+    <path class="geom-line" d="M 228.00 121.93 L 202.00 166.97 L 176.00 212.00" fill="none" data-ref="P2P3" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 254.00 166.97 L 228.00 121.93" fill="none" data-ref="OP2" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 228.00 121.93 L 212.00 94.22 L 196.00 66.51" fill="none" data-ref="ray_2" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 215.84 100.87 L 207.84 100.87 L 199.84 100.87" fill="none" data-ref="barb_2_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 215.84 100.87 L 219.84 93.94 L 223.84 87.02" fill="none" data-ref="barb_2_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 206.24 84.24 L 198.24 84.24 L 190.24 84.24" fill="none" data-ref="barb_2_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 206.24 84.24 L 210.24 77.32 L 214.24 70.39" fill="none" data-ref="barb_2_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <circle class="geom-circle" cx="176.00" cy="212.00" r="52.00" fill="none" data-ref="S_3" stroke-width="1.60"/>
+    <path class="geom-line" d="M 176.00 212.00 L 202.00 257.03 L 228.00 302.07" fill="none" data-ref="P3P4" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 228.00 212.00 L 176.00 212.00" fill="none" data-ref="OP3" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 176.00 212.00 L 144.00 212.00 L 112.00 212.00" fill="none" data-ref="ray_3" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 151.68 212.00 L 147.68 218.93 L 143.68 225.86" fill="none" data-ref="barb_3_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 151.68 212.00 L 147.68 205.07 L 143.68 198.14" fill="none" data-ref="barb_3_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 132.48 212.00 L 128.48 218.93 L 124.48 225.86" fill="none" data-ref="barb_3_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 132.48 212.00 L 128.48 205.07 L 124.48 198.14" fill="none" data-ref="barb_3_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <circle class="geom-circle" cx="228.00" cy="302.07" r="52.00" fill="none" data-ref="S_4" stroke-width="1.60"/>
+    <path class="geom-line" d="M 228.00 302.07 L 280.00 302.07 L 332.00 302.07" fill="none" data-ref="P4P5" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 254.00 257.03 L 228.00 302.07" fill="none" data-ref="OP4" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 228.00 302.07 L 212.00 329.78 L 196.00 357.49" fill="none" data-ref="ray_4" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 215.84 323.13 L 219.84 330.06 L 223.84 336.98" fill="none" data-ref="barb_4_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 215.84 323.13 L 207.84 323.13 L 199.84 323.13" fill="none" data-ref="barb_4_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 206.24 339.76 L 210.24 346.68 L 214.24 353.61" fill="none" data-ref="barb_4_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 206.24 339.76 L 198.24 339.76 L 190.24 339.76" fill="none" data-ref="barb_4_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <circle class="geom-circle" cx="332.00" cy="302.07" r="52.00" fill="none" data-ref="S_5" stroke-width="1.60"/>
+    <path class="geom-line" d="M 332.00 302.07 L 358.00 257.03 L 384.00 212.00" fill="none" data-ref="P5P0" stroke-width="1.50" marker-mid="url(#geom-tick-1)"/>
+    <path class="geom-line" d="M 280.00 212.00 L 306.00 257.03 L 332.00 302.07" fill="none" data-ref="OP5" stroke-width="1.30" stroke-dasharray="4 3"/>
+    <path class="geom-line" d="M 332.00 302.07 L 348.00 329.78 L 364.00 357.49" fill="none" data-ref="ray_5" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 344.16 323.13 L 352.16 323.13 L 360.16 323.13" fill="none" data-ref="barb_5_0.38_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 344.16 323.13 L 340.16 330.06 L 336.16 336.98" fill="none" data-ref="barb_5_0.38_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 353.76 339.76 L 361.76 339.76 L 369.76 339.76" fill="none" data-ref="barb_5_0.68_l" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 353.76 339.76 L 349.76 346.68 L 345.76 353.61" fill="none" data-ref="barb_5_0.68_r" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 332.00 181.98 L 306.00 166.97 L 280.00 151.96" fill="none" data-ref="vor_0" stroke="#10b981" stroke-width="1.50"/>
+    <path class="geom-line" d="M 280.00 151.96 L 254.00 166.97 L 228.00 181.98" fill="none" data-ref="vor_1" stroke="#10b981" stroke-width="1.50"/>
+    <path class="geom-line" d="M 228.00 181.98 L 228.00 212.00 L 228.00 242.02" fill="none" data-ref="vor_2" stroke="#10b981" stroke-width="1.50"/>
+    <path class="geom-line" d="M 228.00 242.02 L 254.00 257.03 L 280.00 272.04" fill="none" data-ref="vor_3" stroke="#10b981" stroke-width="1.50"/>
+    <path class="geom-line" d="M 280.00 272.04 L 306.00 257.03 L 332.00 242.02" fill="none" data-ref="vor_4" stroke="#10b981" stroke-width="1.50"/>
+    <path class="geom-line" d="M 332.00 242.02 L 332.00 212.00 L 332.00 181.98" fill="none" data-ref="vor_5" stroke="#10b981" stroke-width="1.50"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="384.00,212.00 332.00,121.93 228.00,121.93 176.00,212.00 228.00,302.07 332.00,302.07" fill="var(--geom-accent, #d97706)" fill-opacity="0.09" stroke="none" data-ref="HEX"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="280.00" cy="212.00" r="3.80" data-ref="O"/>
+    <circle class="geom-point" cx="384.00" cy="212.00" r="3.50" data-ref="P0"/>
+    <circle class="geom-point" cx="332.00" cy="121.93" r="3.50" data-ref="P1"/>
+    <circle class="geom-point" cx="228.00" cy="121.93" r="3.50" data-ref="P2"/>
+    <circle class="geom-point" cx="176.00" cy="212.00" r="3.50" data-ref="P3"/>
+    <circle class="geom-point" cx="228.00" cy="302.07" r="3.50" data-ref="P4"/>
+    <circle class="geom-point" cx="332.00" cy="302.07" r="3.50" data-ref="P5"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="268.00" y="202.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="O">O</text>
+    <text class="geom-label" x="402.00" y="212.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P0">P_0</text>
+    <text class="geom-label" x="341.00" y="106.34" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P1">P_1</text>
+    <text class="geom-label" x="219.00" y="106.34" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P2">P_2</text>
+    <text class="geom-label" x="158.00" y="212.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P3">P_3</text>
+    <text class="geom-label" x="219.00" y="317.66" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P4">P_4</text>
+    <text class="geom-label" x="341.00" y="317.66" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 13px;" data-ref="P5">P_5</text>
+    <text class="geom-label" x="280.00" y="418.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">Planar Close-Packing (Kissing Number 6, Q = 4R^2) &amp; Compressed Hexagonal Cell</text>
+  </g>
+</svg>

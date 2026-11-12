@@ -1,0 +1,11 @@
+geometor.kepler.__main__
+========================
+
+.. py:module:: geometor.kepler.__main__
+
+.. autoapi-nested-parse::
+
+   Module entry point for ``python -m geometor.kepler``.
+
+
+

@@ -1,0 +1,462 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Symbolic Demonstrations &mdash; GEOMETOR • kepler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../_static/kepler_codex.css?v=e1380a77" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • kepler</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">kepler</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../cosmos_and_harmony/index.html"  >Cosmos & Harmony Codex</a>
+        </li>
+        <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >Modules</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; kepler</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">GEOMETOR • kepler</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../cosmos_and_harmony/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Modules"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="symbolic-demonstrations">
+        <h1>Symbolic Demonstrations<a class="headerlink" href="#symbolic-demonstrations" title="Link to this heading">¶</a></h1>
+        <p>Executable pure-symbolic Python demonstrations (<cite>Model(…, auto_intersect=False)</cite>) verifying every geometric construction, polyhedral invariant, sphere-packing density, cyclotomic minimal polynomial, uniform planar tessellation, and harmonic orbital law in <code class="docutils literal notranslate"><span class="pre">geometor.kepler</span></code> with <strong>zero floating-point coordinates</strong>.</p>
+        <nav class="contents local" id="on-this-page">
+        <p class="topic-title">On this page</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#mysterium-cosmographicum-five-regular-solids-graz-1595-nesting" id="id1">1. Mysterium Cosmographicum — Five Regular Solids &amp; Graz 1595 Nesting</a></p></li>
+        <li><p><a class="reference internal" href="#strena-seu-de-nive-sexangula-rhombic-zonohedra-close-packing-fibonacci" id="id2">2. Strena seu de Nive Sexangula — Rhombic Zonohedra, Close-Packing &amp; Fibonacci</a></p></li>
+        <li><p><a class="reference internal" href="#harmonices-mundi-1597-kepler-right-triangle" id="id3">3. Harmonices Mundi &amp; 1597 Kepler Right Triangle</a></p></li>
+        </ul>
+        </nav>
+        <section class="level-2" id="mysterium-cosmographicum-five-regular-solids-graz-1595-nesting">
+        <h2><a class="toc-backref" href="#id1" role="doc-backlink">1. Mysterium Cosmographicum — Five Regular Solids &amp; Graz 1595 Nesting</a><a class="headerlink" href="#mysterium-cosmographicum-five-regular-solids-graz-1595-nesting" title="Link to this heading">¶</a></h2>
+        <p>Derives the insphere/circumsphere radius and quadrance ratios of the five Platonic solids directly from exact 3D vertex sets over $\mathbb{Q}(\phi)$, proves polar-duality equality ($\text{Cube} = \text{Octahedron}$ with $Q_{\text{in}}/Q_{\text{out}} = \frac{1}{3}$; $\text{Dodecahedron} = \text{Icosahedron}$ with $Q_{\text{in}}/Q_{\text{out}} = \frac{5 + 2\sqrt{5}}{15}$), propagates the six heliocentric planetary orbs from <em>Terra</em> ($R = 1$), and constructs Kepler’s July 19, 1595 Graz Great-Conjunction planar diagram.</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="ch">#!/usr/bin/env python3</span>
+        <span class="linenos"> 2</span><span class="sd">"""Pure-symbolic demonstration of Kepler's *Mysterium Cosmographicum* (1596/1621)."""</span>
+        <span class="linenos"> 3</span>
+        <span class="linenos"> 4</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 5</span>
+        <span class="linenos"> 6</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos"> 7</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos"> 8</span>
+        <span class="linenos"> 9</span><span class="n">_ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos">10</span><span class="k">for</span> <span class="n">_p</span> <span class="ow">in</span> <span class="p">(</span><span class="n">_ROOT</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">,</span> <span class="n">_ROOT</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s2">"model"</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">):</span>
+        <span class="linenos">11</span>    <span class="k">if</span> <span class="n">_p</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos">12</span>        <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">))</span>
+        <span class="linenos">13</span>
+        <span class="linenos">14</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">16</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">17</span>
+        <span class="linenos">18</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.kepler.mysterium_spheres</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">19</span>    <span class="n">compute_nested_planetary_radii</span><span class="p">,</span>
+        <span class="linenos">20</span>    <span class="n">construct_mysterium_planar_nesting</span><span class="p">,</span>
+        <span class="linenos">21</span>    <span class="n">derive_platonic_sphere_ratios</span><span class="p">,</span>
+        <span class="linenos">22</span>    <span class="n">verify_polar_duality_ratios</span><span class="p">,</span>
+        <span class="linenos">23</span><span class="p">)</span>
+        <span class="linenos">24</span>
+        <span class="linenos">25</span>
+        <span class="linenos">26</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="linenos">27</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">28</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s2">"[bold gold1]Mysterium Cosmographicum (1596 / 1621)[/bold gold1] — Exact Symbolic Verification</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">29</span>
+        <span class="linenos">30</span>    <span class="n">t_solids</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Five Regular Solids — Exact Insphere / Circumsphere Ratios"</span><span class="p">)</span>
+        <span class="linenos">31</span>    <span class="n">t_solids</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Solid"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">32</span>    <span class="n">t_solids</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Rank"</span><span class="p">)</span>
+        <span class="linenos">33</span>    <span class="n">t_solids</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Planetary Pair"</span><span class="p">)</span>
+        <span class="linenos">34</span>    <span class="n">t_solids</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Q_in / Q_out"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">35</span>    <span class="n">t_solids</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"r_in / R_out"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">36</span>
+        <span class="linenos">37</span>    <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">derive_platonic_sphere_ratios</span><span class="p">():</span>
+        <span class="linenos">38</span>        <span class="n">t_solids</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">39</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">s</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">s</span><span class="o">.</span><span class="n">latin_name</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">40</span>            <span class="n">s</span><span class="o">.</span><span class="n">rank_class</span><span class="p">,</span>
+        <span class="linenos">41</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">s</span><span class="o">.</span><span class="n">planet_outer</span><span class="si">}</span><span class="s2"> -&gt; </span><span class="si">{</span><span class="n">s</span><span class="o">.</span><span class="n">planet_inner</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">42</span>            <span class="nb">str</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">q_in_over_q_out</span><span class="p">),</span>
+        <span class="linenos">43</span>            <span class="nb">str</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">simplify</span><span class="p">(</span><span class="n">s</span><span class="o">.</span><span class="n">r_in_over_r_out</span><span class="p">)),</span>
+        <span class="linenos">44</span>        <span class="p">)</span>
+        <span class="linenos">45</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_solids</span><span class="p">)</span>
+        <span class="linenos">46</span>
+        <span class="linenos">47</span>    <span class="n">duality</span> <span class="o">=</span> <span class="n">verify_polar_duality_ratios</span><span class="p">()</span>
+        <span class="linenos">48</span>    <span class="k">for</span> <span class="n">check_name</span><span class="p">,</span> <span class="n">ok</span> <span class="ow">in</span> <span class="n">duality</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="linenos">49</span>        <span class="k">assert</span> <span class="n">ok</span><span class="p">,</span> <span class="sa">f</span><span class="s2">"Failed check: </span><span class="si">{</span><span class="n">check_name</span><span class="si">}</span><span class="s2">"</span>
+        <span class="linenos">50</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Polar-duality invariants proved: </span><span class="si">{</span><span class="n">duality</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">51</span>
+        <span class="linenos">52</span>    <span class="n">t_orbs</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Heliocentric Nested Orbs (Earth = 1, Circulus mensor omnium)"</span><span class="p">)</span>
+        <span class="linenos">53</span>    <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Planet"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">54</span>    <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Polyhedral Gap"</span><span class="p">)</span>
+        <span class="linenos">55</span>    <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Exact Symbolic Radius"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">56</span>    <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Polyhedral (evalf 4d)"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">57</span>    <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Copernican Mean AU"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">58</span>
+        <span class="linenos">59</span>    <span class="k">for</span> <span class="n">orb</span> <span class="ow">in</span> <span class="n">compute_nested_planetary_radii</span><span class="p">():</span>
+        <span class="linenos">60</span>        <span class="n">t_orbs</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">61</span>            <span class="n">orb</span><span class="o">.</span><span class="n">planet</span><span class="p">,</span>
+        <span class="linenos">62</span>            <span class="n">orb</span><span class="o">.</span><span class="n">intervening_solid</span> <span class="ow">or</span> <span class="s2">"Circulus mensor omnium"</span><span class="p">,</span>
+        <span class="linenos">63</span>            <span class="nb">str</span><span class="p">(</span><span class="n">orb</span><span class="o">.</span><span class="n">symbolic_radius</span><span class="p">),</span>
+        <span class="linenos">64</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">orb</span><span class="o">.</span><span class="n">symbolic_radius</span><span class="o">.</span><span class="n">evalf</span><span class="p">())</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">65</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="nb">float</span><span class="p">(</span><span class="n">orb</span><span class="o">.</span><span class="n">copernican_mean_au</span><span class="p">)</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">66</span>        <span class="p">)</span>
+        <span class="linenos">67</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_orbs</span><span class="p">)</span>
+        <span class="linenos">68</span>
+        <span class="linenos">69</span>    <span class="n">model</span> <span class="o">=</span> <span class="n">construct_mysterium_planar_nesting</span><span class="p">()</span>
+        <span class="linenos">70</span>    <span class="n">pts</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">points</span>
+        <span class="linenos">71</span>    <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">pts</span><span class="p">)</span>
+        <span class="linenos">72</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">73</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Graz 1595 planar construction verified: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">pts</span><span class="p">)</span><span class="si">}</span><span class="s2"> exact symbolic points, "</span>
+        <span class="linenos">74</span>        <span class="s2">"zero floating-point coordinates."</span>
+        <span class="linenos">75</span>    <span class="p">)</span>
+        <span class="linenos">76</span>    <span class="k">return</span> <span class="mi">0</span>
+        <span class="linenos">77</span>
+        <span class="linenos">78</span>
+        <span class="linenos">79</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">80</span>    <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
+        </pre></div>
+        </div>
+        <p>Run locally:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/PROJECTS/geometor/.venv/bin/python<span class="w"> </span>demos/mysterium_spheres.py
+        </pre></div>
+        </div>
+        </section>
+        <section class="level-2" id="strena-seu-de-nive-sexangula-rhombic-zonohedra-close-packing-fibonacci">
+        <h2><a class="toc-backref" href="#id2" role="doc-backlink">2. Strena seu de Nive Sexangula — Rhombic Zonohedra, Close-Packing &amp; Fibonacci</a><a class="headerlink" href="#strena-seu-de-nive-sexangula-rhombic-zonohedra-close-packing-fibonacci" title="Link to this heading">¶</a></h2>
+        <p>Verifies the exact 3D geometry of the space-filling <strong>Rhombic Dodecahedron</strong> (12 faces, 14 vertices, 24 edges, diagonal ratio $\sqrt{2}:1$, dihedral $120^\circ$) and the <strong>Golden Rhombic Triacontahedron</strong> (30 faces, 32 vertices, 60 edges, diagonal ratio $\phi:1$, dihedral $144^\circ$), proves FCC/HCP sphere close-packing density $\frac{\pi}{3\sqrt{2}}$ ($\sqrt{2}$ times denser than simple cubic $\frac{\pi}{6}$), constructs the 7-circle hexagonal close-packing rosette, and checks Cassini’s determinant across Kepler’s Fibonacci ratios converging to $\phi$.</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="ch">#!/usr/bin/env python3</span>
+        <span class="linenos"> 2</span><span class="sd">"""Pure-symbolic demonstration of Kepler's *Strena seu de Nive Sexangula* (1611)."""</span>
+        <span class="linenos"> 3</span>
+        <span class="linenos"> 4</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 5</span>
+        <span class="linenos"> 6</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos"> 7</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos"> 8</span>
+        <span class="linenos"> 9</span><span class="n">_ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos">10</span><span class="k">for</span> <span class="n">_p</span> <span class="ow">in</span> <span class="p">(</span><span class="n">_ROOT</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">,</span> <span class="n">_ROOT</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s2">"model"</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">):</span>
+        <span class="linenos">11</span>    <span class="k">if</span> <span class="n">_p</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos">12</span>        <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">))</span>
+        <span class="linenos">13</span>
+        <span class="linenos">14</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">16</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">17</span>
+        <span class="linenos">18</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.kepler.strena_packing</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">19</span>    <span class="n">analyze_rhombic_dodecahedron</span><span class="p">,</span>
+        <span class="linenos">20</span>    <span class="n">analyze_rhombic_triacontahedron</span><span class="p">,</span>
+        <span class="linenos">21</span>    <span class="n">compute_fibonacci_phyllotaxis</span><span class="p">,</span>
+        <span class="linenos">22</span>    <span class="n">construct_hexagonal_rosette</span><span class="p">,</span>
+        <span class="linenos">23</span>    <span class="n">verify_kepler_sphere_packing</span><span class="p">,</span>
+        <span class="linenos">24</span><span class="p">)</span>
+        <span class="linenos">25</span>
+        <span class="linenos">26</span>
+        <span class="linenos">27</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="linenos">28</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">29</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s2">"[bold gold1]Strena seu de Nive Sexangula (1611)[/bold gold1] — Exact Symbolic Verification</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">30</span>
+        <span class="linenos">31</span>    <span class="n">rd</span> <span class="o">=</span> <span class="n">analyze_rhombic_dodecahedron</span><span class="p">()</span>
+        <span class="linenos">32</span>    <span class="n">rt</span> <span class="o">=</span> <span class="n">analyze_rhombic_triacontahedron</span><span class="p">()</span>
+        <span class="linenos">33</span>    <span class="n">t_poly</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Kepler's Two Isohedral Rhombic Polyhedra"</span><span class="p">)</span>
+        <span class="linenos">34</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Polyhedron"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">35</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"F / V / E"</span><span class="p">)</span>
+        <span class="linenos">36</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Edge Q"</span><span class="p">)</span>
+        <span class="linenos">37</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Diagonal Ratio"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">38</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Dihedral Angle"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">39</span>    <span class="n">t_poly</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Space-Filling"</span><span class="p">)</span>
+        <span class="linenos">40</span>    <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="p">(</span><span class="n">rd</span><span class="p">,</span> <span class="n">rt</span><span class="p">):</span>
+        <span class="linenos">41</span>        <span class="n">t_poly</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">42</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">latin_name</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">43</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">faces</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">vertices</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">edges</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">44</span>            <span class="nb">str</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">edge_quadrance</span><span class="p">),</span>
+        <span class="linenos">45</span>            <span class="sa">f</span><span class="s2">"(</span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">diagonal_ratio</span><span class="si">}</span><span class="s2">) : 1"</span><span class="p">,</span>
+        <span class="linenos">46</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">dihedral_angle_deg</span><span class="si">}</span><span class="s2"> deg (cos = </span><span class="si">{</span><span class="n">m</span><span class="o">.</span><span class="n">dihedral_cosine</span><span class="si">}</span><span class="s2">)"</span><span class="p">,</span>
+        <span class="linenos">47</span>            <span class="nb">str</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">space_filling</span><span class="p">),</span>
+        <span class="linenos">48</span>        <span class="p">)</span>
+        <span class="linenos">49</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_poly</span><span class="p">)</span>
+        <span class="linenos">50</span>
+        <span class="linenos">51</span>    <span class="n">pack</span> <span class="o">=</span> <span class="n">verify_kepler_sphere_packing</span><span class="p">()</span>
+        <span class="linenos">52</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">53</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Sphere Close-Packing (Kepler Conjecture):</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">54</span>        <span class="sa">f</span><span class="s2">"  • Simple Cubic (kissing </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">simple_cubic_kissing</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">simple_cubic_density</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">55</span>        <span class="sa">f</span><span class="s2">"  • FCC / HCP Close-Packed (kissing </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">close_packed_kissing</span><span class="si">}</span><span class="s2">): </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">close_packed_density</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">56</span>        <span class="sa">f</span><span class="s2">"  • Exact Density Ratio (Close / Cubic): </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">density_ratio_close_over_cubic</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">57</span>    <span class="p">)</span>
+        <span class="linenos">58</span>
+        <span class="linenos">59</span>    <span class="n">t_fib</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Botanical Pentamery &amp; Fibonacci Convergence to phi"</span><span class="p">)</span>
+        <span class="linenos">60</span>    <span class="n">t_fib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"n"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">61</span>    <span class="n">t_fib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"F_{n+1} / F_n"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">62</span>    <span class="n">t_fib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Cassini F_{n+1}F_{n-1} - F_n^2"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">63</span>    <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">compute_fibonacci_phyllotaxis</span><span class="p">(</span><span class="mi">9</span><span class="p">):</span>
+        <span class="linenos">64</span>        <span class="n">t_fib</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">index</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">ratio_next_over_curr</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">row</span><span class="o">.</span><span class="n">cassini_determinant</span><span class="p">))</span>
+        <span class="linenos">65</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_fib</span><span class="p">)</span>
+        <span class="linenos">66</span>
+        <span class="linenos">67</span>    <span class="n">rosette</span> <span class="o">=</span> <span class="n">construct_hexagonal_rosette</span><span class="p">()</span>
+        <span class="linenos">68</span>    <span class="n">pts</span> <span class="o">=</span> <span class="n">rosette</span><span class="o">.</span><span class="n">points</span>
+        <span class="linenos">69</span>    <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">pts</span><span class="p">)</span>
+        <span class="linenos">70</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">71</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">7-Circle Hexagonal Rosette verified: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">pts</span><span class="p">)</span><span class="si">}</span><span class="s2"> exact symbolic points, "</span>
+        <span class="linenos">72</span>        <span class="s2">"zero floating-point coordinates."</span>
+        <span class="linenos">73</span>    <span class="p">)</span>
+        <span class="linenos">74</span>    <span class="k">return</span> <span class="mi">0</span>
+        <span class="linenos">75</span>
+        <span class="linenos">76</span>
+        <span class="linenos">77</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">78</span>    <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
+        </pre></div>
+        </div>
+        <p>Run locally:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/PROJECTS/geometor/.venv/bin/python<span class="w"> </span>demos/strena_packing.py
+        </pre></div>
+        </div>
+        </section>
+        <section class="level-2" id="harmonices-mundi-1597-kepler-right-triangle">
+        <h2><a class="toc-backref" href="#id3" role="doc-backlink">3. Harmonices Mundi &amp; 1597 Kepler Right Triangle</a><a class="headerlink" href="#harmonices-mundi-1597-kepler-right-triangle" title="Link to this heading">¶</a></h2>
+        <p>Constructs the <strong>Kepler Right Triangle</strong> $(1, \sqrt{\phi}, \phi)$ over $\mathbb{Q}(\sqrt{\phi})$ purely from $(0,0)$ and $(1,0)$ by Euclidean ruler-and-compass intersections, classifies constructible polygons (<em>Scibilia</em>) against the irreducible cubic of the regular heptagon ($x^3 + x^2 - 2x - 1 = 0$) and Jost Bürgi’s cossic chord sextic ($y^6 - 7y^4 + 14y^2 - 7 = 0$), derives all <strong>11 uniform Archimedean planar tilings</strong> from scratch, and verifies Kepler’s Harmonic Third Law $(T_1/T_2)^2 = (a_1/a_2)^3$.</p>
+        <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="ch">#!/usr/bin/env python3</span>
+        <span class="linenos"> 2</span><span class="sd">"""Pure-symbolic demonstration of *Harmonices Mundi* (1619) &amp; 1597 Kepler Triangle."""</span>
+        <span class="linenos"> 3</span>
+        <span class="linenos"> 4</span><span class="kn">from</span><span class="w"> </span><span class="nn">__future__</span><span class="w"> </span><span class="kn">import</span> <span class="n">annotations</span>
+        <span class="linenos"> 5</span>
+        <span class="linenos"> 6</span><span class="kn">import</span><span class="w"> </span><span class="nn">sys</span>
+        <span class="linenos"> 7</span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+        <span class="linenos"> 8</span>
+        <span class="linenos"> 9</span><span class="n">_ROOT</span> <span class="o">=</span> <span class="n">Path</span><span class="p">(</span><span class="vm">__file__</span><span class="p">)</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="linenos">10</span><span class="k">for</span> <span class="n">_p</span> <span class="ow">in</span> <span class="p">(</span><span class="n">_ROOT</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">,</span> <span class="n">_ROOT</span><span class="o">.</span><span class="n">parent</span> <span class="o">/</span> <span class="s2">"model"</span> <span class="o">/</span> <span class="s2">"src"</span><span class="p">):</span>
+        <span class="linenos">11</span>    <span class="k">if</span> <span class="n">_p</span><span class="o">.</span><span class="n">exists</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">)</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+        <span class="linenos">12</span>        <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">_p</span><span class="p">))</span>
+        <span class="linenos">13</span>
+        <span class="linenos">14</span><span class="kn">import</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sp</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">15</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.console</span><span class="w"> </span><span class="kn">import</span> <span class="n">Console</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">16</span><span class="kn">from</span><span class="w"> </span><span class="nn">rich.table</span><span class="w"> </span><span class="kn">import</span> <span class="n">Table</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">17</span>
+        <span class="linenos">18</span><span class="kn">from</span><span class="w"> </span><span class="nn">geometor.kepler.harmonices_geometry</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>  <span class="c1"># noqa: E402</span>
+        <span class="linenos">19</span>    <span class="n">analyze_planetary_harmonies</span><span class="p">,</span>
+        <span class="linenos">20</span>    <span class="n">classify_polygon_scibilitas</span><span class="p">,</span>
+        <span class="linenos">21</span>    <span class="n">construct_kepler_right_triangle</span><span class="p">,</span>
+        <span class="linenos">22</span>    <span class="n">enumerate_archimedean_planar_tilings</span><span class="p">,</span>
+        <span class="linenos">23</span>    <span class="n">verify_heptagon_cubic_obstruction</span><span class="p">,</span>
+        <span class="linenos">24</span>    <span class="n">verify_kepler_third_law</span><span class="p">,</span>
+        <span class="linenos">25</span>    <span class="n">verify_maestlin_1597_decimal</span><span class="p">,</span>
+        <span class="linenos">26</span><span class="p">)</span>
+        <span class="linenos">27</span>
+        <span class="linenos">28</span>
+        <span class="linenos">29</span><span class="k">def</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+        <span class="linenos">30</span>    <span class="n">console</span> <span class="o">=</span> <span class="n">Console</span><span class="p">()</span>
+        <span class="linenos">31</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s2">"[bold gold1]Harmonices Mundi (1619) &amp; Kepler Triangle (1597)[/bold gold1]</span><span class="se">\n</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">32</span>
+        <span class="linenos">33</span>    <span class="n">kt_model</span> <span class="o">=</span> <span class="n">construct_kepler_right_triangle</span><span class="p">()</span>
+        <span class="linenos">34</span>    <span class="n">pts</span> <span class="o">=</span> <span class="n">kt_model</span><span class="o">.</span><span class="n">points</span>
+        <span class="linenos">35</span>    <span class="k">assert</span> <span class="nb">all</span><span class="p">(</span><span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">p</span><span class="o">.</span><span class="n">y</span><span class="o">.</span><span class="n">has</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Float</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">pts</span><span class="p">)</span>
+        <span class="linenos">36</span>    <span class="n">maestlin</span> <span class="o">=</span> <span class="n">verify_maestlin_1597_decimal</span><span class="p">()</span>
+        <span class="linenos">37</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">38</span>        <span class="sa">f</span><span class="s2">"Kepler Right Triangle proved (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">pts</span><span class="p">)</span><span class="si">}</span><span class="s2"> exact symbolic points over Q(sqrt(phi))).</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">39</span>        <span class="sa">f</span><span class="s2">"Mästlin 1597 decimal 0.6180340 accurate to 7 places: </span><span class="si">{</span><span class="n">maestlin</span><span class="p">[</span><span class="s1">'accurate_to_7_places'</span><span class="p">]</span><span class="si">}</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">40</span>    <span class="p">)</span>
+        <span class="linenos">41</span>
+        <span class="linenos">42</span>    <span class="n">t_scib</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Book I — Scibilitas vs. Inscibilitas of Regular Polygons"</span><span class="p">)</span>
+        <span class="linenos">43</span>    <span class="n">t_scib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"n"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">44</span>    <span class="n">t_scib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Polygon"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">45</span>    <span class="n">t_scib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"MinPoly of 2*cos(2*pi/n)"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">46</span>    <span class="n">t_scib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Deg"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">47</span>    <span class="n">t_scib</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Scibilis?"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">48</span>    <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">classify_polygon_scibilitas</span><span class="p">():</span>
+        <span class="linenos">49</span>        <span class="n">t_scib</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">50</span>            <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">n_sides</span><span class="p">),</span>
+        <span class="linenos">51</span>            <span class="n">p</span><span class="o">.</span><span class="n">name</span><span class="p">,</span>
+        <span class="linenos">52</span>            <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">minimal_poly_2cos</span><span class="o">.</span><span class="n">as_expr</span><span class="p">()),</span>
+        <span class="linenos">53</span>            <span class="nb">str</span><span class="p">(</span><span class="n">p</span><span class="o">.</span><span class="n">algebraic_degree</span><span class="p">),</span>
+        <span class="linenos">54</span>            <span class="s2">"YES"</span> <span class="k">if</span> <span class="n">p</span><span class="o">.</span><span class="n">constructible</span> <span class="k">else</span> <span class="s2">"NO (Inscibilis)"</span><span class="p">,</span>
+        <span class="linenos">55</span>        <span class="p">)</span>
+        <span class="linenos">56</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_scib</span><span class="p">)</span>
+        <span class="linenos">57</span>
+        <span class="linenos">58</span>    <span class="n">hept</span> <span class="o">=</span> <span class="n">verify_heptagon_cubic_obstruction</span><span class="p">()</span>
+        <span class="linenos">59</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">60</span>        <span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Heptagon Prop. XLV cubic irreducible: </span><span class="si">{</span><span class="n">hept</span><span class="p">[</span><span class="s1">'cubic_irreducible'</span><span class="p">]</span><span class="si">}</span><span class="s2"> | "</span>
+        <span class="linenos">61</span>        <span class="sa">f</span><span class="s2">"Bürgi sextic: </span><span class="si">{</span><span class="n">hept</span><span class="p">[</span><span class="s1">'buergi_chord_minpoly'</span><span class="p">]</span><span class="o">.</span><span class="n">as_expr</span><span class="p">()</span><span class="si">}</span><span class="s2"> = 0</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">62</span>    <span class="p">)</span>
+        <span class="linenos">63</span>
+        <span class="linenos">64</span>    <span class="n">tilings</span> <span class="o">=</span> <span class="n">enumerate_archimedean_planar_tilings</span><span class="p">()</span>
+        <span class="linenos">65</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span>
+        <span class="linenos">66</span>        <span class="sa">f</span><span class="s2">"Book II — Derived all </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">tilings</span><span class="p">)</span><span class="si">}</span><span class="s2"> uniform Archimedean planar tilings:</span><span class="se">\n</span><span class="s2">  "</span>
+        <span class="linenos">67</span>        <span class="o">+</span> <span class="s2">", "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">t</span><span class="o">.</span><span class="n">notation</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tilings</span><span class="p">)</span>
+        <span class="linenos">68</span>        <span class="o">+</span> <span class="s2">"</span><span class="se">\n</span><span class="s2">"</span>
+        <span class="linenos">69</span>    <span class="p">)</span>
+        <span class="linenos">70</span>
+        <span class="linenos">71</span>    <span class="n">t_harm</span> <span class="o">=</span> <span class="n">Table</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s2">"Book V — Planetary Extremal Harmonies &amp; Lex Tertia"</span><span class="p">)</span>
+        <span class="linenos">72</span>    <span class="n">t_harm</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Planet"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"cyan"</span><span class="p">)</span>
+        <span class="linenos">73</span>    <span class="n">t_harm</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Aphelion / Perihelion (</span><span class="se">\"</span><span class="s2">/day)"</span><span class="p">,</span> <span class="n">justify</span><span class="o">=</span><span class="s2">"right"</span><span class="p">)</span>
+        <span class="linenos">74</span>    <span class="n">t_harm</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Ratio"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"green"</span><span class="p">)</span>
+        <span class="linenos">75</span>    <span class="n">t_harm</span><span class="o">.</span><span class="n">add_column</span><span class="p">(</span><span class="s2">"Musical Consonance"</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="s2">"yellow"</span><span class="p">)</span>
+        <span class="linenos">76</span>    <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">analyze_planetary_harmonies</span><span class="p">():</span>
+        <span class="linenos">77</span>        <span class="n">t_harm</span><span class="o">.</span><span class="n">add_row</span><span class="p">(</span>
+        <span class="linenos">78</span>            <span class="n">h</span><span class="o">.</span><span class="n">planet</span><span class="p">,</span>
+        <span class="linenos">79</span>            <span class="sa">f</span><span class="s2">"</span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">aphelion_arcsec_per_day</span><span class="si">}</span><span class="s2"> / </span><span class="si">{</span><span class="n">h</span><span class="o">.</span><span class="n">perihelion_arcsec_per_day</span><span class="si">}</span><span class="s2">"</span><span class="p">,</span>
+        <span class="linenos">80</span>            <span class="nb">str</span><span class="p">(</span><span class="n">h</span><span class="o">.</span><span class="n">harmonic_ratio_aph_over_per</span><span class="p">),</span>
+        <span class="linenos">81</span>            <span class="n">h</span><span class="o">.</span><span class="n">musical_interval</span><span class="p">,</span>
+        <span class="linenos">82</span>        <span class="p">)</span>
+        <span class="linenos">83</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="n">t_harm</span><span class="p">)</span>
+        <span class="linenos">84</span>
+        <span class="linenos">85</span>    <span class="n">law3</span> <span class="o">=</span> <span class="n">verify_kepler_third_law</span><span class="p">()</span>
+        <span class="linenos">86</span>    <span class="n">console</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"</span><span class="se">\n</span><span class="s2">Kepler's Third Law verified: </span><span class="si">{</span><span class="n">law3</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+        <span class="linenos">87</span>    <span class="k">return</span> <span class="mi">0</span>
+        <span class="linenos">88</span>
+        <span class="linenos">89</span>
+        <span class="linenos">90</span><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">"__main__"</span><span class="p">:</span>
+        <span class="linenos">91</span>    <span class="k">raise</span> <span class="ne">SystemExit</span><span class="p">(</span><span class="n">main</span><span class="p">())</span>
+        </pre></div>
+        </div>
+        <p>Run locally:</p>
+        <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/home/phi/PROJECTS/geometor/.venv/bin/python<span class="w"> </span>demos/harmonices_geometry.py
+        </pre></div>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../cosmos_and_harmony/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Latin & Mathematical Glossary</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">GEOMETOR • kepler</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../modules/index.html" title="Modules"><span class="nav-label">Modules</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-150000/index.html">Initial Bilingual Book Codex & Symbolic Engine of Kepler’s Cosmography, Strena & Harmonices</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/golden-ratio.html">golden-ratio</a></li>
+        <li><a href="../tags/harmonices-mundi.html">harmonices-mundi</a></li>
+        <li><a href="../tags/kepler.html">kepler</a></li>
+        <li><a href="../tags/mysterium.html">mysterium</a></li>
+        <li><a href="../tags/polyhedra.html">polyhedra</a></li>
+        <li><a href="../tags/strena.html">strena</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../categories/codex.html">codex</a></li>
+        <li><a href="../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../about/index.html"  >About GEOMETOR Kepler</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

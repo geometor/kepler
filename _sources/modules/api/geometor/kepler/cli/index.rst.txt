@@ -1,0 +1,27 @@
+geometor.kepler.cli
+===================
+
+.. py:module:: geometor.kepler.cli
+
+.. autoapi-nested-parse::
+
+   Rich CLI verification report for GEOMETOR Kepler (`geometor-kepler`).
+
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.cli.main
+
+
+Module Contents
+---------------
+
+.. py:function:: main() -> int
+
+   Execute exact symbolic Kepler verifications and render Rich summary tables.
+
+

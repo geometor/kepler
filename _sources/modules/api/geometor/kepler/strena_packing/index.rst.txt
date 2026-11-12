@@ -1,0 +1,203 @@
+geometor.kepler.strena_packing
+==============================
+
+.. py:module:: geometor.kepler.strena_packing
+
+.. autoapi-nested-parse::
+
+   Exact symbolic geometry of Kepler's *Strena seu de Nive Sexangula* (1611).
+
+   Provides 100% exact SymPy 3D analyses of Kepler's two isohedral rhombic
+   polyhedra—the space-filling **Rhombic Dodecahedron** (diagonal ratio ``sqrt(2):1``,
+   dihedral ``120 deg``) and the golden **Rhombic Triacontahedron** (diagonal ratio
+   ``phi:1``, dihedral ``144 deg``)—verifies the cubic/hexagonal sphere close-packing
+   density ``pi / (3*sqrt(2))`` against simple cubic ``pi / 6``, constructs the
+   7-circle hexagonal close-packing rosette in ``geometor.model``, and computes
+   exact rational Fibonacci phyllotaxis convergents to ``phi``.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.kepler.strena_packing.PHI
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.kepler.strena_packing.RhombicPolyhedronMetrics
+   geometor.kepler.strena_packing.SpherePackingComparison
+   geometor.kepler.strena_packing.FibonacciConvergent
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.strena_packing.analyze_rhombic_dodecahedron
+   geometor.kepler.strena_packing.analyze_rhombic_triacontahedron
+   geometor.kepler.strena_packing.verify_kepler_sphere_packing
+   geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis
+   geometor.kepler.strena_packing.construct_hexagonal_rosette
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:class:: RhombicPolyhedronMetrics
+
+   Exact 3D metrics of an isohedral Keplerian rhombic zonohedron.
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: latin_name
+      :type:  str
+
+
+   .. py:attribute:: faces
+      :type:  int
+
+
+   .. py:attribute:: vertices
+      :type:  int
+
+
+   .. py:attribute:: edges
+      :type:  int
+
+
+   .. py:attribute:: edge_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: long_diag_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: short_diag_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: diagonal_ratio
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: diagonal_quadrance_ratio
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: dihedral_angle_deg
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: dihedral_cosine
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: space_filling
+      :type:  bool
+
+
+.. py:class:: SpherePackingComparison
+
+   Exact symbolic sphere-packing fractions in Kepler's *Strena* (1611).
+
+
+   .. py:attribute:: simple_cubic_kissing
+      :type:  int
+
+
+   .. py:attribute:: simple_cubic_density
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: close_packed_kissing
+      :type:  int
+
+
+   .. py:attribute:: close_packed_layer_height_over_diameter
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: close_packed_density
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: density_ratio_close_over_cubic
+      :type:  sympy.Expr
+
+
+.. py:class:: FibonacciConvergent
+
+   Exact rational Fibonacci phyllotaxis convergent and Cassini invariant.
+
+
+   .. py:attribute:: index
+      :type:  int
+
+
+   .. py:attribute:: f_prev
+      :type:  int
+
+
+   .. py:attribute:: f_curr
+      :type:  int
+
+
+   .. py:attribute:: f_next
+      :type:  int
+
+
+   .. py:attribute:: ratio_next_over_curr
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: cassini_determinant
+      :type:  int
+
+
+   .. py:attribute:: error_from_phi
+      :type:  sympy.Expr
+
+
+.. py:function:: analyze_rhombic_dodecahedron() -> RhombicPolyhedronMetrics
+
+   Analyze the 14-vertex Rhombic Dodecahedron from exact integer 3D coordinates.
+
+
+.. py:function:: analyze_rhombic_triacontahedron() -> RhombicPolyhedronMetrics
+
+   Analyze the 32-vertex Golden Rhombic Triacontahedron over ``Q(phi)``.
+
+
+.. py:function:: verify_kepler_sphere_packing() -> SpherePackingComparison
+
+   Derive exact simple-cubic vs. FCC/HCP close-packing densities (*Strena* §§10–14).
+
+
+.. py:function:: compute_fibonacci_phyllotaxis(n_terms: int = 10) -> tuple[FibonacciConvergent, ...]
+
+   Compute Kepler's self-propagating Fibonacci sequence ``1, 1, 2, 3, 5, 8, 13, 21...``.
+
+
+.. py:function:: construct_hexagonal_rosette(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Kepler's planar 7-circle hexagonal close-packing / snowflake rosette.
+
+   Starting purely from ``O = (0, 0)`` and ``P_0 = (2, 0)`` (center spacing ``2R = 2``
+   for unit circles ``R = 1``), constructs the 6 surrounding centers around a regular
+   hexagon and all 7 mutually tangent unit circles with zero floating-point values.
+
+

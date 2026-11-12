@@ -1,0 +1,160 @@
+geometor.kepler.mysterium_spheres
+=================================
+
+.. py:module:: geometor.kepler.mysterium_spheres
+
+.. autoapi-nested-parse::
+
+   Exact symbolic geometry of Kepler's *Mysterium Cosmographicum* (1596 / 1621).
+
+   Derives the insphere-to-circumsphere radius and quadrance ratios of the five
+   regular Platonic solids directly from exact 3D vertex coordinates over
+   ``Q(phi)``, proves polar-duality ratio equality (Cube = Octahedron,
+   Dodecahedron = Icosahedron), computes the heliocentric nested planetary sphere
+   radii from Saturn to Mercury with Earth as *Circulus mensor omnium*, and
+   constructs Kepler's July 19, 1595 Graz Great-Conjunction planar nesting in
+   ``geometor.model`` with zero floating-point approximations.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.kepler.mysterium_spheres.PHI
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.kepler.mysterium_spheres.SolidSphereRatio
+   geometor.kepler.mysterium_spheres.NestedPlanetOrb
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.mysterium_spheres.derive_platonic_sphere_ratios
+   geometor.kepler.mysterium_spheres.verify_polar_duality_ratios
+   geometor.kepler.mysterium_spheres.compute_nested_planetary_radii
+   geometor.kepler.mysterium_spheres.construct_mysterium_planar_nesting
+
+
+Module Contents
+---------------
+
+.. py:data:: PHI
+   :type:  sympy.Expr
+
+.. py:class:: SolidSphereRatio
+
+   Exact insphere/circumsphere metrics for a nested regular polyhedron.
+
+
+   .. py:attribute:: name
+      :type:  str
+
+
+   .. py:attribute:: latin_name
+      :type:  str
+
+
+   .. py:attribute:: schlafli
+      :type:  tuple[int, int]
+
+
+   .. py:attribute:: faces
+      :type:  int
+
+
+   .. py:attribute:: vertices
+      :type:  int
+
+
+   .. py:attribute:: edges
+      :type:  int
+
+
+   .. py:attribute:: rank_class
+      :type:  str
+
+
+   .. py:attribute:: planet_outer
+      :type:  str
+
+
+   .. py:attribute:: planet_inner
+      :type:  str
+
+
+   .. py:attribute:: q_in_over_q_out
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: r_in_over_r_out
+      :type:  sympy.Expr
+
+
+.. py:class:: NestedPlanetOrb
+
+   Exact symbolic heliocentric radius in Kepler's five-solid nesting.
+
+
+   .. py:attribute:: planet
+      :type:  str
+
+
+   .. py:attribute:: intervening_solid
+      :type:  str | None
+
+
+   .. py:attribute:: symbolic_radius
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: symbolic_quadrance
+      :type:  sympy.Expr
+
+
+   .. py:attribute:: copernican_mean_au
+      :type:  sympy.Rational
+
+
+.. py:function:: derive_platonic_sphere_ratios() -> tuple[SolidSphereRatio, ...]
+
+   Derive exact insphere/circumsphere ratios of all 5 regular solids from 3D vertices.
+
+   Ordered from outermost (Saturn -> Jupiter) to innermost (Venus -> Mercury)
+   following *Mysterium Cosmographicum* Cap. II & Cap. XIV.
+
+
+.. py:function:: verify_polar_duality_ratios() -> dict[str, bool]
+
+   Prove exact polar-duality insphere/circumsphere identities (*Mysterium* Cap. XIII).
+
+
+.. py:function:: compute_nested_planetary_radii(earth_radius: sympy.Expr | int = 1) -> tuple[NestedPlanetOrb, ...]
+
+   Compute exact symbolic radii from Saturn to Mercury (*Mysterium* Cap. XIV).
+
+   Takes the Telluric orb (*Terra est Circulus mensor omnium*) as ``earth_radius``
+   and propagates outward via circumscribed Dodecahedron, Tetrahedron, and Cube,
+   and inward via inscribed Icosahedron and Octahedron.
+
+
+.. py:function:: construct_mysterium_planar_nesting(model: geometor.model.Model | None = None) -> geometor.model.Model
+
+   Construct Kepler's July 19, 1595 Graz Great-Conjunction planar diagram.
+
+   Starting purely from rational points ``O = (0, 0)`` and ``A = (0, 1)``,
+   constructs the circumscribed circle ``c_out``, the inscribed equilateral
+   triangle ``ABC`` with incircle ``c_in_tri`` (``Q_in / Q_out = 1/4``,
+   ``r_in / R_out = 1/2``), and the inscribed square ``AESW`` with incircle
+   ``c_in_sq`` (``Q_in / Q_out = 1/2``).
+
+

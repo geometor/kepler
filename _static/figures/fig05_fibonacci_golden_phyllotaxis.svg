@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 640 410" role="img" aria-label="Strena 1611 Pentamerous Blossom and Fibonacci Phyllotaxis Convergence">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="165.00" cy="198.00" r="122.00" fill="none" data-ref="cPENT" stroke="var(--geom-muted, #64748b)" stroke-width="1.30" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 165.00 76.00 L 106.99 118.15 L 48.97 160.30" fill="none" data-ref="AB" stroke-width="1.80"/>
+    <path class="geom-line" d="M 165.00 76.00 L 129.15 186.35 L 93.29 296.70" fill="none" data-ref="star_0" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 48.97 160.30 L 71.13 228.50 L 93.29 296.70" fill="none" data-ref="BC" stroke-width="1.80"/>
+    <path class="geom-line" d="M 48.97 160.30 L 142.84 228.50 L 236.71 296.70" fill="none" data-ref="star_1" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 93.29 296.70 L 165.00 296.70 L 236.71 296.70" fill="none" data-ref="CD" stroke-width="1.80"/>
+    <path class="geom-line" d="M 93.29 296.70 L 187.16 228.50 L 281.03 160.30" fill="none" data-ref="star_2" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 236.71 296.70 L 258.87 228.50 L 281.03 160.30" fill="none" data-ref="DE" stroke-width="1.80"/>
+    <path class="geom-line" d="M 236.71 296.70 L 200.85 186.35 L 165.00 76.00" fill="none" data-ref="star_3" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 281.03 160.30 L 223.01 118.15 L 165.00 76.00" fill="none" data-ref="EA" stroke-width="1.80"/>
+    <path class="geom-line" d="M 281.03 160.30 L 165.00 160.30 L 48.97 160.30" fill="none" data-ref="star_4" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 345.00 118.00 L 419.00 118.00 L 493.00 118.00" fill="none" data-ref="sq8_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 118.00 L 493.00 192.00 L 493.00 266.00" fill="none" data-ref="sq8_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 266.00 L 419.00 266.00 L 345.00 266.00" fill="none" data-ref="sq8_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 345.00 266.00 L 345.00 192.00 L 345.00 118.00" fill="none" data-ref="sq8_w" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 118.00 L 539.25 118.00 L 585.50 118.00" fill="none" data-ref="sq5_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 585.50 118.00 L 585.50 164.25 L 585.50 210.50" fill="none" data-ref="sq5_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 585.50 210.50 L 539.25 210.50 L 493.00 210.50" fill="none" data-ref="sq5_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 210.50 L 493.00 164.25 L 493.00 118.00" fill="none" data-ref="sq5_w" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 210.50 L 557.75 210.50 L 585.50 210.50" fill="none" data-ref="sq3_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 585.50 210.50 L 585.50 238.25 L 585.50 266.00" fill="none" data-ref="sq3_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 585.50 266.00 L 557.75 266.00 L 530.00 266.00" fill="none" data-ref="sq3_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 266.00 L 530.00 238.25 L 530.00 210.50" fill="none" data-ref="sq3_w" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 229.00 L 511.50 229.00 L 530.00 229.00" fill="none" data-ref="sq2_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 229.00 L 530.00 247.50 L 530.00 266.00" fill="none" data-ref="sq2_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 266.00 L 511.50 266.00 L 493.00 266.00" fill="none" data-ref="sq2_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 266.00 L 493.00 247.50 L 493.00 229.00" fill="none" data-ref="sq2_w" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 210.50 L 502.25 210.50 L 511.50 210.50" fill="none" data-ref="sq1a_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 511.50 210.50 L 511.50 219.75 L 511.50 229.00" fill="none" data-ref="sq1a_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 511.50 229.00 L 502.25 229.00 L 493.00 229.00" fill="none" data-ref="sq1a_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 493.00 229.00 L 493.00 219.75 L 493.00 210.50" fill="none" data-ref="sq1a_w" stroke-width="1.40"/>
+    <path class="geom-line" d="M 511.50 210.50 L 520.75 210.50 L 530.00 210.50" fill="none" data-ref="sq1b_n" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 210.50 L 530.00 219.75 L 530.00 229.00" fill="none" data-ref="sq1b_e" stroke-width="1.40"/>
+    <path class="geom-line" d="M 530.00 229.00 L 520.75 229.00 L 511.50 229.00" fill="none" data-ref="sq1b_s" stroke-width="1.40"/>
+    <path class="geom-line" d="M 511.50 229.00 L 511.50 219.75 L 511.50 210.50" fill="none" data-ref="sq1b_w" stroke-width="1.40"/>
+    <path class="geom-arc" d="M 493.00 118.00 A 148.00 148.00 0 0 0 345.00 266.00" fill="none" data-ref="sp8" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-arc" d="M 585.50 210.50 A 92.50 92.50 0 0 0 493.00 118.00" fill="none" data-ref="sp5" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-arc" d="M 530.00 266.00 A 55.50 55.50 0 0 0 585.50 210.50" fill="none" data-ref="sp3" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-arc" d="M 493.00 229.00 A 37.00 37.00 0 0 0 530.00 266.00" fill="none" data-ref="sp2" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-arc" d="M 511.50 210.50 A 18.50 18.50 0 0 0 493.00 229.00" fill="none" data-ref="sp1a" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+    <path class="geom-arc" d="M 530.00 210.50 A 18.50 18.50 0 0 0 511.50 192.00" fill="none" data-ref="sp1b" stroke="var(--geom-accent, #d97706)" stroke-width="2.20"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="165.00,76.00 48.97,160.30 93.29,296.70 236.71,296.70 281.03,160.30" fill="var(--geom-accent, #d97706)" fill-opacity="0.09" stroke="none" data-ref="ABCDE"/>
+    <polygon class="geom-polygon" points="345.00,118.00 585.50,118.00 585.50,266.00 345.00,266.00" fill="#10b981" fill-opacity="0.08" stroke="none" data-ref="FIB13x8"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="165.00" cy="76.00" r="3.50" data-ref="A"/>
+    <circle class="geom-point" cx="48.97" cy="160.30" r="3.50" data-ref="B"/>
+    <circle class="geom-point" cx="93.29" cy="296.70" r="3.50" data-ref="C"/>
+    <circle class="geom-point" cx="236.71" cy="296.70" r="3.50" data-ref="D"/>
+    <circle class="geom-point" cx="281.03" cy="160.30" r="3.50" data-ref="E"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="165.00" y="59.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="A">A</text>
+    <text class="geom-label" x="32.80" y="155.05" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="B">B</text>
+    <text class="geom-label" x="83.30" y="310.45" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="C">C</text>
+    <text class="geom-label" x="246.70" y="310.45" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="D">D</text>
+    <text class="geom-label" x="297.20" y="155.05" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="E">E</text>
+    <text class="geom-label" x="419.00" y="192.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13px;" data-ref="sq8">8</text>
+    <text class="geom-label" x="539.25" y="164.25" text-anchor="middle" dominant-baseline="central" style="font-size: 13px;" data-ref="sq5">5</text>
+    <text class="geom-label" x="557.75" y="238.25" text-anchor="middle" dominant-baseline="central" style="font-size: 13px;" data-ref="sq3">3</text>
+    <text class="geom-label" x="511.50" y="247.50" text-anchor="middle" dominant-baseline="central" style="font-size: 13px;" data-ref="sq2">2</text>
+    <text class="geom-label" x="502.25" y="219.75" text-anchor="middle" dominant-baseline="central" style="font-size: 10px;" data-ref="sq1a">1</text>
+    <text class="geom-label" x="520.75" y="219.75" text-anchor="middle" dominant-baseline="central" style="font-size: 10px;" data-ref="sq1b">1</text>
+    <text class="geom-label" x="165.00" y="382.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">I. Flos Quinquefolius (Pentagram {5/2})</text>
+    <text class="geom-label" x="465.00" y="382.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">II. Propagatio Seminalis: 1, 1, 2, 3, 5, 8, 13 -&gt; phi</text>
+  </g>
+</svg>

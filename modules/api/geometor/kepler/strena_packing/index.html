@@ -1,0 +1,422 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.kepler.strena_packing &mdash; GEOMETOR • kepler</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/kepler_codex.css?v=e1380a77" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • kepler</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">kepler</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../cosmos_and_harmony/index.html"  >Cosmos & Harmony Codex</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Symbolic Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >Modules</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; kepler</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • kepler</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">Modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mysterium_spheres/index.html" title="geometor.kepler.mysterium_spheres">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../harmonices_geometry/index.html" title="geometor.kepler.harmonices_geometry"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.kepler.strena_packing">
+        <span id="geometor-kepler-strena-packing"></span><h1>geometor.kepler.strena_packing<a class="headerlink" href="#module-geometor.kepler.strena_packing" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic geometry of Kepler’s <em>Strena seu de Nive Sexangula</em> (1611).</p>
+        <p>Provides 100% exact SymPy 3D analyses of Kepler’s two isohedral rhombic
+        polyhedra—the space-filling <strong>Rhombic Dodecahedron</strong> (diagonal ratio <code class="docutils literal notranslate"><span class="pre">sqrt(2):1</span></code>,
+        dihedral <code class="docutils literal notranslate"><span class="pre">120</span> <span class="pre">deg</span></code>) and the golden <strong>Rhombic Triacontahedron</strong> (diagonal ratio
+        <code class="docutils literal notranslate"><span class="pre">phi:1</span></code>, dihedral <code class="docutils literal notranslate"><span class="pre">144</span> <span class="pre">deg</span></code>)—verifies the cubic/hexagonal sphere close-packing
+        density <code class="docutils literal notranslate"><span class="pre">pi</span> <span class="pre">/</span> <span class="pre">(3*sqrt(2))</span></code> against simple cubic <code class="docutils literal notranslate"><span class="pre">pi</span> <span class="pre">/</span> <span class="pre">6</span></code>, constructs the
+        7-circle hexagonal close-packing rosette in <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>, and computes
+        exact rational Fibonacci phyllotaxis convergents to <code class="docutils literal notranslate"><span class="pre">phi</span></code>.</p>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.PHI" title="geometor.kepler.strena_packing.PHI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PHI</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics" title="geometor.kepler.strena_packing.RhombicPolyhedronMetrics"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RhombicPolyhedronMetrics</span></code></a></p></td>
+        <td><p>Exact 3D metrics of an isohedral Keplerian rhombic zonohedron.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.SpherePackingComparison" title="geometor.kepler.strena_packing.SpherePackingComparison"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SpherePackingComparison</span></code></a></p></td>
+        <td><p>Exact symbolic sphere-packing fractions in Kepler's <em>Strena</em> (1611).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.FibonacciConvergent" title="geometor.kepler.strena_packing.FibonacciConvergent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FibonacciConvergent</span></code></a></p></td>
+        <td><p>Exact rational Fibonacci phyllotaxis convergent and Cassini invariant.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.analyze_rhombic_dodecahedron" title="geometor.kepler.strena_packing.analyze_rhombic_dodecahedron"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_rhombic_dodecahedron</span></code></a>() → RhombicPolyhedronMetrics</p></td>
+        <td><p>Analyze the 14-vertex Rhombic Dodecahedron from exact integer 3D coordinates.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.analyze_rhombic_triacontahedron" title="geometor.kepler.strena_packing.analyze_rhombic_triacontahedron"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analyze_rhombic_triacontahedron</span></code></a>() → RhombicPolyhedronMetrics</p></td>
+        <td><p>Analyze the 32-vertex Golden Rhombic Triacontahedron over <code class="docutils literal notranslate"><span class="pre">Q(phi)</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.verify_kepler_sphere_packing" title="geometor.kepler.strena_packing.verify_kepler_sphere_packing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_kepler_sphere_packing</span></code></a>() → SpherePackingComparison</p></td>
+        <td><p>Derive exact simple-cubic vs. FCC/HCP close-packing densities (<em>Strena</em> §§10–14).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis" title="geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compute_fibonacci_phyllotaxis</span></code></a>([n_terms]) → tuple[FibonacciConvergent, ...]</p></td>
+        <td><p>Compute Kepler's self-propagating Fibonacci sequence <code class="docutils literal notranslate"><span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">5,</span> <span class="pre">8,</span> <span class="pre">13,</span> <span class="pre">21...</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.strena_packing.construct_hexagonal_rosette" title="geometor.kepler.strena_packing.construct_hexagonal_rosette"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_hexagonal_rosette</span></code></a>([model]) → geometor.model.Model</p></td>
+        <td><p>Construct Kepler's planar 7-circle hexagonal close-packing / snowflake rosette.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.PHI">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">PHI</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.PHI" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">RhombicPolyhedronMetrics</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact 3D metrics of an isohedral Keplerian rhombic zonohedron.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.name">
+        <span class="sig-name descname"><span class="pre">name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.latin_name">
+        <span class="sig-name descname"><span class="pre">latin_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.latin_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.faces">
+        <span class="sig-name descname"><span class="pre">faces</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.faces" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.edges">
+        <span class="sig-name descname"><span class="pre">edges</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.edges" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.edge_quadrance">
+        <span class="sig-name descname"><span class="pre">edge_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.edge_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.long_diag_quadrance">
+        <span class="sig-name descname"><span class="pre">long_diag_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.long_diag_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.short_diag_quadrance">
+        <span class="sig-name descname"><span class="pre">short_diag_quadrance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.short_diag_quadrance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.diagonal_ratio">
+        <span class="sig-name descname"><span class="pre">diagonal_ratio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.diagonal_ratio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.diagonal_quadrance_ratio">
+        <span class="sig-name descname"><span class="pre">diagonal_quadrance_ratio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.diagonal_quadrance_ratio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.dihedral_angle_deg">
+        <span class="sig-name descname"><span class="pre">dihedral_angle_deg</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.dihedral_angle_deg" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.dihedral_cosine">
+        <span class="sig-name descname"><span class="pre">dihedral_cosine</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.dihedral_cosine" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.RhombicPolyhedronMetrics.space_filling">
+        <span class="sig-name descname"><span class="pre">space_filling</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics.space_filling" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">SpherePackingComparison</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact symbolic sphere-packing fractions in Kepler’s <em>Strena</em> (1611).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.simple_cubic_kissing">
+        <span class="sig-name descname"><span class="pre">simple_cubic_kissing</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.simple_cubic_kissing" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.simple_cubic_density">
+        <span class="sig-name descname"><span class="pre">simple_cubic_density</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.simple_cubic_density" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.close_packed_kissing">
+        <span class="sig-name descname"><span class="pre">close_packed_kissing</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.close_packed_kissing" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.close_packed_layer_height_over_diameter">
+        <span class="sig-name descname"><span class="pre">close_packed_layer_height_over_diameter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.close_packed_layer_height_over_diameter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.close_packed_density">
+        <span class="sig-name descname"><span class="pre">close_packed_density</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.close_packed_density" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.SpherePackingComparison.density_ratio_close_over_cubic">
+        <span class="sig-name descname"><span class="pre">density_ratio_close_over_cubic</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.SpherePackingComparison.density_ratio_close_over_cubic" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">FibonacciConvergent</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational Fibonacci phyllotaxis convergent and Cassini invariant.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.index">
+        <span class="sig-name descname"><span class="pre">index</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.index" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.f_prev">
+        <span class="sig-name descname"><span class="pre">f_prev</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.f_prev" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.f_curr">
+        <span class="sig-name descname"><span class="pre">f_curr</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.f_curr" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.f_next">
+        <span class="sig-name descname"><span class="pre">f_next</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.f_next" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.ratio_next_over_curr">
+        <span class="sig-name descname"><span class="pre">ratio_next_over_curr</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.ratio_next_over_curr" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.cassini_determinant">
+        <span class="sig-name descname"><span class="pre">cassini_determinant</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">int</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.cassini_determinant" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.FibonacciConvergent.error_from_phi">
+        <span class="sig-name descname"><span class="pre">error_from_phi</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.kepler.strena_packing.FibonacciConvergent.error_from_phi" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.analyze_rhombic_dodecahedron">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">analyze_rhombic_dodecahedron</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics" title="geometor.kepler.strena_packing.RhombicPolyhedronMetrics"><span class="pre">RhombicPolyhedronMetrics</span></a></span></span><a class="headerlink" href="#geometor.kepler.strena_packing.analyze_rhombic_dodecahedron" title="Link to this definition">¶</a></dt>
+        <dd><p>Analyze the 14-vertex Rhombic Dodecahedron from exact integer 3D coordinates.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.analyze_rhombic_triacontahedron">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">analyze_rhombic_triacontahedron</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.kepler.strena_packing.RhombicPolyhedronMetrics" title="geometor.kepler.strena_packing.RhombicPolyhedronMetrics"><span class="pre">RhombicPolyhedronMetrics</span></a></span></span><a class="headerlink" href="#geometor.kepler.strena_packing.analyze_rhombic_triacontahedron" title="Link to this definition">¶</a></dt>
+        <dd><p>Analyze the 32-vertex Golden Rhombic Triacontahedron over <code class="docutils literal notranslate"><span class="pre">Q(phi)</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.verify_kepler_sphere_packing">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">verify_kepler_sphere_packing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.kepler.strena_packing.SpherePackingComparison" title="geometor.kepler.strena_packing.SpherePackingComparison"><span class="pre">SpherePackingComparison</span></a></span></span><a class="headerlink" href="#geometor.kepler.strena_packing.verify_kepler_sphere_packing" title="Link to this definition">¶</a></dt>
+        <dd><p>Derive exact simple-cubic vs. FCC/HCP close-packing densities (<em>Strena</em> §§10–14).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">compute_fibonacci_phyllotaxis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">n_terms</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">10</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.strena_packing.FibonacciConvergent" title="geometor.kepler.strena_packing.FibonacciConvergent"><span class="pre">FibonacciConvergent</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute Kepler’s self-propagating Fibonacci sequence <code class="docutils literal notranslate"><span class="pre">1,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">3,</span> <span class="pre">5,</span> <span class="pre">8,</span> <span class="pre">13,</span> <span class="pre">21...</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.strena_packing.construct_hexagonal_rosette">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.strena_packing.</span></span><span class="sig-name descname"><span class="pre">construct_hexagonal_rosette</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">geometor.model.Model</span></span></span><a class="headerlink" href="#geometor.kepler.strena_packing.construct_hexagonal_rosette" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Kepler’s planar 7-circle hexagonal close-packing / snowflake rosette.</p>
+        <p>Starting purely from <code class="docutils literal notranslate"><span class="pre">O</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span></code> and <code class="docutils literal notranslate"><span class="pre">P_0</span> <span class="pre">=</span> <span class="pre">(2,</span> <span class="pre">0)</span></code> (center spacing <code class="docutils literal notranslate"><span class="pre">2R</span> <span class="pre">=</span> <span class="pre">2</span></code>
+        for unit circles <code class="docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">1</span></code>), constructs the 6 surrounding centers around a regular
+        hexagon and all 7 mutually tangent unit circles with zero floating-point values.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../mysterium_spheres/index.html" title="geometor.kepler.mysterium_spheres">&larr; <span class="nav-label">geometor.kepler.mysterium_spheres</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • kepler</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../harmonices_geometry/index.html" title="geometor.kepler.harmonices_geometry"><span class="nav-label">geometor.kepler.harmonices_geometry</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-150000/index.html">Initial Bilingual Book Codex & Symbolic Engine of Kepler’s Cosmography, Strena & Harmonices</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/golden-ratio.html">golden-ratio</a></li>
+        <li><a href="../../../../../tags/harmonices-mundi.html">harmonices-mundi</a></li>
+        <li><a href="../../../../../tags/kepler.html">kepler</a></li>
+        <li><a href="../../../../../tags/mysterium.html">mysterium</a></li>
+        <li><a href="../../../../../tags/polyhedra.html">polyhedra</a></li>
+        <li><a href="../../../../../tags/strena.html">strena</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../../../../categories/codex.html">codex</a></li>
+        <li><a href="../../../../../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../../../../../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../about/index.html"  >About GEOMETOR Kepler</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
