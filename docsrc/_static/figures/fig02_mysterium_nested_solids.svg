@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 660 430" role="img" aria-label="Mysterium Cosmographicum Exact Scale Outer and Inner Planetary Nestings">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="175.00" cy="205.00" r="152.00" fill="none" data-ref="cSAT" stroke-width="1.80"/>
+    <circle class="geom-circle" cx="175.00" cy="205.00" r="87.76" fill="none" data-ref="cJUP" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <circle class="geom-circle" cx="175.00" cy="205.00" r="29.25" fill="none" data-ref="cMAR" stroke-width="1.50"/>
+    <circle class="geom-circle" cx="175.00" cy="205.00" r="23.25" fill="none" data-ref="cTER" stroke="#10b981" stroke-width="1.80"/>
+    <path class="geom-line" d="M 282.48 97.52 L 175.00 97.52 L 67.52 97.52" fill="none" data-ref="cub_0" stroke-width="1.40"/>
+    <path class="geom-line" d="M 67.52 97.52 L 67.52 205.00 L 67.52 312.48" fill="none" data-ref="cub_1" stroke-width="1.40"/>
+    <path class="geom-line" d="M 67.52 312.48 L 175.00 312.48 L 282.48 312.48" fill="none" data-ref="cub_2" stroke-width="1.40"/>
+    <path class="geom-line" d="M 282.48 312.48 L 282.48 205.00 L 282.48 97.52" fill="none" data-ref="cub_3" stroke-width="1.40"/>
+    <path class="geom-line" d="M 175.00 117.24 L 137.00 183.06 L 99.00 248.88" fill="none" data-ref="tet_0" stroke="var(--geom-accent, #d97706)" stroke-width="1.40"/>
+    <path class="geom-line" d="M 99.00 248.88 L 175.00 248.88 L 251.00 248.88" fill="none" data-ref="tet_1" stroke="var(--geom-accent, #d97706)" stroke-width="1.40"/>
+    <path class="geom-line" d="M 251.00 248.88 L 213.00 183.06 L 175.00 117.24" fill="none" data-ref="tet_2" stroke="var(--geom-accent, #d97706)" stroke-width="1.40"/>
+    <circle class="geom-circle" cx="490.00" cy="205.00" r="148.00" fill="none" data-ref="cMAR_in" stroke-width="1.50" stroke-dasharray="5 3"/>
+    <circle class="geom-circle" cx="490.00" cy="205.00" r="117.61" fill="none" data-ref="cTER_in" stroke="#10b981" stroke-width="2.30"/>
+    <circle class="geom-circle" cx="490.00" cy="205.00" r="93.46" fill="none" data-ref="cVEN" stroke="var(--geom-accent, #d97706)" stroke-width="1.60"/>
+    <circle class="geom-circle" cx="490.00" cy="205.00" r="53.96" fill="none" data-ref="cMER" stroke-width="1.60"/>
+    <path class="geom-line" d="M 490.00 57.00 L 419.62 108.13 L 349.24 159.27" fill="none" data-ref="dod_0" stroke-width="1.30"/>
+    <path class="geom-line" d="M 349.24 159.27 L 376.13 242.00 L 403.01 324.73" fill="none" data-ref="dod_1" stroke-width="1.30"/>
+    <path class="geom-line" d="M 403.01 324.73 L 490.00 324.73 L 576.99 324.73" fill="none" data-ref="dod_2" stroke-width="1.30"/>
+    <path class="geom-line" d="M 576.99 324.73 L 603.87 242.00 L 630.76 159.27" fill="none" data-ref="dod_3" stroke-width="1.30"/>
+    <path class="geom-line" d="M 630.76 159.27 L 560.38 108.13 L 490.00 57.00" fill="none" data-ref="dod_4" stroke-width="1.30"/>
+    <path class="geom-line" d="M 591.85 146.20 L 540.93 116.79 L 490.00 87.39" fill="none" data-ref="ico_0" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 490.00 87.39 L 439.07 116.79 L 388.15 146.20" fill="none" data-ref="ico_1" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 388.15 146.20 L 388.15 205.00 L 388.15 263.80" fill="none" data-ref="ico_2" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 388.15 263.80 L 439.07 293.21 L 490.00 322.61" fill="none" data-ref="ico_3" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 490.00 322.61 L 540.93 293.21 L 591.85 263.80" fill="none" data-ref="ico_4" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 591.85 263.80 L 591.85 205.00 L 591.85 146.20" fill="none" data-ref="ico_5" stroke="var(--geom-accent, #d97706)" stroke-width="1.20"/>
+    <path class="geom-line" d="M 583.46 205.00 L 536.73 158.27 L 490.00 111.54" fill="none" data-ref="oct_0" stroke-width="1.30"/>
+    <path class="geom-line" d="M 490.00 111.54 L 443.27 158.27 L 396.54 205.00" fill="none" data-ref="oct_1" stroke-width="1.30"/>
+    <path class="geom-line" d="M 396.54 205.00 L 443.27 251.73 L 490.00 298.46" fill="none" data-ref="oct_2" stroke-width="1.30"/>
+    <path class="geom-line" d="M 490.00 298.46 L 536.73 251.73 L 583.46 205.00" fill="none" data-ref="oct_3" stroke-width="1.30"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="282.48,97.52 67.52,97.52 67.52,312.48 282.48,312.48" fill="var(--geom-accent, #d97706)" fill-opacity="0.07" stroke="none" data-ref="CUBUS"/>
+    <polygon class="geom-polygon" points="490.00,57.00 349.24,159.27 403.01,324.73 576.99,324.73 630.76,159.27" fill="#10b981" fill-opacity="0.07" stroke="none" data-ref="DODEC"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="175.00" cy="205.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="S_sun"/>
+    <circle class="geom-point" cx="490.00" cy="205.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="S_in"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="175.00" y="193.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="S_sun">Sol</text>
+    <text class="geom-label" x="175.00" y="42.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="cSAT">Saturnus</text>
+    <text class="geom-label" x="209.00" y="111.24" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="cJUP">Iupiter</text>
+    <text class="geom-label" x="175.00" y="247.25" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 11px;" data-ref="cMAR">Mars</text>
+    <text class="geom-label" x="490.00" y="46.00" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="cMAR_in">Mars (Dodecaedron)</text>
+    <text class="geom-label" x="490.00" y="100.39" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 12px;" data-ref="cTER_in">Terra (Mensor)</text>
+    <text class="geom-label" x="490.00" y="286.46" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 11px;" data-ref="cVEN">Venus (Icosaedron)</text>
+    <text class="geom-label" x="490.00" y="246.96" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 11px;" data-ref="cMER">Mercurius</text>
+    <text class="geom-label" x="175.00" y="398.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">I. Outer Primary Solids (Saturn -&gt; Mars)</text>
+    <text class="geom-label" x="490.00" y="398.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">II. Inner Secondary Solids around Terra (Mars -&gt; Mercury)</text>
+  </g>
+</svg>

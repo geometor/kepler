@@ -1,0 +1,87 @@
+{
+  "work": "Johannes Kepler — Mysterium Cosmographicum (1596/1621), Strena seu de Nive Sexangula (1611), & Harmonices Mundi Libri V (1619)",
+  "editions": [
+    "Prodromus Dissertationum Cosmographicarum continens Mysterium Cosmographicum (Tübingen: Gruppenbach, 1596; 2nd ed. cum notis authoris, Frankfurt: Kempfer/Tampach, 1621; Frisch Opera Omnia Vol. I, 1858)",
+    "Strena seu de Nive Sexangula (Frankfurt: Tampach, 1611; Frisch Opera Omnia Vol. VII, 1868)",
+    "Harmonices Mundi Libri V (Linz: Tampach/Plancus, 1619; Frisch Opera Omnia Vol. V, 1864)"
+  ],
+  "entries": [
+    {
+      "kepler_locus": "Mysterium Cosmographicum Praefatio (1596, pp. 6–10; Frisch I, pp. 106–109)",
+      "topic": "July 19, 1595 Graz discovery: equilateral great-conjunction triangle circumscribing and inscribing circles in ratio R_in : R_out = 1 : 2 (Q_in / Q_out = 1/4)",
+      "sister_repo": "euclid / elements",
+      "sister_locus": "Elements IV.2–5, XIII.12 (equilateral triangle in circle)",
+      "kepler_module": "geometor.kepler.mysterium_spheres.construct_mysterium_planar_nesting"
+    },
+    {
+      "kepler_locus": "Mysterium Cosmographicum Cap. II & XIV (1596, pp. 22–26, 46–49; Frisch I, pp. 122–125, 148–152)",
+      "topic": "Curved (Divine sphere) vs. Straight (created polyhedron); Five Platonic Solids nested between the six Copernican orbs with Earth as Circulus mensor omnium",
+      "sister_repo": "euclid / elements / proclus",
+      "sister_locus": "Elements XIII.13–18 (five regular solids & uniqueness proof); Proclus In Euclidem Prologue",
+      "kepler_module": "geometor.kepler.mysterium_spheres.compute_nested_planetary_radii"
+    },
+    {
+      "kepler_locus": "Mysterium Cosmographicum Cap. XII–XIII (1596, pp. 41–45; Frisch I, pp. 142–147)",
+      "topic": "The Two Great Treasures of Geometry (Pythagorean Theorem & Extreme and Mean Ratio) and Polar-Dual Insphere/Circumsphere Equality (Cube = Octahedron Q = 1/3; Dodecahedron = Icosahedron Q = (5 + 2√5)/15)",
+      "sister_repo": "euclid / divine / pacioli / wildberger",
+      "sister_locus": "Elements I.47, II.11, VI.30, XIII.16–17; Pacioli De Divina Proportione (1509); Quadrance invariants",
+      "kepler_module": "geometor.kepler.mysterium_spheres.verify_polar_duality_ratios"
+    },
+    {
+      "kepler_locus": "Epistola ad Michaelem Mästlinum (Graz, October 1597; Frisch I, p. 377)",
+      "topic": "The Kepler Right Triangle (1, √φ, φ) in continuous geometric proportion (Q_a = 1, Q_b = φ, Q_c = φ² = 1 + φ) and Mästlin's decimal 1/φ ≈ 0.6180340",
+      "sister_repo": "model / divine / elements",
+      "sister_locus": "geometor.model.get_kepler_field (Q(√φ), x⁴ - x² - 1 = 0); Elements II.11, II.14, VI.8, VI.17",
+      "kepler_module": "geometor.kepler.harmonices_geometry.construct_kepler_right_triangle"
+    },
+    {
+      "kepler_locus": "Strena seu de Nive Sexangula §§1–9 (1611, pp. 3–11; Frisch VII, pp. 715–722)",
+      "topic": "Sixfold snowflake symmetry, trihedral bee honeycomb bases, and discovery of the space-filling Rhombic Dodecahedron (√2:1) and Golden Rhombic Triacontahedron (φ:1)",
+      "sister_repo": "pappus / pacioli / phyllotaxis",
+      "sister_locus": "Pappus Synagoge V.1–3 (honeycomb planimetry); Pacioli elevated/rhombic polyhedra",
+      "kepler_module": "geometor.kepler.strena_packing.analyze_rhombic_dodecahedron"
+    },
+    {
+      "kepler_locus": "Strena seu de Nive Sexangula §§10–14 (1611, pp. 11–15; Frisch VII, pp. 722–725)",
+      "topic": "Pomegranate compression, 2D hexagonal 7-circle rosette (kissing number 6), and 3D Cubic/Hexagonal Sphere Close-Packing Conjecture (kissing number 12, density π/(3√2) ≈ 74.048%)",
+      "sister_repo": "fundamentals / phyllotaxis",
+      "sister_locus": "Elementary 6-circle compass rosette around unit circle; 3D FCC Voronoi tessellation",
+      "kepler_module": "geometor.kepler.strena_packing.verify_kepler_sphere_packing"
+    },
+    {
+      "kepler_locus": "Strena seu de Nive Sexangula §§15–19 (1611, pp. 15–19; Frisch VII, pp. 725–727)",
+      "topic": "Pentamerous apple/pear blossoms and self-propagating Fibonacci recurrence 1, 1, 2, 3, 5, 8, 13, 21... converging to the Divine Section φ",
+      "sister_repo": "phyllotaxis / divine",
+      "sister_locus": "Fibonacci parastichy lattices, Cassini identity F_{n+1}F_{n-1} - F_n² = (-1)^n, golden divergence",
+      "kepler_module": "geometor.kepler.strena_packing.compute_fibonacci_phyllotaxis"
+    },
+    {
+      "kepler_locus": "Harmonices Mundi Liber I, Prooemium & Defs./Props. I–XLIV (1619, pp. 1–38; Frisch V, pp. 75–114)",
+      "topic": "Refutation of Ramus on Euclid Book X; Eight Degrees of Geometric Scibilitas (effabilis longitudine, effabilis potentia, mese, binominis/apotome, mizon/elasson) for constructible n-gons (3, 4, 5, 6, 8, 10, 12, 15, 16)",
+      "sister_repo": "euclid / proclus / hoenen",
+      "sister_locus": "Elements IV.10–16, X.1–115, XIII.1–11; Proclus In Euclidem; Hoenen De Noetica Geometriae",
+      "kepler_module": "geometor.kepler.harmonices_geometry.classify_polygon_scibilitas"
+    },
+    {
+      "kepler_locus": "Harmonices Mundi Liber I, Props. XLV–L (1619, pp. 38–46; Frisch V, pp. 114–125)",
+      "topic": "Algebraic Inscibilitas of the Regular Heptagon (x³ + x² - 2x - 1 = 0) and critique of Jost Bürgi's cossic chord equation vs. Euclidean plane constructibility",
+      "sister_repo": "hilbert / euclid",
+      "sister_locus": "Quadratic radical field extensions vs. irreducible cubic equations (anticipating Gauss 1801 & Wantzel 1837)",
+      "kepler_module": "geometor.kepler.harmonices_geometry.classify_polygon_scibilitas"
+    },
+    {
+      "kepler_locus": "Harmonices Mundi Liber II, Props. I–XXVIII (1619, pp. 47–66; Frisch V, pp. 126–144)",
+      "topic": "Planar and Solid Congruence: Complete classification of the 11 Archimedean uniform planar tilings, pentagonal/decagonal star tiling Aa, the 13 Archimedean convex solids, and the Small & Great Stellated Dodecahedra ({5/2, 5}, {5/2, 3})",
+      "sister_repo": "pappus / pacioli / divine",
+      "sister_locus": "Pappus Synagoge V.19 (13 Archimedean solids); Star pentagram {5/2} & Penrose tilings",
+      "kepler_module": "geometor.kepler.harmonices_geometry.enumerate_archimedean_planar_tilings"
+    },
+    {
+      "kepler_locus": "Harmonices Mundi Liber V, Cap. I, III–IX (1619, pp. 177–248; Frisch V, pp. 269–329)",
+      "topic": "Polyhedral-Harmonic Synthesis, Aphelion/Perihelion Angular-Velocity Consonances (4:5, 5:6, 2:3, 15:16, 24:25, 5:12), and Kepler's Third Law ((T₁/T₂)² = (a₁/a₂)³)",
+      "sister_repo": "ptolemy / wildberger",
+      "sister_locus": "Ptolemy Harmonics Book III; Exact rational power-law invariants",
+      "kepler_module": "geometor.kepler.harmonices_geometry.verify_kepler_third_law"
+    }
+  ]
+}

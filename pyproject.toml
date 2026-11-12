@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-kepler"
+authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
+description = "Scholarly bilingual Latin/English Book Codices of Johannes Kepler's Mysterium Cosmographicum (1596/1621), Strena seu de Nive Sexangula (1611), and Harmonices Mundi (1619) in the GEOMETOR Digital Scriptorium."
+readme = "README.rst"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+dynamic = ["version"]
+dependencies = [
+    "sympy",
+    "rich",
+    "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "sympy>=1.13",
+]
+
+[project.scripts]
+geometor-kepler = "geometor.kepler.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = {attr = "geometor.kepler.__version__"}
+
+[project.urls]
+"Website" = "https://geometor.github.io/kepler"
+"Repository" = "https://github.com/geometor/kepler"
+"Issues" = "https://github.com/geometor/kepler/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "../model/src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+src = ["src", "scripts", "demos", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
