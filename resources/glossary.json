@@ -1,0 +1,122 @@
+{
+  "scibilitas": {
+    "headword": "scibilitas (knowability / demonstrabilitas)",
+    "translation": "Geometric knowability by finite straightedge-and-compass determination from the circle's diameter",
+    "language": "Latin (Harmonices Mundi Book I)",
+    "definition": "Kepler's foundational epistemological criterion in Harmonices Mundi Book I (Defs. VII–VIII): a regular polygon or chord is 'knowable' (scibilis) and 'demonstrable' when its side can be constructed and its quantitative ratio to the circumscribing circle's diameter expressed through a finite chain of commensurable lengths, commensurable squares (quadrances), or Euclidean quadratic radicals (Book X). Figures lacking such determination are 'unknowable' (inscibiles) and excluded from the archetype of cosmic harmonies."
+  },
+  "effabilis-longitudine": {
+    "headword": "effabilis longitudine (expressible in length)",
+    "translation": "Commensurable in length with the given diameter (Q)",
+    "language": "Latin / Greek (ῥητὴ μήκει, Euclid X Def. 3)",
+    "definition": "The highest degree of geometric knowability after identity (equality with the diameter itself): a magnitude having a rational numerical ratio p : q in length to the circle's diameter, such as the side of the inscribed regular hexagon, which equals the radius (half the diameter)."
+  },
+  "effabilis-potentia": {
+    "headword": "effabilis potentiâ tantùm (expressible in square only)",
+    "translation": "Incommensurable in length, but commensurable in square / quadrance",
+    "language": "Latin / Greek (ῥητὴ δυνάμει μόνον, Euclid X Def. 3)",
+    "definition": "A line segment whose length is irrational relative to the diameter d, yet whose square (potentia / quadrance Q = s²) has an exact rational ratio to d²: exemplified by the inscribed square's side (s² = ½ d²) and the inscribed equilateral triangle's side (s² = ¾ d²)."
+  },
+  "sectio-divina": {
+    "headword": "sectio divina / proportio divina (extrema et media ratio)",
+    "translation": "Division in extreme and mean ratio; the Golden Section φ = (1 + √5)/2",
+    "language": "Latin (Mysterium Cosmographicum Cap. XII; Harmonices Mundi Book I)",
+    "definition": "Division of a whole line segment w into unequal parts x > y such that y : x = x : (x + y), yielding φ = (1 + √5)/2 with φ² = φ + 1 (Euclid II.11, VI.30, XIII.1–10). Praised by Kepler as the 'precious jewel' of geometry, self-propagating by addition (Fibonacci convergence in Strena) and generating the pentagon, decagon, dodecahedron, icosahedron, stellated dodecahedra, and rhombic triacontahedron."
+  },
+  "kepler-triangle": {
+    "headword": "triangulum rectangulum Kepleri (Kepler Right Triangle)",
+    "translation": "Right-angled triangle with sides (1, √φ, φ) in continuous geometric proportion",
+    "language": "Latin / Modern Symbolic Geometry (Q(√φ))",
+    "definition": "Introduced in Kepler's October 1597 letter to Michael Mästlin: the unique right triangle whose sides 1 : √φ : φ (and squared areas/quadrances 1 : φ : φ²) form a geometric progression, uniting the two great treasures of geometry—Pythagoras's theorem (a² + b² = c²) and the Divine Section (1 + φ = φ²)—over the quartic field Q(√φ) with minimal polynomial x⁴ - x² - 1 = 0 (geometor.model.get_kepler_field)."
+  },
+  "mese": {
+    "headword": "mese (medial line)",
+    "translation": "Geometric mean of two lines commensurable in square only",
+    "language": "Latin / Greek (μέση, Euclid X.21)",
+    "definition": "An irrational magnitude of the fourth degree of knowability whose square equals a rectangle bounded by two straight lines rational in square only (producing fourth-root radicals such as d · ⁴√3/2)."
+  },
+  "binominis-apotome": {
+    "headword": "binominis & apotome (binomial & apotome)",
+    "translation": "Sum (a + √b) and difference (a - √b) of two lines commensurable in square only",
+    "language": "Latin / Greek (ἐκ δύο ὀνομάτων & ἀποτομή, Euclid X.36 & X.73)",
+    "definition": "Compound Euclidean irrational lines central to Harmonices Mundi Book I: the segments of a rational line cut in extreme and mean ratio are an apotome (greater segment, ½(√5 - 1)) and a binomial/apotome pair, governing the regular decagon's side."
+  },
+  "mizon-elasson": {
+    "headword": "mizon & elasson (major & minor irrational lines)",
+    "translation": "Nested compound radicals √(a + √b) and √(a - √b) from incommensurable squares",
+    "language": "Latin / Greek (μείζων & ἐλάσσων, Euclid X.39 & X.76)",
+    "definition": "Irrational lines formed as square roots of binomial and apotome areas: in Euclid XIII.10–11 and Harmonices Mundi Book I Prop. XXXIX, the side of the regular pentagon inscribed in a rational circle is an elasson (minor) line s₅ = (R/2)√(10 - 2√5), while the star pentagram chord is a mizon (major) line d₅ = (R/2)√(10 + 2√5)."
+  },
+  "inscibilitas": {
+    "headword": "inscibilitas (geometric non-constructibility)",
+    "translation": "Impossibility of determination by finite Euclidean plane constructions",
+    "language": "Latin (Harmonices Mundi Book I, Props. XLV–L)",
+    "definition": "Kepler's demonstration that regular polygons with prime sides such as 7 (heptagon), 11 (hendecagon), 13, and 9 (enneagon) cannot be constructed from the diameter by ruler and compass because their algebraic ('Cossic') chord equations mix powers of degree ≥ 3 with multiple roots lacking unique plane geometric determination."
+  },
+  "congruentia": {
+    "headword": "congruentia figurarum (congruence / tessellation & polyhedral closure)",
+    "translation": "Exact Edge-to-Edge Fitting of Regular Polygons in the Plane or in Solid Angles",
+    "language": "Latin (Harmonices Mundi Book II)",
+    "definition": "Kepler's architectonic principle in Book II: regular and star polygons exhibit planar congruence when their interior angles around every vertex sum exactly to four right angles (360°), producing uniform tessellations; they exhibit spatial congruence when three or more faces meet around a solid vertex with angle sum strictly less than 360°, closing into convex or star polyhedra."
+  },
+  "corpora-quinque-regularia": {
+    "headword": "corpora quinque regularia (Five Platonic Solids)",
+    "translation": "Cube, Tetrahedron, Dodecahedron, Icosahedron, and Octahedron",
+    "language": "Latin (Mysterium Cosmographicum; Euclid XIII.18)",
+    "definition": "The unique five convex regular polyhedra bounded by congruent regular polygons meeting identically at every vertex. Divided by Kepler into three 'primary' solids (Cube {4,3}, Tetrahedron {3,3}, Dodecahedron {5,3}, having distinct face shapes and 3 faces per vertex) situated outside Earth's orbit, and two 'secondary' dual solids (Icosahedron {3,5}, Octahedron {3,4}) situated inside Earth's orbit."
+  },
+  "archimedean-solids": {
+    "headword": "corpora semiregularia Archimedis (Thirteen Archimedean Solids)",
+    "translation": "Convex vertex-transitive polyhedra with two or three species of regular faces",
+    "language": "Latin (Harmonices Mundi Book II, Prop. XXVIII)",
+    "definition": "The thirteen semi-regular convex solids (excluding the infinite families of prisms and antiprisms, which Kepler cleanly separated) first reconstructed and proved complete in modern times by Kepler, who coined enduring names including cuboctaedron, icosidodecaedron, cubus simus (snub cube), and dodecaedron simum (snub dodecahedron)."
+  },
+  "stella-quinquangula": {
+    "headword": "stella quinquangula & corpora stellata (Pentagram & Kepler–Poinsot Star Solids)",
+    "translation": "Regular star pentagon {5/2} and the Small & Great Stellated Dodecahedra",
+    "language": "Latin (Harmonices Mundi Books I & II)",
+    "definition": "By admitting non-convex regular star pentagons {5/2} as legitimate single faces, Kepler discovered two regular star polyhedra in Harmonices Mundi Book II (Plate IIb): the echinus / thorny Small Stellated Dodecahedron {5/2, 5} (12 pentagram faces, 12 five-pointed vertices) and the Great Stellated Dodecahedron {5/2, 3} (12 pentagram faces, 20 trihedral vertices)."
+  },
+  "dodecaedron-rhombicum": {
+    "headword": "dodecaedron rhombicum (Rhombic Dodecahedron)",
+    "translation": "Isohedral 12-rhombus space-filling zonohedron with diagonal ratio √2 : 1",
+    "language": "Latin (Strena, 1611; Harmonices Mundi Book II, 1619)",
+    "definition": "Discovered by Kepler in Strena (1611) by examining the three-rhombus pyramidal bases of opposing bee honeycomb cells and cubic close-packed spheres crushed uniformly from twelve neighbors: bounded by 12 congruent rhombi with diagonals in ratio √2 : 1, 14 vertices (6 octahedral 4-valent + 8 cubic 3-valent), and 24 edges; dual of the cuboctahedron and a Voronoi space-filler."
+  },
+  "triacontaedron-rhombicum": {
+    "headword": "triacontaedron rhombicum (Rhombic Triacontahedron)",
+    "translation": "Isohedral 30-rhombus golden zonohedron with diagonal ratio φ : 1",
+    "language": "Latin (Strena, 1611; Harmonices Mundi Books II & V, 1619)",
+    "definition": "Discovered by Kepler as the fivefold counterpart to the rhombic dodecahedron: bounded by 30 congruent golden rhombi whose long and short diagonals stand in the exact Divine Proportion φ : 1, with 32 vertices (12 icosahedral + 20 dodecahedral) and 60 edges; dual of the icosidodecahedron and convex hull of a compound dodecahedron and icosahedron."
+  },
+  "kepler-conjecture": {
+    "headword": "coacervatio globulorum densissima (Kepler Sphere-Packing Conjecture)",
+    "translation": "No packing of congruent spheres in 3-space exceeds cubic/hexagonal close-packing density π / (3√2)",
+    "language": "Latin (Strena seu de Nive Sexangula, 1611)",
+    "definition": "Kepler's celebrated assertion in Strena (1611): 'Coaptatio fiet arctissima, ut nullo alio ordine plures globuli in idem vas compingi queant'—each sphere touches 12 neighbors in face-centered cubic (FCC) or hexagonal close-packing (HCP), achieving packing fraction π/√18 ≈ 74.048%, finally proved formally by Thomas Hales (1998/2014)."
+  },
+  "quadrance": {
+    "headword": "potentia / quadrance (Q = r²)",
+    "translation": "Exact squared length of a segment (Euclid's δύναμις / potentia; Wildberger's quadrance)",
+    "language": "Latin / Rational Trigonometry",
+    "definition": "In both Euclid Book X (potentia) and GEOMETOR's Rational Trigonometry (geometor/wildberger), the squared length Q(A,B) avoids unnecessary square roots: the insphere-to-circumsphere quadrance ratios of the five Platonic solids reduce cleanly to Q_in/Q_out = 1/3 (cube, octahedron), 1/9 (tetrahedron), and (5 + 2√5)/15 ∈ Q(φ) (dodecahedron, icosahedron)."
+  },
+  "circulus-mensor": {
+    "headword": "Terra est Circulus mensor omnium (Earth as Measuring Orb)",
+    "translation": "Earth's orbit as the canonical unit circle dividing primary outer and secondary inner solids",
+    "language": "Latin (Mysterium Cosmographicum Cap. XIV)",
+    "definition": "Kepler's architectural rule placing the Telluric orb (R = 1) as the central boundary separating the three primary trihedral solids outside Earth (Dodecahedron → Mars, Tetrahedron → Jupiter, Cube → Saturn) from the two secondary dual solids inside Earth (Icosahedron → Venus, Octahedron → Mercury)."
+  },
+  "harmonia-extremorum": {
+    "headword": "harmonia motuum extremorum (Aphelion–Perihelion Consonance)",
+    "translation": "Just-intonation musical ratios formed by planets' extremal heliocentric angular speeds",
+    "language": "Latin (Harmonices Mundi Book V, Chs. IV–IX)",
+    "definition": "Because elliptical planetary orbits sweep equal areas in equal times, apparent daily angular speeds viewed from the Sun vary inversely as the square of distance (ω_per / ω_aph = ((1 + e)/(1 - e))²), yielding rational musical intervals: Saturn 4:5 (major third), Jupiter 5:6 (minor third), Mars 2:3 (diapente/fifth), Earth 15:16 (semitone mi–fa), Venus 24:25 (diesis), and Mercury 5:12 (octave + minor third)."
+  },
+  "lex-tertia": {
+    "headword": "proportio sesquialtera / Lex Tertia (Kepler's Harmonic Third Law)",
+    "translation": "Periodic times stand in the exact 3/2 power ratio of mean orbital distances (T₁/T₂)² = (a₁/a₂)³",
+    "language": "Latin (Harmonices Mundi Book V, Cap. III, Prop. VIII)",
+    "definition": "Discovered on May 15, 1618 and published in Harmonices Mundi (1619): for any two planets orbiting the Sun, the ratio of their sidereal periods T₁ : T₂ is precisely the sesquialterate (three-halves power) ratio of their semi-major axes a₁ : a₂, equivalently T₁² / T₂² = a₁³ / a₂³."
+  }
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 560 440" role="img" aria-label="Strena 1611 Rhombic Dodecahedron Space-Filling Voronoi Polyhedron">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 256.46 319.08 L 205.47 280.49 L 154.49 241.90" fill="none" data-ref="rd_e0" stroke-width="1.85"/>
+    <path class="geom-line" d="M 256.46 319.08 L 307.44 290.06 L 358.43 261.05" fill="none" data-ref="rd_e1" stroke-width="1.85"/>
+    <path class="geom-line" d="M 256.46 319.08 L 268.23 332.14 L 280.00 345.20" fill="none" data-ref="rd_e2" stroke-width="1.85"/>
+    <path class="geom-line" d="M 256.46 183.87 L 205.47 212.89 L 154.49 241.90" fill="none" data-ref="rd_e3" stroke-width="1.85"/>
+    <path class="geom-line" d="M 256.46 183.87 L 307.44 222.46 L 358.43 261.05" fill="none" data-ref="rd_e4" stroke-width="1.85"/>
+    <path class="geom-line" d="M 256.46 183.87 L 268.23 129.33 L 280.00 74.80" fill="none" data-ref="rd_e5" stroke-width="1.85"/>
+    <path class="geom-line" d="M 178.03 268.03 L 166.26 254.96 L 154.49 241.90" fill="none" data-ref="rd_e6" stroke-width="1.85"/>
+    <path class="geom-line" d="M 178.03 268.03 L 189.80 213.49 L 201.57 158.95" fill="none" data-ref="rd_e7" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 178.03 268.03 L 229.02 306.62 L 280.00 345.20" fill="none" data-ref="rd_e8" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 178.03 132.82 L 166.26 187.36 L 154.49 241.90" fill="none" data-ref="rd_e9" stroke-width="1.85"/>
+    <path class="geom-line" d="M 178.03 132.82 L 189.80 145.89 L 201.57 158.95" fill="none" data-ref="rd_e10" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 178.03 132.82 L 229.02 103.81 L 280.00 74.80" fill="none" data-ref="rd_e11" stroke-width="1.85"/>
+    <path class="geom-line" d="M 381.97 287.18 L 393.74 232.64 L 405.51 178.10" fill="none" data-ref="rd_e12" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 381.97 287.18 L 370.20 274.11 L 358.43 261.05" fill="none" data-ref="rd_e13" stroke-width="1.85"/>
+    <path class="geom-line" d="M 381.97 287.18 L 330.98 316.19 L 280.00 345.20" fill="none" data-ref="rd_e14" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 381.97 151.97 L 393.74 165.04 L 405.51 178.10" fill="none" data-ref="rd_e15" stroke-width="1.85"/>
+    <path class="geom-line" d="M 381.97 151.97 L 370.20 206.51 L 358.43 261.05" fill="none" data-ref="rd_e16" stroke-width="1.85"/>
+    <path class="geom-line" d="M 381.97 151.97 L 330.98 113.38 L 280.00 74.80" fill="none" data-ref="rd_e17" stroke-width="1.85"/>
+    <path class="geom-line" d="M 303.54 236.13 L 354.53 207.11 L 405.51 178.10" fill="none" data-ref="rd_e18" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 303.54 236.13 L 252.56 197.54 L 201.57 158.95" fill="none" data-ref="rd_e19" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 303.54 236.13 L 291.77 290.67 L 280.00 345.20" fill="none" data-ref="rd_e20" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 303.54 100.92 L 354.53 139.51 L 405.51 178.10" fill="none" data-ref="rd_e21" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 303.54 100.92 L 252.56 129.94 L 201.57 158.95" fill="none" data-ref="rd_e22" stroke="var(--geom-muted, #64748b)" stroke-width="1.10" stroke-dasharray="4 4"/>
+    <path class="geom-line" d="M 303.54 100.92 L 291.77 87.86 L 280.00 74.80" fill="none" data-ref="rd_e23" stroke-width="1.85"/>
+    <path class="geom-line" d="M 405.51 178.10 L 342.76 126.45 L 280.00 74.80" fill="none" data-ref="AC" stroke="var(--geom-accent, #d97706)" stroke-width="1.90" stroke-dasharray="5 3"/>
+    <path class="geom-line" d="M 303.54 100.92 L 342.76 126.45 L 381.97 151.97" fill="none" data-ref="BD" stroke="#10b981" stroke-width="1.90" stroke-dasharray="5 3"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="405.51,178.10 303.54,100.92 280.00,74.80 381.97,151.97" fill="var(--geom-accent, #d97706)" fill-opacity="0.18" stroke="none" data-ref="ABCD"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="256.46" cy="319.08" r="3.10" data-ref="V0"/>
+    <circle class="geom-point" cx="256.46" cy="183.87" r="3.10" data-ref="V1"/>
+    <circle class="geom-point" cx="178.03" cy="268.03" r="3.10" data-ref="V2"/>
+    <circle class="geom-point" cx="178.03" cy="132.82" r="3.10" data-ref="V3"/>
+    <circle class="geom-point" cx="381.97" cy="287.18" r="3.10" data-ref="V4"/>
+    <circle class="geom-point" cx="381.97" cy="151.97" r="3.10" data-ref="V5"/>
+    <circle class="geom-point" cx="303.54" cy="236.13" r="3.10" data-ref="V6"/>
+    <circle class="geom-point" cx="303.54" cy="100.92" r="3.10" data-ref="V7"/>
+    <circle class="geom-point" cx="405.51" cy="178.10" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V8"/>
+    <circle class="geom-point" cx="154.49" cy="241.90" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V9"/>
+    <circle class="geom-point" cx="201.57" cy="158.95" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V10"/>
+    <circle class="geom-point" cx="358.43" cy="261.05" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V11"/>
+    <circle class="geom-point" cx="280.00" cy="74.80" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V12"/>
+    <circle class="geom-point" cx="280.00" cy="345.20" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V13"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="420.51" y="182.10" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="A">A</text>
+    <text class="geom-label" x="316.54" y="90.92" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="B">B</text>
+    <text class="geom-label" x="280.00" y="59.80" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="C">C</text>
+    <text class="geom-label" x="367.97" y="157.97" text-anchor="middle" dominant-baseline="central" style="font-style: italic; font-size: 14px;" data-ref="D">D</text>
+    <text class="geom-label" x="280.00" y="418.00" text-anchor="middle" style="font-size: 13px; opacity: 0.85;">Dodecaedron Rhombicum (12 Faces, 14 Vertices, 24 Edges): AC : BD = sqrt(2) : 1, Dihedral 120 deg</text>
+  </g>
+</svg>

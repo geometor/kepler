@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 660 460" role="img" aria-label="Harmonices Mundi Book II Uniform Archimedean Planar Congruences">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-2 -6 4 12" refX="0" refY="0" markerWidth="4" markerHeight="12" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-4 -6 8 12" refX="0" refY="0" markerWidth="8" markerHeight="12" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="currentColor" stroke-width="1.35" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 170.00 118.00 L 190.28 112.56 L 210.57 107.13" fill="none" data-ref="V3636_f0_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 210.57 107.13 L 195.72 92.28 L 180.87 77.43" fill="none" data-ref="V3636_f0_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 180.87 77.43 L 175.44 97.72 L 170.00 118.00" fill="none" data-ref="V3636_f0_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 118.00 L 175.44 97.72 L 180.87 77.43" fill="none" data-ref="V3636_f1_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 180.87 77.43 L 166.02 62.58 L 151.17 47.73" fill="none" data-ref="V3636_f1_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 151.17 47.73 L 130.89 53.17 L 110.60 58.60" fill="none" data-ref="V3636_f1_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 110.60 58.60 L 105.17 78.89 L 99.73 99.17" fill="none" data-ref="V3636_f1_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 99.73 99.17 L 114.58 114.02 L 129.43 128.87" fill="none" data-ref="V3636_f1_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 129.43 128.87 L 149.72 123.44 L 170.00 118.00" fill="none" data-ref="V3636_f1_e5" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 118.00 L 149.72 123.44 L 129.43 128.87" fill="none" data-ref="V3636_f2_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 129.43 128.87 L 144.28 143.72 L 159.13 158.57" fill="none" data-ref="V3636_f2_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 159.13 158.57 L 164.56 138.28 L 170.00 118.00" fill="none" data-ref="V3636_f2_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 118.00 L 164.56 138.28 L 159.13 158.57" fill="none" data-ref="V3636_f3_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 159.13 158.57 L 173.98 173.42 L 188.83 188.27" fill="none" data-ref="V3636_f3_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 188.83 188.27 L 209.11 182.83 L 229.40 177.40" fill="none" data-ref="V3636_f3_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 229.40 177.40 L 234.83 157.11 L 240.27 136.83" fill="none" data-ref="V3636_f3_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 240.27 136.83 L 225.42 121.98 L 210.57 107.13" fill="none" data-ref="V3636_f3_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 210.57 107.13 L 190.28 112.56 L 170.00 118.00" fill="none" data-ref="V3636_f3_e5" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 118.00 L 506.63 111.11 L 523.26 104.22" fill="none" data-ref="V488_f0_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 523.26 104.22 L 516.37 87.59 L 509.48 70.96" fill="none" data-ref="V488_f0_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 509.48 70.96 L 492.85 77.85 L 476.22 84.74" fill="none" data-ref="V488_f0_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 476.22 84.74 L 483.11 101.37 L 490.00 118.00" fill="none" data-ref="V488_f0_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 118.00 L 483.11 101.37 L 476.22 84.74" fill="none" data-ref="V488_f1_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 476.22 84.74 L 459.59 77.85 L 442.96 70.96" fill="none" data-ref="V488_f1_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 442.96 70.96 L 426.33 77.85 L 409.70 84.74" fill="none" data-ref="V488_f1_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 409.70 84.74 L 402.82 101.37 L 395.93 118.00" fill="none" data-ref="V488_f1_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 395.93 118.00 L 402.82 134.63 L 409.70 151.26" fill="none" data-ref="V488_f1_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 409.70 151.26 L 426.33 158.15 L 442.96 165.04" fill="none" data-ref="V488_f1_e5" stroke-width="1.45"/>
+    <path class="geom-line" d="M 442.96 165.04 L 459.59 158.15 L 476.22 151.26" fill="none" data-ref="V488_f1_e6" stroke-width="1.45"/>
+    <path class="geom-line" d="M 476.22 151.26 L 483.11 134.63 L 490.00 118.00" fill="none" data-ref="V488_f1_e7" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 118.00 L 483.11 134.63 L 476.22 151.26" fill="none" data-ref="V488_f2_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 476.22 151.26 L 483.11 167.89 L 490.00 184.52" fill="none" data-ref="V488_f2_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 184.52 L 506.63 191.41 L 523.26 198.30" fill="none" data-ref="V488_f2_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 523.26 198.30 L 539.89 191.41 L 556.52 184.52" fill="none" data-ref="V488_f2_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 556.52 184.52 L 563.41 167.89 L 570.30 151.26" fill="none" data-ref="V488_f2_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 570.30 151.26 L 563.41 134.63 L 556.52 118.00" fill="none" data-ref="V488_f2_e5" stroke-width="1.45"/>
+    <path class="geom-line" d="M 556.52 118.00 L 539.89 111.11 L 523.26 104.22" fill="none" data-ref="V488_f2_e6" stroke-width="1.45"/>
+    <path class="geom-line" d="M 523.26 104.22 L 506.63 111.11 L 490.00 118.00" fill="none" data-ref="V488_f2_e7" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 325.00 L 189.00 325.00 L 208.00 325.00" fill="none" data-ref="V3464_f0_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 208.00 325.00 L 198.50 308.55 L 189.00 292.09" fill="none" data-ref="V3464_f0_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 189.00 292.09 L 179.50 308.55 L 170.00 325.00" fill="none" data-ref="V3464_f0_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 325.00 L 179.50 308.55 L 189.00 292.09" fill="none" data-ref="V3464_f1_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 189.00 292.09 L 172.55 282.59 L 156.09 273.09" fill="none" data-ref="V3464_f1_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 156.09 273.09 L 146.59 289.55 L 137.09 306.00" fill="none" data-ref="V3464_f1_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 137.09 306.00 L 153.55 315.50 L 170.00 325.00" fill="none" data-ref="V3464_f1_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 325.00 L 153.55 315.50 L 137.09 306.00" fill="none" data-ref="V3464_f2_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 137.09 306.00 L 120.64 315.50 L 104.18 325.00" fill="none" data-ref="V3464_f2_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 104.18 325.00 L 104.18 344.00 L 104.18 363.00" fill="none" data-ref="V3464_f2_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 104.18 363.00 L 120.64 372.50 L 137.09 382.00" fill="none" data-ref="V3464_f2_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 137.09 382.00 L 153.55 372.50 L 170.00 363.00" fill="none" data-ref="V3464_f2_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 363.00 L 170.00 344.00 L 170.00 325.00" fill="none" data-ref="V3464_f2_e5" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 325.00 L 170.00 344.00 L 170.00 363.00" fill="none" data-ref="V3464_f3_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 170.00 363.00 L 189.00 363.00 L 208.00 363.00" fill="none" data-ref="V3464_f3_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 208.00 363.00 L 208.00 344.00 L 208.00 325.00" fill="none" data-ref="V3464_f3_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 208.00 325.00 L 189.00 325.00 L 170.00 325.00" fill="none" data-ref="V3464_f3_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 325.00 L 511.00 325.00 L 532.00 325.00" fill="none" data-ref="V33336_f0_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 532.00 325.00 L 521.50 306.81 L 511.00 288.63" fill="none" data-ref="V33336_f0_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 511.00 288.63 L 500.50 306.81 L 490.00 325.00" fill="none" data-ref="V33336_f0_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 325.00 L 500.50 306.81 L 511.00 288.63" fill="none" data-ref="V33336_f1_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 511.00 288.63 L 490.00 288.63 L 469.00 288.63" fill="none" data-ref="V33336_f1_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 469.00 288.63 L 479.50 306.81 L 490.00 325.00" fill="none" data-ref="V33336_f1_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 325.00 L 479.50 306.81 L 469.00 288.63" fill="none" data-ref="V33336_f2_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 469.00 288.63 L 458.50 306.81 L 448.00 325.00" fill="none" data-ref="V33336_f2_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 448.00 325.00 L 469.00 325.00 L 490.00 325.00" fill="none" data-ref="V33336_f2_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 325.00 L 469.00 325.00 L 448.00 325.00" fill="none" data-ref="V33336_f3_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 448.00 325.00 L 458.50 343.19 L 469.00 361.37" fill="none" data-ref="V33336_f3_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 469.00 361.37 L 479.50 343.19 L 490.00 325.00" fill="none" data-ref="V33336_f3_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 325.00 L 479.50 343.19 L 469.00 361.37" fill="none" data-ref="V33336_f4_e0" stroke-width="1.45"/>
+    <path class="geom-line" d="M 469.00 361.37 L 479.50 379.56 L 490.00 397.75" fill="none" data-ref="V33336_f4_e1" stroke-width="1.45"/>
+    <path class="geom-line" d="M 490.00 397.75 L 511.00 397.75 L 532.00 397.75" fill="none" data-ref="V33336_f4_e2" stroke-width="1.45"/>
+    <path class="geom-line" d="M 532.00 397.75 L 542.50 379.56 L 553.00 361.37" fill="none" data-ref="V33336_f4_e3" stroke-width="1.45"/>
+    <path class="geom-line" d="M 553.00 361.37 L 542.50 343.19 L 532.00 325.00" fill="none" data-ref="V33336_f4_e4" stroke-width="1.45"/>
+    <path class="geom-line" d="M 532.00 325.00 L 511.00 325.00 L 490.00 325.00" fill="none" data-ref="V33336_f4_e5" stroke-width="1.45"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights">
+    <polygon class="geom-polygon" points="170.00,118.00 210.57,107.13 180.87,77.43" fill="var(--geom-accent, #d97706)" fill-opacity="0.14" stroke="none" data-ref="V3636_f0"/>
+    <polygon class="geom-polygon" points="170.00,118.00 180.87,77.43 151.17,47.73 110.60,58.60 99.73,99.17 129.43,128.87" fill="#10b981" fill-opacity="0.13" stroke="none" data-ref="V3636_f1"/>
+    <polygon class="geom-polygon" points="170.00,118.00 129.43,128.87 159.13,158.57" fill="#3b82f6" fill-opacity="0.12" stroke="none" data-ref="V3636_f2"/>
+    <polygon class="geom-polygon" points="170.00,118.00 159.13,158.57 188.83,188.27 229.40,177.40 240.27,136.83 210.57,107.13" fill="#a855f7" fill-opacity="0.11" stroke="none" data-ref="V3636_f3"/>
+    <polygon class="geom-polygon" points="490.00,118.00 523.26,104.22 509.48,70.96 476.22,84.74" fill="var(--geom-accent, #d97706)" fill-opacity="0.14" stroke="none" data-ref="V488_f0"/>
+    <polygon class="geom-polygon" points="490.00,118.00 476.22,84.74 442.96,70.96 409.70,84.74 395.93,118.00 409.70,151.26 442.96,165.04 476.22,151.26" fill="#10b981" fill-opacity="0.13" stroke="none" data-ref="V488_f1"/>
+    <polygon class="geom-polygon" points="490.00,118.00 476.22,151.26 490.00,184.52 523.26,198.30 556.52,184.52 570.30,151.26 556.52,118.00 523.26,104.22" fill="#3b82f6" fill-opacity="0.12" stroke="none" data-ref="V488_f2"/>
+    <polygon class="geom-polygon" points="170.00,325.00 208.00,325.00 189.00,292.09" fill="var(--geom-accent, #d97706)" fill-opacity="0.14" stroke="none" data-ref="V3464_f0"/>
+    <polygon class="geom-polygon" points="170.00,325.00 189.00,292.09 156.09,273.09 137.09,306.00" fill="#10b981" fill-opacity="0.13" stroke="none" data-ref="V3464_f1"/>
+    <polygon class="geom-polygon" points="170.00,325.00 137.09,306.00 104.18,325.00 104.18,363.00 137.09,382.00 170.00,363.00" fill="#3b82f6" fill-opacity="0.12" stroke="none" data-ref="V3464_f2"/>
+    <polygon class="geom-polygon" points="170.00,325.00 170.00,363.00 208.00,363.00 208.00,325.00" fill="#a855f7" fill-opacity="0.11" stroke="none" data-ref="V3464_f3"/>
+    <polygon class="geom-polygon" points="490.00,325.00 532.00,325.00 511.00,288.63" fill="var(--geom-accent, #d97706)" fill-opacity="0.14" stroke="none" data-ref="V33336_f0"/>
+    <polygon class="geom-polygon" points="490.00,325.00 511.00,288.63 469.00,288.63" fill="#10b981" fill-opacity="0.13" stroke="none" data-ref="V33336_f1"/>
+    <polygon class="geom-polygon" points="490.00,325.00 469.00,288.63 448.00,325.00" fill="#3b82f6" fill-opacity="0.12" stroke="none" data-ref="V33336_f2"/>
+    <polygon class="geom-polygon" points="490.00,325.00 448.00,325.00 469.00,361.37" fill="#a855f7" fill-opacity="0.11" stroke="none" data-ref="V33336_f3"/>
+    <polygon class="geom-polygon" points="490.00,325.00 469.00,361.37 490.00,397.75 532.00,397.75 553.00,361.37 532.00,325.00" fill="var(--geom-accent, #d97706)" fill-opacity="0.14" stroke="none" data-ref="V33336_f4"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="170.00" cy="118.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V3636"/>
+    <circle class="geom-point" cx="490.00" cy="118.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V488"/>
+    <circle class="geom-point" cx="170.00" cy="325.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V3464"/>
+    <circle class="geom-point" cx="490.00" cy="325.00" r="4.00" fill="var(--geom-accent, #d97706)" data-ref="V33336"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="170.00" y="222.00" text-anchor="middle" style="font-size: 12px; opacity: 0.85;">3.6.3.6 (Trihexagonal)</text>
+    <text class="geom-label" x="490.00" y="222.00" text-anchor="middle" style="font-size: 12px; opacity: 0.85;">4.8.8 (Truncated Square)</text>
+    <text class="geom-label" x="170.00" y="429.00" text-anchor="middle" style="font-size: 12px; opacity: 0.85;">3.4.6.4 (Rhombitrihexagonal)</text>
+    <text class="geom-label" x="490.00" y="429.00" text-anchor="middle" style="font-size: 12px; opacity: 0.85;">3.3.3.3.6 (Chiral Snub)</text>
+  </g>
+</svg>
