@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About GEOMETOR Kepler &mdash; GEOMETOR • kepler</title>
+  <title>About &mdash; GEOMETOR • kepler</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -47,6 +47,9 @@
           <a href="../cosmos_and_harmony/bibliography.html"  >Bibliography</a>
         </li>
         <li>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
+        </li>
+        <li>
           <a href="../usage/index.html"  >Usage</a>
         </li>
         <li>
@@ -74,20 +77,41 @@
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/kepler/__main__/index.html" title="geometor.kepler.__main__">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../cosmos_and_harmony/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about-geometor-kepler">
-        <span id="kepler-about"></span><h1>About GEOMETOR Kepler<a class="headerlink" href="#about-geometor-kepler" title="Link to this heading">¶</a></h1>
-        <p>Historical, philological, and mathematical provenance for <code class="docutils literal notranslate"><span class="pre">geometor-kepler</span></code> in the <strong>GEOMETOR Digital Scriptorium</strong>.</p>
-        <section class="level-2" id="public-domain-textual-provenance-copyright-audit">
-        <h2>Public-Domain Textual Provenance &amp; Copyright Audit<a class="headerlink" href="#public-domain-textual-provenance-copyright-audit" title="Link to this heading">¶</a></h2>
+        <section class="level-1" id="kepler-about">
+        <span id="about-index"></span><span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#kepler-about" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor-kepler</span></code> is a bilingual Digital Scriptorium Book Codex, semantic knowledge graph, and exact symbolic modeling environment dedicated to the foundational geometric and cosmological works of <span class="person-ref" data-person="kepler" title="Johannes Kepler (1571 – 1630) — German Imperial Mathematician, Geometer &amp; Astronomer">Johannes Kepler</span> (1571–1630). Spanning three seminal treatises—<em>Mysterium Cosmographicum</em> (1596 / 1621), <em>Strena seu de Nive Sexangula</em> (<em>On the Six-Cornered Snowflake</em>, 1611), and <em>Harmonices Mundi Libri V</em> (<em>The Harmony of the World</em>, 1619)—this edition recovers Kepler’s revolutionary vision of geometry as the eternal archetypal blueprint of the physical universe.</p>
+        <p>The edition structures Kepler’s Latin prose into an interactive four-track <strong>Book Codex</strong> powered by <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>. Every unit offers synchronized reading across <em>English</em> (freshly translated from early modern Latin imprints), <em>Latin</em> (verbatim critical text from Christian Frisch’s <em>Opera Omnia</em>), <em>Summary</em> (concise mathematical synopses of propositions and proofs), and <em>Notes</em> (in-depth philological, historical, and mathematical commentary). Key geometric concepts—from the Euclidean knowability (<span class="glossary-term" data-term="scibilitas" title="scibilitas (knowability / demonstrabilitas) (Geometric knowability by finite straightedge-and-compass determination from the circle&#x27;s diameter): Kepler&#x27;s foundational epistemological criterion in Harmonices Mundi Book I (Defs. VII–VIII): a regular polygon or chord is &#x27;knowable&#x27; (scibilis) and &#x27;demonstrable&#x27; when its side can be constructed and its quantitative ratio to the circumscribing circle&#x27;s diameter expressed through a finite chain of commensurable lengths, commensurable squares (quadrances), or Euclidean quadratic radicals (Book X). Figures lacking such determination are &#x27;unknowable&#x27; (inscibiles) and excluded from the archetype of cosmic harmonies.">scibilitas</span>) of regular constructible polygons to the irreducible non-constructibility (<span class="glossary-term" data-term="inscibilitas" title="inscibilitas (geometric non-constructibility) (Impossibility of determination by finite Euclidean plane constructions): Kepler&#x27;s demonstration that regular polygons with prime sides such as 7 (heptagon), 11 (hendecagon), 13, and 9 (enneagon) cannot be constructed from the diameter by ruler and compass because their algebraic (&#x27;Cossic&#x27;) chord equations mix powers of degree ≥ 3 with multiple roots lacking unique plane geometric determination.">inscibilitas</span>) of the heptagon, the classification of the 11 uniform Archimedean planar tilings, the discovery of the rhombic dodecahedron and triacontahedron, and Kepler’s Third Law—are formalized into machine-addressable semantic elements.</p>
+        <p>Every construction is grounded symbolically through <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code> using exact algebraic fields rather than numerical approximations. Kepler’s famous golden right triangle $(1, \sqrt{\phi}, \phi)$ is formalized over the algebraic number field $\mathbb{Q}(\sqrt{\phi})$ defined by $x^4 - x^2 - 1 = 0$, while polyhedral insphere/circumsphere ratios and close-packing densities ($\frac{\pi}{3\sqrt{2}}$) are verified symbolically with SymPy. This positions <code class="docutils literal notranslate"><span class="pre">geometor-kepler</span></code> at the vital crossroads of the GEOMETOR ecosystem, directly connecting the axiomatic foundations of <code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code> with the harmonic proportions of <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code> and the morphology of <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>.</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>The <strong>GEOMETOR</strong> initiative, conceived and directed by <strong>phi ARCHITECT</strong>, is dedicated to the systematic recovery, symbolic formalization, and creative re-articulation of humanity’s geometric heritage. GEOMETOR unites classical synthesis with modern algebraic rigor across three core pillars:</p>
+        <dl class="simple">
+        <dt>Extracting Historical Semantic Knowledge</dt><dd><p>Moving beyond passive page scans, static facsimile bitmaps, and flat optical character recognition (OCR), GEOMETOR recovers the living deductive architecture of 2,300+ years of geometric, axiomatic, and philosophical treatises. Primary sources—spanning Euclid, Apollonius, Archimedes, Pappus, Johannes Kepler, Felix Klein, and Clark Kimberling—are analyzed to elevate enunciations, deductive steps, synthetic justifications, marginal citations, primary-source folios (via <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code>), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams into structured, machine-addressable semantic graphs.</p>
+        </dd>
+        <dt>Exact Symbolic Grounding (<code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>)</dt><dd><p>Geometric constructions must not depend on floating-point approximations or visual artifacts. GEOMETOR anchors geometric entities in 100% exact symbolic algebra via <a class="reference external" href="https://www.sympy.org/">SymPy</a> and the principles of Rational Trigonometry (quadrance, spread, cross-ratio). Points, lines, circles, and conic loci are evaluated over exact algebraic fields, ensuring that tangencies, incidences, harmonic conjugates, and collinearities represent absolute mathematical truths rather than numerical estimates.</p>
+        </dd>
+        <dt>Repurposing Knowledge Across Mediums</dt><dd><p>Extracted semantic architectures and exact symbolic models are re-deployed across a unified digital ecosystem: synchronized multi-track <strong>Book Codices</strong> and EPUB 3 editions powered by <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>, computable deductive canons (<code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code>), interactive SVG exploration laboratories (<code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code>), ultra-high-definition visual broadcasts, and neuro-symbolic program synthesis (<code class="docutils literal notranslate"><span class="pre">geometor.seer</span></code>) across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p>
+        </dd>
+        </dl>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="public-domain-textual-provenance-copyright-audit">
+        <h3>Public-Domain Textual Provenance &amp; Copyright Audit<a class="headerlink" href="#public-domain-textual-provenance-copyright-audit" title="Link to this heading">¶</a></h3>
         <p>All primary Latin texts in this repository derive exclusively from 100% Public Domain early modern imprints and nineteenth-century critical editions:</p>
         <ol class="arabic simple">
         <li><p><strong>*Mysterium Cosmographicum* (1596 / 1621)</strong>: <em>Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum</em> (Tübingen: Georg Gruppenbach, 1596; 2nd author-annotated ed., Frankfurt: Erasmus Kempfer / Gottfried Tampach, 1621), together with Kepler’s October 1597 letter to Michael Mästlin, edited by <span class="person-ref" data-person="frisch" title="Christian Frisch (1807 – 1881) — German Philologist &amp; Editor of Kepler&#x27;s Opera Omnia">Christian Frisch</span> in <em>Joannis Kepleri Astronomi Opera Omnia</em>, Vol. I (Frankfurt &amp; Erlangen: Heyder &amp; Zimmer, 1858, pp. 95–214, 377).</p></li>
@@ -96,8 +120,8 @@
         </ol>
         <p>Every English translation (<cite>-en</cite>), executive summary (<cite>-summary</cite>), and historical-mathematical commentary (<cite>-notes</cite>) in this codex is <strong>100% originally translated and authored for GEOMETOR</strong> directly from Kepler’s Neo-Latin. Modern copyrighted translations—including C. G. Wallis (1939/1952), Colin Hardie (1966), A. M. Duncan &amp; E. J. Aiton (1981), and E. J. Aiton, A. M. Duncan, &amp; J. V. Field (1997)—were strictly excluded.</p>
         </section>
-        <section class="level-2" id="position-in-the-geometor-canon">
-        <h2>Position in the GEOMETOR Canon<a class="headerlink" href="#position-in-the-geometor-canon" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="position-in-the-geometor-canon">
+        <h3>Position in the GEOMETOR Canon<a class="headerlink" href="#position-in-the-geometor-canon" title="Link to this heading">¶</a></h3>
         <p>Kepler stands at the grand architectural crossroads of the GEOMETOR ecosystem:</p>
         <ul class="simple">
         <li><p><strong>Euclidean &amp; Neoplatonic Foundations</strong>: Extends <code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code> (Books II, IV, X, XIII), and <code class="docutils literal notranslate"><span class="pre">geometor/proclus</span></code> into physical astronomy and epistemology.</p></li>
@@ -106,18 +130,20 @@
         </ul>
         </section>
         </section>
+        </section>
 
       </div>
       <footer class="book-footer">
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/kepler/__main__/index.html" title="geometor.kepler.__main__">&larr; <span class="nav-label">geometor.kepler.__main__</span></a>
+            <a class="book-nav-btn" href="../cosmos_and_harmony/glossary.html" title="Latin &amp; Mathematical Glossary">&larr; <span class="nav-label">Latin & Mathematical Glossary</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">GEOMETOR • kepler</a>
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Using This Edition</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -179,7 +205,6 @@
       <ul>
         <li><a href="../cosmos_and_harmony/concordance.html"  >Concordance</a></li>
         <li><a href="../cosmos_and_harmony/glossary.html"  >Glossary</a></li>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
       </ul>
     </div>
     <hr />
@@ -192,7 +217,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=a58bc63e"></script>
+  <script src="../_static/documentation_options.js?v=92734c54"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
