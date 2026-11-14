@@ -1,7 +1,13 @@
+:navigation: header
+:order: 6
+:nav_title: Bibliography
+
 .. _kepler-bibliography:
 
-Bibliography & Primary Editions
-===============================
+Bibliography
+============
+
+.. rubric:: Primary Editions, Classical Sources & Reference Literature
 
 Primary Public-Domain Editions of Johannes Kepler
 -------------------------------------------------

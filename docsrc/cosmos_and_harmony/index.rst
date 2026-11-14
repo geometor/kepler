@@ -1,31 +1,30 @@
 :navigation: header
-:order: 10
+:order: 1
+:nav_title: Cosmos & Harmony
 :layout: book
-:book_title: Mysterium Cosmographicum, Strena & Harmonices Mundi
-:book_subtitle: Johannes Kepler · Polyhedral Cosmography, Crystallography & Celestial Harmony
+:book_title: Polyhedral Cosmography, Crystallography & Celestial Harmony
+:book_subtitle: Mysterium Cosmographicum (1596) · Strena (1611) · Harmonices Mundi (1619) — Johannes Kepler
+:author: Johannes Kepler
+:year: 1596–1619
 
 .. _cosmos-and-harmony-codex:
 
-Cosmos & Harmony Codex
-======================
+Cosmos & Harmony
+================
 
-.. rst-class:: title-page
+.. rubric:: *Mysterium Cosmographicum* · *Strena* · *Harmonices Mundi* — Johannes Kepler
 
-   **IOANNIS KEPLERI**
+.. container:: title-page
 
-   **MYSTERIVM COSMOGRAPHICVM (1596 / 1621)**
+   | **Johannes Kepler**
+   | *Mysterium Cosmographicum* (1596 / 1621) · *Strena seu de Nive Sexangula* (1611) · *Harmonices Mundi Libri I, II & V* (1619)
+   |
+   | Polyhedral Cosmography, Sixfold Crystallography & Close-Packing, Constructible Polygons, Architectonic Congruence, and the Harmonic Laws of Planetary Motion
+   |
+   | **Primary Latin Witness:** First Editions (Tübingen 1596; Frankfurt 1611, 1621; Linz 1619) & Christian Frisch, *Opera Omnia* (1858–1868)
+   | **Digital Edition:** GEOMETOR Scriptorium (English Translation, Executive Summaries, Scholarly Commentary & Symbolic Apparatus)
 
-   **STRENA SEV DE NIVE SEXANGVLA (1611)**
-
-   **ET HARMONICES MVNDI LIBRI I, II & V (1619)**
-
-   *Polyhedral Cosmography, Sixfold Crystallography & Close-Packing, Constructible Polygons, Architectonic Congruence, and the Harmonic Laws of Planetary Motion*
-
-   Latin Text: Editio Princeps (1596, 1611, 1619, 1621) & Ch. Frisch, *Opera Omnia* (1858–1868)
-
-   English Translation, Interactive SVG Plates & Symbolic Apparatus: GEOMETOR Scriptorium
-
-Conspectus Operis
+Table of Contents
 -----------------
 
 Spanning twenty-five years from his youthful flash of insight at Graz on July 19, 1595 to the Linz *Harmonices Mundi* (1619) and Frankfurt annotated *Mysterium* (1621), :person:`Johannes Kepler <kepler>` forged the decisive bridge between classical Greek synthetic geometry (:person:`Euclid <euclid>`, :person:`Archimedes <archimedes>`, :person:`Apollonius <apollonius>`, :person:`Ptolemy <ptolemy>`, :person:`Pappus <pappus>`, :person:`Proclus <proclus>`) and modern mathematical physics, crystallography, and algebra. Each unit of this **Four-Track Bilingual Book Codex** provides synchronized reading tabs (**English**, **Latin**, **Summary**, and **Notes**) wired to interactive ``.euclid-graphic`` SVG figures:
@@ -41,12 +40,12 @@ Editorial & Translation Note
 
 All primary Neo-Latin texts in this codex are edited from the 1596, 1611, 1619, and 1621 *editiones principes* and :person:`Christian Frisch's <frisch>` critical *Joannis Kepleri Astronomi Opera Omnia* (:cite:`1858 <frisch:1858:v1>`, :cite:`1864 <frisch:1864:v5>`, :cite:`1868 <frisch:1868:v7>`). Every English translation (`-en`), geometric executive summary (`-summary`), and scholarly commentary (`-notes`) is **100% originally authored for GEOMETOR** directly from Kepler's Latin; no modern copyrighted translations were consulted or reproduced.
 
-Critical Apparatus & Concordances
----------------------------------
+Scholarly Apparatus
+-------------------
 
 * :doc:`Cross-Corpus Geometric Concordance <concordance>` — Bidirectional mapping linking Kepler's theorems to ``model``, ``euclid``, ``elements``, ``divine``, ``pacioli``, ``pappus``, ``proclus``, ``hilbert``, ``hoenen``, ``wildberger``, ``phyllotaxis``, and ``ptolemy``.
 * :doc:`Bibliography & Primary Editions <bibliography>` — Early modern imprints, Frisch *Opera Omnia*, classical mathematical authorities, and modern proofs.
-* :doc:`Index Nominum (Persons) <persons>` — Prosopographical register of **32** geometers, astronomers, philosophers, and editors.
+* :doc:`People <persons>` — Prosopographical register of **32** geometers, astronomers, philosophers, and editors.
 * :doc:`Latin & Mathematical Glossary <glossary>` — Lexicon of **20** technical Latin, Greek, and symbolic-geometry terms.
 
 .. toctree::
@@ -78,7 +77,7 @@ Critical Apparatus & Concordances
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography

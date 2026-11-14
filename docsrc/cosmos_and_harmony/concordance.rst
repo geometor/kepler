@@ -1,3 +1,6 @@
+:navigation: footer
+:nav_title: Concordance
+
 .. _kepler-concordance:
 
 Cross-Corpus Geometric Concordance
