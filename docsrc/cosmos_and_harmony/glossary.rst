@@ -1,3 +1,6 @@
+:navigation: footer
+:nav_title: Glossary
+
 .. _kepler-glossary:
 
 Latin & Mathematical Glossary

@@ -1,9 +1,32 @@
+:navigation: header
+:order: 5
+:nav_title: People
+
 .. _kepler-persons:
 
-Index Nominum (Persons)
-=======================
+People
+======
 
-Prosopographical register of the **32** geometers, astronomers, natural philosophers, patrons, and editors referenced across **GEOMETOR Kepler**.
+.. rubric:: Prosopographical Register of Geometers, Astronomers, Philosophers & Editors
+
+Authors, Translators & Editors
+------------------------------
+
+.. _person-kepler:
+
+* **Johannes Kepler** (*1571 – 1630*) — Imperial Mathematician, astronomer, and geometer. Author of *Mysterium Cosmographicum* (1596/1621), *Astronomia Nova* (1609), *Strena seu de Nive Sexangula* (1611), and *Harmonices Mundi Libri V* (1619). Kepler bridged classical Euclidean synthetic geometry and modern mathematical physics, discovering the polyhedral planetary nesting, the space-filling rhombic dodecahedron, hexagonal close-packing, the Kepler triangle, two regular star polyhedra, and the harmonic laws of planetary motion.
+
+.. _person-maestlin:
+
+* **Michael Mästlin** (*1550 – 1631*) — Professor of Mathematics and Astronomy at the University of Tübingen, Kepler's university mentor and lifelong correspondent. Mästlin secured the publication of the 1596 *Mysterium Cosmographicum*, contributed its appended trigonometric treatise on planetary distances, and received Kepler's historic October 1597 letter formulating the Kepler Right Triangle ($1 : \sqrt{\phi} : \phi$).
+
+.. _person-brahe:
+
+* **Tycho Brahe** (*1546 – 1601*) — Imperial observational astronomer at Prague whose decades of high-precision planetary observations provided the empirical foundation for Kepler's discovery of the elliptical orbits (*Astronomia Nova*, 1609) and the planetary harmonic consonances (*Harmonices Mundi*, 1619).
+
+.. _person-frisch:
+
+* **Christian Frisch** (*1807 – 1881*) — German philologist, mathematician, and editor of the eight-volume critical *Joannis Kepleri Astronomi Opera Omnia* (Frankfurt and Erlangen: Heyder & Zimmer, 1858–1871), supplying the authoritative Latin source texts for this digital edition.
 
 Ancient & Medieval Authorities
 ------------------------------
@@ -79,14 +102,6 @@ Renaissance & Early Modern Contemporaries
 
 * **Petrus Ramus (Pierre de la Ramée)** (*1515 – 1572*) — Humanist critic of Euclid Book X, refuted by Kepler in *Harmonices Mundi* Book I Prooemium.
 
-.. _person-brahe:
-
-* **Tycho Brahe** (*1546 – 1601*) — Imperial observational astronomer whose Mars and planetary data anchored both *Astronomia Nova* (1609) and *Harmonices Mundi* Book V (1619).
-
-.. _person-maestlin:
-
-* **Michael Mästlin** (*1550 – 1631*) — Professor of Mathematics at Tübingen, Kepler's mentor, editor of the 1596 *Mysterium*, and recipient of the October 1597 Kepler Right Triangle letter ($1/\phi \approx 0.6180340$).
-
 .. _person-wackher:
 
 * **Johannes Matthäus Wackher von Wackenfels** (*1550 – 1619*) — Imperial Aulic Councillor at Prague and dedicatee of *Strena seu de Nive Sexangula* (1611).
@@ -98,10 +113,6 @@ Renaissance & Early Modern Contemporaries
 .. _person-galileo:
 
 * **Galileo Galilei** (*1564 – 1642*) — Astronomer and physicist whose *Sidereus Nuncius* (1610) discoveries of Jupiter's moons Kepler celebrated and integrated into *Harmonices Mundi* Book V.
-
-.. _person-kepler:
-
-* **Johannes Kepler** (*1571 – 1630*) — Provincial Mathematician at Graz, Imperial Mathematician at Prague, and Mathematician at Linz; author of *Mysterium Cosmographicum* (1596/1621), *Astronomia Nova* (1609), *Strena* (1611), and *Harmonices Mundi* (1619).
 
 .. _person-snellius:
 
@@ -117,10 +128,6 @@ Modern Editors & Mathematical Heirs
 .. _person-gauss:
 
 * **Carl Friedrich Gauss** (*1777 – 1855*) — Characterized constructible regular $n$-gons via Fermat primes in *Disquisitiones Arithmeticae* (1801).
-
-.. _person-frisch:
-
-* **Christian Frisch** (*1807 – 1881*) — Editor of the eight-volume critical *Joannis Kepleri Astronomi Opera Omnia* (1858–1871).
 
 .. _person-wantzel:
 
