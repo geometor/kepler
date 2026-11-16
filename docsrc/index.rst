@@ -4,13 +4,13 @@
 
 .. container:: author-overline
 
-   the works of
+   semantic digital archive • the works of
 
 ===============
 Johannes Kepler
 ===============
 
-The mission of this project is to capture a semantic digital library of the works of :person:`Johannes Kepler <kepler>` (1571–1630), the German astronomer and mathematician whose *Mysterium Cosmographicum*, *Strena seu de Nive Sexangula*, and *Harmonices Mundi* bridged classical geometry with modern astrophysics, close-packed crystallography, and celestial harmony.
+The works of :person:`Johannes Kepler <kepler>` (1571–1630) revolutionized modern astronomy and geometry, uniting Copernican cosmology with the Platonic solids, founding mathematical crystallography, and discovering the harmonic laws of planetary motion. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, the *Mysterium Cosmographicum*, *Strena seu de Nive Sexangula*, and *Harmonices Mundi* are liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. collection::
    :type: book
