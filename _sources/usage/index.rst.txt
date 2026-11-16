@@ -14,7 +14,7 @@ Welcome to the **GEOMETOR Kepler** digital edition. This interactive edition com
 Synchronized Reading Tracks
 ---------------------------
 
-Every treatise unit in the **Cosmos & Harmony Codex** (:doc:`/cosmos_and_harmony/index`) is arranged in synchronized parallel tracks:
+Every treatise unit in the **Cosmos & Harmony Codex** across Kepler's three standalone books is arranged in synchronized parallel tracks:
 
 * **English (`-en`)**: Modern scholarly English translation translated directly from Kepler's original Latin text.
 * **Latin (`-la`)**: Primary Neo-Latin text edited from the original seventeenth-century printings and Christian Frisch's critical *Opera Omnia*.
@@ -62,9 +62,9 @@ People, Bibliography & Glossary Tooltips
 
 Cross-references throughout the text are linked directly to authoritative registries:
 
-* **People (`:person:`)**: Hover or click on figures such as :person:`Euclid <euclid>`, :person:`Tycho Brahe <brahe>`, or :person:`Michael Mästlin <maestlin>` to view concise biographical context in :doc:`/cosmos_and_harmony/persons`.
-* **Citations (`:cite:`)**: Bibliographical references link directly to full bibliographic records in :doc:`/cosmos_and_harmony/bibliography`.
-* **Terms (`:term:`)**: Mathematical and philosophical vocabulary links directly to definitions in the :doc:`/cosmos_and_harmony/glossary`.
+* **People (`:person:`)**: Hover or click on figures such as :person:`Euclid <euclid>`, :person:`Tycho Brahe <brahe>`, or :person:`Michael Mästlin <maestlin>` to view concise biographical context in :doc:`/persons`.
+* **Citations (`:cite:`)**: Bibliographical references link directly to full bibliographic records in :doc:`/bibliography`.
+* **Terms (`:term:`)**: Mathematical and philosophical vocabulary links directly to definitions in the :doc:`/glossary`.
 * **Theme Switching**: Toggle between Light and Dark display modes using the theme control in the navigation header.
 
 Command-Line & Python API
