@@ -37,8 +37,10 @@ repo_name = "kepler"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • kepler"
-author = "Johannes Kepler (ed. Christian Frisch / GEOMETOR Scriptorium)"
+site_title = "Johannes Kepler"
+project = site_title
+html_title = f"{site_title} • {org_name}"
+author = "Johannes Kepler"
 copyright = "1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR"
 
 if "geometor.kepler.sphinx_ext" not in extensions:  # noqa: F405

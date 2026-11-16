@@ -185,30 +185,55 @@ def test_euclid_graphic_svg_plates_and_apparatus_registries() -> None:
 
     for fname in ("persons.json", "citations.json", "glossary.json"):
         root_data = json.loads((PROJECT_ROOT / "resources" / fname).read_text(encoding="utf-8"))
-        codex_data = json.loads(
-            (PROJECT_ROOT / "resources" / "cosmos_and_harmony" / fname).read_text(encoding="utf-8")
-        )
         assert len(root_data) >= 20
-        assert root_data == codex_data
+    concordance = json.loads((PROJECT_ROOT / "resources" / "concordance.json").read_text(encoding="utf-8"))
+    assert len(concordance["entries"]) >= 5
+
 
 
 def test_bilingual_codex_tracks_and_picture_directives() -> None:
-    codex_dir = PROJECT_ROOT / "docsrc" / "cosmos_and_harmony"
-    unit_slugs = (
-        "unit-1-mysterium-cosmographicum",
-        "unit-2-strena-snowflake",
-        "unit-3-harmonices-liber-i",
-        "unit-4-harmonices-liber-ii",
-        "unit-5-harmonices-liber-v",
-    )
+    docsrc_dir = PROJECT_ROOT / "docsrc"
+    books = {
+        docsrc_dir / "mysterium_cosmographicum": (
+            "praefatio",
+            "cap_02",
+            "cap_12",
+            "cap_14",
+        ),
+        docsrc_dir / "strena_sexangula": (
+            "sec_01",
+            "sec_02",
+            "sec_03",
+            "sec_04",
+        ),
+        docsrc_dir / "harmonices_mundi" / "liber_i": (
+            "prooemium",
+            "def_01_25",
+            "prop_29",
+            "prop_45",
+        ),
+        docsrc_dir / "harmonices_mundi" / "liber_ii": (
+            "definitiones",
+            "prop_01_20",
+            "figura_aa",
+            "prop_25_28",
+        ),
+        docsrc_dir / "harmonices_mundi" / "liber_v": (
+            "epistola_1597",
+            "cap_03_prop_08",
+            "cap_04_09",
+        ),
+    }
     tracks = ("en", "la", "summary", "notes")
-    for slug in unit_slugs:
-        for track in tracks:
-            rst_path = codex_dir / slug / f"{slug}-{track}.rst"
-            assert rst_path.is_file(), f"Missing track file: {rst_path}"
-            txt = rst_path.read_text(encoding="utf-8")
-            assert len(txt.strip()) > 200
-            assert ".. py_file::" not in txt
-            assert ":align:" not in txt
-            assert ":width:" not in txt
+    for parent_dir, units in books.items():
+        for unit in units:
+            for track in tracks:
+                rst_path = parent_dir / unit / f"{unit}-{track}.rst"
+                assert rst_path.is_file(), f"Missing track file: {rst_path}"
+                txt = rst_path.read_text(encoding="utf-8")
+                assert len(txt.strip()) > 200
+                assert ".. py_file::" not in txt
+                assert ":align:" not in txt
+                assert ":width:" not in txt
+
 
