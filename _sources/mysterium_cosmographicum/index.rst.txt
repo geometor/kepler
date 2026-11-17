@@ -1,14 +1,15 @@
-:title: Mysterium Cosmographicum
+:title: The Cosmographic Mystery
 :type: book
 :order: 1
 :navigation: header
-:nav_title: Mysterium Cosmographicum
-:breadcrumb_title: Mysterium Cosmographicum
+:nav_title: Cosmographic Mystery
+:breadcrumb_title: Cosmographic Mystery
 :layout: book
-:book_title: Mysterium Cosmographicum
-:book_subtitle: The Secret of the Universe (1596 / 1621) — Johannes Kepler
+:book_title: The Cosmographic Mystery
+:book_subtitle: Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum (1596 / 1621) — Johannes Kepler
 :author: Johannes Kepler
 :year: 1596 / 1621
+:tracks: English: index | Latin: title-la
 :excerpt: Kepler's groundbreaking cosmological treatise nesting the five regular Platonic solids between the six Copernican planetary orbs, proving insphere/circumsphere polar duality, and celebrating the Two Great Treasures of geometry.
 
 .. _mysterium-cosmographicum-index:
@@ -16,7 +17,7 @@
 .. _mysterium-cosmographicum:
 
 ========================
-Mysterium Cosmographicum
+The Cosmographic Mystery
 ========================
 
 .. rubric:: *Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (Tübingen, 1596; Frankfurt, 1621)
@@ -62,3 +63,10 @@ Table of Contents
    cap_14/cap_14-la
    cap_14/cap_14-summary
    cap_14/cap_14-notes
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-la

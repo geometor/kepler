@@ -1,23 +1,24 @@
-:title: Strena seu de Nive Sexangula
+:title: The Six-Cornered Snowflake
 :type: book
 :order: 2
 :navigation: header
-:nav_title: Strena seu de Nive Sexangula
-:breadcrumb_title: Strena seu de Nive Sexangula
+:nav_title: Six-Cornered Snowflake
+:breadcrumb_title: Six-Cornered Snowflake
 :layout: book
-:book_title: Strena seu de Nive Sexangula
-:book_subtitle: The Six-Cornered Snowflake (1611) — Johannes Kepler
+:book_title: The Six-Cornered Snowflake
+:book_subtitle: Strena seu de Nive Sexangula (1611) — Johannes Kepler
 :author: Johannes Kepler
 :year: 1611
+:tracks: English: index | Latin: title-la
 :excerpt: Kepler's New Year's gift on the six-cornered snowflake, founding mathematical crystallography, discovering the space-filling rhombic dodecahedron, asserting the sphere close-packing conjecture, and tracing Fibonacci growth in flowers.
 
 .. _strena-sexangula-index:
 .. _unit-2-strena-snowflake:
 .. _strena-sexangula:
 
-=============================
-Strena seu de Nive Sexangula
-=============================
+==========================
+The Six-Cornered Snowflake
+==========================
 
 .. rubric:: *Ioannis Kepleri S. Cæs. Maiest. Mathematici Strena seu de Nive Sexangula* (Frankfurt am Main: Tampach, 1611)
 
@@ -62,3 +63,10 @@ Table of Contents
    sec_04/sec_04-la
    sec_04/sec_04-summary
    sec_04/sec_04-notes
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Title Pages
+
+   title-la
