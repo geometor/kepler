@@ -3,6 +3,11 @@ GEOMETOR • kepler
 
 **Visit the Online Archive:** https://geometor.github.io/kepler/
 
+.. image:: docsrc/_static/figures/fig01_graz_triangle_conjunction.svg
+   :alt: GEOMETOR • kepler featured geometric construction
+   :target: https://geometor.github.io/kepler/
+   :align: center
+
 **Johannes Kepler • Mysterium Cosmographicum, Strena, Harmonices Mundi • semantic digital archive**
 
 Mission
@@ -13,9 +18,9 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`Harmonices Mundi Libri V <https://geometor.github.io/kepler/harmonices_mundi/>`_** — The Harmony of the World (1619) establishing the classification of regular and star polyhedra, uniform planar tessellations, the Kepler right triangle, and the Third Law of planetary motion.
-- **`Mysterium Cosmographicum <https://geometor.github.io/kepler/mysterium_cosmographicum/>`_** — The Secret of the Universe (1596 / 1621) modeling the six Copernican planetary orbits via the nested five Platonic solids and polar-duality invariants.
-- **`Strena seu de Nive Sexangula <https://geometor.github.io/kepler/strena_sexangula/>`_** — The Six-Cornered Snowflake (1611) founding mathematical crystallography, sphere close-packing, the Kepler conjecture, and rhombic polyhedra.
+- **`The Harmony of the World <https://geometor.github.io/kepler/harmonices_mundi/>`_** — *Harmonices Mundi Libri V* (1619) establishing the classification of regular and star polyhedra, uniform planar tessellations, the Kepler right triangle, and the Third Law of planetary motion.
+- **`The Cosmographic Mystery <https://geometor.github.io/kepler/mysterium_cosmographicum/>`_** — *Mysterium Cosmographicum* (1596 / 1621) modeling the six Copernican planetary orbits via the nested five Platonic solids and polar-duality invariants.
+- **`The Six-Cornered Snowflake <https://geometor.github.io/kepler/strena_sexangula/>`_** — *Strena seu de Nive Sexangula* (1611) founding mathematical crystallography, sphere close-packing, the Kepler conjecture, and rhombic polyhedra.
 
 Repository Contents
 -------------------
