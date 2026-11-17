@@ -22,18 +22,6 @@ Books in This Archive
 - `The Cosmographic Mystery <https://geometor.github.io/kepler/mysterium_cosmographicum/>`_ — *Mysterium Cosmographicum* (1596 / 1621) modeling the six Copernican planetary orbits via the nested five Platonic solids and polar-duality invariants.
 - `The Six-Cornered Snowflake <https://geometor.github.io/kepler/strena_sexangula/>`_ — *Strena seu de Nive Sexangula* (1611) founding mathematical crystallography, sphere close-packing, the Kepler conjecture, and rhombic polyhedra.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-kepler`` Python package (``import geometor.kepler``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``harmonices_geometry.py`` — Exact symbolic geometry of Kepler's *Harmonices Mundi* (1619) & 1597 Kepler Triangle.
-- ``mysterium_spheres.py`` — Exact symbolic geometry of Kepler's *Mysterium Cosmographicum* (1596 / 1621).
-- ``strena_packing.py`` — Exact symbolic geometry of Kepler's *Strena seu de Nive Sexangula* (1611).
-- ``cli.py`` — Rich CLI verification report for GEOMETOR Kepler (``geometor-kepler``).
-- ``sphinx_ext.py`` — Runtime Sphinx & photon-platform/publish integration for GEOMETOR Kepler.
-
-See the `API Reference <https://geometor.github.io/kepler/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
