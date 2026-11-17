@@ -18,9 +18,9 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`The Harmony of the World <https://geometor.github.io/kepler/harmonices_mundi/>`_** — *Harmonices Mundi Libri V* (1619) establishing the classification of regular and star polyhedra, uniform planar tessellations, the Kepler right triangle, and the Third Law of planetary motion.
-- **`The Cosmographic Mystery <https://geometor.github.io/kepler/mysterium_cosmographicum/>`_** — *Mysterium Cosmographicum* (1596 / 1621) modeling the six Copernican planetary orbits via the nested five Platonic solids and polar-duality invariants.
-- **`The Six-Cornered Snowflake <https://geometor.github.io/kepler/strena_sexangula/>`_** — *Strena seu de Nive Sexangula* (1611) founding mathematical crystallography, sphere close-packing, the Kepler conjecture, and rhombic polyhedra.
+- `The Harmony of the World <https://geometor.github.io/kepler/harmonices_mundi/>`_ — *Harmonices Mundi Libri V* (1619) establishing the classification of regular and star polyhedra, uniform planar tessellations, the Kepler right triangle, and the Third Law of planetary motion.
+- `The Cosmographic Mystery <https://geometor.github.io/kepler/mysterium_cosmographicum/>`_ — *Mysterium Cosmographicum* (1596 / 1621) modeling the six Copernican planetary orbits via the nested five Platonic solids and polar-duality invariants.
+- `The Six-Cornered Snowflake <https://geometor.github.io/kepler/strena_sexangula/>`_ — *Strena seu de Nive Sexangula* (1611) founding mathematical crystallography, sphere close-packing, the Kepler conjecture, and rhombic polyhedra.
 
 Repository Contents
 -------------------
