@@ -62,7 +62,7 @@ People, Bibliography & Glossary Tooltips
 
 Cross-references throughout the text are linked directly to authoritative registries:
 
-* **People (`:person:`)**: Hover or click on figures such as :person:`Euclid <euclid>`, :person:`Tycho Brahe <brahe>`, or :person:`Michael Mästlin <maestlin>` to view concise biographical context in :doc:`/persons`.
+* **People (`:person:`)**: Hover or click on figures such as :person:`Euclid <euclid>`, :person:`Tycho Brahe <brahe>`, or :person:`Michael Mästlin <maestlin>` to view concise biographical context in :doc:`/people/index`.
 * **Citations (`:cite:`)**: Bibliographical references link directly to full bibliographic records in :doc:`/bibliography`.
 * **Terms (`:term:`)**: Mathematical and philosophical vocabulary links directly to definitions in the :doc:`/glossary`.
 * **Theme Switching**: Toggle between Light and Dark display modes using the theme control in the navigation header.
