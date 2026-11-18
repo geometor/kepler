@@ -18,4 +18,8 @@ The five solids divide naturally into two noble ranks: **three primary solids** 
 .. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
    :alt: Concentric Heliocentric Planetary Orbs and Five Regular Solids in Mysterium Cosmographicum
 
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids"></div>
+
 In his **1621 Author's Notes** (*Notae Authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`), Kepler triumphantly observes that the small residual discrepancies between thin polyhedral spheres and :person:`Tycho Brahe's <brahe>` observations do not refute the five regular bodies, but rather correspond to the **orbital eccentricities** governed by harmonic consonances in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`).

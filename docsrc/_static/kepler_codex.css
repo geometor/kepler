@@ -20,3 +20,77 @@ svg.euclid-graphic {
   height: auto;
   margin: 1.4rem auto;
 }
+
+.kepler-3d-mount {
+  background: var(--book-surface, #16181d);
+  border: 1px solid var(--book-border, rgba(148, 163, 184, 0.28));
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.kepler-3d-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6rem;
+}
+.kepler-3d-title {
+  font-size: 0.92rem;
+  color: var(--book-text, #e4e4e7);
+}
+.kepler-3d-controls,
+.kepler-3d-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.kepler-3d-btn,
+.kepler-3d-layer {
+  appearance: none;
+  padding: 0.22rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--book-border-dark, rgba(148, 163, 184, 0.35));
+  background: var(--book-bg, #101216);
+  color: var(--book-muted, #a1a1aa);
+  font-family: var(--book-font-sans, sans-serif);
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.kepler-3d-btn.is-active {
+  background: var(--book-accent, #fbbf24);
+  border-color: var(--book-accent, #fbbf24);
+  color: #141417;
+  font-weight: 600;
+}
+.kepler-3d-layer.is-active {
+  border-color: rgba(251, 191, 36, 0.45);
+  color: var(--book-text, #f4f4f5);
+}
+.kepler-3d-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.kepler-3d-canvas {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  cursor: grab;
+  display: block;
+}
+.kepler-3d-canvas:active {
+  cursor: grabbing;
+}
+.kepler-3d-footer {
+  font-size: 0.76rem;
+  color: var(--book-muted, #94a3b8);
+  text-align: center;
+}

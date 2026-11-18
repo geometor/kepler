@@ -54,6 +54,10 @@ html_css_files = [
     *globals().get("html_css_files", []),
     "kepler_codex.css",
 ]
+html_js_files = [
+    *globals().get("html_js_files", []),
+    "js/kepler_3d_mysterium.js",
+]
 
 autoapi_dirs = [str(_PROJECT_ROOT / "src" / "geometor")]
 autoapi_add_toctree_entry = False
