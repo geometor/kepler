@@ -2,12 +2,16 @@
 :canonical_id: Cap. II
 :order: 2
 :tracks: Latin: cap_02-la | English: cap_02-en | Summary: cap_02-summary | Notes: cap_02-notes
+:folio: mysterium_cosmographicum:0034
 
 .. _mc-cap_02-en:
 .. _mc-cap_02:
 
 Chapter II: Curved and Straight — Cusanus & the Five Solids
 ===========================================================
+
+.. folio:: mysterium_cosmographicum:0034
+   :page: Tabula III
 
 *Original GEOMETOR English translation from Johannes Kepler's Mysterium Cosmographicum, Caput II* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`Frisch I, pp. 112–115 <frisch:1858:v1>`).
 

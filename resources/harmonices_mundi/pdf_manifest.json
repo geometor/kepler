@@ -1,0 +1,12 @@
+{
+  "edition": "harmonices_mundi",
+  "source_pdf": "resources/pdfs/harmonices_1619.pdf",
+  "total_pages": 358,
+  "dpi": 300,
+  "preserve_color": false,
+  "folio_png_count": 358,
+  "rendered_new_count": 358,
+  "extracted_text_pages": 331,
+  "extracted_graphics_count": 0,
+  "extracted_graphics": []
+}
