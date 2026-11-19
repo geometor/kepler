@@ -1,0 +1,448 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>geometor.kepler.music — Johannes Kepler • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/kepler/modules/api/geometor/kepler/music/" />
+  <meta name="description" content="Exact Symbolic Just-Intonation Music Engine for Kepler’s Harmonices Mundi (1619)." />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="geometor.kepler.music — Johannes Kepler • GEOMETOR" />
+  <meta property="og:description" content="Exact Symbolic Just-Intonation Music Engine for Kepler’s Harmonices Mundi (1619)." />
+  <meta property="og:url" content="https://geometor.github.io/kepler/modules/api/geometor/kepler/music/" />
+  <meta property="og:image" content="https://geometor.github.io/kepler/_static/social/banner.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="640" />
+  <meta property="og:image:alt" content="Johannes Kepler — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="geometor.kepler.music — Johannes Kepler • GEOMETOR" />
+  <meta name="twitter:description" content="Exact Symbolic Just-Intonation Music Engine for Kepler’s Harmonices Mundi (1619)." />
+  <meta name="twitter:image" content="https://geometor.github.io/kepler/_static/social/banner.png" />
+  <meta name="twitter:image:alt" content="Johannes Kepler — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=f1075037" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/kepler_codex.css?v=da14ece0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html" title="Home">
+        <img src="../../../../../_static/logo.png" class="logo" alt="GEOMETOR kepler"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">kepler</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../mysterium_cosmographicum/index.html"  >Cosmographic Mystery</a>
+        </li>
+        <li>
+          <a href="../../../../../strena_sexangula/index.html"  >Six-Cornered Snowflake</a>
+        </li>
+        <li>
+          <a href="../../../../../harmonices_mundi/index.html"  >Harmony of the World</a>
+        </li>
+        <li>
+          <a href="../../../../../people/index.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../../../../sources/index.html"  >Sources</a>
+        </li>
+        <li>
+          <a href="../../../../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../../../../concordance.html"  >Concordance</a>
+        </li>
+        <li>
+          <a href="../../../../../glossary.html"  >Glossary</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >Log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../../../../index.html">Modules</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">geometor.kepler.music</span>
+          </nav>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.kepler.music">
+        <span id="geometor-kepler-music"></span><h1>geometor.kepler.music<a class="headerlink" href="#module-geometor.kepler.music" title="Link to this heading">¶</a></h1>
+        <p>Exact Symbolic Just-Intonation Music Engine for Kepler’s <em>Harmonices Mundi</em> (1619).</p>
+        <p>Transcribes verbatim from Kepler’s Linz 1619 folios (<code class="docutils literal notranslate"><span class="pre">0297</span></code>, <code class="docutils literal notranslate"><span class="pre">0299</span></code>, <code class="docutils literal notranslate"><span class="pre">0301</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">0302</span></code>) and <em>Mysterium Cosmographicum</em> (1596, folio <code class="docutils literal notranslate"><span class="pre">0050</span></code>):</p>
+        <ul class="simple">
+        <li><p>All 7 engraved planetary melodies on folio <code class="docutils literal notranslate"><span class="pre">0299</span></code> (p. 207): Saturnus, Jupiter,
+        Mars, Terra (<em>MI–FA–MI</em>), Venus, Mercurius, and Luna (<em>Hic locum habet etiam ☽</em>).</p></li>
+        <li><p>All 4 Universal 6-Planet Creation Chords on folios <code class="docutils literal notranslate"><span class="pre">0301</span></code>–<code class="docutils literal notranslate"><span class="pre">0302</span></code> (pp. 209–210):
+        <em>Genus Durum</em> (<em>ut ♮</em>, <em>ut c</em>) and <em>Genus Molle</em> (<em>ut b</em>, <em>ut c</em>).</p></li>
+        <li><p>Exact integer string-length scales from folio <code class="docutils literal notranslate"><span class="pre">0297</span></code> (<code class="docutils literal notranslate"><span class="pre">2160</span></code> down to <code class="docutils literal notranslate"><span class="pre">864</span></code>).</p></li>
+        <li><p>Multi-track Standard MIDI File (Format 1 with 14-bit Just-Intonation pitch bend)
+        and stereo Cathedral Organ / Celestial Choir WAV synthesizer.</p></li>
+        </ul>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.COSMIC_G2_HZ" title="geometor.kepler.music.COSMIC_G2_HZ"><code class="xref py py-obj docutils literal notranslate"><span class="pre">COSMIC_G2_HZ</span></code></a></p></td>
+        <td><p></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.KeplerNote" title="geometor.kepler.music.KeplerNote"><code class="xref py py-obj docutils literal notranslate"><span class="pre">KeplerNote</span></code></a></p></td>
+        <td><p>A single note in Kepler's exact 5-limit Just-Intonation system.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.music.PlanetaryVoice" title="geometor.kepler.music.PlanetaryVoice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PlanetaryVoice</span></code></a></p></td>
+        <td><p>An engraved planetary melody from <em>Harmonices Mundi</em> Book V, Cap. VI (fol. 0299).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.UniversalChord" title="geometor.kepler.music.UniversalChord"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UniversalChord</span></code></a></p></td>
+        <td><p>One of Kepler's four 6-planet Creation Chords (Book V, Cap. VII, fols. 0301–0302).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.get_planetary_melodies" title="geometor.kepler.music.get_planetary_melodies"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_planetary_melodies</span></code></a>() → tuple[PlanetaryVoice, ...]</p></td>
+        <td><p>Return all 7 engraved melodies from <em>Harmonices Mundi</em> Book V, p. 207 (fol. 0299).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.music.get_universal_chords" title="geometor.kepler.music.get_universal_chords"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_universal_chords</span></code></a>() → tuple[UniversalChord, ...]</p></td>
+        <td><p>Return Kepler's 4 Universal 6-Planet Creation Chords (folios 0301–0302).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.get_folio_0297_scales" title="geometor.kepler.music.get_folio_0297_scales"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_folio_0297_scales</span></code></a>() → dict[str, tuple[tuple[str, int, sympy.Rational], ...]]</p></td>
+        <td><p>Return Kepler's exact integer string-length Just-Intonation scales (fol. 0297).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.music.verify_kepler_just_intonation" title="geometor.kepler.music.verify_kepler_just_intonation"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_kepler_just_intonation</span></code></a>() → dict[str, bool]</p></td>
+        <td><p>Symbolically verify Kepler's folio 0297 string lengths and folio 0299 intervals.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.export_kepler_midi" title="geometor.kepler.music.export_kepler_midi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">export_kepler_midi</span></code></a>(midi_path[, tempo_bpm]) → pathlib.Path</p></td>
+        <td><p>Export all 7 planetary melodies + 4 Creation Chords as a multi-track Standard MIDI file.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.kepler.music.synthesize_planetary_motet_wav" title="geometor.kepler.music.synthesize_planetary_motet_wav"><code class="xref py py-obj docutils literal notranslate"><span class="pre">synthesize_planetary_motet_wav</span></code></a>(wav_path[, sr]) → pathlib.Path</p></td>
+        <td><p>Synthesize Kepler's 6-planet + Moon 1619 melodies as a stereo Just-Intonation motet.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.kepler.music.synthesize_creation_chords_wav" title="geometor.kepler.music.synthesize_creation_chords_wav"><code class="xref py py-obj docutils literal notranslate"><span class="pre">synthesize_creation_chords_wav</span></code></a>(wav_path[, sr]) → pathlib.Path</p></td>
+        <td><p>Synthesize all 4 Universal 6-Planet Creation Chords (folios 0301–0302) in pure Just Intonation.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.kepler.music.COSMIC_G2_HZ">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">COSMIC_G2_HZ</span></span><a class="headerlink" href="#geometor.kepler.music.COSMIC_G2_HZ" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.music.KeplerNote">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">KeplerNote</span></span><a class="headerlink" href="#geometor.kepler.music.KeplerNote" title="Link to this definition">¶</a></dt>
+        <dd><p>A single note in Kepler’s exact 5-limit Just-Intonation system.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.KeplerNote.label">
+        <span class="sig-name descname"><span class="pre">label</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.KeplerNote.label" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.KeplerNote.ratio_from_g2">
+        <span class="sig-name descname"><span class="pre">ratio_from_g2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.music.KeplerNote.ratio_from_g2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.KeplerNote.beats">
+        <span class="sig-name descname"><span class="pre">beats</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.music.KeplerNote.beats" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py property">
+        <dt class="sig sig-object py" id="geometor.kepler.music.KeplerNote.freq_hz">
+        <span class="property"><span class="k"><span class="pre">property</span></span><span class="w"> </span></span><span class="sig-name descname"><span class="pre">freq_hz</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.music.KeplerNote.freq_hz" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational frequency in Hz.</p>
+        </dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">PlanetaryVoice</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice" title="Link to this definition">¶</a></dt>
+        <dd><p>An engraved planetary melody from <em>Harmonices Mundi</em> Book V, Cap. VI (fol. 0299).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.key">
+        <span class="sig-name descname"><span class="pre">key</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.key" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.latin_name">
+        <span class="sig-name descname"><span class="pre">latin_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.latin_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.english_name">
+        <span class="sig-name descname"><span class="pre">english_name</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.english_name" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.glyph">
+        <span class="sig-name descname"><span class="pre">glyph</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.glyph" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.voice_part">
+        <span class="sig-name descname"><span class="pre">voice_part</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.voice_part" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.mode_label">
+        <span class="sig-name descname"><span class="pre">mode_label</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.mode_label" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.extremal_ratio">
+        <span class="sig-name descname"><span class="pre">extremal_ratio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.extremal_ratio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.aphelion_arcmin">
+        <span class="sig-name descname"><span class="pre">aphelion_arcmin</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.aphelion_arcmin" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.perihelion_arcmin">
+        <span class="sig-name descname"><span class="pre">perihelion_arcmin</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.perihelion_arcmin" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.notes">
+        <span class="sig-name descname"><span class="pre">notes</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.music.KeplerNote" title="geometor.kepler.music.KeplerNote"><span class="pre">KeplerNote</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.notes" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.PlanetaryVoice.pan">
+        <span class="sig-name descname"><span class="pre">pan</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></span><a class="headerlink" href="#geometor.kepler.music.PlanetaryVoice.pan" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">UniversalChord</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord" title="Link to this definition">¶</a></dt>
+        <dd><p>One of Kepler’s four 6-planet Creation Chords (Book V, Cap. VII, fols. 0301–0302).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.key">
+        <span class="sig-name descname"><span class="pre">key</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.key" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.title" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.latin_heading">
+        <span class="sig-name descname"><span class="pre">latin_heading</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.latin_heading" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.folio">
+        <span class="sig-name descname"><span class="pre">folio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.folio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.genus">
+        <span class="sig-name descname"><span class="pre">genus</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.genus" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.kepler.music.UniversalChord.voicings">
+        <span class="sig-name descname"><span class="pre">voicings</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.kepler.music.UniversalChord.voicings" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.get_planetary_melodies">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">get_planetary_melodies</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.music.PlanetaryVoice" title="geometor.kepler.music.PlanetaryVoice"><span class="pre">PlanetaryVoice</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.music.get_planetary_melodies" title="Link to this definition">¶</a></dt>
+        <dd><p>Return all 7 engraved melodies from <em>Harmonices Mundi</em> Book V, p. 207 (fol. 0299).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.get_universal_chords">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">get_universal_chords</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.kepler.music.UniversalChord" title="geometor.kepler.music.UniversalChord"><span class="pre">UniversalChord</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.music.get_universal_chords" title="Link to this definition">¶</a></dt>
+        <dd><p>Return Kepler’s 4 Universal 6-Planet Creation Chords (folios 0301–0302).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.get_folio_0297_scales">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">get_folio_0297_scales</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.music.get_folio_0297_scales" title="Link to this definition">¶</a></dt>
+        <dd><p>Return Kepler’s exact integer string-length Just-Intonation scales (fol. 0297).</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.verify_kepler_just_intonation">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">verify_kepler_just_intonation</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.kepler.music.verify_kepler_just_intonation" title="Link to this definition">¶</a></dt>
+        <dd><p>Symbolically verify Kepler’s folio 0297 string lengths and folio 0299 intervals.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.export_kepler_midi">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">export_kepler_midi</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">midi_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tempo_bpm</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">72</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#geometor.kepler.music.export_kepler_midi" title="Link to this definition">¶</a></dt>
+        <dd><p>Export all 7 planetary melodies + 4 Creation Chords as a multi-track Standard MIDI file.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.synthesize_planetary_motet_wav">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">synthesize_planetary_motet_wav</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wav_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">22050</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#geometor.kepler.music.synthesize_planetary_motet_wav" title="Link to this definition">¶</a></dt>
+        <dd><p>Synthesize Kepler’s 6-planet + Moon 1619 melodies as a stereo Just-Intonation motet.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.kepler.music.synthesize_creation_chords_wav">
+        <span class="sig-prename descclassname"><span class="pre">geometor.kepler.music.</span></span><span class="sig-name descname"><span class="pre">synthesize_creation_chords_wav</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wav_path</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pathlib.Path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sr</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">22050</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#geometor.kepler.music.synthesize_creation_chords_wav" title="Link to this definition">¶</a></dt>
+        <dd><p>Synthesize all 4 Universal 6-Planet Creation Chords (folios 0301–0302) in pure Just Intonation.</p>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../index.html">Modules</a>
+          </div>
+          <div class="book-nav-next">
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-150000/index.html">Initial Bilingual Book Codex & Symbolic Engine of Kepler’s Cosmography, Strena & Harmonices</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/golden-ratio.html">golden-ratio</a></li>
+        <li><a href="../../../../../tags/harmonices-mundi.html">harmonices-mundi</a></li>
+        <li><a href="../../../../../tags/kepler.html">kepler</a></li>
+        <li><a href="../../../../../tags/mysterium.html">mysterium</a></li>
+        <li><a href="../../../../../tags/polyhedra.html">polyhedra</a></li>
+        <li><a href="../../../../../tags/strena.html">strena</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../../../../categories/codex.html">codex</a></li>
+        <li><a href="../../../../../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../../../../../categories/translation.html">translation</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/book.html">book</a></li>
+        <li><a href="../../../../../types/book_title.html">book_title</a></li>
+        <li><a href="../../../../../types/log.html">log</a></li>
+        <li><a href="../../../../../types/person.html">person</a></li>
+        <li><a href="../../../../../types/source_record.html">source_record</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../../../../usage/index.html"  >Usage</a></li>
+        <li><a href="https://github.com/geometor/kepler" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://github.com/geometor/kepler/issues" target="_blank" rel="noopener">Support</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/collection_directory.js?v=2422530d"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/kepler_3d_mysterium.js?v=1e79cc09"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

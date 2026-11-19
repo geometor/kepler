@@ -1,0 +1,196 @@
+geometor.kepler.music
+=====================
+
+.. py:module:: geometor.kepler.music
+
+.. autoapi-nested-parse::
+
+   Exact Symbolic Just-Intonation Music Engine for Kepler's *Harmonices Mundi* (1619).
+
+   Transcribes verbatim from Kepler's Linz 1619 folios (``0297``, ``0299``, ``0301``,
+   ``0302``) and *Mysterium Cosmographicum* (1596, folio ``0050``):
+
+   - All 7 engraved planetary melodies on folio ``0299`` (p. 207): Saturnus, Jupiter,
+     Mars, Terra (*MI–FA–MI*), Venus, Mercurius, and Luna (*Hic locum habet etiam ☽*).
+   - All 4 Universal 6-Planet Creation Chords on folios ``0301``–``0302`` (pp. 209–210):
+     *Genus Durum* (*ut ♮*, *ut c*) and *Genus Molle* (*ut b*, *ut c*).
+   - Exact integer string-length scales from folio ``0297`` (``2160`` down to ``864``).
+   - Multi-track Standard MIDI File (Format 1 with 14-bit Just-Intonation pitch bend)
+     and stereo Cathedral Organ / Celestial Choir WAV synthesizer.
+
+
+
+Attributes
+----------
+
+.. autoapisummary::
+
+   geometor.kepler.music.COSMIC_G2_HZ
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.kepler.music.KeplerNote
+   geometor.kepler.music.PlanetaryVoice
+   geometor.kepler.music.UniversalChord
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.kepler.music.get_planetary_melodies
+   geometor.kepler.music.get_universal_chords
+   geometor.kepler.music.get_folio_0297_scales
+   geometor.kepler.music.verify_kepler_just_intonation
+   geometor.kepler.music.export_kepler_midi
+   geometor.kepler.music.synthesize_planetary_motet_wav
+   geometor.kepler.music.synthesize_creation_chords_wav
+
+
+Module Contents
+---------------
+
+.. py:data:: COSMIC_G2_HZ
+
+.. py:class:: KeplerNote
+
+   A single note in Kepler's exact 5-limit Just-Intonation system.
+
+
+   .. py:attribute:: label
+      :type:  str
+
+
+   .. py:attribute:: ratio_from_g2
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: beats
+      :type:  sympy.Rational
+
+
+   .. py:property:: freq_hz
+      :type: sympy.Rational
+
+
+      Exact rational frequency in Hz.
+
+
+.. py:class:: PlanetaryVoice
+
+   An engraved planetary melody from *Harmonices Mundi* Book V, Cap. VI (fol. 0299).
+
+
+   .. py:attribute:: key
+      :type:  str
+
+
+   .. py:attribute:: latin_name
+      :type:  str
+
+
+   .. py:attribute:: english_name
+      :type:  str
+
+
+   .. py:attribute:: glyph
+      :type:  str
+
+
+   .. py:attribute:: voice_part
+      :type:  str
+
+
+   .. py:attribute:: mode_label
+      :type:  str
+
+
+   .. py:attribute:: extremal_ratio
+      :type:  sympy.Rational
+
+
+   .. py:attribute:: aphelion_arcmin
+      :type:  str
+
+
+   .. py:attribute:: perihelion_arcmin
+      :type:  str
+
+
+   .. py:attribute:: notes
+      :type:  tuple[KeplerNote, ...]
+
+
+   .. py:attribute:: pan
+      :type:  float
+
+
+.. py:class:: UniversalChord
+
+   One of Kepler's four 6-planet Creation Chords (Book V, Cap. VII, fols. 0301–0302).
+
+
+   .. py:attribute:: key
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: latin_heading
+      :type:  str
+
+
+   .. py:attribute:: folio
+      :type:  str
+
+
+   .. py:attribute:: genus
+      :type:  str
+
+
+   .. py:attribute:: voicings
+      :type:  tuple[tuple[str, str, sympy.Rational], ...]
+
+
+.. py:function:: get_planetary_melodies() -> tuple[PlanetaryVoice, ...]
+
+   Return all 7 engraved melodies from *Harmonices Mundi* Book V, p. 207 (fol. 0299).
+
+
+.. py:function:: get_universal_chords() -> tuple[UniversalChord, ...]
+
+   Return Kepler's 4 Universal 6-Planet Creation Chords (folios 0301–0302).
+
+
+.. py:function:: get_folio_0297_scales() -> dict[str, tuple[tuple[str, int, sympy.Rational], ...]]
+
+   Return Kepler's exact integer string-length Just-Intonation scales (fol. 0297).
+
+
+.. py:function:: verify_kepler_just_intonation() -> dict[str, bool]
+
+   Symbolically verify Kepler's folio 0297 string lengths and folio 0299 intervals.
+
+
+.. py:function:: export_kepler_midi(midi_path: pathlib.Path, tempo_bpm: int = 72) -> pathlib.Path
+
+   Export all 7 planetary melodies + 4 Creation Chords as a multi-track Standard MIDI file.
+
+
+.. py:function:: synthesize_planetary_motet_wav(wav_path: pathlib.Path, sr: int = 22050) -> pathlib.Path
+
+   Synthesize Kepler's 6-planet + Moon 1619 melodies as a stereo Just-Intonation motet.
+
+
+.. py:function:: synthesize_creation_chords_wav(wav_path: pathlib.Path, sr: int = 22050) -> pathlib.Path
+
+   Synthesize all 4 Universal 6-Planet Creation Chords (folios 0301–0302) in pure Just Intonation.
+
+

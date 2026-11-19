@@ -1,0 +1,1528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmonices Mundi (1619) — Live Celestial Music &amp; Just-Intonation Studio • GEOMETOR Kepler</title>
+  <style>
+    :root {
+      --bg: #0b0e14;
+      --surface: #131823;
+      --surface-2: #1a2130;
+      --border: rgba(217, 173, 92, 0.30);
+      --gold: #f5b942;
+      --gold-dim: rgba(245, 185, 66, 0.16);
+      --emerald: #34d399;
+      --rose: #fb7185;
+      --sky: #38bdf8;
+      --violet: #c084fc;
+      --text: #f3efe6;
+      --muted: #98a2b3;
+      --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+      --font-serif: "EB Garamond", "Palatino Linotype", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-sans);
+      overflow-x: hidden;
+    }
+
+    .app-shell {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 8px 14px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+    }
+
+    .brand-title {
+      font-family: var(--font-serif);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .brand-sub {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .global-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.14s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      border-color: var(--gold);
+      background: var(--gold-dim);
+      color: var(--gold);
+    }
+
+    .btn.active, .btn.primary {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: #111318;
+      font-weight: 700;
+    }
+
+    .btn.danger {
+      border-color: rgba(251, 113, 133, 0.5);
+      color: var(--rose);
+    }
+
+    .btn.danger:hover {
+      background: rgba(251, 113, 133, 0.18);
+    }
+
+    select.ctrl-select {
+      background: var(--surface-2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 4px 8px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      cursor: pointer;
+    }
+
+    /* Navigation Tabs */
+    .tab-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      padding: 8px 14px 0 14px;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .tab-btn {
+      appearance: none;
+      border: 1px solid transparent;
+      border-bottom: none;
+      background: transparent;
+      color: var(--muted);
+      font-family: var(--font-mono);
+      font-size: 11.5px;
+      padding: 7px 13px;
+      border-radius: 6px 6px 0 0;
+      cursor: pointer;
+      transition: all 0.14s ease;
+    }
+
+    .tab-btn:hover { color: var(--gold); }
+
+    .tab-btn.active {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: -1px;
+      padding-bottom: 8px;
+    }
+
+    /* Main Stage */
+    .stage {
+      flex: 1;
+      padding: 14px;
+      max-width: 1360px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    body.is-embed .brand-sub { display: none; }
+    body.is-embed .top-bar { padding: 6px 10px; gap: 6px; }
+    body.is-embed .brand-title { font-size: 15px; }
+    body.is-embed .tab-bar { padding: 6px 10px 0 10px; }
+    body.is-embed .tab-btn { font-size: 10.5px; padding: 5px 8px; }
+    body.is-embed .stage { padding: 10px; }
+
+    .panel { display: none; }
+    .panel.active { display: block; }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+      padding: 10px 12px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+
+    .toolbar-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hint {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* Tab 1: 1619 Melodies Grid */
+    .melody-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 10px;
+    }
+
+    .planet-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .planet-card.is-playing {
+      border-color: var(--gold);
+      box-shadow: 0 0 18px rgba(245, 185, 66, 0.18);
+    }
+
+    .planet-hdr {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .planet-title {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-family: var(--font-serif);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .planet-badge {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--gold);
+      background: var(--gold-dim);
+    }
+
+    .planet-meta {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .staff-canvas {
+      width: 100%;
+      height: 86px;
+      border-radius: 5px;
+      background: #0d111a;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      cursor: pointer;
+      display: block;
+    }
+
+    /* Tab 2: Live Orbital Orrery */
+    .orrery-layout {
+      display: grid;
+      grid-template-columns: minmax(320px, 1.35fr) minmax(260px, 0.85fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    @media (max-width: 860px) {
+      .orrery-layout { grid-template-columns: 1fr; }
+    }
+
+    .orrery-canvas {
+      width: 100%;
+      height: 430px;
+      background: radial-gradient(circle at center, #141b2c 0%, #090c12 75%);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: block;
+    }
+
+    .voice-mixer {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+
+    .mixer-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 6px 8px;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid rgba(148, 163, 184, 0.14);
+      font-family: var(--font-mono);
+      font-size: 11px;
+    }
+
+    .mixer-row.muted { opacity: 0.42; }
+
+    .consonance-log {
+      margin-top: 6px;
+      padding: 8px;
+      border-radius: 6px;
+      background: #0d111a;
+      border: 1px solid rgba(245, 185, 66, 0.22);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      min-height: 68px;
+      color: var(--gold);
+      line-height: 1.5;
+    }
+
+    /* Tab 3: Four Creation Chords */
+    .chords-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 12px;
+      align-items: start;
+    }
+
+    @media (max-width: 860px) {
+      .chords-layout { grid-template-columns: 1fr; }
+    }
+
+    .chord-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .chord-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      transition: all 0.15s ease;
+    }
+
+    .chord-card:hover, .chord-card.active {
+      border-color: var(--gold);
+      background: linear-gradient(160deg, rgba(245, 185, 66, 0.14), var(--surface));
+      box-shadow: 0 0 22px rgba(245, 185, 66, 0.18);
+    }
+
+    .chord-title {
+      font-family: var(--font-serif);
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .chord-sub {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--muted);
+    }
+
+    .chord-voicings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 4px;
+    }
+
+    .note-chip {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+    }
+
+    .scope-canvas {
+      width: 100%;
+      height: 310px;
+      background: #0a0d14;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: block;
+    }
+
+    /* Tab 4: Monochord & Polygon Plucker */
+    .monochord-canvas {
+      width: 100%;
+      height: 250px;
+      background: #0c1018;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: block;
+      cursor: ew-resize;
+    }
+
+    .poly-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .poly-btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 7px 11px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      min-width: 82px;
+      transition: all 0.14s ease;
+    }
+
+    .poly-btn:hover, .poly-btn.active {
+      border-color: var(--gold);
+      background: var(--gold-dim);
+      color: var(--gold);
+    }
+
+    .poly-btn.inscibilis {
+      border-color: rgba(251, 113, 133, 0.45);
+      color: #fda4af;
+    }
+
+    .poly-btn.inscibilis:hover, .poly-btn.inscibilis.active {
+      border-color: var(--rose);
+      background: rgba(251, 113, 133, 0.18);
+    }
+
+    .scale-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+      gap: 5px;
+      margin-top: 10px;
+    }
+
+    .scale-key {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+      color: var(--text);
+      border-radius: 5px;
+      padding: 8px 4px;
+      cursor: pointer;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      text-align: center;
+      transition: all 0.12s ease;
+    }
+
+    .scale-key:hover, .scale-key.lit {
+      background: var(--gold);
+      color: #111318;
+      font-weight: 700;
+    }
+
+    input[type="range"] {
+      accent-color: var(--gold);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="top-bar">
+      <div class="brand">
+        <span class="brand-title">Harmonices Mundi · Live Celestial Music Studio</span>
+        <span class="brand-sub">Linz 1619 (Folios 0297, 0299, 0301–0302) &amp; Monochord (1596, Fol. 0050)</span>
+      </div>
+      <div class="global-controls">
+        <select class="ctrl-select" id="timbreSelect" title="Synthesizer Timbre">
+          <option value="organ">Renaissance Pipe Organ</option>
+          <option value="choir">Celestial SATB Choir</option>
+          <option value="lute">Plucked Lute / Monochord</option>
+          <option value="sine">Pure Sine (Acoustic Test)</option>
+        </select>
+        <button class="btn active" id="btnTuning" title="Compare Kepler Just Intonation vs 12-TET Equal Temperament">Just Intonation (1619)</button>
+        <button class="btn danger" id="btnStopAll">■ Silence</button>
+        <a class="btn" href="audio/kepler_harmonices_1619.mid" download>MIDI .MID</a>
+        <a class="btn" id="btnFullStudio" href="harmonices-mundi-studio.html" target="_blank" rel="noopener" style="display:none;">Full Studio ↗</a>
+      </div>
+    </header>
+
+    <nav class="tab-bar">
+      <button class="tab-btn active" data-tab="melodies">1. 1619 Planetary Melodies (Fol. 0299)</button>
+      <button class="tab-btn" data-tab="orrery">2. Live Orbital Orrery Choir</button>
+      <button class="tab-btn" data-tab="chords">3. Four Creation Chords (Fols. 0301–0302)</button>
+      <button class="tab-btn" data-tab="monochord">4. Monochord &amp; Polygons (Fols. 0050 &amp; 0297)</button>
+    </nav>
+
+    <main class="stage">
+      <!-- TAB 1: 1619 PLANETARY MELODIES -->
+      <section class="panel active" id="tab-melodies">
+        <div class="toolbar">
+          <div class="toolbar-group">
+            <button class="btn primary" id="btnPlayMotet">▶ Play 6-Planet Choir + Moon</button>
+            <button class="btn" id="btnGlissando">Mode: Discrete Notes (Folio 0299)</button>
+            <span class="hint">Tempo:</span>
+            <input type="range" id="tempoSlider" min="48" max="126" value="76" style="width:100px;" />
+            <span class="hint" id="tempoVal">76 BPM</span>
+          </div>
+          <span class="hint">Click any planet card or individual diamond notehead on its staff to hear Kepler's exact 1619 transcription.</span>
+        </div>
+        <div class="melody-grid" id="melodyGrid"></div>
+      </section>
+
+      <!-- TAB 2: LIVE ORBITAL ORRERY CHOIR -->
+      <section class="panel" id="tab-orrery">
+        <div class="toolbar">
+          <div class="toolbar-group">
+            <button class="btn primary" id="btnOrreryPlay">▶ Ignite Live Orbital Choir</button>
+            <span class="hint">Orbital Speed:</span>
+            <input type="range" id="speedSlider" min="15" max="200" value="65" style="width:120px;" />
+            <span class="hint" id="speedVal">1.0×</span>
+          </div>
+          <span class="hint">Planets sing their live instantaneous angular speed ω(ν) ∝ 1/r² · Golden beams flash on pure Just consonances!</span>
+        </div>
+        <div class="orrery-layout">
+          <canvas class="orrery-canvas" id="orreryCanvas"></canvas>
+          <div class="voice-mixer">
+            <div style="font-family:var(--font-mono);font-size:10.5px;color:var(--gold);text-transform:uppercase;letter-spacing:0.08em;">Live 6-Planet Voice Mixer</div>
+            <div id="mixerList"></div>
+            <div class="consonance-log" id="consonanceLog">Ignite the Orbital Choir to detect live Just-Intonation planetary consonances...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: FOUR UNIVERSAL CREATION CHORDS -->
+      <section class="panel" id="tab-chords">
+        <div class="toolbar">
+          <div class="toolbar-group">
+            <button class="btn primary" id="btnPlaySequence">▶ Play All 4 Creation Chords (Sacred Sequence)</button>
+            <span class="hint" id="activeChordLabel">Select any of Kepler's 4 Universal 6-Planet Chords from Book V, Cap. VII (pp. 209–210)</span>
+          </div>
+          <span class="hint">Toggle <strong>Just Intonation vs 12-TET</strong> above to see &amp; hear acoustic beating vanish!</span>
+        </div>
+        <div class="chords-layout">
+          <div class="chord-grid" id="chordGrid"></div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <canvas class="scope-canvas" id="scopeCanvas"></canvas>
+            <div class="hint" style="text-align:center;">Live Real-Time Audio Waveform &amp; Harmonic Spectrum (Web Audio AnalyserNode)</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: MONOCHORD & POLYGON CONSONANCE PLUCKER -->
+      <section class="panel" id="tab-monochord">
+        <div class="toolbar">
+          <div class="toolbar-group">
+            <button class="btn primary" id="btnPluckBoth">▶ Pluck Divided String (Whole + Both Parts)</button>
+            <span class="hint" id="monoStatus">Ratio 2:3 (Equilateral Triangle — Perfect Fifth · Pure Consonance)</span>
+          </div>
+          <span class="hint">Drag the brass bridge along the string or click any polygon below · Folio 0050 (1596) &amp; Folio 0297 (1619)</span>
+        </div>
+        <canvas class="monochord-canvas" id="monochordCanvas"></canvas>
+        <div class="poly-strip" id="polyStrip"></div>
+        <div style="margin-top:12px;font-family:var(--font-mono);font-size:10.5px;color:var(--gold);letter-spacing:0.08em;text-transform:uppercase;">Folio 0297 (p. 205) — Kepler's Integer String-Length Scale (Cantus Durus: 2160 down to 864)</div>
+        <div class="scale-strip" id="scaleStrip"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    (function () {
+      'use strict';
+
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('embed') === '1') {
+        document.body.classList.add('is-embed');
+        document.getElementById('btnFullStudio').style.display = 'inline-flex';
+      }
+
+      // ── Exact Symbolic Ratios (Relative to Cosmic G2 = 98 Hz) ──────────
+      const G2_HZ = 98.0;
+
+      function quantize12TET(hz) {
+        const midi = Math.round(69 + 12 * Math.log2(hz / 440));
+        return 440 * Math.pow(2, (midi - 69) / 12);
+      }
+
+      const appState = {
+        justIntonation: true,
+        timbre: 'organ',
+        glissando: false,
+        bpm: 76,
+        activeTimers: [],
+        activeNodes: [],
+        orreryRunning: false,
+        orrerySpeed: 0.65,
+        orreryVoices: {},
+        muted: { saturn: false, jupiter: false, mars: false, earth: false, venus: false, mercury: false },
+        monoPos: 2 / 3, // bridge position (fraction of string)
+        monoPoly: 3,
+        monoVib: 0,
+      };
+
+      function resolveHz(ratioFromG2) {
+        const just = G2_HZ * ratioFromG2;
+        return appState.justIntonation ? just : quantize12TET(just);
+      }
+
+      // ── Exact 1619 Folio 0299 Transcription (7 Voices) ─────────────────
+      const MELODIES = [
+        {
+          key: 'saturn', glyph: '♄', latin: 'Saturnus', part: 'Bass', color: '#f5b942',
+          mode: 'Mixolydian · 4:5 Major 3rd', clef: 'F', pan: -0.65,
+          // staffStep: diatonic offset above bottom line of staff
+          notes: [
+            { l: 'G2', r: 1, b: 2, s: 0 }, { l: 'A2', r: 9/8, b: 2, s: 1 },
+            { l: 'B2', r: 5/4, b: 2, s: 2 }, { l: 'A2', r: 9/8, b: 2, s: 1 },
+            { l: 'G2', r: 1, b: 3, s: 0 },
+          ],
+        },
+        {
+          key: 'jupiter', glyph: '♃', latin: 'Iupiter', part: 'Bass', color: '#fb923c',
+          mode: 'Dorian · 5:6 Minor 3rd (B♭)', clef: 'F♭', pan: -0.40,
+          notes: [
+            { l: 'G2', r: 1, b: 2, s: 1 }, { l: 'A2', r: 10/9, b: 2, s: 2 },
+            { l: 'B♭2', r: 6/5, b: 2, s: 3 }, { l: 'A2', r: 10/9, b: 2, s: 2 },
+            { l: 'G2', r: 1, b: 3, s: 1 },
+          ],
+        },
+        {
+          key: 'mars', glyph: '♂', latin: 'Mars ferè', part: 'Tenor', color: '#f87171',
+          mode: 'Lydian · ~2:3 Perfect 5th', clef: 'C♭', pan: -0.15,
+          notes: [
+            { l: 'F3', r: 16/9, b: 1, s: 1 }, { l: 'G3', r: 2, b: 1, s: 2 },
+            { l: 'A3', r: 9/4, b: 1, s: 3 }, { l: 'B♭3', r: 12/5, b: 1, s: 4 },
+            { l: 'C4', r: 8/3, b: 2, s: 5 }, { l: 'B♭3', r: 12/5, b: 1, s: 4 },
+            { l: 'A3', r: 9/4, b: 1, s: 3 }, { l: 'G3', r: 2, b: 1, s: 2 },
+            { l: 'F3', r: 16/9, b: 2, s: 1 },
+          ],
+        },
+        {
+          key: 'earth', glyph: '⊕', latin: 'Terra (MI–FA–MI)', part: 'Alto', color: '#34d399',
+          mode: 'Phrygian · 15:16 Semitone', clef: 'G', pan: 0.10,
+          notes: [
+            { l: 'G4', r: 4, b: 2.5, s: 3 }, { l: 'A♭4', r: 64/15, b: 2.5, s: 4 },
+            { l: 'G4', r: 4, b: 4, s: 3 },
+          ],
+        },
+        {
+          key: 'venus', glyph: '♀', latin: 'Venus', part: 'Alto', color: '#60a5fa',
+          mode: 'Unison Diesis · 24:25', clef: 'G', pan: 0.35,
+          notes: [
+            { l: 'E5', r: 20/3, b: 3, s: 6 }, { l: 'E5+', r: 125/18, b: 3, s: 6 },
+            { l: 'E5', r: 20/3, b: 3, s: 6 },
+          ],
+        },
+        {
+          key: 'mercury', glyph: '☿', latin: 'Mercurius', part: 'Soprano', color: '#38bdf8',
+          mode: 'Octave + Minor 3rd · 5:12', clef: 'C', pan: 0.60,
+          notes: [
+            { l: 'C4', r: 8/3, b: 0.5, s: 0 }, { l: 'D4', r: 3, b: 0.5, s: 1 },
+            { l: 'E4', r: 10/3, b: 0.5, s: 2 }, { l: 'F4', r: 32/9, b: 0.5, s: 3 },
+            { l: 'G4', r: 4, b: 0.5, s: 4 }, { l: 'A4', r: 9/2, b: 0.5, s: 5 },
+            { l: 'B4', r: 5, b: 0.5, s: 6 }, { l: 'C5', r: 16/3, b: 0.5, s: 7 },
+            { l: 'D5', r: 6, b: 0.5, s: 8 }, { l: 'E5', r: 20/3, b: 1.0, s: 9 },
+            { l: 'C5', r: 16/3, b: 0.8, s: 7 }, { l: 'G4', r: 4, b: 0.8, s: 4 },
+            { l: 'E4', r: 10/3, b: 0.8, s: 2 }, { l: 'C4', r: 8/3, b: 1.8, s: 0 },
+          ],
+        },
+        {
+          key: 'moon', glyph: '☽', latin: 'Luna', part: 'Soprano', color: '#c084fc',
+          mode: 'Perfect 4th · 3:4 (Cradle ☽)', clef: 'G', pan: 0.25,
+          notes: [
+            { l: 'G4', r: 4, b: 1, s: 2 }, { l: 'A4', r: 9/2, b: 1, s: 3 },
+            { l: 'B4', r: 5, b: 1, s: 4 }, { l: 'C5', r: 16/3, b: 2, s: 5 },
+            { l: 'B4', r: 5, b: 1, s: 4 }, { l: 'A4', r: 9/2, b: 1, s: 3 },
+            { l: 'G4', r: 4, b: 2, s: 2 },
+          ],
+        },
+      ];
+
+      // ── Four Universal 6-Planet Creation Chords (Folios 0301–0302) ─────
+      const CHORDS = [
+        {
+          key: 'durum_b', title: 'I. Genus Durum — Ut ♮ concordet',
+          sub: 'Folio 0301 (p. 209 left) · Radiant Major / Open E-minor resonance (G–B–E)',
+          voicings: [
+            ['♄ Saturn', 'G2', 1], ['♄ perih.', 'B2', 5/4], ['♃ Jupiter', 'B3', 5/2],
+            ['♂ Mars', 'G3', 2], ['⊕ Earth', 'G4', 4], ['♀ Venus', 'E5', 20/3], ['☿ Mercury', 'B5', 10],
+          ],
+        },
+        {
+          key: 'durum_c', title: 'II. Genus Durum — Ut c concordet',
+          sub: 'Folio 0301 (p. 209 right) · Triumphant 6-Planet C-Major Creation Chord',
+          voicings: [
+            ['♄ Saturn', 'G2', 1], ['♃ Jupiter', 'C3', 4/3], ['♂ Mars', 'G3', 2],
+            ['♂ perih.', 'C4', 8/3], ['⊕ Earth', 'G4', 4], ['♀ Venus', 'E5', 20/3], ['☿ Mercury', 'C6', 32/3],
+          ],
+        },
+        {
+          key: 'molle_bb', title: 'III. Genus Molle — Ut b concordet',
+          sub: 'Folio 0302 (p. 210 left) · Luminous Minor / E♭-Major resonance (G–B♭–E♭)',
+          voicings: [
+            ['♄ Saturn', 'G2', 1], ['♄ perih.', 'B♭2', 6/5], ['♃ Jupiter', 'B♭3', 12/5],
+            ['♂ Mars', 'G3', 2], ['⊕ Earth', 'G4', 4], ['♀ Venus', 'E♭5', 32/5], ['☿ Mercury', 'B♭5', 48/5],
+          ],
+        },
+        {
+          key: 'molle_c', title: 'IV. Genus Molle — Ut c concordet',
+          sub: 'Folio 0302 (p. 210 right) · Profound 6-Planet C-Minor Creation Chord',
+          voicings: [
+            ['♄ Saturn', 'G2', 1], ['♃ Jupiter', 'C3', 4/3], ['♂ Mars', 'G3', 2],
+            ['⊕ Earth', 'G4', 4], ['♀ Venus', 'E♭5', 32/5], ['☿ Mercury', 'G5', 8], ['☿ high', 'C6', 32/3],
+          ],
+        },
+      ];
+
+      // ── Web Audio Engine (Organ / Choir / Lute / Pure Sine + Cathedral Reverb) ─
+      let audioCtx = null;
+      let masterGain = null;
+      let analyser = null;
+      let reverbNode = null;
+
+      function ensureAudio() {
+        if (!audioCtx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          audioCtx = new AC();
+          masterGain = audioCtx.createGain();
+          masterGain.gain.value = 0.65;
+
+          analyser = audioCtx.createAnalyser();
+          analyser.fftSize = 2048;
+
+          // Procedural Stereo Cathedral Impulse Response (2.4s warm tail)
+          const sr = audioCtx.sampleRate;
+          const len = Math.floor(sr * 2.4);
+          const ir = audioCtx.createBuffer(2, len, sr);
+          for (let ch = 0; ch < 2; ch++) {
+            const d = ir.getChannelData(ch);
+            for (let i = 0; i < len; i++) {
+              const t = i / sr;
+              const decay = Math.exp(-2.3 * t);
+              d[i] = (Math.random() * 2 - 1) * decay * 0.45;
+            }
+          }
+          reverbNode = audioCtx.createConvolver();
+          reverbNode.buffer = ir;
+
+          const wetGain = audioCtx.createGain();
+          wetGain.gain.value = 0.34;
+          const dryGain = audioCtx.createGain();
+          dryGain.gain.value = 0.78;
+
+          masterGain.connect(dryGain);
+          masterGain.connect(reverbNode);
+          reverbNode.connect(wetGain);
+          dryGain.connect(analyser);
+          wetGain.connect(analyser);
+          analyser.connect(audioCtx.destination);
+        }
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        return audioCtx;
+      }
+
+      function playTone(hz, durSec, gainVal = 0.16, panVal = 0, startDelay = 0, slideToHz = null) {
+        const ctx = ensureAudio();
+        const t0 = ctx.currentTime + startDelay;
+        const t1 = t0 + durSec;
+
+        const voiceGain = ctx.createGain();
+        const panner = ctx.createStereoPanner ? ctx.createStereoPanner() : null;
+        if (panner) {
+          panner.pan.value = Math.max(-1, Math.min(1, panVal));
+          voiceGain.connect(panner);
+          panner.connect(masterGain);
+        } else {
+          voiceGain.connect(masterGain);
+        }
+
+        const timbre = appState.timbre;
+        const partials = timbre === 'organ'
+          ? [[1, 1.0], [2, 0.48], [3, 0.24], [4, 0.14], [5, 0.06]]
+          : timbre === 'choir'
+            ? [[1, 1.0], [2, 0.55], [3, 0.20], [4, 0.08]]
+            : timbre === 'lute'
+              ? [[1, 1.0], [2, 0.62], [3, 0.40], [4, 0.22], [5, 0.14], [6, 0.08]]
+              : [[1, 1.0]];
+
+        const filter = ctx.createBiquadFilter();
+        filter.type = timbre === 'choir' ? 'bandpass' : 'lowpass';
+        filter.frequency.value = timbre === 'choir' ? Math.min(1800, Math.max(420, hz * 2.1)) : (timbre === 'lute' ? Math.min(4800, hz * 8) : 3400);
+        filter.Q.value = timbre === 'choir' ? 1.8 : 0.7;
+        filter.connect(voiceGain);
+
+        const norm = partials.reduce((s, p) => s + p[1], 0);
+        const oscs = [];
+        for (const [mult, weight] of partials) {
+          const osc = ctx.createOscillator();
+          const pg = ctx.createGain();
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(hz * mult, t0);
+          if (slideToHz && slideToHz > 20) {
+            osc.frequency.exponentialRampToValueAtTime(slideToHz * mult, t1);
+          }
+          pg.gain.value = weight / norm;
+          osc.connect(pg);
+          pg.connect(filter);
+          osc.start(t0);
+          osc.stop(t1 + 0.08);
+          oscs.push(osc);
+        }
+
+        // Musical Envelope
+        const att = timbre === 'lute' ? 0.012 : (timbre === 'choir' ? Math.min(0.28, durSec * 0.3) : 0.055);
+        voiceGain.gain.setValueAtTime(0.0001, t0);
+        voiceGain.gain.linearRampToValueAtTime(gainVal, t0 + att);
+        if (timbre === 'lute') {
+          voiceGain.gain.exponentialRampToValueAtTime(0.0008, t1);
+        } else {
+          const relStart = Math.max(t0 + att + 0.02, t1 - Math.min(0.22, durSec * 0.28));
+          voiceGain.gain.setValueAtTime(gainVal, relStart);
+          voiceGain.gain.exponentialRampToValueAtTime(0.0008, t1 + 0.05);
+        }
+
+        const handle = { oscs, voiceGain };
+        appState.activeNodes.push(handle);
+        return handle;
+      }
+
+      function silenceAll() {
+        appState.activeTimers.forEach(id => clearTimeout(id));
+        appState.activeTimers = [];
+        for (const h of appState.activeNodes) {
+          try {
+            if (audioCtx) h.voiceGain.gain.setTargetAtTime(0.0001, audioCtx.currentTime, 0.03);
+            h.oscs.forEach(o => { try { o.stop(audioCtx.currentTime + 0.08); } catch (_) {} });
+          } catch (_) {}
+        }
+        appState.activeNodes = [];
+        stopOrreryAudio();
+        document.querySelectorAll('.planet-card').forEach(c => c.classList.remove('is-playing'));
+        document.querySelectorAll('.chord-card').forEach(c => c.classList.remove('active'));
+        Object.keys(litNoteIdx).forEach(k => { litNoteIdx[k] = -1; });
+        drawAllStaves();
+      }
+
+      // ── TAB 1: 1619 MENSURAL STAVES & MELODY PLAYER ────────────────────
+      const litNoteIdx = {};
+      const staffCanvases = {};
+
+      function drawStaff(voice) {
+        const canvas = staffCanvases[voice.key];
+        if (!canvas) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const w = canvas.clientWidth || 300;
+        const h = canvas.clientHeight || 86;
+        if (canvas.width !== w * dpr || canvas.height !== h * dpr) {
+          canvas.width = w * dpr;
+          canvas.height = h * dpr;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+
+        // 5 Renaissance Staff Lines
+        const topY = 20, gap = 11;
+        ctx.strokeStyle = 'rgba(203, 213, 225, 0.28)';
+        ctx.lineWidth = 1;
+        for (let i = 0; i < 5; i++) {
+          const y = topY + i * gap;
+          ctx.beginPath(); ctx.moveTo(10, y); ctx.lineTo(w - 10, y); ctx.stroke();
+        }
+
+        // Clef badge
+        ctx.fillStyle = voice.color;
+        ctx.font = 'bold 13px "EB Garamond", Georgia, serif';
+        ctx.textAlign = 'left';
+        ctx.fillText(voice.clef, 14, topY + 2.5 * gap);
+
+        // Diamond Mensural Noteheads (matching Kepler 1619 folio 0299!)
+        const n = voice.notes.length;
+        const xStart = 46, xEnd = w - 20;
+        const stepX = n > 1 ? (xEnd - xStart) / (n - 1) : 0;
+        const lit = litNoteIdx[voice.key];
+
+        // Optional continuous glissando curve behind notes
+        if (appState.glissando && n > 1) {
+          ctx.strokeStyle = voice.color;
+          ctx.globalAlpha = 0.45;
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          voice.notes.forEach((nt, idx) => {
+            const nx = xStart + idx * stepX;
+            const ny = topY + 4 * gap - nt.s * (gap * 0.5);
+            if (idx === 0) ctx.moveTo(nx, ny); else ctx.lineTo(nx, ny);
+          });
+          ctx.stroke();
+          ctx.globalAlpha = 1;
+        }
+
+        voice.notes.forEach((nt, idx) => {
+          const nx = xStart + idx * stepX;
+          const ny = topY + 4 * gap - nt.s * (gap * 0.5);
+          const isLit = idx === lit;
+
+          if (isLit) {
+            ctx.fillStyle = voice.color;
+            ctx.globalAlpha = 0.28;
+            ctx.beginPath(); ctx.arc(nx, ny, 14, 0, Math.PI * 2); ctx.fill();
+            ctx.globalAlpha = 1;
+          }
+
+          // Diamond mensural lozenge notehead
+          ctx.save();
+          ctx.translate(nx, ny);
+          ctx.beginPath();
+          ctx.moveTo(0, -6); ctx.lineTo(6.5, 0); ctx.lineTo(0, 6); ctx.lineTo(-6.5, 0);
+          ctx.closePath();
+          ctx.fillStyle = isLit ? '#ffffff' : '#0d111a';
+          ctx.fill();
+          ctx.strokeStyle = isLit ? '#fbbf24' : voice.color;
+          ctx.lineWidth = isLit ? 2.4 : 1.8;
+          ctx.stroke();
+          ctx.restore();
+
+          // Pitch label underneath
+          ctx.fillStyle = isLit ? '#fbbf24' : 'rgba(148, 163, 184, 0.8)';
+          ctx.font = (isLit ? 'bold ' : '') + '9.5px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText(nt.l, nx, h - 6);
+        });
+      }
+
+      function drawAllStaves() {
+        MELODIES.forEach(drawStaff);
+      }
+
+      function playPlanetMelody(voice, delaySec = 0) {
+        ensureAudio();
+        const beatSec = 60 / appState.bpm;
+        let t = delaySec;
+        const card = document.querySelector(`.planet-card[data-key="${voice.key}"]`);
+
+        voice.notes.forEach((nt, idx) => {
+          const dur = nt.b * beatSec;
+          const hz = resolveHz(nt.r);
+          const nextNt = voice.notes[idx + 1];
+          const slideTo = (appState.glissando && nextNt) ? resolveHz(nextNt.r) : null;
+          playTone(hz, dur * 0.96, 0.16, voice.pan, t, slideTo);
+
+          const tid = setTimeout(() => {
+            if (card) card.classList.add('is-playing');
+            litNoteIdx[voice.key] = idx;
+            drawStaff(voice);
+          }, t * 1000);
+          appState.activeTimers.push(tid);
+          t += dur;
+        });
+
+        const endTid = setTimeout(() => {
+          if (card) card.classList.remove('is-playing');
+          litNoteIdx[voice.key] = -1;
+          drawStaff(voice);
+        }, t * 1000 + 80);
+        appState.activeTimers.push(endTid);
+      }
+
+      // Build Tab 1 Cards
+      const melodyGrid = document.getElementById('melodyGrid');
+      for (const v of MELODIES) {
+        litNoteIdx[v.key] = -1;
+        const card = document.createElement('div');
+        card.className = 'planet-card';
+        card.dataset.key = v.key;
+        card.innerHTML = `
+          <div class="planet-hdr">
+            <div class="planet-title" style="color:${v.color}"><span>${v.glyph}</span><span>${v.latin}</span></div>
+            <div style="display:flex;gap:5px;align-items:center;">
+              <span class="planet-badge">${v.part}</span>
+              <button class="btn" data-play="${v.key}">▶ Play</button>
+            </div>
+          </div>
+          <div class="planet-meta">
+            <span>${v.mode}</span>
+            <span>${Math.round(resolveHz(v.notes[0].r))}–${Math.round(resolveHz(Math.max(...v.notes.map(n=>n.r))))} Hz</span>
+          </div>
+          <canvas class="staff-canvas"></canvas>
+        `;
+        const canvas = card.querySelector('canvas');
+        staffCanvases[v.key] = canvas;
+        card.querySelector('[data-play]').addEventListener('click', () => playPlanetMelody(v, 0));
+        canvas.addEventListener('click', (ev) => {
+          const rect = canvas.getBoundingClientRect();
+          const x = ev.clientX - rect.left;
+          const xStart = 46, xEnd = rect.width - 20;
+          const frac = Math.max(0, Math.min(1, (x - xStart) / Math.max(1, xEnd - xStart)));
+          const idx = Math.round(frac * (v.notes.length - 1));
+          const nt = v.notes[idx];
+          playTone(resolveHz(nt.r), 0.85, 0.20, v.pan, 0);
+          litNoteIdx[v.key] = idx;
+          drawStaff(v);
+          setTimeout(() => { litNoteIdx[v.key] = -1; drawStaff(v); }, 750);
+        });
+        melodyGrid.appendChild(card);
+      }
+
+      document.getElementById('btnPlayMotet').addEventListener('click', () => {
+        silenceAll();
+        const beatSec = 60 / appState.bpm;
+        MELODIES.forEach((v, idx) => {
+          playPlanetMelody(v, idx * 1.5 * beatSec);
+        });
+      });
+
+      document.getElementById('btnGlissando').addEventListener('click', (e) => {
+        appState.glissando = !appState.glissando;
+        e.target.textContent = appState.glissando
+          ? 'Mode: Continuous Orbital Glissando'
+          : 'Mode: Discrete Notes (Folio 0299)';
+        e.target.classList.toggle('active', appState.glissando);
+        drawAllStaves();
+      });
+
+      document.getElementById('tempoSlider').addEventListener('input', (e) => {
+        appState.bpm = Number(e.target.value);
+        document.getElementById('tempoVal').textContent = `${appState.bpm} BPM`;
+      });
+
+      // ── TAB 2: LIVE KEPLERIAN ORBITAL ORRERY CHOIR ─────────────────────
+      const ORRERY_PLANETS = [
+        { key: 'saturn',  glyph: '♄', name: 'Saturn',  color: '#f5b942', rVis: 0.90, ecc: 0.056, period: 29.46, rMin: 1.0,    rMax: 5/4,   pan: -0.65, angle: 0.2 },
+        { key: 'jupiter', glyph: '♃', name: 'Jupiter', color: '#fb923c', rVis: 0.75, ecc: 0.049, period: 11.86, rMin: 1.0,    rMax: 6/5,   pan: -0.40, angle: 1.4 },
+        { key: 'mars',    glyph: '♂', name: 'Mars',    color: '#f87171', rVis: 0.60, ecc: 0.093, period: 1.881, rMin: 16/9,   rMax: 8/3,   pan: -0.15, angle: 2.7 },
+        { key: 'earth',   glyph: '⊕', name: 'Earth',   color: '#34d399', rVis: 0.46, ecc: 0.017, period: 1.000, rMin: 4.0,    rMax: 64/15, pan: 0.10,  angle: 4.0 },
+        { key: 'venus',   glyph: '♀', name: 'Venus',   color: '#60a5fa', rVis: 0.34, ecc: 0.007, period: 0.615, rMin: 20/3,   rMax: 125/18,pan: 0.35,  angle: 5.1 },
+        { key: 'mercury', glyph: '☿', name: 'Mercury', color: '#38bdf8', rVis: 0.22, ecc: 0.206, period: 0.241, rMin: 8/3,    rMax: 32/5,  pan: 0.60,  angle: 0.9 },
+      ];
+
+      const JUST_INTERVALS = [
+        { name: 'Octave (1:2)', r: 2.0 },
+        { name: 'Fifth (2:3)', r: 1.5 },
+        { name: 'Fourth (3:4)', r: 4/3 },
+        { name: 'Major 3rd (4:5)', r: 1.25 },
+        { name: 'Minor 3rd (5:6)', r: 1.2 },
+        { name: 'Major 6th (3:5)', r: 5/3 },
+        { name: 'Minor 6th (5:8)', r: 1.6 },
+      ];
+
+      const mixerList = document.getElementById('mixerList');
+      const mixerReadouts = {};
+      for (const p of ORRERY_PLANETS) {
+        const row = document.createElement('div');
+        row.className = 'mixer-row';
+        row.innerHTML = `
+          <span style="color:${p.color};font-weight:700;">${p.glyph} ${p.name}</span>
+          <span id="hz-${p.key}" style="color:var(--muted);">-- Hz</span>
+          <button class="btn" data-mute="${p.key}" style="padding:2px 7px;font-size:10px;">Active</button>
+        `;
+        row.querySelector('[data-mute]').addEventListener('click', (e) => {
+          appState.muted[p.key] = !appState.muted[p.key];
+          row.classList.toggle('muted', appState.muted[p.key]);
+          e.target.textContent = appState.muted[p.key] ? 'Muted' : 'Active';
+          const ov = appState.orreryVoices[p.key];
+          if (ov && audioCtx) {
+            ov.gain.gain.setTargetAtTime(appState.muted[p.key] ? 0.0001 : ov.baseGain, audioCtx.currentTime, 0.08);
+          }
+        });
+        mixerList.appendChild(row);
+        mixerReadouts[p.key] = row.querySelector(`#hz-${p.key}`);
+      }
+
+      function startOrreryAudio() {
+        const ctx = ensureAudio();
+        stopOrreryAudio();
+        appState.orreryRunning = true;
+        document.getElementById('btnOrreryPlay').textContent = '■ Pause Live Orbital Choir';
+
+        for (const p of ORRERY_PLANETS) {
+          const osc1 = ctx.createOscillator();
+          const osc2 = ctx.createOscillator();
+          const g = ctx.createGain();
+          const g2 = ctx.createGain();
+          const panner = ctx.createStereoPanner ? ctx.createStereoPanner() : null;
+          osc1.type = 'sine';
+          osc2.type = 'triangle';
+          g2.gain.value = 0.25;
+          const baseGain = p.key === 'saturn' || p.key === 'jupiter' ? 0.11 : 0.075;
+          g.gain.value = appState.muted[p.key] ? 0.0001 : baseGain;
+          osc1.connect(g);
+          osc2.connect(g2); g2.connect(g);
+          if (panner) { panner.pan.value = p.pan; g.connect(panner); panner.connect(masterGain); }
+          else { g.connect(masterGain); }
+          osc1.start(); osc2.start();
+          appState.orreryVoices[p.key] = { osc1, osc2, gain: g, baseGain };
+        }
+      }
+
+      function stopOrreryAudio() {
+        appState.orreryRunning = false;
+        const btn = document.getElementById('btnOrreryPlay');
+        if (btn) btn.textContent = '▶ Ignite Live Orbital Choir';
+        for (const k of Object.keys(appState.orreryVoices)) {
+          const ov = appState.orreryVoices[k];
+          try {
+            if (audioCtx) ov.gain.gain.setTargetAtTime(0.0001, audioCtx.currentTime, 0.05);
+            ov.osc1.stop(audioCtx.currentTime + 0.1);
+            ov.osc2.stop(audioCtx.currentTime + 0.1);
+          } catch (_) {}
+        }
+        appState.orreryVoices = {};
+      }
+
+      document.getElementById('btnOrreryPlay').addEventListener('click', () => {
+        if (appState.orreryRunning) stopOrreryAudio();
+        else startOrreryAudio();
+      });
+
+      document.getElementById('speedSlider').addEventListener('input', (e) => {
+        appState.orrerySpeed = Number(e.target.value) / 65;
+        document.getElementById('speedVal').textContent = `${appState.orrerySpeed.toFixed(1)}×`;
+      });
+
+      let lastOrreryT = performance.now();
+      function updateOrrery(now) {
+        const dt = Math.min(0.05, (now - lastOrreryT) / 1000);
+        lastOrreryT = now;
+
+        const canvas = document.getElementById('orreryCanvas');
+        if (!canvas || !canvas.offsetParent) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const w = canvas.clientWidth, h = canvas.clientHeight;
+        if (canvas.width !== w * dpr || canvas.height !== h * dpr) {
+          canvas.width = w * dpr; canvas.height = h * dpr;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+
+        const cx = w * 0.5, cy = h * 0.5;
+        const Rmax = Math.min(w, h) * 0.44;
+        const positions = [];
+        const liveRatios = [];
+
+        // Subtle solar glow at focus
+        const grad = ctx.createRadialGradient(cx, cy, 2, cx, cy, 26);
+        grad.addColorStop(0, '#fff7cc'); grad.addColorStop(0.4, '#f5b942'); grad.addColorStop(1, 'rgba(245,185,66,0)');
+        ctx.fillStyle = grad;
+        ctx.beginPath(); ctx.arc(cx, cy, 26, 0, Math.PI * 2); ctx.fill();
+
+        for (const p of ORRERY_PLANETS) {
+          // Exact Keplerian angular velocity speedup near perihelion (nu = 0)
+          const a = p.rVis * Rmax;
+          const b = a * Math.sqrt(1 - p.ecc * p.ecc);
+          const cFocus = a * p.ecc;
+          const speedFactor = Math.pow(1 + p.ecc * Math.cos(p.angle), 2);
+          // Compressed period exponent so outer planets visibly move while preserving T^2=a^3 ordering
+          const baseOmega = (0.75 / Math.pow(p.period, 0.52)) * appState.orrerySpeed;
+          p.angle = (p.angle + dt * baseOmega * speedFactor) % (Math.PI * 2);
+
+          // Draw focal ellipse
+          ctx.strokeStyle = p.color;
+          ctx.globalAlpha = 0.24;
+          ctx.lineWidth = 1.2;
+          ctx.beginPath();
+          ctx.ellipse(cx - cFocus, cy, a, b, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          ctx.globalAlpha = 1;
+
+          const px = (cx - cFocus) + a * Math.cos(p.angle);
+          const py = cy + b * Math.sin(p.angle);
+          positions.push({ p, px, py });
+
+          // Continuous Keplerian pitch interpolation: cos(0)=perihelion (rMax), cos(pi)=aphelion (rMin)
+          const tPeri = 0.5 * (1 + Math.cos(p.angle));
+          const ratio = p.rMin * Math.pow(p.rMax / p.rMin, tPeri);
+          const hz = resolveHz(ratio);
+          liveRatios.push({ p, ratio, hz, px, py });
+          mixerReadouts[p.key].textContent = `${hz.toFixed(1)} Hz`;
+
+          if (appState.orreryRunning && appState.orreryVoices[p.key] && audioCtx) {
+            const ov = appState.orreryVoices[p.key];
+            ov.osc1.frequency.setTargetAtTime(hz, audioCtx.currentTime, 0.04);
+            ov.osc2.frequency.setTargetAtTime(hz * 2.0, audioCtx.currentTime, 0.04);
+          }
+        }
+
+        // Consonance Beam Detector between live planet pairs!
+        const activeHits = [];
+        for (let i = 0; i < liveRatios.length; i++) {
+          for (let j = i + 1; j < liveRatios.length; j++) {
+            const A = liveRatios[i], B = liveRatios[j];
+            if (appState.muted[A.p.key] || appState.muted[B.p.key]) continue;
+            let r = B.hz / A.hz;
+            while (r > 2.05) r /= 2;
+            while (r < 0.98) r *= 2;
+            for (const iv of JUST_INTERVALS) {
+              if (Math.abs(r - iv.r) / iv.r < 0.012) {
+                activeHits.push(`${A.p.glyph}–${B.p.glyph}: ${iv.name}`);
+                ctx.strokeStyle = 'rgba(245, 185, 66, 0.65)';
+                ctx.lineWidth = 1.8;
+                ctx.beginPath(); ctx.moveTo(A.px, A.py); ctx.lineTo(B.px, B.py); ctx.stroke();
+                break;
+              }
+            }
+          }
+        }
+
+        // Draw Planets on top of beams
+        for (const { p, px, py } of positions) {
+          ctx.fillStyle = p.color;
+          ctx.beginPath(); ctx.arc(px, py, p.key === 'saturn' || p.key === 'jupiter' ? 7 : 5.5, 0, Math.PI * 2); ctx.fill();
+          ctx.fillStyle = '#f8fafc';
+          ctx.font = 'bold 11px monospace';
+          ctx.fillText(p.glyph, px + 9, py + 4);
+        }
+
+        const logEl = document.getElementById('consonanceLog');
+        if (activeHits.length > 0) {
+          logEl.innerHTML = '<strong>Live Just Consonances:</strong><br>' + activeHits.slice(0, 4).join(' · ');
+        }
+      }
+
+      // ── TAB 3: FOUR UNIVERSAL CREATION CHORDS + LIVE OSCILLOSCOPE ──────
+      const chordGrid = document.getElementById('chordGrid');
+      function playChord(chord, durSec = 4.8) {
+        ensureAudio();
+        document.querySelectorAll('.chord-card').forEach(c => c.classList.toggle('active', c.dataset.key === chord.key));
+        document.getElementById('activeChordLabel').textContent = `${chord.title} (${appState.justIntonation ? 'Pure Just Intonation' : '12-TET Equal Temperament'})`;
+        chord.voicings.forEach(([planet, lbl, ratio], idx) => {
+          const pan = -0.55 + (1.1 * idx) / Math.max(1, chord.voicings.length - 1);
+          const gain = 0.14 / (1 + 0.12 * idx);
+          playTone(resolveHz(ratio), durSec, gain, pan, idx * 0.04);
+        });
+      }
+
+      for (const ch of CHORDS) {
+        const card = document.createElement('div');
+        card.className = 'chord-card';
+        card.dataset.key = ch.key;
+        card.innerHTML = `
+          <div class="chord-title">${ch.title}</div>
+          <div class="chord-sub">${ch.sub}</div>
+          <div class="chord-voicings">
+            ${ch.voicings.map(([pl, nt]) => `<span class="note-chip">${pl}: <strong>${nt}</strong></span>`).join('')}
+          </div>
+        `;
+        card.addEventListener('click', () => { silenceAll(); playChord(ch, 5.0); });
+        chordGrid.appendChild(card);
+      }
+
+      document.getElementById('btnPlaySequence').addEventListener('click', () => {
+        silenceAll();
+        CHORDS.forEach((ch, idx) => {
+          const tid = setTimeout(() => playChord(ch, 4.4), idx * 4600);
+          appState.activeTimers.push(tid);
+        });
+      });
+
+      function drawScope() {
+        const canvas = document.getElementById('scopeCanvas');
+        if (!canvas || !canvas.offsetParent) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const w = canvas.clientWidth, h = canvas.clientHeight;
+        if (canvas.width !== w * dpr || canvas.height !== h * dpr) {
+          canvas.width = w * dpr; canvas.height = h * dpr;
+        }
+        const ctx = canvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.fillStyle = '#0a0d14';
+        ctx.fillRect(0, 0, w, h);
+
+        // Center baseline
+        ctx.strokeStyle = 'rgba(217, 173, 92, 0.18)';
+        ctx.beginPath(); ctx.moveTo(0, h / 2); ctx.lineTo(w, h / 2); ctx.stroke();
+
+        if (!analyser) {
+          ctx.fillStyle = 'rgba(148, 163, 184, 0.6)';
+          ctx.font = '12px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText('Click any Creation Chord to inspect live acoustic waveform', w / 2, h / 2 - 8);
+          return;
+        }
+
+        const buf = new Float32Array(analyser.fftSize);
+        analyser.getFloatTimeDomainData(buf);
+        ctx.strokeStyle = appState.justIntonation ? '#f5b942' : '#fb7185';
+        ctx.lineWidth = 2.0;
+        ctx.beginPath();
+        const slice = w / buf.length;
+        for (let i = 0; i < buf.length; i++) {
+          const x = i * slice;
+          const y = h * 0.5 + buf[i] * (h * 0.42);
+          if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+
+        ctx.fillStyle = appState.justIntonation ? '#34d399' : '#fb7185';
+        ctx.font = 'bold 11px monospace';
+        ctx.textAlign = 'left';
+        ctx.fillText(appState.justIntonation ? 'PURE JUST INTONATION · ZERO BEATING' : '12-TET EQUAL TEMPERAMENT · AUDIBLE BEATING', 12, 22);
+      }
+
+      // ── TAB 4: INTERACTIVE MONOCHORD & POLYGON PLUCKER (0050 & 0297) ───
+      const POLYGONS = [
+        { n: 2, label: 'Diameter (2)',    pos: 1/2, interval: 'Octave (1:2)',       scib: true },
+        { n: 3, label: 'Triangle (3)',    pos: 2/3, interval: 'Fifth (2:3)',        scib: true },
+        { n: 4, label: 'Square (4)',      pos: 3/4, interval: 'Fourth (3:4)',       scib: true },
+        { n: 5, label: 'Pentagon (5)',    pos: 4/5, interval: 'Major 3rd (4:5)',    scib: true },
+        { n: 6, label: 'Hexagon (6)',     pos: 5/6, interval: 'Minor 3rd (5:6)',    scib: true },
+        { n: 8, label: 'Octagon (8)',     pos: 5/8, interval: 'Minor 6th (5:8)',    scib: true },
+        { n: 7, label: 'Heptagon (7) ✗',  pos: 6/7, interval: 'Inscibilis (6:7)',   scib: false },
+        { n: 9, label: 'Nonagon (9) ✗',   pos: 7/9, interval: 'Inscibilis (7:9)',   scib: false },
+      ];
+
+      function pluckMonochord(pos, labelText) {
+        appState.monoPos = Math.max(0.12, Math.min(0.88, pos));
+        appState.monoVib = 1.0;
+        const fWhole = G2_HZ * 2; // G3 = 196 Hz
+        const fLong = fWhole / appState.monoPos;
+        const fShort = fWhole / (1 - appState.monoPos);
+        const prevTimbre = appState.timbre;
+        appState.timbre = 'lute';
+        playTone(fWhole, 2.2, 0.16, -0.4, 0.0);
+        playTone(fLong,  2.2, 0.16,  0.0, 0.06);
+        playTone(fShort, 2.0, 0.12,  0.4, 0.12);
+        appState.timbre = prevTimbre;
+        if (labelText) {
+          document.getElementById('monoStatus').textContent =
+            `${labelText} · Whole ${fWhole.toFixed(1)} Hz · Long ${fLong.toFixed(1)} Hz · Short ${fShort.toFixed(1)} Hz`;
+        }
+      }
+
+      const polyStrip = document.getElementById('polyStrip');
+      for (const pg of POLYGONS) {
+        const btn = document.createElement('button');
+        btn.className = 'poly-btn' + (pg.scib ? '' : ' inscibilis') + (pg.n === 3 ? ' active' : '');
+        btn.innerHTML = `<strong>${pg.label}</strong><span style="font-size:10px;opacity:0.8">${pg.interval}</span>`;
+        btn.addEventListener('click', () => {
+          appState.monoPoly = pg.n;
+          polyStrip.querySelectorAll('.poly-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          pluckMonochord(pg.pos, `${pg.label} — ${pg.interval}`);
+        });
+        polyStrip.appendChild(btn);
+      }
+
+      // Folio 0297 Exact Integer String Lengths (Cantus Durus)
+      const FOLIO_0297 = [
+        ['G', 2160], ['A', 1920], ['B', 1728], ['C', 1620], ['D', 1440],
+        ['E', 1296], ['F♯', 1152], ['g', 1080], ['a', 960], ['b', 864],
+      ];
+      const scaleStrip = document.getElementById('scaleStrip');
+      for (const [noteLbl, strLen] of FOLIO_0297) {
+        const key = document.createElement('button');
+        key.className = 'scale-key';
+        key.innerHTML = `<div style="font-size:14px;font-weight:700">${noteLbl}</div><div style="font-size:9.5px;opacity:0.75">${strLen}</div>`;
+        key.addEventListener('click', () => {
+          const ratio = 2160 / strLen;
+          playTone(resolveHz(ratio * 2), 1.4, 0.20, 0, 0);
+          key.classList.add('lit');
+          setTimeout(() => key.classList.remove('lit'), 400);
+        });
+        scaleStrip.appendChild(key);
+      }
+
+      document.getElementById('btnPluckBoth').addEventListener('click', () => {
+        pluckMonochord(appState.monoPos, `Bridge at ${(appState.monoPos * 100).toFixed(1)}%`);
+      });
+
+      const monoCanvas = document.getElementById('monochordCanvas');
+      monoCanvas.addEventListener('pointerdown', (ev) => {
+        const rect = monoCanvas.getBoundingClientRect();
+        const x0 = 190, x1 = rect.width - 36;
+        const frac = (ev.clientX - rect.left - x0) / Math.max(1, x1 - x0);
+        if (frac >= 0.1 && frac <= 0.9) {
+          pluckMonochord(frac, `Custom Bridge (${(frac * 100).toFixed(1)}%)`);
+        }
+      });
+
+      function drawMonochord(now) {
+        if (!monoCanvas || !monoCanvas.offsetParent) return;
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const w = monoCanvas.clientWidth, h = monoCanvas.clientHeight;
+        if (monoCanvas.width !== w * dpr || monoCanvas.height !== h * dpr) {
+          monoCanvas.width = w * dpr; monoCanvas.height = h * dpr;
+        }
+        const ctx = monoCanvas.getContext('2d');
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        ctx.clearRect(0, 0, w, h);
+
+        appState.monoVib *= 0.965;
+
+        // Left: Inscribed Regular Polygon (n sides)
+        const pcx = 95, pcy = h * 0.5, pr = 64;
+        const isScib = ![7, 9, 11].includes(appState.monoPoly);
+        ctx.strokeStyle = isScib ? 'rgba(245, 185, 66, 0.4)' : 'rgba(251, 113, 133, 0.4)';
+        ctx.lineWidth = 1.4;
+        ctx.beginPath(); ctx.arc(pcx, pcy, pr, 0, Math.PI * 2); ctx.stroke();
+
+        ctx.strokeStyle = isScib ? '#f5b942' : '#fb7185';
+        ctx.lineWidth = 2.2;
+        ctx.beginPath();
+        for (let k = 0; k <= appState.monoPoly; k++) {
+          const ang = -Math.PI / 2 + (2 * Math.PI * k) / appState.monoPoly;
+          const x = pcx + pr * Math.cos(ang), y = pcy + pr * Math.sin(ang);
+          if (k === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+        }
+        ctx.stroke();
+        ctx.fillStyle = isScib ? '#f5b942' : '#fb7185';
+        ctx.font = 'bold 11px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(`n = ${appState.monoPoly} (${isScib ? 'Scibilis' : 'Inscibilis'})`, pcx, h - 16);
+
+        // Right: Vibrating Brass Monochord String + Movable Bridge
+        const x0 = 190, x1 = w - 36, sy = h * 0.52;
+        const bx = x0 + (x1 - x0) * appState.monoPos;
+
+        // Soundbox body
+        ctx.fillStyle = '#19202e';
+        ctx.strokeStyle = 'rgba(217, 173, 92, 0.35)';
+        ctx.lineWidth = 1.5;
+        ctx.fillRect(x0 - 12, sy + 18, (x1 - x0) + 24, 34);
+        ctx.strokeRect(x0 - 12, sy + 18, (x1 - x0) + 24, 34);
+
+        // Vibrating left & right string spans
+        const drawSpan = (ax, bx2, col, freqMul) => {
+          ctx.strokeStyle = col;
+          ctx.lineWidth = 2.6;
+          ctx.beginPath();
+          const amp = 22 * appState.monoVib * Math.sin(now * 0.045 * freqMul);
+          for (let i = 0; i <= 40; i++) {
+            const t = i / 40;
+            const px = ax + (bx2 - ax) * t;
+            const py = sy + amp * Math.sin(Math.PI * t);
+            if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+          }
+          ctx.stroke();
+        };
+        drawSpan(x0, bx, isScib ? '#f5b942' : '#fb7185', 1.0);
+        drawSpan(bx, x1, isScib ? '#38bdf8' : '#fda4af', 1.7);
+
+        // End nuts & Movable Brass Bridge
+        ctx.fillStyle = '#e5b242';
+        ctx.fillRect(x0 - 3, sy - 6, 6, 26);
+        ctx.fillRect(x1 - 3, sy - 6, 6, 26);
+        ctx.beginPath();
+        ctx.moveTo(bx, sy - 10); ctx.lineTo(bx - 10, sy + 20); ctx.lineTo(bx + 10, sy + 20);
+        ctx.closePath();
+        ctx.fillStyle = '#fbbf24';
+        ctx.fill();
+
+        ctx.fillStyle = '#cbd5e1';
+        ctx.font = '11px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(`Long Segment (${(appState.monoPos * 100).toFixed(0)}%)`, (x0 + bx) / 2, sy - 34);
+        ctx.fillText(`Short (${((1 - appState.monoPos) * 100).toFixed(0)}%)`, (bx + x1) / 2, sy - 34);
+      }
+
+      // ── Global Controls & Tab Switching ────────────────────────────────
+      document.getElementById('timbreSelect').addEventListener('change', (e) => {
+        appState.timbre = e.target.value;
+      });
+
+      document.getElementById('btnTuning').addEventListener('click', (e) => {
+        appState.justIntonation = !appState.justIntonation;
+        e.target.textContent = appState.justIntonation ? 'Just Intonation (1619)' : '12-TET Equal Temp';
+        e.target.classList.toggle('active', appState.justIntonation);
+      });
+
+      document.getElementById('btnStopAll').addEventListener('click', silenceAll);
+
+      function activateTab(tabId) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+        document.querySelectorAll('.panel').forEach(p => p.classList.toggle('active', p.id === `tab-${tabId}`));
+        if (tabId === 'melodies') setTimeout(drawAllStaves, 20);
+      }
+
+      document.querySelectorAll('.tab-btn').forEach(b => {
+        b.addEventListener('click', () => activateTab(b.dataset.tab));
+      });
+
+      const startTab = params.get('tab');
+      if (startTab && ['melodies', 'orrery', 'chords', 'monochord'].includes(startTab)) {
+        activateTab(startTab);
+      }
+
+      window.addEventListener('resize', drawAllStaves);
+      drawAllStaves();
+
+      function tick(now) {
+        requestAnimationFrame(tick);
+        updateOrrery(now);
+        drawScope();
+        drawMonochord(now);
+      }
+      requestAnimationFrame(tick);
+    })();
+  </script>
+</body>
+</html>

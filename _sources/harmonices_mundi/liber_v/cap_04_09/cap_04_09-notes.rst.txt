@@ -23,4 +23,6 @@ Transcription & Provenance
 
 * **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber V, Capita IV–IX* (:cite:`Linz, 1619, pp. 190–255 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 285–329 <frisch:1864:v5>`).
 * **English Track**: *Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber V, Capita IV–IX* (:cite:`Linz: Tampach/Plancus, 1619, pp. 190–255 <kepler:1619:hm>`; :cite:`Frisch V, pp. 285–329 <frisch:1864:v5>`).
-* **Folio Scan**: Verified 300-DPI scan ``harmonices_mundi:0283`` (p. 191).
+* **Folio Scans**: Verified 300-DPI scans ``harmonices_mundi:0283`` (p. 191), ``0297`` (p. 205, *Cantus Durus* & *Mollis* string-length scales ``2160–864``), ``0299`` (p. 207, seven-voice planetary melodies including *Luna*), ``0301`` (p. 209, *Harmoniae Universales Generis Duri*), and ``0302`` (p. 210, *Harmoniae Universales Generis Mollis*).
+* **Exact Musical Realization**: All interactive Web Audio synthesis, stereo cathedral-organ MP3 recordings, and microtonal 14-bit pitch-bend MIDI tracks are generated directly from exact ``sp.Rational`` ratios in ``geometor.kepler.music`` anchored at $G_2 = 98\text{ Hz}$.
+

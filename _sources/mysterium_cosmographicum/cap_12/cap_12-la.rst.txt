@@ -23,6 +23,18 @@ In folio p. 42 (ed. 1596), Keplerus divisiones circuli per quadrangulum, diametr
    :alt: Monochordum harmonicum et aspectus planetarum (Tubingae 1596, p. 40)
    :caption: Editio princeps (Tubingae 1596, p. 40, fol. 0050): Monochordum et consonantiae musicae.
 
+.. raw:: html
+
+   <div class="kepler-cad-studio" data-scene="harmonices_monochord_studio">
+     <iframe class="kepler-audio-iframe" src="../../_static/harmonices-mundi-studio.html?embed=1&amp;tab=monochord" title="Monochordum Harmonicum et Polygona Scibilia (1596 / 1619)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Monochordum Harmonicum (fol. 0050 &amp; 0297)</strong> · Chordae divisiones per figuras scibiles et inscibiles</span>
+       <span>
+         <a href="../../_static/harmonices-mundi-studio.html?tab=monochord" target="_blank" rel="noopener">Aperire Studio ↗</a>
+       </span>
+     </div>
+   </div>
+
 .. container:: kepler-plate-pair
 
    .. picture:: 0052.g1.png
