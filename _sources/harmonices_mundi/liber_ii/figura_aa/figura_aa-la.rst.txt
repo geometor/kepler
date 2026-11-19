@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: II.Figura Aa
 :order: 3
+:folio: harmonices_mundi:0078
 :tracks: Latin: figura_aa-la | English: figura_aa-en | Summary: figura_aa-summary | Notes: figura_aa-notes
 
 .. _hm-liber-ii-figura_aa-la:
 
 De Congruentia Pentagoni, Decagoni & Stellae Quinquangulae (Aa)
 ===============================================================
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber II, pp. 59–61* (:cite:`Linz, 1619 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 138–140 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

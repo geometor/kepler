@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: I.Prop. XLV
 :order: 4
+:folio: harmonices_mundi:0050
 :tracks: Latin: prop_45-la | English: prop_45-en | Summary: prop_45-summary | Notes: prop_45-notes
 
 .. _hm-liber-i-prop_45-la:
 
 Propositio XLV — De Septangulo aliisque Figuris Inscibilibus
 ============================================================
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 119–125 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

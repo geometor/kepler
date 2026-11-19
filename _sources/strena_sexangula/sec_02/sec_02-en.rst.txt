@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: § 2
 :order: 2
+:folio: strena_sexangula:0029
 :tracks: Latin: sec_02-la | English: sec_02-en | Summary: sec_02-summary | Notes: sec_02-notes
 
 .. _strena-sec_02-en:
 .. _strena-sec_02:
 
-Section 2: Bee Honeycombs & Discovery of the Two Rhombic Polyhedra
-==================================================================
+Bee Honeycombs & the Two Rhombic Polyhedra
+==========================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Strena seu de Nive Sexangula, §§4–9* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`Frisch VII, pp. 718–722 <frisch:1868:v7>`).
+.. folio:: strena_sexangula:0029
+   :page: p. 7
 
 Let us examine familiar natural architectures where regular geometry arises from material necessity. Bees build hexagonal wax prisms (:cite:`Pappus, Synagoge V <pappus:synagoge:v>`) so that every wall is shared by two neighboring chambers without empty interstices. Yet inspect the **bottoms** (*fundi*) of a two-layered honeycomb! Each six-sided tube terminates not in a flat floor, but in an obtuse **three-plane pyramidal keel** composed of **three congruent rhombi**, meeting three-by-three against the staggered cells of the opposite layer.
 

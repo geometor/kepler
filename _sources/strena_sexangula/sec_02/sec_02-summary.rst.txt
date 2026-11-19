@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: § 2
 :order: 2
+:folio: strena_sexangula:0029
 :tracks: Latin: sec_02-la | English: sec_02-en | Summary: sec_02-summary | Notes: sec_02-notes
 
 .. _strena-sec_02-summary:
 
-Section 2: Executive Geometric Summary
-======================================
+Honeycombs & Rhombic Polyhedra: Summary
+=======================================
 
 Discovery of the Two Isohedral Rhombic Zonohedra
 ------------------------------------------------

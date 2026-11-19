@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: Cap. II
 :order: 2
+:folio: mysterium_cosmographicum:0034
 :tracks: Latin: cap_02-la | English: cap_02-en | Summary: cap_02-summary | Notes: cap_02-notes
 
 .. _mc-cap_02-summary:
 
-Chapter II: Executive Geometric Summary
-=======================================
+Chapter II: Summary
+===================
 
 Curved, Straight & The Solid Angle Obstruction
 ----------------------------------------------

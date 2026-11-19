@@ -1,6 +1,7 @@
 :layout: book
 :canonical_id: II.Prop. I–XX
 :order: 2
+:folio: harmonices_mundi:0076
 :tracks: Latin: prop_01_20-la | English: prop_01_20-en | Summary: prop_01_20-summary | Notes: prop_01_20-notes
 
 .. _hm-liber-ii-prop_01_20-en:
@@ -9,7 +10,8 @@
 Propositions I–XX: The Eleven Uniform Planar Tilings
 ====================================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber II, Propositiones I–XX* (:cite:`Linz: Tampach/Plancus, 1619, pp. 48–58 <kepler:1619:hm>`; :cite:`Frisch V, pp. 127–137 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0076
+   :page: Plates A–X
 
 First, **three and only three** species of **pure regular** plane congruence fill the plane using a single polygon species:
 

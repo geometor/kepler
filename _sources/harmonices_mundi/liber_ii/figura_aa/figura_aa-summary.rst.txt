@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: II.Figura Aa
 :order: 3
+:folio: harmonices_mundi:0078
 :tracks: Latin: figura_aa-la | English: figura_aa-en | Summary: figura_aa-summary | Notes: figura_aa-notes
 
 .. _hm-liber-ii-figura_aa-summary:
 
-Figura Aa: Executive Geometric Summary
-======================================
+Figure Aa: Summary
+==================
 
 Kepler–Poinsot Star Polyhedra & Non-Periodic Tiling Precursor
 -------------------------------------------------------------

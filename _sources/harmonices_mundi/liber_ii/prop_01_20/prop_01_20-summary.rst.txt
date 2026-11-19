@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: II.Prop. I–XX
 :order: 2
+:folio: harmonices_mundi:0076
 :tracks: Latin: prop_01_20-la | English: prop_01_20-en | Summary: prop_01_20-summary | Notes: prop_01_20-notes
 
 .. _hm-liber-ii-prop_01_20-summary:
 
-Propositions I–XX: Executive Geometric Summary
-==============================================
+Propositions I–XX: Summary
+==========================
 
 The 11 Uniform Archimedean Planar Tilings
 -----------------------------------------

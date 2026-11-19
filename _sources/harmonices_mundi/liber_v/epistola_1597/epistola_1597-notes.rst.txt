@@ -6,8 +6,8 @@
 .. _unit-5-harmonices-liber-v-notes:
 .. _hm-epistola_1597-notes:
 
-Epistola 1597: Historical & Mathematical Commentary
-===================================================
+Letter to Mästlin: Notes & Provenance
+=====================================
 
 Mästlin's 1597 Decimal `0.6180340` & the Quartic Kepler Field $\mathbb{Q}(\sqrt{\phi})$
 ------------------------------------------------------------------------------------------
@@ -19,3 +19,9 @@ In ``geometor.model``, coordinates involving $\sqrt{\phi}$ live naturally in the
 $$\alpha^4 - \alpha^2 - 1 = 0.$$
 
 Yet in Rational Trigonometry (:term:`quadrance <quadrance>`), the squared side lengths $(1, \phi, \phi^2)$ descend cleanly to the quadratic golden field $\mathbb{Q}(\phi)$!
+
+Transcription & Provenance
+--------------------------
+
+* **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Kepleri Epistola ad Michaelem Mästlinum (Graz, October 1597)* (:cite:`ed. Ch. Frisch, Vol. I, p. 377 <kepler:1597:maestlin>`).
+* **English Track**: *Original GEOMETOR English translation from Johannes Kepler's Epistola ad Michaelem Mästlinum (Graz, October 1597)* (:cite:`Frisch I, p. 377 <kepler:1597:maestlin>`).

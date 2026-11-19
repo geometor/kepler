@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: § 4
 :order: 4
+:folio: strena_sexangula:0034
 :tracks: Latin: sec_04-la | English: sec_04-en | Summary: sec_04-summary | Notes: sec_04-notes
 
 .. _strena-sec_04-en:
 .. _strena-sec_04:
 
-Section 4: Pentamerous Blossoms & Self-Propagating Fibonacci Convergence
-========================================================================
+Pentamerous Blossoms & Fibonacci Convergence
+============================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Strena seu de Nive Sexangula, §§15–19* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`Frisch VII, pp. 726–730 <frisch:1868:v7>`).
+.. folio:: strena_sexangula:0034
+   :page: p. 12
 
 Why then do snowflakes exhibit **sixfold** crystalline rays while the blossoms of apple, pear, rose, and cinquefoil unfold in **fivefold** petals (:g:`ABCDE`), never sixfold or sevenfold? Because crystalline vapor condenses under cold spatial geometry ($60^\circ$ planar close-packing), whereas living plants are fashioned after an **archetypal formative faculty** grounded in Euclid's self-propagating :term:`Divine Proportion <sectio-divina>`!
 

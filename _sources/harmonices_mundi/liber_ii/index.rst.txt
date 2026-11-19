@@ -22,7 +22,10 @@ Outline of Book II
    definitiones/definitiones-en
    prop_01_20/prop_01_20-en
    figura_aa/figura_aa-en
-   prop_25_28/prop_25_28-en
+   prop_25/prop_25-en
+   prop_26/prop_26-en
+   prop_27/prop_27-en
+   prop_28/prop_28-en
 
 
 .. toctree::
@@ -41,7 +44,19 @@ Outline of Book II
    figura_aa/figura_aa-la
    figura_aa/figura_aa-summary
    figura_aa/figura_aa-notes
-   prop_25_28/prop_25_28-en
-   prop_25_28/prop_25_28-la
-   prop_25_28/prop_25_28-summary
-   prop_25_28/prop_25_28-notes
+   prop_25/prop_25-en
+   prop_25/prop_25-la
+   prop_25/prop_25-summary
+   prop_25/prop_25-notes
+   prop_26/prop_26-en
+   prop_26/prop_26-la
+   prop_26/prop_26-summary
+   prop_26/prop_26-notes
+   prop_27/prop_27-en
+   prop_27/prop_27-la
+   prop_27/prop_27-summary
+   prop_27/prop_27-notes
+   prop_28/prop_28-en
+   prop_28/prop_28-la
+   prop_28/prop_28-summary
+   prop_28/prop_28-notes

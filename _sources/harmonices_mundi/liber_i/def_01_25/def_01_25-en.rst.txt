@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: I.Def. I–XXV
 :order: 2
+:folio: harmonices_mundi:0022
 :tracks: Latin: def_01_25-la | English: def_01_25-en | Summary: def_01_25-summary | Notes: def_01_25-notes
 
 .. _hm-liber-i-def_01_25-en:
 .. _hm-liber-i-def_01_25:
 
-Definitions I–XXV: The Eight Degrees of Geometric Scibilitas
-============================================================
+Definitions I–XXV: The Eight Degrees of Geometric Knowability
+=============================================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I, Definitiones VII–XXV* (:cite:`Linz, 1619, pp. 3–14 <kepler:1619:hm>`; :cite:`Frisch V, pp. 78–92 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0022
+   :page: p. 4
 
 * **Definition VII (*To Know in Geometry*)**: **To know** (*scire*) in geometric matters is **to measure by a known measure**; and in our problem of inscribing figures in a circle, that canonical known measure is the **diameter of the circle** ($D = 2R$).
 * **Definition VIII (*Knowable / Demonstrable*)**: A line or chord is called **knowable** (:term:`scibilis <scibilitas>`, Greek γνώριμον) when it is either directly measurable by the diameter itself, or at least derived through a **definite and geometrical chain of squares and square-roots** descending from the diameter.

@@ -9,8 +9,6 @@
 Epistola ad Michaelem Mästlinum (Oct. 1597) — Triangulum Kepleri
 =================================================================
 
-*Public-domain Neo-Latin text from Ioannis Kepleri Epistola ad Michaelem Mästlinum (Graz, October 1597)* (:cite:`ed. Ch. Frisch, Vol. I, p. 377 <kepler:1597:maestlin>`).
-
 .. rst-class:: latin-source
 
 *"Si in linea, quae est secta :term:`extrema et media ratione <sectio-divina>`, construatur triangulum rectangulum ex partibus et tota, ita ut subtensa recto sit maior pars vel tota, tunc quadratum unius lateris cum quadrato alterius componit quadratum subtensae, et **tria latera sunt continue proportionalia**."* (:person:`Keplerus <kepler>` ad :person:`Michaelem Mästlinum <maestlin>`, :cite:`Frisch I, p. 377 <kepler:1597:maestlin>`).

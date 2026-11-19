@@ -7,14 +7,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Epistola 1597: Historical &amp; Mathematical Commentary — The Harmony of the World • GEOMETOR</title>
+  <title>Epistola 1597: Letter to Mästlin: Notes &amp; Provenance — The Harmony of the World • GEOMETOR</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="canonical" href="https://geometor.github.io/kepler/harmonices_mundi/liber_v/epistola_1597/epistola_1597-notes.html" />
   <meta name="description" content="In October 1597, while corresponding with Michael Mästlin (Frisch I, p. 377), Kepler posed the problem of constructing a right-angled triangle whose three sides form a continuous geometric…" />
   <meta property="og:site_name" content="GEOMETOR" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Epistola 1597: Historical &amp; Mathematical Commentary — The Harmony of the World • GEOMETOR" />
+  <meta property="og:title" content="Epistola 1597: Letter to Mästlin: Notes &amp; Provenance — The Harmony of the World • GEOMETOR" />
   <meta property="og:description" content="In October 1597, while corresponding with Michael Mästlin (Frisch I, p. 377), Kepler posed the problem of constructing a right-angled triangle whose three sides form a continuous geometric…" />
   <meta property="og:url" content="https://geometor.github.io/kepler/harmonices_mundi/liber_v/epistola_1597/epistola_1597-notes.html" />
   <meta property="og:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
@@ -23,7 +23,7 @@
   <meta property="og:image:height" content="640" />
   <meta property="og:image:alt" content="Johannes Kepler — GEOMETOR" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Epistola 1597: Historical &amp; Mathematical Commentary — The Harmony of the World • GEOMETOR" />
+  <meta name="twitter:title" content="Epistola 1597: Letter to Mästlin: Notes &amp; Provenance — The Harmony of the World • GEOMETOR" />
   <meta name="twitter:description" content="In October 1597, while corresponding with Michael Mästlin (Frisch I, p. 377), Kepler posed the problem of constructing a right-angled triangle whose three sides form a continuous geometric…" />
   <meta name="twitter:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
   <meta name="twitter:image:alt" content="Johannes Kepler — GEOMETOR" />
@@ -119,19 +119,26 @@
             </nav>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../cap_03_prop_08/cap_03_prop_08-en.html" title="Liber V, Caput I &amp; III (Prop. VIII): The Harmonic Third Law"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../cap_03_prop_08/cap_03_prop_08-en.html" title="Chapter III, Prop. VIII: The Harmonic Third Law"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content folio-book-page" role="main">
-        <section class="level-1" id="epistola-1597-historical-mathematical-commentary">
-        <span id="hm-epistola-1597-notes"></span><span id="unit-5-harmonices-liber-v-notes"></span><h1>Epistola 1597: Historical &amp; Mathematical Commentary<a class="headerlink" href="#epistola-1597-historical-mathematical-commentary" title="Link to this heading">¶</a></h1>
+        <section class="level-1" id="letter-to-mastlin-notes-provenance">
+        <span id="hm-epistola-1597-notes"></span><span id="unit-5-harmonices-liber-v-notes"></span><h1>Letter to Mästlin: Notes &amp; Provenance<a class="headerlink" href="#letter-to-mastlin-notes-provenance" title="Link to this heading">¶</a></h1>
         <section class="level-2" id="mastlin-s-1597-decimal-0-6180340-the-quartic-kepler-field-mathbb-q-sqrt-phi">
         <h2>Mästlin’s 1597 Decimal <cite>0.6180340</cite> &amp; the Quartic Kepler Field $\mathbb{Q}(\sqrt{\phi})$<a class="headerlink" href="#mastlin-s-1597-decimal-0-6180340-the-quartic-kepler-field-mathbb-q-sqrt-phi" title="Link to this heading">¶</a></h2>
         <p>In October 1597, while corresponding with <a class="person-ref" id="occ-person-maestlin-1" href="../../../people/maestlin.html#person-maestlin" data-person="maestlin" title="Michael Mästlin (1550 – 1631) — German Astronomer &amp; Professor of Mathematics at Tübingen">Michael Mästlin</a> (<a class="citation-ref" id="occ-cite-kepler-1597-maestlin-1" href="../../../bibliography.html#cite-kepler-1597-maestlin" data-cite="kepler:1597:maestlin" title="Johannes Kepler — Epistola ad Michaelem Mästlinum (Graz, October 1597) (Joannis Kepleri Astronomi Opera Omnia, ed. Ch. Frisch, Vol. I (1858), p. 377 (cf. KGW XIII, Ep. 80))">Frisch I, p. 377</a>), <a class="person-ref" id="occ-person-kepler-1" href="../../../people/kepler.html#person-kepler" data-person="kepler" title="Johannes Kepler (1571 – 1630) — German Imperial Mathematician, Geometer &amp; Astronomer">Kepler</a> posed the problem of constructing a right-angled triangle whose three sides form a continuous geometric progression $a : b : c$. Setting $a = 1$ and $b = \sqrt{c}$ forces $1 + c = c^2$, so $c = \phi = \frac{1 + \sqrt{5}}{2}$ and $b = \sqrt{\phi}$. On the letter itself, Mästlin wrote down for a hypotenuse of $10000000$ the greater segment $6180340$—historically the <strong>first known decimal approximation of the inverse golden ratio</strong> $\phi^{-1} \approx 0.6180339887\dots$, verified in <code class="docutils literal notranslate"><span class="pre">geometor.kepler.harmonices_geometry.verify_maestlin_1597_decimal</span></code> to have an exact error below $1.13 \times 10^{-8}$!</p>
         <p>In <code class="docutils literal notranslate"><span class="pre">geometor.model</span></code>, coordinates involving $\sqrt{\phi}$ live naturally in the degree-4 algebraic number field <code class="docutils literal notranslate"><span class="pre">get_kepler_field()</span></code> generated by $\alpha = \sqrt{\phi}$ with minimal polynomial</p>
         <p>$$\alpha^4 - \alpha^2 - 1 = 0.$$</p>
         <p>Yet in Rational Trigonometry (<a class="term-ref glossary-term" id="occ-term-quadrance-1" href="../../../glossary.html#term-quadrance" data-term="quadrance" title="potentia / quadrance (Q = r²) (Exact squared length of a segment (Euclid&#x27;s δύναμις / potentia; Wildberger&#x27;s quadrance)): In both Euclid Book X (potentia) and GEOMETOR&#x27;s Rational Trigonometry (geometor/wildberger), the squared length Q(A,B) avoids unnecessary square roots: the insphere-to-circumsphere quadrance ratios of the five Platonic solids reduce cleanly to Q_in/Q_out = 1/3 (cube, octahedron), 1/9 (tetrahedron), and (5 + 2√5)/15 ∈ Q(φ) (dodecahedron, icosahedron).">quadrance</a>), the squared side lengths $(1, \phi, \phi^2)$ descend cleanly to the quadratic golden field $\mathbb{Q}(\phi)$!</p>
+        </section>
+        <section class="level-2" id="transcription-provenance">
+        <h2>Transcription &amp; Provenance<a class="headerlink" href="#transcription-provenance" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Latin Witness</strong>: <em>Public-domain Neo-Latin text from Ioannis Kepleri Epistola ad Michaelem Mästlinum (Graz, October 1597)</em> (<a class="citation-ref" id="occ-cite-kepler-1597-maestlin-2" href="../../../bibliography.html#cite-kepler-1597-maestlin" data-cite="kepler:1597:maestlin" title="Johannes Kepler — Epistola ad Michaelem Mästlinum (Graz, October 1597) (Joannis Kepleri Astronomi Opera Omnia, ed. Ch. Frisch, Vol. I (1858), p. 377 (cf. KGW XIII, Ep. 80))">ed. Ch. Frisch, Vol. I, p. 377</a>).</p></li>
+        <li><p><strong>English Track</strong>: <em>Original GEOMETOR English translation from Johannes Kepler’s Epistola ad Michaelem Mästlinum (Graz, October 1597)</em> (<a class="citation-ref" id="occ-cite-kepler-1597-maestlin-3" href="../../../bibliography.html#cite-kepler-1597-maestlin" data-cite="kepler:1597:maestlin" title="Johannes Kepler — Epistola ad Michaelem Mästlinum (Graz, October 1597) (Joannis Kepleri Astronomi Opera Omnia, ed. Ch. Frisch, Vol. I (1858), p. 377 (cf. KGW XIII, Ep. 80))">Frisch I, p. 377</a>).</p></li>
+        </ul>
         </section>
         </section>
 
@@ -146,7 +153,7 @@
             <a class="book-toc-link" href="../../index.html">Harmony of the World</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../cap_03_prop_08/cap_03_prop_08-en.html" title="Liber V, Caput I &amp; III (Prop. VIII): The Harmonic Third Law"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../cap_03_prop_08/cap_03_prop_08-en.html" title="Chapter III, Prop. VIII: The Harmonic Third Law"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </footer>

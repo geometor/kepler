@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: V.Cap. III Prop. VIII
 :order: 2
+:folio: harmonices_mundi:0278
 :tracks: Latin: cap_03_prop_08-la | English: cap_03_prop_08-en | Summary: cap_03_prop_08-summary | Notes: cap_03_prop_08-notes
 
 .. _hm-cap_03_prop_08-summary:
 
-Caput III Prop. VIII: Executive Geometric Summary
-=================================================
+Chapter III, Prop. VIII: Summary
+================================
 
 Kepler's Third Harmonic Law ($T^2 = a^3$)
 -----------------------------------------

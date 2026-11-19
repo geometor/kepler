@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: I.Prop. XLV
 :order: 4
+:folio: harmonices_mundi:0050
 :tracks: Latin: prop_45-la | English: prop_45-en | Summary: prop_45-summary | Notes: prop_45-notes
 
 .. _hm-liber-i-prop_45-en:
 .. _hm-liber-i-prop_45:
 
-Proposition XLV: Non-Constructibility (Inscibilitas) of the Heptagon
-====================================================================
+Proposition XLV: Non-Constructibility of the Regular Heptagon
+=============================================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`Frisch V, pp. 119–125 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0050
+   :page: p. 32
 
 * **Proposition XLV (*Enunciation*)**: **The side of the Regular Heptagon (*Septangulum*, :g:`HEPT7`), and every figure whose number of sides is a prime number beyond five (such as 7, 11, 13, 17?, 19) or a multiple of nine, lacks geometric knowability and cannot be constructed from the diameter by Euclidean plane geometry.**
 

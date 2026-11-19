@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: Cap. XIV
-:order: 4
+:order: 5
+:folio: mysterium_cosmographicum:0062
 :tracks: Latin: cap_14-la | English: cap_14-en | Summary: cap_14-summary | Notes: cap_14-notes
 
 .. _mc-cap_14-summary:
 
-Chapter XIV: Executive Geometric Summary
-========================================
+Chapter XIV: Summary
+====================
 
 Earth as Measuring Boundary (*Circulus mensor omnium*)
 ------------------------------------------------------

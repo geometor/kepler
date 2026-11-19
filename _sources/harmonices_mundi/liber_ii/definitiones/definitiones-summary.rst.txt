@@ -1,13 +1,14 @@
 :layout: book
 :canonical_id: II.Def.
 :order: 1
+:folio: harmonices_mundi:0065
 :tracks: Latin: definitiones-la | English: definitiones-en | Summary: definitiones-summary | Notes: definitiones-notes
 
 .. _unit-4-harmonices-liber-ii-summary:
 .. _hm-liber-ii-def-summary:
 
-Definitions: Executive Geometric Summary
-========================================
+Definitions: Summary
+====================
 
 Planar & Solid Congruence Criteria
 ----------------------------------

@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: V.Cap. III Prop. VIII
 :order: 2
+:folio: harmonices_mundi:0278
 :tracks: Latin: cap_03_prop_08-la | English: cap_03_prop_08-en | Summary: cap_03_prop_08-summary | Notes: cap_03_prop_08-notes
 
 .. _hm-cap_03_prop_08-la:
 
 Liber V, Caput III, Propositio VIII — Proportio Sesquialtera (Lex Tertia)
 =========================================================================
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber V, Caput III, Propositio VIII* (:cite:`Linz, 1619, pp. 188–189 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, p. 279 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

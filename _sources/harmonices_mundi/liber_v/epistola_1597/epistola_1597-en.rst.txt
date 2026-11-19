@@ -7,10 +7,8 @@
 .. _hm-epistola_1597-en:
 .. _hm-epistola_1597:
 
-Epistola ad Mästlinum (October 1597): The Kepler Right Triangle
-===============================================================
-
-*Original GEOMETOR English translation from Johannes Kepler's Epistola ad Michaelem Mästlinum (Graz, October 1597)* (:cite:`Frisch I, p. 377 <kepler:1597:maestlin>`).
+Letter to Mästlin (1597): The Kepler Right Triangle
+===================================================
 
 *"If upon a straight line cut in :term:`extreme and mean ratio <sectio-divina>` one constructs a right-angled triangle out of the segments and the whole—in such a way that the hypotenuse subtending the right angle is the greater segment (or the whole), and the base is the lesser segment (or the greater)—then the square on one leg together with the square on the other composes the square on the hypotenuse, while the **three sides themselves stand in continuous geometric proportion**!"* (:person:`Kepler <kepler>` to :person:`Michael Mästlin <maestlin>`, :cite:`Graz, October 1597 <kepler:1597:maestlin>`).
 

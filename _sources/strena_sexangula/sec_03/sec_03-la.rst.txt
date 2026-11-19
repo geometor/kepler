@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: § 3
 :order: 3
+:folio: strena_sexangula:0031
 :tracks: Latin: sec_03-la | English: sec_03-en | Summary: sec_03-summary | Notes: sec_03-notes
 
 .. _strena-sec_03-la:
 
 Sectio III: De Malo Granato & Coaptatione Globulorum Arctissima
 ===============================================================
-
-*Public-domain Neo-Latin text from Ioannis Kepleri S. Cæs. Maiest. Mathematici Strena seu de Nive Sexangula* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`ed. Ch. Frisch, Vol. VII, pp. 722–726 <frisch:1868:v7>`).
 
 .. rst-class:: latin-source
 
