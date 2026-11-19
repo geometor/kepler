@@ -19,5 +19,17 @@ Ex **pluribus vero speciebus** eodem ordine ad omnes angulos concurrentibus, lic
 * Quaternariae ($k = 4$): `3.6.3.6` (:g:`V3636`) et `3.4.6.4` (:g:`V3464`).
 * Quinariae ($k = 5$): `3.3.3.4.4`, `3.3.4.3.4`, et forma obliqua seu sima `3.3.3.3.6` (:g:`V33336`), quae dextrorsum aut sinistrorsum flecti potest.
 
-.. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
-   :alt: Quatuor Exemplaria Congruentiae Semiregularis in Plano ex Libro II
+.. container:: kepler-plate-pair
+
+   .. picture:: 0076.g1.png
+      :alt: Congruentiae planae A–X (Lincii 1619, Lib. II, fol. 0076)
+      :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0076): Tabulae A–X congruentiae planae.
+
+   .. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
+      :alt: Quatuor Exemplaria Congruentiae Semiregularis in Plano ex Libro II
+      :caption: Schema vectoriale: Congruentiae uniformes semiregulares (3.6.3.6, 4.8.8, 3.4.6.4, 3.3.3.3.6).
+
+.. picture:: 0079.g1.png
+   :class: archival-plate
+   :alt: Congruentiae planae semiregulares (Lincii 1619, Lib. II, fol. 0079)
+   :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0079): Congruentiae extensae et impedimenta.

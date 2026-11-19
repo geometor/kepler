@@ -18,10 +18,29 @@ It is my intention, gentle Reader, to demonstrate in this little book that the M
 
 When I was living at Tübingen six years ago and attending the lectures of the distinguished master :person:`Michael Mästlin <maestlin>`, I perceived how encumbered with difficulties the customary way of conceiving the world was; and I took such delight in :person:`Copernicus <copernicus>`, whom my teacher frequently mentioned in his lectures, that I not only defended his views repeatedly in physical disputations among the students, but even composed an accurate disputation attributing the first motion of the heavens to the rotation of the Earth. Already at that time I began to inquire why things stood precisely thus and not otherwise: namely, what caused there to be **six** mobile orbs around the immobile Sun—neither twenty nor a hundred—and what determined the magnitudes of the intervals separating Saturn, Jupiter, Mars, Earth, Venus, and Mercury.
 
-At first I pursued numerical proportions, testing whether one orb might be double, triple, or quadruple another; when arithmetic failed, I inserted new invisible planets between Mars and Jupiter and between Venus and Mercury, yet still no finite law emerged. Almost an entire summer was spent in this arduous toil. At last, upon a quite slight occasion, I broke nearer to the very truth itself. On the **ninth (or nineteenth, New Style) day of July in the year 1595**, while showing my students at the chalkboard in Graz how the **Great Conjunctions** of Saturn and Jupiter leap successively across eight signs of the zodiac from one fiery trigon to the next, I inscribed a succession of equilateral triangles within the zodiacal circle and noticed that the intersection of their chords traced out an inner enveloped circle whose radius :g:`OM` appeared visibly **half** the radius :g:`OA` of the circumscribed outer circle :g:`cSAT`—almost matching the true astronomical proportion between the orb of Saturn (:g:`cSAT`) and the orb of Jupiter (:g:`cJUP`)!
+At first I pursued numerical proportions, testing whether one orb might be double, triple, or quadruple another; when arithmetic failed, I inserted new invisible planets between Mars and Jupiter and between Venus and Mercury, and tested trigonometric chord distances along a quadrant arc (:g:`A`–:g:`D`–:g:`B`–:g:`C`), yet still no finite law emerged.
 
-.. picture:: /_static/figures/fig01_graz_triangle_conjunction.svg
-   :alt: Kepler's July 19, 1595 Graz Great-Conjunction Equilateral Triangle Diagram
+.. container:: kepler-plate-pair
+
+   .. picture:: 0014.g1.png
+      :alt: Archival 1596 woodcut of Kepler's trigonometric quadrant planetary distance hypothesis (p. 7)
+      :caption: Archival scan (Tübingen 1596, p. 7, fol. 0014): Trigonometric quadrant distance hypothesis.
+
+   .. picture:: 0014.g1.svg
+      :alt: Calibrated vectorization of Kepler's Praefatio quadrant planetary distance diagram A-B-C-D
+      :caption: Calibrated vectorization: Square ACBD with quadrant arc (B, C) and planetary chords E–K.
+
+Almost an entire summer was spent in this arduous toil. At last, upon a quite slight occasion, I broke nearer to the very truth itself. On the **ninth (or nineteenth, New Style) day of July in the year 1595**, while showing my students at the chalkboard in Graz how the **Great Conjunctions** of Saturn and Jupiter leap successively across eight signs of the zodiac from one fiery trigon to the next, I inscribed a succession of equilateral triangles within the zodiacal circle and noticed that the intersection of their chords traced out an inner enveloped circle whose radius :g:`OM` appeared visibly **half** the radius :g:`OA` of the circumscribed outer circle :g:`cSAT`—almost matching the true astronomical proportion between the orb of Saturn (:g:`cSAT`) and the orb of Jupiter (:g:`cJUP`)!
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0016.g1.png
+      :alt: Archival 1596 woodcut of Kepler's Graz Great-Conjunction equilateral triangle diagram (p. 9)
+      :caption: Archival scan (Tübingen 1596, p. 9, fol. 0016): The July 19, 1595 Graz Great-Conjunction diagram.
+
+   .. picture:: /_static/figures/fig01_graz_triangle_conjunction.svg
+      :alt: Kepler's July 19, 1595 Graz Great-Conjunction Equilateral Triangle Diagram
+      :caption: Calibrated vectorization: Equilateral triangle ABC enveloping Jupiter's circle (OM : OA = 1 : 2).
 
 In the planar figure above, the equilateral triangle :g:`ABC` inscribed within Saturn's circle :g:`cSAT` about center :g:`O` touches Jupiter's inscribed circle :g:`cJUP` at midpoint :g:`M`, yielding the exact radius ratio $OM : OA = 1 : 2$ and :term:`quadrance <quadrance>` ratio $Q(O, M) / Q(O, A) = \frac{1}{4}$ (:just:`XIII.12`).
 

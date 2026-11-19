@@ -17,4 +17,19 @@ Geometry possesses **two great treasures**: the one is the ratio of the hypotenu
 
 For from the first flows the construction of the **Cube**, the **Tetrahedron** (*Pyramis*), and the **Octahedron**; whereas from the second—self-propagating and ineffable—flows the construction of the **Dodecahedron** and the **Icosahedron** (:cite:`Pacioli 1509 <pacioli:1509>`).
 
-In Chapter XII, Kepler further links the five regular solids to the divisions of the zodiacal circle and musical consonances, comparing the inscribed square, diameter, regular pentagon, regular hexagon, five-pointed star pentagram, and eight-pointed star octagram (shown in the marginal woodcuts on folio p. 42) to establish why only specific harmonic divisions govern planetary aspects.
+In Chapter XII, Kepler further links the five regular solids to the divisions of the zodiacal circle and musical consonances, comparing the harmonic monochord division (p. 40) and the inscribed square, diameter, regular pentagon, regular hexagon, five-pointed star pentagram, and eight-pointed star octagram (marginal woodcuts on p. 42) to establish why only specific harmonic divisions govern planetary aspects.
+
+.. picture:: 0050.g1.png
+   :class: archival-plate
+   :alt: Archival 1596 musical monochord and zodiacal aspect diagram (p. 40)
+   :caption: Archival scan (Tübingen 1596, p. 40, fol. 0050): Musical consonances and zodiacal aspect divisions.
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0052.g1.png
+      :alt: Archival 1596 marginal woodcuts of inscribed regular polygons and star polygons (p. 42)
+      :caption: Archival scan (Tübingen 1596, p. 42, fol. 0052): Marginal inscribed polygons and star figures.
+
+   .. picture:: 0052.g1.svg
+      :alt: Calibrated vectorization of Kepler's six harmonic circle-division polygons and stars
+      :caption: Calibrated vectorization: Square (4), Diameter (2), Pentagon (5), Hexagon (6), Pentagram (5/2), and Octagram (8/3).

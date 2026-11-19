@@ -28,3 +28,13 @@ Why then did the :term:`five regular solids <corpora-quinque-regularia>` of *Mys
    * **Earth** ($57'3'' : 61'18''$ per day $\approx 15 : 16$) — **Diatonic Semitone** (*mi–fa*, prompting Kepler's wry lament: *"Earth sings MI–FA–MI, so that even from the syllable you may guess that in this home of ours MIsery and FAmine hold sway"*);
    * **Venus** ($94'50'' : 97'37''$ per day $\approx 24 : 25$) — **Chromatic Diesis** (nearly circular orbit inside the icosahedron);
    * **Mercury** ($164'0'' : 384'0''$ per day $= 5 : 12$) — **Octave plus Minor Third** (*diapason cum semiditono*, matching Mercury's dramatic eccentricity inside the octahedron).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0299.g1.png
+      :alt: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius (Harmonices Mundi Book V, p. 207)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets.
+
+   .. picture:: 0297.g1.png
+      :alt: Archival 1619 musical staff and harmonic scale diagrams for the planets (Harmonices Mundi Book V, p. 205)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the durus and mollis modes.

@@ -22,6 +22,11 @@ Although externally no single regular plane appears, but in its place an isoscel
 .. folio:: harmonices_mundi:0081
    :page: Plates Ss & Tt
 
+.. picture:: 0081.g2.png
+   :class: archival-plate
+   :alt: Archival 1619 copperplate Plates Ss and Tt showing the Small and Great Stellated Dodecahedra
+   :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): Kepler's Small (Ss) and Great (Tt) Stellated Dodecahedra.
+
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="star_polyhedra" data-height="460"></div>
+   <div class="kepler-3d-mount" data-scene="harmonices_stellated" data-height="480"></div>

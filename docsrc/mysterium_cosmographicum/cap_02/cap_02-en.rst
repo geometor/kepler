@@ -22,3 +22,12 @@ Now if any rectilinear figures are to prescribe a finite limit to the number of 
 3. Three **regular pentagons** ($3 \times 108^\circ = 324^\circ$, **Dodecahedron**);
 
 while six triangles ($6 \times 60^\circ = 360^\circ$), four squares ($4 \times 90^\circ = 360^\circ$), or four pentagons ($4 \times 108^\circ = 432^\circ$), as well as three hexagons ($3 \times 120^\circ = 360^\circ$), either flatten into a plane or exceed solid closure altogether. Because **five** solid intervals require **six** bounding spherical orbs, the Creator established six mobile planets around the Sun.
+
+.. picture:: 0034.g1.png
+   :class: archival-plate
+   :alt: Archival 1596 folding copperplate Tabula III showing Kepler's five nested Platonic polyhedra between the six planetary orbs
+   :caption: Tabula III archival copperplate (Tübingen 1596, ad p. 25, fol. 0034): Kepler's nested polyhedral architecture of the heavens.
+
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>

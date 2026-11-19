@@ -24,3 +24,13 @@ Expressed in exact algebraic ratio:
 $$\left(\frac{T_1}{T_2}\right)^2 = \left(\frac{a_1}{a_2}\right)^3, \qquad \text{or} \qquad T \propto a^{3/2}.$$
 
 Thus if one planet were four times farther from the Sun than another ($a_1 : a_2 = 4 : 1$), its periodic time would be eightfold ($T_1 : T_2 = 8 : 1$, since $8^2 = 4^3 = 64$); if nine times farther ($9 : 1$), twenty-sevenfold ($27 : 1$, since $27^2 = 9^3 = 729$).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0278.g1.png
+      :alt: Archival 1619 copperplate showing the five regular solids inscribed in planetary spheres (Harmonices Mundi Book V, ad pag. 186)
+      :caption: Archival scan (Linz 1619, Lib. V, ad pag. 186, fol. 0278): Polyhedral spheres and celestial solid intervals.
+
+   .. picture:: /_static/figures/fig09_kepler_triangle_and_third_law.svg
+      :alt: Kepler's Harmonic Third Law orbital ellipse and focal sector geometry
+      :caption: Calibrated schematic: Elliptical orbit, focal sectors, and the sesquialterate harmonic law T^2 = a^3.

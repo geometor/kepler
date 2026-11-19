@@ -25,5 +25,17 @@ Next, when **two or three species** of regular polygons meet identically at ever
 * **Four-valent vertices** ($k = 4$): `3.6.3.6` (:g:`V3636`, alternating triangles and hexagons), and `3.4.6.4` (:g:`V3464`, triangle, square, hexagon, square).
 * **Five-valent vertices** ($k = 5$): `3.3.3.4.4` (adjacent squares), `3.3.4.3.4` (separated squares), and the chiral snub tiling `3.3.3.3.6` (:g:`V33336`, four triangles and one hexagon, existing in left- and right-handed mirror forms).
 
-.. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
-   :alt: Four Representative Uniform Archimedean Planar Congruences in Harmonices Mundi Book II
+.. container:: kepler-plate-pair
+
+   .. picture:: 0076.g1.png
+      :alt: Archival 1619 copperplate of planar polygon congruences Plates A–X (Harmonices Mundi Book II)
+      :caption: Archival scan (Linz 1619, Lib. II, fol. 0076): Regular and semi-regular planar tilings (Plates A–X).
+
+   .. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
+      :alt: Four Representative Uniform Archimedean Planar Congruences in Harmonices Mundi Book II
+      :caption: Calibrated vectorization: Uniform Archimedean planar congruences (3.6.3.6, 4.8.8, 3.4.6.4, 3.3.3.3.6).
+
+.. picture:: 0079.g1.png
+   :class: archival-plate
+   :alt: Archival 1619 plate of extended semi-regular planar tilings and non-extendable vertex clusters (Harmonices Mundi Book II, fol. 0079)
+   :caption: Archival scan (Linz 1619, Lib. II, fol. 0079): Extended semi-regular planar congruences and vertex obstructions.

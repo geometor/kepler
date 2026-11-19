@@ -14,3 +14,12 @@ Caput II — De Curvo et Recto, ac Quinque Corporibus Regularibus
 Hac enim una re divinus mihi :person:`Cusanus <cusanus>` (:cite:`1440 <cusanus:1440>`) aliique videntur: quod **recti curvique** ad invicem habitudinem tanti fecerunt, et **curvum Deo**, **rectum vero creaturis** ausi sint comparare. Quare qui Creatorem creaturis, Deum homini, divinum archetypum humanis mentibus adaequare conatur, nihil profecto utilius agit, quam qui curvam lineam rectae aequare molitur.
 
 Cum igitur mundus corporeus ad sphaericam formam creatus esset—in cuius centro Sol, in superficie vero inerrantium stellarum sphaera, spiritu intermedio omnia implente, Trinitatis archetypum repraesentat—oportuit mobilium orbium numerum et intercapedines a **rectilineis solidis** mutuare. Inter solida vero sola quinque illa geometrica corpora aequalitatem facierum et angulorum undique servant: **Cubus**, **Tetraedron** (seu Pyramis), **Dodecaedron**, **Icosaedron**, et **Octaedron**. Quinque autem corporibus interpositis, **sex** necessario limitantur sphaerici orbes.
+
+.. picture:: 0034.g1.png
+   :class: archival-plate
+   :alt: Tabula III (Tubingae 1596, fol. 0034): Quinque Corpora Regularia inter sex orbes coelestes
+   :caption: Tabula III (Tubingae 1596, ad p. 25, fol. 0034): Ordo quinque corporum regularium inter sex orbes.
+
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>

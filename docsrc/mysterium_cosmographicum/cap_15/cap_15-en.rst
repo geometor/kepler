@@ -26,4 +26,14 @@ Kepler reminds the reader that Copernicus's own aim in *De revolutionibus* (:cit
 * **Left diagram**: *Ad tempora Ptolemaei, circa Annum Christi 140* (showing the maximum eccentricity of Earth's *Orbis Magnus*, $4170$ parts in $100{,}000$, aphelion $104{,}170$, perihelion $95{,}830$).
 * **Right diagram**: *Ad tempora Copernici, circa Annum Christi 1525* (showing Earth's diminished eccentricity, $3219$, along with all five planetary eccentricity circles around the true solar center $A$).
 
+.. container:: kepler-plate-pair
+
+   .. picture:: 0062.g1.png
+      :alt: Archival 1596 folding plate Tabella V plotting planetary eccentric sphere centers in AD 140 and AD 1525
+      :caption: Tabella V archival scan (Tübingen 1596, ad p. 51, fol. 0062): Eccentric sphere centers in AD 140 vs. AD 1525.
+
+   .. picture:: 0062.g1.svg
+      :alt: Calibrated vectorization of Tabella V eccentric sphere centers from the Prutenic Tables
+      :caption: Tabella V vectorization: Solar center A and planetary eccentric centers B–G across both epochs.
+
 At the close of the chapter (p. 53, folio ``0065``), Kepler tabulates the resulting apogeal *prosthaphaeresis* arcs and maximum elongations side by side under three models: **(1)** polyhedral ratios *excluding* the Moon's orb thickness from Earth's shell, **(2)** Copernicus's distances from the Sun, and **(3)** polyhedral ratios *including* the Moon's orb inside Earth's shell. Including the Moon slashes Mars's discrepancy from $+2^\circ 47'$ down to $+0^\circ 20'$ and brings Jupiter within $-0^\circ 06'$—while leaving noticeable residuals on Saturn ($-0^\circ 41'$), Mercury ($-1^\circ 01'$), and Venus ($-2^\circ 18'$), setting up the investigations of Chapters XVI–XIX.

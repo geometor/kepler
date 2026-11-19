@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 390" width="440" height="390" class="euclid-graphic" data-graphic-id="0054.g1" data-folio="0054" data-graphic="g1" role="img" aria-label="Chapter XIII Insphere Right Triangle HIO with Base Circle HGL">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="220.00" cy="245.00" r="105.00" fill="none" data-ref="( I H )" stroke-width="1.7"/>
+    <path class="geom-line" d="M 115.00 245.00 L 167.50 195.00 L 220.00 145.00" fill="none" data-ref="/ H O /" stroke="var(--geom-accent, #d97706)" stroke-width="2.1"/>
+    <path class="geom-line" d="M 220.00 145.00 L 272.50 95.00 L 325.00 45.00" fill="none" data-ref="/ O M /" stroke-width="1.6"/>
+    <path class="geom-line" d="M 220.00 145.00 L 220.00 195.00 L 220.00 245.00" fill="none" data-ref="/ I O /" stroke="#10b981" stroke-width="2.1"/>
+    <path class="geom-line" d="M 115.00 245.00 L 167.50 245.00 L 220.00 245.00" fill="none" data-ref="/ H I /" stroke-width="2.0"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-dashed" d="M 115.00 245.00 L 206.52 209.87 L 298.03 174.74" fill="none" data-ref="/ H G /" opacity="0.7"/>
+    <path class="geom-dashed" d="M 298.03 174.74 L 276.97 259.20 L 255.91 343.67" fill="none" data-ref="/ G L /" opacity="0.7"/>
+    <path class="geom-dashed" d="M 255.91 343.67 L 185.46 294.33 L 115.00 245.00" fill="none" data-ref="/ L H /" opacity="0.7"/>
+    <path class="geom-line" d="M 207.00 245.00 L 207.00 238.50 L 207.00 232.00" fill="none" stroke-width="1.3"/>
+    <path class="geom-line" d="M 207.00 232.00 L 213.50 232.00 L 220.00 232.00" fill="none" stroke-width="1.3"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <polygon class="geom-polygon" points="115.00,245.00 220.00,245.00 220.00,145.00" data-ref="&lt; H I O &gt;"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="220.00" cy="145.00" r="3.50" data-ref="O"/>
+    <circle class="geom-point" cx="220.00" cy="245.00" r="3.50" data-ref="I"/>
+    <circle class="geom-point" cx="115.00" cy="245.00" r="3.50" data-ref="H"/>
+    <circle class="geom-point" cx="298.03" cy="174.74" r="3.50" data-ref="G"/>
+    <circle class="geom-point" cx="255.91" cy="343.67" r="3.50" data-ref="L"/>
+    <circle class="geom-point" cx="325.00" cy="45.00" r="3.50" data-ref="M"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="220.00" y="24.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.2px;">Chapter XIII (p. 44) — Insphere Radius: HO² = HI² + IO²</text>
+    <text class="geom-label" x="204.00" y="137.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="O">O</text>
+    <text class="geom-label" x="234.00" y="257.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="I">I</text>
+    <text class="geom-label" x="99.00" y="245.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="H">H</text>
+    <text class="geom-label" x="312.03" y="166.74" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="G">G</text>
+    <text class="geom-label" x="269.91" y="355.67" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="L">L</text>
+    <text class="geom-label" x="339.00" y="37.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="M">M</text>
+    <text class="geom-label" x="145.50" y="185.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ H O /">R (circumsphere)</text>
+    <text class="geom-label" x="266.00" y="195.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ I O /">r (insphere)</text>
+    <text class="geom-label" x="167.50" y="263.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ H I /">r_base</text>
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-/* Typography and dark/light theme styling for GEOMETOR Kepler Bilingual Book Codex */
+/* Typography, Paired Archival Plate Galleries & 3D Studio Styling for GEOMETOR Kepler */
 
 .latin-source {
   font-family: "Gentium Plus", "EB Garamond", "Palatino Linotype", "Book Antiqua", Georgia, serif;
@@ -18,9 +18,74 @@ svg.euclid-graphic {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 1.4rem auto;
+  margin: 1.2rem auto;
 }
 
+/* Paired Archival Bitmap + Calibrated Vectorization Plate Gallery */
+.kepler-plate-pair {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+  margin: 1.6rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--book-surface, rgba(22, 24, 29, 0.55));
+  border: 1px solid var(--book-border, rgba(148, 163, 184, 0.25));
+}
+
+.kepler-plate-pair figure.photon-picture {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.kepler-plate-pair figure.photon-picture img {
+  border-radius: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  background: #f8f5ee;
+  max-height: 520px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.kepler-plate-pair figure.photon-picture svg.euclid-graphic {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 520px;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.kepler-plate-pair figure.photon-picture figcaption {
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
+  color: var(--book-muted, #94a3b8);
+  text-align: center;
+  line-height: 1.4;
+}
+
+figure.photon-picture.archival-plate {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+figure.photon-picture.archival-plate img {
+  border-radius: 6px;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  background: #f8f5ee;
+  max-height: 600px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* Interactive 3D Polyhedra Studio Widget */
 .kepler-3d-mount {
   background: var(--book-surface, #16181d);
   border: 1px solid var(--book-border, rgba(148, 163, 184, 0.28));
@@ -31,6 +96,13 @@ svg.euclid-graphic {
   flex-direction: column;
   gap: 0.65rem;
 }
+
+body.light-mode .kepler-3d-mount,
+body.light-mode .kepler-plate-pair {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
 .kepler-3d-header {
   display: flex;
   flex-wrap: wrap;
@@ -38,20 +110,23 @@ svg.euclid-graphic {
   align-items: center;
   gap: 0.6rem;
 }
+
 .kepler-3d-title {
   font-size: 0.92rem;
   color: var(--book-text, #e4e4e7);
 }
+
 .kepler-3d-controls,
 .kepler-3d-legend {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
 }
+
 .kepler-3d-btn,
 .kepler-3d-layer {
   appearance: none;
-  padding: 0.22rem 0.6rem;
+  padding: 0.24rem 0.65rem;
   border-radius: 999px;
   border: 1px solid var(--book-border-dark, rgba(148, 163, 184, 0.35));
   background: var(--book-bg, #101216);
@@ -62,23 +137,46 @@ svg.euclid-graphic {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
 }
+
+body.light-mode .kepler-3d-btn,
+body.light-mode .kepler-3d-layer {
+  background: #ffffff;
+  color: #475569;
+  border-color: #cbd5e1;
+}
+
 .kepler-3d-btn.is-active {
   background: var(--book-accent, #fbbf24);
   border-color: var(--book-accent, #fbbf24);
   color: #141417;
   font-weight: 600;
 }
+
 .kepler-3d-layer.is-active {
-  border-color: rgba(251, 191, 36, 0.45);
+  border-color: rgba(251, 191, 36, 0.55);
   color: var(--book-text, #f4f4f5);
 }
+
+body.light-mode .kepler-3d-layer.is-active {
+  color: #0f172a;
+  border-color: #d97706;
+  background: #fffbeb;
+}
+
+.kepler-3d-layer small {
+  opacity: 0.72;
+  font-size: 0.7rem;
+}
+
 .kepler-3d-swatch {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   display: inline-block;
 }
+
 .kepler-3d-canvas {
   width: 100%;
   height: auto;
@@ -86,9 +184,11 @@ svg.euclid-graphic {
   cursor: grab;
   display: block;
 }
+
 .kepler-3d-canvas:active {
   cursor: grabbing;
 }
+
 .kepler-3d-footer {
   font-size: 0.76rem;
   color: var(--book-muted, #94a3b8);

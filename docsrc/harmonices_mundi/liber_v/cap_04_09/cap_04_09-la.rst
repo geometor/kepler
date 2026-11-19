@@ -19,3 +19,13 @@ Cum planeta areas focales temporibus proportionales verrat—confer sectorem per
 * **Tellus** (:term:`Circulus mensor <circulus-mensor>`): $57'3'' : 61'18'' \approx 15 : 16$ (*Semitonium*, unde celebre epigramma Kepleri: *"Tellus canit MI FA MI, ut vel ex syllaba conjicias, in hoc nostro domicilio MIseriam et FAmem obtinere"*);
 * **Venus**: $94'50'' : 97'37'' \approx 24 : 25$ (*Diesis* enharmonica);
 * **Mercurius**: $164'0'' : 384'0'' = 5 : 12$ (*Diapason cum tertia minore*).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0299.g1.png
+      :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii (Lincii 1619, Lib. V, p. 207)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum.
+
+   .. picture:: 0297.g1.png
+      :alt: Scalae harmonicae planetarum in cantu duro et molli (Lincii 1619, Lib. V, p. 205)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 205, fol. 0297): Scalae harmonicae in cantu duro et molli.

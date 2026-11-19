@@ -238,3 +238,49 @@ def test_bilingual_codex_tracks_and_picture_directives() -> None:
                 assert ":width:" not in txt
 
 
+def test_archival_bitmaps_vectorizations_and_3d_studios() -> None:
+    docsrc_dir = PROJECT_ROOT / "docsrc"
+    png_plates = sorted(docsrc_dir.rglob("*.g*.png"))
+    svg_plates = sorted(docsrc_dir.rglob("*.g*.svg"))
+
+    assert len(png_plates) == 32, f"Expected 32 extracted archival bitmap plates, found {len(png_plates)}"
+    assert len(svg_plates) == 14, f"Expected 14 calibrated folio SVG vectorizations, found {len(svg_plates)}"
+
+    for png_path in png_plates:
+        header = png_path.read_bytes()[:8]
+        assert header == b"\x89PNG\r\n\x1a\n", f"Invalid PNG header: {png_path}"
+
+    ns = "{http://www.w3.org/2000/svg}"
+    for svg_path in svg_plates:
+        root = ET.fromstring(svg_path.read_text(encoding="utf-8"))
+        assert "euclid-graphic" in root.attrib.get("class", ""), f"Missing euclid-graphic class: {svg_path}"
+        layer_ids = [
+            child.attrib.get("id")
+            for child in root
+            if child.tag == f"{ns}g" and "id" in child.attrib
+        ]
+        assert layer_ids == ["elements", "graphics", "highlights", "points", "labels"], (
+            f"Unexpected SVG layers in {svg_path}: {layer_ids}"
+        )
+
+    # Confirm zero orphaned plates: every extracted PNG and SVG must be referenced in its sibling RSTs
+    for plate_path in [*png_plates, *svg_plates]:
+        sibling_text = "\n".join(
+            p.read_text(encoding="utf-8") for p in plate_path.parent.glob("*.rst")
+        )
+        assert plate_path.name in sibling_text, f"Orphaned plate not embedded in RST: {plate_path}"
+
+    # Confirm Interactive 3D Polyhedra Studios are prominently surfaced and scene-aligned
+    for rel_path in (
+        "mysterium_cosmographicum/index.rst",
+        "mysterium_cosmographicum/cap_02/cap_02-en.rst",
+        "mysterium_cosmographicum/cap_14/cap_14-en.rst",
+    ):
+        txt = (docsrc_dir / rel_path).read_text(encoding="utf-8")
+        assert 'data-scene="mysterium_nested_solids"' in txt, f"Missing 3D nested solids mount in {rel_path}"
+
+    prop26_txt = (docsrc_dir / "harmonices_mundi/liber_ii/prop_26/prop_26-en.rst").read_text(encoding="utf-8")
+    assert 'data-scene="harmonices_stellated"' in prop26_txt
+
+
+
