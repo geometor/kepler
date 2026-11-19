@@ -23,11 +23,32 @@ Now if any rectilinear figures are to prescribe a finite limit to the number of 
 
 while six triangles ($6 \times 60^\circ = 360^\circ$), four squares ($4 \times 90^\circ = 360^\circ$), or four pentagons ($4 \times 108^\circ = 432^\circ$), as well as three hexagons ($3 \times 120^\circ = 360^\circ$), either flatten into a plane or exceed solid closure altogether. Because **five** solid intervals require **six** bounding spherical orbs, the Creator established six mobile planets around the Sun.
 
-.. picture:: 0034.g1.png
-   :class: archival-plate
-   :alt: Archival 1596 folding copperplate Tabula III showing Kepler's five nested Platonic polyhedra between the six planetary orbs
-   :caption: Tabula III archival copperplate (Tübingen 1596, ad p. 25, fol. 0034): Kepler's nested polyhedral architecture of the heavens.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0034.g1.png
+      :alt: Archival 1597 folding copperplate Tabula III showing Kepler's five nested Platonic polyhedra between the six planetary orbs
+      :caption: Tabula III archival copperplate (Tübingen 1597, ad p. 25, fol. 0034): Christoph Leibfried's original engraving.
+
+   .. picture:: 0034.cad.png
+      :alt: Photorealistic Blender 5.x 3D CAD reconstruction of Kepler's Tabula III matching the 1597 copperplate angle
+      :caption: 3D CAD reconstruction (Exact Caput XIII ratios): Six cutaway planetary bowls, five mitered Platonic frames & carved 1597 pedestal.
 
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>
+   <div class="kepler-cad-studio" data-scene="tabula_iii_cad">
+     <iframe class="kepler-cad-iframe" src="../../_static/tabula-iii-3d.html?embed=1" title="Interactive 3D CAD Model — Kepler Tabula III (Folio 0034)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Interactive 3D CAD Studio (Folio 0034)</strong> · Drag to orbit · Scrub Explode · Click Full-Screen for α–μ layer toggles</span>
+       <span>
+         <a href="../../_static/tabula-iii-3d.html" target="_blank" rel="noopener">Full-Screen Studio ↗</a> ·
+         <a href="../../_static/models/tabula_iii.igz" download>.IGZ</a> ·
+         <a href="../../_static/models/tabula_iii.glb" download>.GLB</a> ·
+         <a href="../../_static/models/tabula_iii.obj" download>.OBJ</a>
+       </span>
+     </div>
+   </div>
+
+.. picture:: 0034.cad_core.png
+   :class: archival-plate
+   :alt: Close-up 3D CAD macro view of Tabula III inner core: Mars bowl, Dodecahedron, Earth bowl with Moon, Icosahedron, Venus bowl, Octahedron, Mercury bowl, and Sol
+   :caption: 3D CAD inner-core macro (ε–μ): Mars bowl cradling the flat-top Dodecahedron, Earth & Moon bowl, polar-dual Icosahedron, Venus bowl, equatorial Octahedron, Mercury bowl, and glowing Sol.

@@ -34,14 +34,25 @@ The Cosmographic Mystery
 
 .. _mysterium-3d-studio:
 
-Interactive 3D Nested Polyhedra Model
--------------------------------------
+Interactive 3D CAD Model — Tabula III (Folio 0034)
+--------------------------------------------------
 
-Kepler's cosmic polyhedral architecture (*Tabula III* & *Chapter XIV*): **Cube** (Saturn–Jupiter) $\supset$ **Tetrahedron** (Jupiter–Mars) $\supset$ **Dodecahedron** (Mars–Earth) $\supset$ **Icosahedron** (Earth–Venus) $\supset$ **Octahedron** (Venus–Mercury). Drag to orbit, toggle individual solids, switch between **Glass / Wireframe / Solid**, or compare **Stepped** visibility against **Exact Caput XIII** insphere/circumsphere proportions.
+Parametric 3D CAD reconstruction of Kepler's 1597 folding copperplate (**Tabula III**): six cutaway hemispherical planetary shells ($\alpha$ Saturn through $\lambda$ Mercury), five watertight mitered open-frame Platonic scaffolds (**Cube** $\beta \supset$ **Tetrahedron** $\delta \supset$ **Dodecahedron** $\zeta \supset$ **Icosahedron** $\theta \supset$ **Octahedron** $\kappa$), central **Sun** ($\mu$), and carved Renaissance pedestal. Drag to orbit, scrub **Explode**, toggle **Cutaway / Full Orbs / Solids**, or switch between **Exact 1:1 Caput XIII** and **Expanded Core** proportions.
 
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="520"></div>
+   <div class="kepler-cad-studio" data-scene="tabula_iii_cad">
+     <iframe class="kepler-cad-iframe" src="../_static/tabula-iii-3d.html?embed=1" title="Interactive 3D CAD Studio — Kepler Tabula III (Folio 0034)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Tabula III (1597, Folio 0034)</strong> · 13-Group Parametric CAD Model (IngeTrazo · Blender · Three.js PBR)</span>
+       <span>
+         <a href="../_static/tabula-iii-3d.html" target="_blank" rel="noopener">Full-Screen CAD Studio ↗</a> ·
+         <a href="../_static/models/tabula_iii.igz" download>IngeTrazo .IGZ</a> ·
+         <a href="../_static/models/tabula_iii.glb" download>glTF .GLB</a> ·
+         <a href="../_static/models/tabula_iii.obj" download>Wavefront .OBJ</a>
+       </span>
+     </div>
+   </div>
 
 Table of Contents
 -----------------

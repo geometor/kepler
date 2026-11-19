@@ -27,6 +27,17 @@ Dividuntur quinque corpora in duos ordines: **tria primaria** (**Cubus**, **Tetr
 
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>
+   <div class="kepler-cad-studio" data-scene="tabula_iii_cad">
+     <iframe class="kepler-cad-iframe" src="../../_static/tabula-iii-3d.html?embed=1" title="Exemplar 3D CAD — Tabula III (Fol. 0034)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Tabula III · Exemplar 3D CAD</strong></span>
+       <span>
+         <a href="../../_static/tabula-iii-3d.html" target="_blank" rel="noopener">Plena Fenestra ↗</a> ·
+         <a href="../../_static/models/tabula_iii.igz" download>.IGZ</a> ·
+         <a href="../../_static/models/tabula_iii.glb" download>.GLB</a> ·
+         <a href="../../_static/models/tabula_iii.obj" download>.OBJ</a>
+       </span>
+     </div>
+   </div>
 
 *(Ex Notis Authoris, 1621)*: Neque tamen nudis hisce sphaeris sine crassitudine eccentricitatum contenta fuit Natura; sed in *Harmonicis Mundi* libro V (:cite:`1619 <kepler:1619:hm>`) demonstravimus, eccentricitates ipsas ex proportionibus harmonicis motuum extremorum aphelii et perihelii certissima lege temperari.
