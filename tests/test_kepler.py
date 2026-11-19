@@ -196,10 +196,7 @@ def test_bilingual_codex_tracks_and_picture_directives() -> None:
     books = {
         docsrc_dir / "mysterium_cosmographicum": (
             "praefatio",
-            "cap_02",
-            "cap_12",
-            "cap_13",
-            "cap_14",
+            *(f"cap_{i:02d}" for i in range(1, 24)),
         ),
         docsrc_dir / "strena_sexangula": (
             "sec_01",

@@ -1,8 +1,8 @@
 :layout: book
 :canonical_id: Cap. XIV
-:order: 5
+:order: 15
 :tracks: Latin: cap_14-la | English: cap_14-en | Summary: cap_14-summary | Notes: cap_14-notes
-:folio: mysterium_cosmographicum:0062
+:folio: mysterium_cosmographicum:0059
 
 .. _mc-cap_14-en:
 .. _mc-cap_14:
@@ -10,8 +10,8 @@
 Chapter XIV: Earth as Measuring Orb
 ===================================
 
-.. folio:: mysterium_cosmographicum:0062
-   :page: Tabella V
+.. folio:: mysterium_cosmographicum:0059
+   :page: Tabella IIII (p. 49)
 
 The five solids divide naturally into two noble ranks: **three primary solids** (*primaria*)—the **Cube**, **Tetrahedron**, and **Dodecahedron**, each having distinct polygonal faces (square, triangle, pentagon) and simple three-edge trihedral vertices—and **two secondary solids** (*secundaria*)—the **Icosahedron** and **Octahedron**, borrowing the triangular face and meeting four or five to a vertex around an axis. Fittingly, the dwelling place of contemplative humanity—the orb of **Earth** (:g:`cTER_in`)—was placed as a boundary wall between these two classes as the :term:`measuring circle of all <circulus-mensor>`:
 

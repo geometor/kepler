@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: Cap. II
-:order: 2
+:order: 3
 :tracks: Latin: cap_02-la | English: cap_02-en | Summary: cap_02-summary | Notes: cap_02-notes
 :folio: mysterium_cosmographicum:0034
 

@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: Cap. XII
-:order: 3
+:order: 13
 :folio: mysterium_cosmographicum:0052
 :tracks: Latin: cap_12-la | English: cap_12-en | Summary: cap_12-summary | Notes: cap_12-notes
 
