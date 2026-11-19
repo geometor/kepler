@@ -15,11 +15,27 @@ Hac enim una re divinus mihi :person:`Cusanus <cusanus>` (:cite:`1440 <cusanus:1
 
 Cum igitur mundus corporeus ad sphaericam formam creatus esset—in cuius centro Sol, in superficie vero inerrantium stellarum sphaera, spiritu intermedio omnia implente, Trinitatis archetypum repraesentat—oportuit mobilium orbium numerum et intercapedines a **rectilineis solidis** mutuare. Inter solida vero sola quinque illa geometrica corpora aequalitatem facierum et angulorum undique servant: **Cubus**, **Tetraedron** (seu Pyramis), **Dodecaedron**, **Icosaedron**, et **Octaedron**. Quinque autem corporibus interpositis, **sex** necessario limitantur sphaerici orbes.
 
-.. picture:: 0034.g1.png
-   :class: archival-plate
-   :alt: Tabula III (Tubingae 1596, fol. 0034): Quinque Corpora Regularia inter sex orbes coelestes
-   :caption: Tabula III (Tubingae 1596, ad p. 25, fol. 0034): Ordo quinque corporum regularium inter sex orbes.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0034.g1.png
+      :alt: Tabula III (Tubingae 1597, fol. 0034): Quinque Corpora Regularia inter sex orbes coelestes
+      :caption: Tabula III (Tubingae 1597, ad p. 25, fol. 0034): Ordo quinque corporum regularium inter sex orbes.
+
+   .. picture:: 0034.cad.png
+      :alt: Exemplar tridimensionale CAD Tabulae III secundum rationes exactas Capitis XIII
+      :caption: Exemplar CAD tridimensionale: Sex hemisphaeria planetarum, quinque corpora aperta et basis sculpta.
 
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>
+   <div class="kepler-cad-studio" data-scene="tabula_iii_cad">
+     <iframe class="kepler-cad-iframe" src="../../_static/tabula-iii-3d.html?embed=1" title="Exemplar 3D CAD — Tabula III (Fol. 0034)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Tabula III · Exemplar 3D CAD (Fol. 0034)</strong></span>
+       <span>
+         <a href="../../_static/tabula-iii-3d.html" target="_blank" rel="noopener">Plena Fenestra ↗</a> ·
+         <a href="../../_static/models/tabula_iii.igz" download>.IGZ</a> ·
+         <a href="../../_static/models/tabula_iii.glb" download>.GLB</a> ·
+         <a href="../../_static/models/tabula_iii.obj" download>.OBJ</a>
+       </span>
+     </div>
+   </div>

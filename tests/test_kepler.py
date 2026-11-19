@@ -270,17 +270,66 @@ def test_archival_bitmaps_vectorizations_and_3d_studios() -> None:
         )
         assert plate_path.name in sibling_text, f"Orphaned plate not embedded in RST: {plate_path}"
 
-    # Confirm Interactive 3D Polyhedra Studios are prominently surfaced and scene-aligned
+    # Confirm Interactive 3D CAD Studio & Star Polyhedra mounts are surfaced
     for rel_path in (
         "mysterium_cosmographicum/index.rst",
         "mysterium_cosmographicum/cap_02/cap_02-en.rst",
         "mysterium_cosmographicum/cap_14/cap_14-en.rst",
     ):
         txt = (docsrc_dir / rel_path).read_text(encoding="utf-8")
-        assert 'data-scene="mysterium_nested_solids"' in txt, f"Missing 3D nested solids mount in {rel_path}"
+        assert 'data-scene="tabula_iii_cad"' in txt, f"Missing Tabula III 3D CAD mount in {rel_path}"
+        assert "tabula-iii-3d.html" in txt
 
     prop26_txt = (docsrc_dir / "harmonices_mundi/liber_ii/prop_26/prop_26-en.rst").read_text(encoding="utf-8")
     assert 'data-scene="harmonices_stellated"' in prop26_txt
+
+
+def test_tabula_iii_3d_cad_model_and_exports() -> None:
+    import sys
+
+    if str(PROJECT_ROOT) not in sys.path:
+        sys.path.insert(0, str(PROJECT_ROOT))
+
+    from tabula_iii_3d.components import ShimScene, build_tabula_iii_scene, compute_radii
+
+    # Verify exact Caput XIII ratios in CAD radial schedule
+    r = compute_radii("exact")
+    assert abs(r.jupiter_out / r.cube_r - 1.0 / float(sp.sqrt(3))) < 1e-9
+    assert abs(r.mars_out / r.tetra_r - 1.0 / 3.0) < 1e-9
+    dodec_ratio = float(sp.sqrt((5 + 2 * sp.sqrt(5)) / 15))
+    assert abs(r.earth_out / r.dodeca_r - dodec_ratio) < 1e-9
+    assert abs(r.venus_out / r.icosa_r - dodec_ratio) < 1e-9
+    assert abs(r.mercury_out / r.octa_r - 1.0 / float(sp.sqrt(3))) < 1e-9
+
+    # Verify clean 13-group assembly build
+    scene = ShimScene()
+    build_tabula_iii_scene(scene, scale_mode="exact", explode=0.0)
+    assert len(scene.groups) == 13
+    assert scene.groups[0].name == "01_Pedestal_Cradle"
+    assert scene.groups[-1].name == "13_Mu_Sol_Center"
+
+    # Verify CAD files exist and have valid binary magic headers
+    cad_dir = PROJECT_ROOT / "tabula_iii_3d"
+    for fname in ("tabula_iii.igz", "tabula_iii.glb", "tabula_iii.obj", "tabula_iii.mtl", "tabula_iii.blend"):
+        fpath = cad_dir / fname
+        assert fpath.is_file() and fpath.stat().st_size > 1000, f"Missing/empty CAD artifact: {fpath}"
+
+    assert (cad_dir / "tabula_iii.glb").read_bytes()[:4] == b"glTF"
+    assert (cad_dir / "tabula_iii.igz").read_bytes()[:2] == b"PK"
+
+    # Verify web-served Three.js studio & downloadable CAD copies
+    static_dir = PROJECT_ROOT / "docsrc" / "_static"
+    for rel in (
+        "tabula-iii-3d.html",
+        "vendor/three.module.js",
+        "vendor/OrbitControls.js",
+        "models/tabula_iii.glb",
+        "models/tabula_iii.igz",
+        "models/tabula_iii.obj",
+        "models/tabula_iii.mtl",
+    ):
+        assert (static_dir / rel).is_file(), f"Missing static 3D CAD asset: {rel}"
+
 
 
 

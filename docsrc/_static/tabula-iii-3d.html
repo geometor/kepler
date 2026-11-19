@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabula III (1596/1597, Folio 0034) — Interactive 3D CAD Studio • GEOMETOR Kepler</title>
+  <style>
+    :root {
+      --bg-deep: #0b0e14;
+      --panel-bg: rgba(14, 18, 26, 0.88);
+      --panel-border: rgba(217, 173, 92, 0.34);
+      --gold: #f5b942;
+      --gold-dim: rgba(245, 185, 66, 0.18);
+      --cyan: #38bdf8;
+      --text-main: #f1ede4;
+      --text-muted: #98a2b3;
+      --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+      --font-serif: "EB Garamond", "Palatino Linotype", Georgia, serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: var(--bg-deep);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      user-select: none;
+    }
+
+    body.light-studio {
+      --bg-deep: #eef1f5;
+      --panel-bg: rgba(255, 255, 255, 0.90);
+      --panel-border: rgba(148, 120, 62, 0.32);
+      --gold: #b45309;
+      --gold-dim: rgba(180, 83, 9, 0.12);
+      --text-main: #111827;
+      --text-muted: #4b5563;
+    }
+
+    #canvas-host {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+
+    /* Top Header Bar */
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 44px;
+      padding: 0 14px;
+      background: var(--panel-bg);
+      border-bottom: 1px solid var(--panel-border);
+      backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      z-index: 20;
+    }
+
+    .brand {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .brand-title {
+      font-family: var(--font-serif);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--gold);
+      white-space: nowrap;
+    }
+
+    .brand-sub {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .pill-btn {
+      appearance: none;
+      border: 1px solid var(--panel-border);
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 4px 9px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.14s ease;
+    }
+
+    .pill-btn:hover {
+      border-color: var(--gold);
+      background: var(--gold-dim);
+      color: var(--gold);
+    }
+
+    .pill-btn.active {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: #111318;
+      font-weight: 700;
+    }
+
+    /* Side Panels (Full Studio Mode) */
+    .hud-panel {
+      position: fixed;
+      top: 56px;
+      width: 268px;
+      max-height: calc(100vh - 104px);
+      overflow-y: auto;
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      padding: 12px;
+      z-index: 15;
+      backdrop-filter: blur(8px);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .hud-left { left: 12px; }
+    .hud-right { right: 12px; width: 282px; }
+
+    .section-hdr {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.10em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border-bottom: 1px solid var(--panel-border);
+      padding-bottom: 4px;
+      margin-bottom: 6px;
+    }
+
+    .preset-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .preset-btn {
+      appearance: none;
+      width: 100%;
+      text-align: left;
+      padding: 6px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(148, 163, 184, 0.22);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--text-main);
+      font-family: var(--font-mono);
+      font-size: 11px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.14s ease;
+    }
+
+    .preset-btn:hover, .preset-btn.active {
+      border-color: var(--gold);
+      background: var(--gold-dim);
+      color: var(--gold);
+    }
+
+    .preset-key {
+      font-size: 10px;
+      opacity: 0.65;
+      border: 1px solid currentColor;
+      padding: 0 4px;
+      border-radius: 3px;
+    }
+
+    .control-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .control-row .pill-btn {
+      flex: 1 1 auto;
+      text-align: center;
+    }
+
+    .slider-block {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .slider-label {
+      display: flex;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .slider-label strong { color: var(--gold); }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--gold);
+      cursor: pointer;
+    }
+
+    /* Legend / Assembly Tree */
+    .layer-list {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .layer-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 4px 6px;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-size: 11.5px;
+      transition: all 0.12s ease;
+    }
+
+    .layer-item:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(217, 173, 92, 0.28);
+    }
+
+    .layer-item.is-hidden {
+      opacity: 0.36;
+      text-decoration: line-through;
+    }
+
+    .layer-swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      flex-shrink: 0;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .layer-greek {
+      font-family: var(--font-serif);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--gold);
+      width: 18px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .layer-name {
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .layer-ratio {
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .cad-downloads {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+    }
+
+    .cad-downloads a {
+      text-align: center;
+      padding: 5px 4px;
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      border-radius: 4px;
+      border: 1px solid var(--panel-border);
+      color: var(--gold);
+      background: var(--gold-dim);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .cad-downloads a:hover {
+      background: var(--gold);
+      color: #111318;
+    }
+
+    /* Bottom Help Bar */
+    .bottom-bar {
+      position: fixed;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 5px 12px;
+      border-radius: 999px;
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      color: var(--text-muted);
+      z-index: 15;
+      white-space: nowrap;
+      backdrop-filter: blur(8px);
+    }
+
+    .bottom-bar strong { color: var(--gold); }
+
+    /* Compact Embedded Mode (inside Sphinx Book Codex pages) */
+    body.embed-mode .hud-panel {
+      display: none !important;
+    }
+
+    body.embed-mode .embed-strip {
+      display: flex !important;
+    }
+
+    .embed-strip {
+      display: none;
+      position: fixed;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      background: var(--panel-bg);
+      border: 1px solid var(--panel-border);
+      backdrop-filter: blur(8px);
+      z-index: 18;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .embed-strip .slider-inline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .embed-strip input[type="range"] {
+      width: 110px;
+    }
+
+    body.embed-mode .bottom-bar { display: none; }
+
+    body.hud-hidden .hud-panel,
+    body.hud-hidden .bottom-bar {
+      display: none !important;
+    }
+
+    @media (max-width: 900px) {
+      .hud-panel { width: 220px; }
+      .hud-right { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-host"></div>
+
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-title">Tabula III · Folio 0034</span>
+      <span class="brand-sub">Mysterium Cosmographicum (1596/1597) · 3D Parametric CAD Orrery</span>
+    </div>
+    <div class="top-actions">
+      <button class="pill-btn active" id="btnCutaway" title="1597 Cutaway Hemispherical Bowls">Cutaway</button>
+      <button class="pill-btn" id="btnFullOrbs" title="Full Translucent Planetary Orbs">Full Orbs</button>
+      <button class="pill-btn" id="btnSolidsOnly" title="Platonic Solid Scaffolds Only">Solids</button>
+      <button class="pill-btn" id="btnScale" title="Toggle Exact Caput XIII vs Expanded Inner Core">Exact 1:1</button>
+      <button class="pill-btn active" id="btnOrbit" title="Toggle Auto-Orbit">Orbit</button>
+      <button class="pill-btn" id="btnTheme" title="Toggle Museum Dark / Daylight CAD">Light</button>
+      <a class="pill-btn" id="btnFullStudio" href="tabula-iii-3d.html" target="_blank" rel="noopener" style="display:none;">Full CAD Studio ↗</a>
+    </div>
+  </header>
+
+  <aside class="hud-panel hud-left">
+    <div>
+      <div class="section-hdr">Camera Presets (Keys 1–6)</div>
+      <div class="preset-grid" id="presetGrid"></div>
+    </div>
+
+    <div>
+      <div class="section-hdr">Assembly &amp; Cutaway Controls</div>
+      <div class="slider-block">
+        <div class="slider-label">
+          <span>Exploded Assembly</span>
+          <strong id="explodeReadout">0%</strong>
+        </div>
+        <input type="range" id="explodeSlider" min="0" max="100" value="0" />
+      </div>
+      <div class="control-row" style="margin-top:8px;">
+        <button class="pill-btn active" id="btnPedestal">Pedestal</button>
+        <button class="pill-btn" id="btnWire">Wireframe</button>
+        <button class="pill-btn" id="btnResetLayers">Show All</button>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-hdr">Download CAD Assets</div>
+      <div class="cad-downloads">
+        <a href="models/tabula_iii.igz" download>IngeTrazo .IGZ</a>
+        <a href="models/tabula_iii.glb" download>glTF .GLB</a>
+        <a href="models/tabula_iii.obj" download>Wavefront .OBJ</a>
+      </div>
+    </div>
+  </aside>
+
+  <aside class="hud-panel hud-right">
+    <div>
+      <div class="section-hdr">1597 Legend (α–μ) · Click to Toggle</div>
+      <div class="layer-list" id="layerList"></div>
+    </div>
+  </aside>
+
+  <div class="embed-strip">
+    <div class="control-row" id="embedPresets"></div>
+    <div class="slider-inline">
+      <span>Explode</span>
+      <input type="range" id="embedExplode" min="0" max="100" value="0" />
+      <strong id="embedExplodeVal" style="color:var(--gold)">0%</strong>
+    </div>
+    <div class="control-row">
+      <a class="pill-btn" href="models/tabula_iii.glb" download>.GLB</a>
+      <a class="pill-btn" href="models/tabula_iii.igz" download>.IGZ</a>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <strong>LMB Drag</strong> Orbit · <strong>RMB Drag</strong> Pan · <strong>Scroll</strong> Zoom · <strong>Keys 1–6</strong> Camera Presets · <strong>H</strong> Hide HUD
+  </div>
+
+  <script type="module">
+    import * as THREE from './vendor/three.module.js';
+    import { OrbitControls } from './vendor/OrbitControls.js';
+
+    const params = new URLSearchParams(window.location.search);
+    const isEmbed = params.get('embed') === '1';
+    if (isEmbed) {
+      document.body.classList.add('embed-mode');
+      document.getElementById('btnFullStudio').style.display = 'inline-block';
+    }
+    if (params.get('hud') === '0') {
+      document.body.classList.add('hud-hidden');
+    }
+
+    // ── Exact Symbolic Constants (Q(sqrt(3), phi)) ───────────────────────
+    const SQRT2 = Math.sqrt(2);
+    const SQRT3 = Math.sqrt(3);
+    const SQRT5 = Math.sqrt(5);
+    const PHI = (1 + SQRT5) / 2;
+    const DODEC_ICOSA = Math.sqrt((5 + 2 * SQRT5) / 15); // ~0.7946544723
+    const CENTER_Y = 1.480; // Y-up Three.js height of Sol (matches CAD CENTER_Z = 1.480 m)
+
+    function computeRadii(mode) {
+      if (mode === 'expanded') {
+        const satOut = 1.000, satIn = 0.945;
+        const cubeR = satIn;
+        const jupOut = cubeR / SQRT3, jupIn = 0.510;
+        const tetraR = jupIn;
+        const marOut = 0.285, marIn = 0.265;
+        const dodecaR = marIn;
+        const earOut = dodecaR * DODEC_ICOSA, earIn = 0.195;
+        const icosaR = earIn;
+        const venOut = icosaR * DODEC_ICOSA, venIn = 0.143;
+        const octaR = venIn;
+        const merOut = octaR / SQRT3, merIn = 0.072;
+        return {
+          satOut, satIn, cubeR, jupOut, jupIn, tetraR,
+          marOut, marIn, dodecaR, earOut, earIn, icosaR,
+          venOut, venIn, octaR, merOut, merIn, solR: 0.036,
+        };
+      }
+      const satOut = 1.000, satIn = 0.945;
+      const cubeR = satIn;
+      const jupOut = cubeR / SQRT3, jupIn = jupOut - 0.036;
+      const tetraR = jupIn;
+      const marOut = tetraR / 3.0, marIn = marOut - 0.011;
+      const dodecaR = marIn;
+      const earOut = dodecaR * DODEC_ICOSA, earIn = earOut - 0.008;
+      const icosaR = earIn;
+      const venOut = icosaR * DODEC_ICOSA, venIn = venOut - 0.006;
+      const octaR = venIn;
+      const merOut = octaR / SQRT3, merIn = merOut - 0.005;
+      return {
+        satOut, satIn, cubeR, jupOut, jupIn, tetraR,
+        marOut, marIn, dodecaR, earOut, earIn, icosaR,
+        venOut, venIn, octaR, merOut, merIn, solR: 0.024,
+      };
+    }
+
+    // ── Three.js Scene, Renderer & Procedural Museum Studio Lighting ─────
+    const host = document.getElementById('canvas-host');
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0b0e14);
+
+    const camera = new THREE.PerspectiveCamera(40, window.innerWidth / window.innerHeight, 0.01, 100);
+    const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: 'high-performance' });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.18;
+    host.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.06;
+    controls.minDistance = 0.35;
+    controls.maxDistance = 12.0;
+
+    // Procedural Studio PMREM Environment Map so metallic brass/silver/copper gleam authentically!
+    function createStudioEnvMap() {
+      const pmrem = new THREE.PMREMGenerator(renderer);
+      const envScene = new THREE.Scene();
+      envScene.background = new THREE.Color(0x141926);
+      const panelGeo = new THREE.PlaneGeometry(8, 8);
+      const warmMat = new THREE.MeshBasicMaterial({ color: 0xffe8c2, side: THREE.DoubleSide });
+      const coolMat = new THREE.MeshBasicMaterial({ color: 0x9ec5ff, side: THREE.DoubleSide });
+      const topMat  = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide });
+      const p1 = new THREE.Mesh(panelGeo, warmMat); p1.position.set(-7, 6, 7); p1.lookAt(0, 0, 0); envScene.add(p1);
+      const p2 = new THREE.Mesh(panelGeo, coolMat); p2.position.set(8, 4, -6); p2.lookAt(0, 0, 0); envScene.add(p2);
+      const p3 = new THREE.Mesh(panelGeo, topMat);  p3.position.set(0, 10, 0); p3.lookAt(0, 0, 0); envScene.add(p3);
+      const rt = pmrem.fromScene(envScene, 0.04);
+      pmrem.dispose();
+      return rt.texture;
+    }
+    scene.environment = createStudioEnvMap();
+
+    // 3-Point Museum Lighting
+    const hemiLight = new THREE.HemisphereLight(0xf6f0e4, 0x1b2333, 0.65);
+    scene.add(hemiLight);
+
+    const keyLight = new THREE.DirectionalLight(0xfff1d6, 2.2);
+    keyLight.position.set(-3.2, 4.4, 3.4);
+    keyLight.castShadow = true;
+    keyLight.shadow.mapSize.set(2048, 2048);
+    keyLight.shadow.camera.near = 0.5;
+    keyLight.shadow.camera.far = 15;
+    const d = 2.2;
+    keyLight.shadow.camera.left = -d;
+    keyLight.shadow.camera.right = d;
+    keyLight.shadow.camera.top = d;
+    keyLight.shadow.camera.bottom = -d;
+    keyLight.shadow.bias = -0.0005;
+    scene.add(keyLight);
+
+    const rimLight = new THREE.DirectionalLight(0xa3c9ff, 1.35);
+    rimLight.position.set(3.8, 2.8, -2.5);
+    scene.add(rimLight);
+
+    const topLight = new THREE.DirectionalLight(0xffffff, 1.15);
+    topLight.position.set(0.4, 5.2, 0.8);
+    scene.add(topLight);
+
+    const solPointLight = new THREE.PointLight(0xffcb57, 1.4, 3.0);
+    solPointLight.position.set(0, CENTER_Y, 0);
+    scene.add(solPointLight);
+
+    // Ground museum floor disk
+    const floorMat = new THREE.MeshStandardMaterial({
+      color: 0x10141d,
+      roughness: 0.42,
+      metalness: 0.18,
+    });
+    const floorMesh = new THREE.Mesh(new THREE.CylinderGeometry(2.6, 2.7, 0.02, 64), floorMat);
+    floorMesh.position.y = -0.01;
+    floorMesh.receiveShadow = true;
+    scene.add(floorMesh);
+
+    // Subtle polar engraved studio grid ring on floor
+    const floorRing = new THREE.Mesh(
+      new THREE.RingGeometry(1.18, 1.20, 64),
+      new THREE.MeshBasicMaterial({ color: 0xd9ad5c, transparent: true, opacity: 0.25, side: THREE.DoubleSide })
+    );
+    floorRing.rotation.x = -Math.PI / 2;
+    floorRing.position.y = 0.002;
+    scene.add(floorRing);
+
+    // ── Material Factory (Matching Python CAD PBR Palette) ───────────────
+    function makeMat(hex, roughness, metalness, extra = {}) {
+      return new THREE.MeshStandardMaterial({
+        color: hex,
+        roughness,
+        metalness,
+        envMapIntensity: 1.15,
+        ...extra,
+      });
+    }
+
+    const MATS = {
+      pedStone:  makeMat(0x282c34, 0.68, 0.12),
+      pedTrim:   makeMat(0x46423c, 0.50, 0.28),
+      pedBronze: makeMat(0x9a743e, 0.32, 0.86),
+      cradle:    makeMat(0x7d5d33, 0.34, 0.88),
+      finial:    makeMat(0xdfaf4d, 0.22, 0.94),
+      bead:      makeMat(0xf0cc66, 0.20, 0.94),
+
+      satShell:  makeMat(0xc4baa0, 0.34, 0.64),
+      satRim:    makeMat(0xddc284, 0.24, 0.84),
+      jupShell:  makeMat(0xc7b3a3, 0.34, 0.62),
+      jupRim:    makeMat(0xdca480, 0.24, 0.84),
+      marShell:  makeMat(0xc29e94, 0.34, 0.64),
+      marRim:    makeMat(0xe08070, 0.24, 0.84),
+      earShell:  makeMat(0x8abdad, 0.30, 0.66),
+      earRim:    makeMat(0x6bd6ad, 0.22, 0.86),
+      venShell:  makeMat(0xa3bddb, 0.30, 0.66),
+      venRim:    makeMat(0x94c2f0, 0.22, 0.86),
+      merShell:  makeMat(0xaecce0, 0.28, 0.72),
+      merRim:    makeMat(0x85d6f5, 0.20, 0.88),
+
+      cubeOut:   makeMat(0xe5b242, 0.24, 0.92),
+      cubeRev:   makeMat(0xa88032, 0.34, 0.86),
+      cubeIn:    makeMat(0x785b24, 0.42, 0.82),
+
+      tetOut:    makeMat(0xd96f55, 0.26, 0.88),
+      tetRev:    makeMat(0xa3523d, 0.36, 0.84),
+      tetIn:     makeMat(0x75382c, 0.42, 0.80),
+
+      dodOut:    makeMat(0xc08ff0, 0.24, 0.86),
+      dodRev:    makeMat(0x8a66b8, 0.34, 0.82),
+      dodIn:     makeMat(0x61478a, 0.42, 0.78),
+
+      icoOut:    makeMat(0x6ba8f2, 0.24, 0.88),
+      icoRev:    makeMat(0x4c80c2, 0.34, 0.84),
+      icoIn:     makeMat(0x335c94, 0.42, 0.80),
+
+      octOut:    makeMat(0x57d1f0, 0.22, 0.92),
+      octRev:    makeMat(0x389ec2, 0.32, 0.86),
+      octIn:     makeMat(0x28708f, 0.40, 0.82),
+
+      solCore:   new THREE.MeshStandardMaterial({
+        color: 0xffd859,
+        emissive: 0xffa824,
+        emissiveIntensity: 1.85,
+        roughness: 0.15,
+        metalness: 0.25,
+      }),
+    };
+
+    // ── CAD Geometry Builders (Z-up Math Converted Directly to Y-up Three.js) ─
+    function cadToThree(x, y, z) {
+      return new THREE.Vector3(x, z, -y);
+    }
+
+    function rotZ3(v, ang) {
+      const c = Math.cos(ang), s = Math.sin(ang);
+      return [v[0] * c - v[1] * s, v[0] * s + v[1] * c, v[2]];
+    }
+
+    function rotX3(v, ang) {
+      const c = Math.cos(ang), s = Math.sin(ang);
+      return [v[0], v[1] * c - v[2] * s, v[1] * s + v[2] * c];
+    }
+
+    // Build thick-walled cutaway hemispherical bowl via THREE.LatheGeometry (watertight!)
+    function buildCutawayBowlMesh(rOut, rIn, shellMat, rimMat, lonSegs, latSegs) {
+      const g = new THREE.Group();
+      const t = Math.max(0.002, rOut - rIn);
+      const bevel = Math.min(t * 0.18, rOut * 0.012);
+
+      // Outer hemisphere + inner hemisphere (smooth shaded)
+      const outerPts = [];
+      for (let i = 0; i <= latSegs; i++) {
+        const lat = -Math.PI / 2 + (Math.PI / 2) * (i / latSegs);
+        const r = i === 0 ? 0.0001 : rOut * Math.cos(lat);
+        let y = rOut * Math.sin(lat);
+        if (i === latSegs) y -= bevel;
+        outerPts.push(new THREE.Vector2(r, y));
+      }
+      const outerMesh = new THREE.Mesh(new THREE.LatheGeometry(outerPts, lonSegs), shellMat);
+      outerMesh.castShadow = true;
+      outerMesh.receiveShadow = true;
+      g.add(outerMesh);
+
+      const innerPts = [];
+      for (let i = 0; i <= latSegs; i++) {
+        const lat = -(Math.PI / 2) * (i / latSegs);
+        const r = i === latSegs ? 0.0001 : rIn * Math.cos(lat);
+        let y = rIn * Math.sin(lat);
+        if (i === 0) y -= bevel;
+        innerPts.push(new THREE.Vector2(r, y));
+      }
+      const innerMesh = new THREE.Mesh(new THREE.LatheGeometry(innerPts, lonSegs), shellMat);
+      innerMesh.receiveShadow = true;
+      g.add(innerMesh);
+
+      // Gleaming double-beveled flat equatorial rim ring
+      const rimPts = [
+        new THREE.Vector2(rOut, -bevel),
+        new THREE.Vector2(rOut - bevel, 0),
+        new THREE.Vector2(rIn + bevel, 0),
+        new THREE.Vector2(rIn, -bevel),
+      ];
+      const rimMesh = new THREE.Mesh(new THREE.LatheGeometry(rimPts, lonSegs), rimMat);
+      rimMesh.castShadow = true;
+      rimMesh.receiveShadow = true;
+      g.add(rimMesh);
+
+      return g;
+    }
+
+    // Build Leonardo/Kepler watertight mitered open-frame polyhedron!
+    function buildBeveledPolyFrame(vertsCad, faces, aperture, radialDepth, outMat, revMat, inMat) {
+      const rIn = 1.0 - radialDepth;
+      const buckets = { out: [], rev: [], in: [] };
+
+      function pushQuad(arr, a, b, c, d) {
+        arr.push(
+          a.x, a.y, a.z, b.x, b.y, b.z, c.x, c.y, c.z,
+          a.x, a.y, a.z, c.x, c.y, c.z, d.x, d.y, d.z
+        );
+      }
+
+      for (const f of faces) {
+        const k = f.length;
+        let fv = f.map(i => cadToThree(vertsCad[i][0], vertsCad[i][1], vertsCad[i][2]));
+        const fc = new THREE.Vector3();
+        fv.forEach(p => fc.add(p));
+        fc.multiplyScalar(1 / k);
+        const e1 = new THREE.Vector3().subVectors(fv[1], fv[0]);
+        const e2 = new THREE.Vector3().subVectors(fv[2], fv[0]);
+        if (new THREE.Vector3().crossVectors(e1, e2).dot(fc) < 0) fv = fv.slice().reverse();
+
+        const wOut = fv.map(v => new THREE.Vector3().lerpVectors(v, fc, aperture));
+        const vIn  = fv.map(v => v.clone().multiplyScalar(rIn));
+        const wIn  = wOut.map(w => w.clone().multiplyScalar(rIn));
+
+        for (let i = 0; i < k; i++) {
+          const ni = (i + 1) % k;
+          pushQuad(buckets.out, fv[i], fv[ni], wOut[ni], wOut[i]);
+          pushQuad(buckets.in,  vIn[ni], vIn[i], wIn[i], wIn[ni]);
+          pushQuad(buckets.rev, wOut[i], wOut[ni], wIn[ni], wIn[i]);
+        }
+      }
+
+      const grp = new THREE.Group();
+      for (const [key, mat] of [['out', outMat], ['rev', revMat], ['in', inMat]]) {
+        const geo = new THREE.BufferGeometry();
+        geo.setAttribute('position', new THREE.Float32BufferAttribute(buckets[key], 3));
+        geo.computeVertexNormals();
+        const mesh = new THREE.Mesh(geo, mat);
+        mesh.castShadow = true;
+        mesh.receiveShadow = true;
+        grp.add(mesh);
+      }
+      return grp;
+    }
+
+    // Exact Platonic Polyhedra Vertices & Faces (Tabula III Orientations)
+    function normV(raw, R) {
+      return raw.map(([x, y, z]) => {
+        const m = Math.hypot(x, y, z) || 1;
+        return [x * R / m, y * R / m, z * R / m];
+      });
+    }
+
+    function geomCube(R) {
+      const raw = [
+        [-1, -1, -1], [1, -1, -1], [1, 1, -1], [-1, 1, -1],
+        [-1, -1,  1], [1, -1,  1], [1, 1,  1], [-1, 1,  1],
+      ];
+      return {
+        verts: normV(raw, R),
+        faces: [[0,3,2,1],[4,5,6,7],[0,1,5,4],[1,2,6,5],[2,3,7,6],[3,0,4,7]],
+      };
+    }
+
+    function geomTetra(R) {
+      const zB = -R / 3;
+      const rB = R * (2 * SQRT2 / 3);
+      const yaw = -22 * Math.PI / 180;
+      const verts = [[0, 0, R]];
+      for (let k = 0; k < 3; k++) {
+        const a = yaw + (2 * Math.PI * k) / 3;
+        verts.push([rB * Math.cos(a), rB * Math.sin(a), zB]);
+      }
+      return { verts, faces: [[1,3,2],[0,1,2],[0,2,3],[0,3,1]] };
+    }
+
+    function geomIcosa(R) {
+      const raw = [
+        [0,1,PHI],[0,-1,PHI],[0,1,-PHI],[0,-1,-PHI],
+        [1,PHI,0],[-1,PHI,0],[1,-PHI,0],[-1,-PHI,0],
+        [PHI,0,1],[-PHI,0,1],[PHI,0,-1],[-PHI,0,-1],
+      ];
+      const tilt = Math.atan2(1, PHI);
+      const yaw = 18 * Math.PI / 180;
+      const verts = normV(raw, R).map(v => rotZ3(rotX3(v, tilt), yaw));
+      const faces = [
+        [0,1,8],[0,8,4],[0,4,5],[0,5,9],[0,9,1],
+        [1,6,8],[8,6,10],[8,10,4],[4,10,2],[4,2,5],
+        [5,2,11],[5,11,9],[9,11,7],[9,7,1],[1,7,6],
+        [3,6,7],[3,10,6],[3,2,10],[3,11,2],[3,7,11],
+      ];
+      return { verts, faces };
+    }
+
+    function geomDodeca(R) {
+      const ico = geomIcosa(1);
+      const raw = ico.faces.map(f => {
+        const a = ico.verts[f[0]], b = ico.verts[f[1]], c = ico.verts[f[2]];
+        return [a[0]+b[0]+c[0], a[1]+b[1]+c[1], a[2]+b[2]+c[2]];
+      });
+      const verts = normV(raw, R);
+      const faces = [];
+      for (let vi = 0; vi < 12; vi++) {
+        const adj = [];
+        ico.faces.forEach((f, fi) => { if (f.includes(vi)) adj.push(fi); });
+        const ax = new THREE.Vector3(...ico.verts[vi]);
+        const v0 = new THREE.Vector3(...verts[adj[0]]);
+        const ref = v0.clone().sub(ax.clone().multiplyScalar(v0.dot(ax))).normalize();
+        const tan = new THREE.Vector3().crossVectors(ax, ref);
+        adj.sort((ia, ib) => {
+          const pa = new THREE.Vector3(...verts[ia]);
+          const pb = new THREE.Vector3(...verts[ib]);
+          return Math.atan2(pa.dot(tan), pa.dot(ref)) - Math.atan2(pb.dot(tan), pb.dot(ref));
+        });
+        faces.push(adj);
+      }
+      return { verts, faces };
+    }
+
+    function geomOcta(R) {
+      const yaw = 15 * Math.PI / 180;
+      const raw = [[R,0,0],[-R,0,0],[0,R,0],[0,-R,0],[0,0,R],[0,0,-R]];
+      return {
+        verts: raw.map(v => rotZ3(v, yaw)),
+        faces: [[4,0,2],[4,2,1],[4,1,3],[4,3,0],[5,2,0],[5,1,2],[5,3,1],[5,0,3]],
+      };
+    }
+
+    // Build Carved 1597 Renaissance Pedestal + 4 Scrolled Volute Legs + 8 Finials + 4 Meridian Cradle Straps
+    function buildPedestalGroup() {
+      const g = new THREE.Group();
+
+      // Stepped Plinth Slabs
+      const slab1 = new THREE.Mesh(new THREE.BoxGeometry(1.28, 0.055, 1.28), MATS.pedStone);
+      slab1.position.y = 0.0275; slab1.castShadow = true; slab1.receiveShadow = true;
+      g.add(slab1);
+
+      const slab2 = new THREE.Mesh(new THREE.BoxGeometry(1.06, 0.050, 1.06), MATS.pedTrim);
+      slab2.position.y = 0.080; slab2.castShadow = true; slab2.receiveShadow = true;
+      g.add(slab2);
+
+      // 4 Semicircular Cardinal Bastion Lobes
+      const lobeGeo = new THREE.CylinderGeometry(0.145, 0.148, 0.053, 24);
+      for (let k = 0; k < 4; k++) {
+        const ang = k * Math.PI / 2;
+        const lobe = new THREE.Mesh(lobeGeo, MATS.pedTrim);
+        lobe.position.set(0.51 * Math.cos(ang), 0.0815, -0.51 * Math.sin(ang));
+        lobe.castShadow = true; lobe.receiveShadow = true;
+        g.add(lobe);
+      }
+
+      // Central Turned Pedestal Turntable & Cradle Calyx
+      const turnPts = [
+        [0.001, 0.105], [0.35, 0.105], [0.35, 0.132], [0.32, 0.142],
+        [0.18, 0.142], [0.16, 0.210], [0.21, 0.455], [0.30, 0.525],
+        [0.23, 0.525], [0.12, 0.482], [0.001, 0.482],
+      ].map(([r, y]) => new THREE.Vector2(r, y));
+      const calyx = new THREE.Mesh(new THREE.LatheGeometry(turnPts, 40), MATS.pedBronze);
+      calyx.castShadow = true; calyx.receiveShadow = true;
+      g.add(calyx);
+
+      // 4 Cruciform Scrolled Volutes, Legs, 8 Pyramidal Finials, & 4 Meridian Cradle Straps
+      const extrudeShape = (pts, depth, mat) => {
+        const sh = new THREE.Shape();
+        pts.forEach(([x, y], i) => i === 0 ? sh.moveTo(x, y) : sh.lineTo(x, y));
+        sh.closePath();
+        const geo = new THREE.ExtrudeGeometry(sh, { depth, bevelEnabled: true, bevelThickness: 0.006, bevelSize: 0.005, bevelSegments: 2 });
+        geo.translate(0, 0, -depth / 2);
+        const m = new THREE.Mesh(geo, mat);
+        m.castShadow = true; m.receiveShadow = true;
+        return m;
+      };
+
+      for (let k = 0; k < 4; k++) {
+        const arm = new THREE.Group();
+        arm.rotation.y = k * Math.PI / 2;
+
+        // Vertical outer leg & horizontal yoke
+        arm.add(extrudeShape([
+          [0.45, 0.108], [0.56, 0.108], [0.56, 0.185], [0.51, 0.205],
+          [0.51, 0.365], [0.57, 0.375], [0.57, 0.455], [0.43, 0.455],
+          [0.43, 0.190],
+        ], 0.10, MATS.pedBronze));
+
+        arm.add(extrudeShape([
+          [0.15, 0.370], [0.45, 0.370], [0.45, 0.445], [0.15, 0.445],
+        ], 0.085, MATS.pedBronze));
+
+        // Upper & Lower S-scroll volutes
+        arm.add(extrudeShape([
+          [0.17, 0.445], [0.36, 0.445], [0.41, 0.510], [0.37, 0.575],
+          [0.28, 0.590], [0.20, 0.545], [0.16, 0.490],
+        ], 0.078, MATS.cradle));
+
+        arm.add(extrudeShape([
+          [0.15, 0.142], [0.33, 0.142], [0.36, 0.215], [0.31, 0.295],
+          [0.23, 0.310], [0.16, 0.255],
+        ], 0.072, MATS.pedBronze));
+
+        // 2 Iconic Outward-Pointing 4-Sided Pyramidal Finial Spikes
+        const fin1 = new THREE.Mesh(new THREE.ConeGeometry(0.056, 0.17, 4), MATS.finial);
+        fin1.rotation.z = -Math.PI / 2;
+        fin1.rotation.x = Math.PI / 4;
+        fin1.position.set(0.56 + 0.085, 0.146, 0);
+        fin1.castShadow = true;
+        arm.add(fin1);
+
+        const fin2 = new THREE.Mesh(new THREE.ConeGeometry(0.060, 0.18, 4), MATS.finial);
+        fin2.rotation.z = -Math.PI / 2;
+        fin2.rotation.x = Math.PI / 4;
+        fin2.position.set(0.57 + 0.09, 0.415, 0);
+        fin2.castShadow = true;
+        arm.add(fin2);
+
+        // Curved Bronze Meridian Cradle Strap hugging Saturn's lower hemisphere!
+        const strapPts = [];
+        const steps = 26;
+        const rIn = 0.998, rOut = 1.022;
+        for (let i = 0; i <= steps; i++) {
+          const lat = (-80 + 79.5 * (i / steps)) * Math.PI / 180;
+          strapPts.push([rOut * Math.cos(lat), CENTER_Y + rOut * Math.sin(lat)]);
+        }
+        for (let i = steps; i >= 0; i--) {
+          const lat = (-80 + 79.5 * (i / steps)) * Math.PI / 180;
+          strapPts.push([rIn * Math.cos(lat), CENTER_Y + rIn * Math.sin(lat)]);
+        }
+        arm.add(extrudeShape(strapPts, 0.082, MATS.cradle));
+
+        g.add(arm);
+      }
+
+      return g;
+    }
+
+    // ── Complete Assembly Manager ────────────────────────────────────────
+    const ASSEMBLY_META = [
+      { key: 'pedestal', greek: '⏚', name: 'Pedestal & Cradle',  ratio: '1597 Base',    hex: '#9a743e', exp: -0.14, kind: 'pedestal' },
+      { key: 'saturn',   greek: 'α',  name: 'Sphaera ♄ Saturn',   ratio: 'R = 1.000',    hex: '#ddc284', exp:  0.00, kind: 'bowl' },
+      { key: 'cube',     greek: 'β',  name: 'Cubus (Cube)',       ratio: '1/√3 = 0.577', hex: '#e5b242', exp:  0.14, kind: 'solid' },
+      { key: 'jupiter',  greek: 'γ',  name: 'Sphaera ♃ Jupiter',  ratio: 'R = 0.546',    hex: '#dca480', exp:  0.28, kind: 'bowl' },
+      { key: 'tetra',    greek: 'δ',  name: 'Tetraedron',         ratio: '1/3 = 0.333',  hex: '#d96f55', exp:  0.42, kind: 'solid' },
+      { key: 'mars',     greek: 'ε',  name: 'Sphaera ♂ Mars',     ratio: 'R = 0.170',    hex: '#e08070', exp:  0.56, kind: 'bowl' },
+      { key: 'dodeca',   greek: 'ζ',  name: 'Dodecaedron',        ratio: '0.795',        hex: '#c08ff0', exp:  0.70, kind: 'solid' },
+      { key: 'earth',    greek: 'η',  name: 'Orbis Magnus ⊕',     ratio: 'R = 0.126',    hex: '#6bd6ad', exp:  0.84, kind: 'bowl' },
+      { key: 'icosa',    greek: 'θ',  name: 'Icosaedron',         ratio: '0.795',        hex: '#6ba8f2', exp:  0.98, kind: 'solid' },
+      { key: 'venus',    greek: 'ι',  name: 'Sphaera ♀ Venus',    ratio: 'R = 0.094',    hex: '#94c2f0', exp:  1.10, kind: 'bowl' },
+      { key: 'octa',     greek: 'κ',  name: 'Octaedron',          ratio: '1/√3 = 0.577', hex: '#57d1f0', exp:  1.22, kind: 'solid' },
+      { key: 'mercury',  greek: 'λ',  name: 'Sphaera ☿ Mercury',  ratio: 'R = 0.051',    hex: '#85d6f5', exp:  1.34, kind: 'bowl' },
+      { key: 'sol',      greek: 'μ',  name: 'Sol (Center)',       ratio: 'r = 0.024',    hex: '#ffd859', exp:  1.46, kind: 'sol' },
+    ];
+
+    const state = {
+      scaleMode: params.get('scale') === 'expanded' ? 'expanded' : 'exact',
+      shellMode: 'cutaway', // 'cutaway' | 'full' | 'solids'
+      explode: Math.max(0, Math.min(1, parseFloat(params.get('explode') || '0') || 0)),
+      autoOrbit: params.get('orbit') !== '0',
+      wireframe: false,
+      lightMode: false,
+      visible: Object.fromEntries(ASSEMBLY_META.map(m => [m.key, true])),
+    };
+
+    const rootGroup = new THREE.Group();
+    scene.add(rootGroup);
+    const layerNodes = {};
+
+    function rebuildModel() {
+      while (rootGroup.children.length > 0) {
+        rootGroup.remove(rootGroup.children[0]);
+      }
+      const R = computeRadii(state.scaleMode);
+
+      // Pedestal
+      const ped = buildPedestalGroup();
+      layerNodes.pedestal = ped;
+      rootGroup.add(ped);
+
+      // Six Planetary Bowls (plus optional Full Translucent Glass Spheres!)
+      const bowlSpecs = [
+        ['saturn',  R.satOut, R.satIn, MATS.satShell, MATS.satRim, 64, 22, 0,   false, 0xddc284],
+        ['jupiter', R.jupOut, R.jupIn, MATS.jupShell, MATS.jupRim, 56, 18, -4,  false, 0xdca480],
+        ['mars',    R.marOut, R.marIn, MATS.marShell, MATS.marRim, 48, 16, -8,  false, 0xe08070],
+        ['earth',   R.earOut, R.earIn, MATS.earShell, MATS.earRim, 40, 14, -12, true,  0x6bd6ad],
+        ['venus',   R.venOut, R.venIn, MATS.venShell, MATS.venRim, 36, 14, -15, false, 0x94c2f0],
+        ['mercury', R.merOut, R.merIn, MATS.merShell, MATS.merRim, 32, 12, -18, false, 0x85d6f5],
+      ];
+
+      for (const [key, rOut, rIn, sMat, rMat, lon, lat, azDeg, hasMoon, glassHex] of bowlSpecs) {
+        const holder = new THREE.Group();
+        holder.position.y = CENTER_Y;
+
+        if (state.shellMode === 'cutaway') {
+          holder.add(buildCutawayBowlMesh(rOut, rIn, sMat, rMat, lon, lat));
+          // Rim planetary medallion bead
+          const t = rOut - rIn;
+          const rMid = 0.5 * (rOut + rIn);
+          const br = Math.max(0.005, t * 0.56);
+          const ang = azDeg * Math.PI / 180;
+          const bead = new THREE.Mesh(new THREE.SphereGeometry(br, 16, 12), MATS.bead);
+          bead.position.set(rMid * Math.cos(ang), br * 0.62, -rMid * Math.sin(ang));
+          bead.castShadow = true;
+          holder.add(bead);
+          if (hasMoon) {
+            const moon = new THREE.Mesh(new THREE.SphereGeometry(br * 0.45, 12, 8), MATS.earRim);
+            moon.position.set(rMid * Math.cos(ang + 0.16), br * 0.62, -rMid * Math.sin(ang + 0.16));
+            holder.add(moon);
+          }
+        } else if (state.shellMode === 'full') {
+          const glassMat = new THREE.MeshPhysicalMaterial({
+            color: glassHex,
+            transparent: true,
+            opacity: key === 'saturn' ? 0.12 : 0.18,
+            roughness: 0.12,
+            metalness: 0.1,
+            depthWrite: false,
+          });
+          holder.add(new THREE.Mesh(new THREE.SphereGeometry(rOut, lon, lat * 2), glassMat));
+          const eqRing = new THREE.Mesh(
+            new THREE.TorusGeometry(rOut, Math.max(0.0018, rOut * 0.006), 8, lon),
+            rMat
+          );
+          eqRing.rotation.x = Math.PI / 2;
+          holder.add(eqRing);
+        }
+
+        layerNodes[key] = holder;
+        rootGroup.add(holder);
+      }
+
+      // Five Watertight Architectural Open-Frame Platonic Scaffolds
+      const solidSpecs = [
+        ['cube',   geomCube(R.cubeR),     0.17, 0.056, MATS.cubeOut, MATS.cubeRev, MATS.cubeIn],
+        ['tetra',  geomTetra(R.tetraR),   0.16, 0.056, MATS.tetOut,  MATS.tetRev,  MATS.tetIn],
+        ['dodeca', geomDodeca(R.dodecaR), 0.22, 0.052, MATS.dodOut,  MATS.dodRev,  MATS.dodIn],
+        ['icosa',  geomIcosa(R.icosaR),   0.24, 0.044, MATS.icoOut,  MATS.icoRev,  MATS.icoIn],
+        ['octa',   geomOcta(R.octaR),     0.22, 0.052, MATS.octOut,  MATS.octRev,  MATS.octIn],
+      ];
+
+      for (const [key, geom, ap, dep, oM, rM, iM] of solidSpecs) {
+        const holder = buildBeveledPolyFrame(geom.verts, geom.faces, ap, dep, oM, rM, iM);
+        holder.position.y = CENTER_Y;
+        layerNodes[key] = holder;
+        rootGroup.add(holder);
+      }
+
+      // Central Immobile Sol (mu)
+      const solHolder = new THREE.Group();
+      solHolder.position.y = CENTER_Y;
+      solHolder.add(new THREE.Mesh(new THREE.SphereGeometry(R.solR, 28, 18), MATS.solCore));
+      layerNodes.sol = solHolder;
+      rootGroup.add(solHolder);
+
+      applyVisibilityAndExplode();
+      applyWireframe();
+    }
+
+    function applyVisibilityAndExplode() {
+      for (const meta of ASSEMBLY_META) {
+        const node = layerNodes[meta.key];
+        if (!node) continue;
+        const hiddenByShellMode = state.shellMode === 'solids' && meta.kind === 'bowl';
+        node.visible = state.visible[meta.key] && !hiddenByShellMode;
+        if (meta.key === 'pedestal') {
+          node.position.y = state.explode * meta.exp;
+        } else {
+          node.position.y = CENTER_Y + state.explode * meta.exp;
+        }
+      }
+      solPointLight.position.y = CENTER_Y + state.explode * 1.46;
+    }
+
+    function applyWireframe() {
+      rootGroup.traverse(obj => {
+        if (obj.isMesh && obj.material && 'wireframe' in obj.material) {
+          obj.material.wireframe = state.wireframe;
+        }
+      });
+    }
+
+    // ── Camera Presets ───────────────────────────────────────────────────
+    const PRESETS = [
+      { id: 'plate',    key: '1', label: 'Tabula III (1597 Angle)', pos: [-0.82, 2.68, 3.85], target: [0, 1.08, 0], explode: 0 },
+      { id: 'top',      key: '2', label: 'Equatorial Bowl Cutaway', pos: [-0.35, 3.65, 1.72], target: [0, 1.38, 0], explode: 0 },
+      { id: 'core',     key: '3', label: 'Inner Core Macro (ε–μ)',  pos: [-0.24, 1.88, 0.80], target: [0, 1.46, 0], explode: 0 },
+      { id: 'crown',    key: '4', label: 'Cube & Tetrahedron Crown',pos: [-0.55, 2.38, 1.85], target: [0, 1.56, 0], explode: 0 },
+      { id: 'pedestal', key: '5', label: 'Carved 1597 Pedestal',    pos: [-0.55, 0.72, 1.80], target: [0, 0.42, 0], explode: 0 },
+      { id: 'exploded', key: '6', label: 'Exploded CAD Assembly',   pos: [-1.15, 2.95, 4.40], target: [0, 1.65, 0], explode: 0.85 },
+    ];
+
+    let activePreset = 'plate';
+
+    function setCameraPreset(id, animateExplode = true) {
+      const p = PRESETS.find(x => x.id === id) || PRESETS[0];
+      activePreset = p.id;
+      camera.position.set(...p.pos);
+      controls.target.set(...p.target);
+      controls.update();
+      if (animateExplode) {
+        setExplode(p.explode);
+      }
+      document.querySelectorAll('[data-preset]').forEach(el => {
+        el.classList.toggle('active', el.dataset.preset === p.id);
+      });
+    }
+
+    function setExplode(val) {
+      state.explode = val;
+      const pct = Math.round(val * 100);
+      document.getElementById('explodeSlider').value = pct;
+      document.getElementById('explodeReadout').textContent = `${pct}%`;
+      document.getElementById('embedExplode').value = pct;
+      document.getElementById('embedExplodeVal').textContent = `${pct}%`;
+      applyVisibilityAndExplode();
+    }
+
+    // ── Build HUD Controls ───────────────────────────────────────────────
+    const presetGrid = document.getElementById('presetGrid');
+    const embedPresets = document.getElementById('embedPresets');
+    for (const p of PRESETS) {
+      const btn = document.createElement('button');
+      btn.className = 'preset-btn';
+      btn.dataset.preset = p.id;
+      btn.innerHTML = `<span>${p.label}</span><span class="preset-key">${p.key}</span>`;
+      btn.addEventListener('click', () => setCameraPreset(p.id));
+      presetGrid.appendChild(btn);
+
+      if (['plate', 'top', 'core', 'exploded'].includes(p.id)) {
+        const eb = document.createElement('button');
+        eb.className = 'pill-btn';
+        eb.dataset.preset = p.id;
+        eb.textContent = p.id === 'plate' ? '1597 View' : p.id === 'top' ? 'Top' : p.id === 'core' ? 'Core' : 'Explode';
+        eb.addEventListener('click', () => setCameraPreset(p.id));
+        embedPresets.appendChild(eb);
+      }
+    }
+
+    const layerList = document.getElementById('layerList');
+    function renderLayerList() {
+      layerList.innerHTML = '';
+      for (const m of ASSEMBLY_META) {
+        const row = document.createElement('div');
+        row.className = 'layer-item' + (state.visible[m.key] ? '' : ' is-hidden');
+        row.innerHTML = `
+          <span class="layer-swatch" style="background:${m.hex}"></span>
+          <span class="layer-greek">${m.greek}</span>
+          <span class="layer-name">${m.name}</span>
+          <span class="layer-ratio">${m.ratio}</span>
+        `;
+        row.addEventListener('click', () => {
+          state.visible[m.key] = !state.visible[m.key];
+          renderLayerList();
+          applyVisibilityAndExplode();
+        });
+        layerList.appendChild(row);
+      }
+    }
+    renderLayerList();
+
+    // Wire Top & Side Buttons
+    const setShellMode = (mode) => {
+      state.shellMode = mode;
+      document.getElementById('btnCutaway').classList.toggle('active', mode === 'cutaway');
+      document.getElementById('btnFullOrbs').classList.toggle('active', mode === 'full');
+      document.getElementById('btnSolidsOnly').classList.toggle('active', mode === 'solids');
+      rebuildModel();
+    };
+    document.getElementById('btnCutaway').addEventListener('click', () => setShellMode('cutaway'));
+    document.getElementById('btnFullOrbs').addEventListener('click', () => setShellMode('full'));
+    document.getElementById('btnSolidsOnly').addEventListener('click', () => setShellMode('solids'));
+
+    document.getElementById('btnScale').addEventListener('click', (e) => {
+      state.scaleMode = state.scaleMode === 'exact' ? 'expanded' : 'exact';
+      e.target.textContent = state.scaleMode === 'exact' ? 'Exact 1:1' : 'Expanded Core';
+      e.target.classList.toggle('active', state.scaleMode === 'expanded');
+      rebuildModel();
+    });
+
+    document.getElementById('btnOrbit').addEventListener('click', (e) => {
+      state.autoOrbit = !state.autoOrbit;
+      e.target.classList.toggle('active', state.autoOrbit);
+    });
+
+    document.getElementById('btnTheme').addEventListener('click', (e) => {
+      state.lightMode = !state.lightMode;
+      document.body.classList.toggle('light-studio', state.lightMode);
+      scene.background = new THREE.Color(state.lightMode ? 0xeef1f5 : 0x0b0e14);
+      floorMat.color.setHex(state.lightMode ? 0xdde3ec : 0x10141d);
+      e.target.textContent = state.lightMode ? 'Dark' : 'Light';
+    });
+
+    document.getElementById('btnPedestal').addEventListener('click', (e) => {
+      state.visible.pedestal = !state.visible.pedestal;
+      e.target.classList.toggle('active', state.visible.pedestal);
+      renderLayerList();
+      applyVisibilityAndExplode();
+    });
+
+    document.getElementById('btnWire').addEventListener('click', (e) => {
+      state.wireframe = !state.wireframe;
+      e.target.classList.toggle('active', state.wireframe);
+      applyWireframe();
+    });
+
+    document.getElementById('btnResetLayers').addEventListener('click', () => {
+      for (const m of ASSEMBLY_META) state.visible[m.key] = true;
+      document.getElementById('btnPedestal').classList.add('active');
+      renderLayerList();
+      applyVisibilityAndExplode();
+    });
+
+    document.getElementById('explodeSlider').addEventListener('input', (e) => setExplode(e.target.value / 100));
+    document.getElementById('embedExplode').addEventListener('input', (e) => setExplode(e.target.value / 100));
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key >= '1' && e.key <= '6') {
+        const p = PRESETS[Number(e.key) - 1];
+        if (p) setCameraPreset(p.id);
+      } else if (e.key === 'h' || e.key === 'H') {
+        document.body.classList.toggle('hud-hidden');
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // Pause auto-orbit while dragging
+    controls.addEventListener('start', () => {
+      state.autoOrbit = false;
+      document.getElementById('btnOrbit').classList.remove('active');
+    });
+
+    // Initial Build & Camera
+    rebuildModel();
+    const startCam = params.get('cam') || 'plate';
+    setCameraPreset(startCam, !params.has('explode'));
+    if (params.has('explode')) setExplode(state.explode);
+
+    // Render Loop
+    let lastT = performance.now();
+    function animate(now) {
+      requestAnimationFrame(animate);
+      const dt = Math.min(0.05, (now - lastT) / 1000);
+      lastT = now;
+      if (state.autoOrbit) {
+        rootGroup.rotation.y += dt * 0.16;
+      }
+      controls.update();
+      renderer.render(scene, camera);
+    }
+    requestAnimationFrame(animate);
+  </script>
+</body>
+</html>
