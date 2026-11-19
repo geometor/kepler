@@ -1,16 +1,17 @@
 :layout: book
 :canonical_id: Cap. XIV
-:order: 4
+:order: 5
 :tracks: Latin: cap_14-la | English: cap_14-en | Summary: cap_14-summary | Notes: cap_14-notes
-:folio: mysterium_cosmographicum:0034
+:folio: mysterium_cosmographicum:0062
 
 .. _mc-cap_14-en:
 .. _mc-cap_14:
 
-Chapter XIV: Earth as Measuring Orb (Circulus mensor omnium)
-============================================================
+Chapter XIV: Earth as Measuring Orb
+===================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Mysterium Cosmographicum, Caput XIV* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`Frisch I, pp. 144–147 <frisch:1858:v1>`).
+.. folio:: mysterium_cosmographicum:0062
+   :page: Tabella V
 
 The five solids divide naturally into two noble ranks: **three primary solids** (*primaria*)—the **Cube**, **Tetrahedron**, and **Dodecahedron**, each having distinct polygonal faces (square, triangle, pentagon) and simple three-edge trihedral vertices—and **two secondary solids** (*secundaria*)—the **Icosahedron** and **Octahedron**, borrowing the triangular face and meeting four or five to a vertex around an axis. Fittingly, the dwelling place of contemplative humanity—the orb of **Earth** (:g:`cTER_in`)—was placed as a boundary wall between these two classes as the :term:`measuring circle of all <circulus-mensor>`:
 

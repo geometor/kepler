@@ -198,6 +198,7 @@ def test_bilingual_codex_tracks_and_picture_directives() -> None:
             "praefatio",
             "cap_02",
             "cap_12",
+            "cap_13",
             "cap_14",
         ),
         docsrc_dir / "strena_sexangula": (
@@ -216,7 +217,10 @@ def test_bilingual_codex_tracks_and_picture_directives() -> None:
             "definitiones",
             "prop_01_20",
             "figura_aa",
-            "prop_25_28",
+            "prop_25",
+            "prop_26",
+            "prop_27",
+            "prop_28",
         ),
         docsrc_dir / "harmonices_mundi" / "liber_v": (
             "epistola_1597",

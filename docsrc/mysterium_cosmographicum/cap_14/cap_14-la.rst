@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: Cap. XIV
-:order: 4
+:order: 5
+:folio: mysterium_cosmographicum:0062
 :tracks: Latin: cap_14-la | English: cap_14-en | Summary: cap_14-summary | Notes: cap_14-notes
 
 .. _mc-cap_14-la:
 
 Caput XIV — Ordo Corporum: Terra est Circulus Mensor Omnium
 ===========================================================
-
-*Public-domain Neo-Latin text from Johannes Kepler's Mysterium Cosmographicum, Caput XIV* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 144–147 <frisch:1858:v1>`).
 
 .. rst-class:: latin-source
 

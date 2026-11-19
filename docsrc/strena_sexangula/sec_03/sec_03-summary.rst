@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: § 3
 :order: 3
+:folio: strena_sexangula:0031
 :tracks: Latin: sec_03-la | English: sec_03-en | Summary: sec_03-summary | Notes: sec_03-notes
 
 .. _strena-sec_03-summary:
 
-Section 3: Executive Geometric Summary
-======================================
+Sphere Close-Packing: Summary
+=============================
 
 The Kepler Sphere-Packing Conjecture
 ------------------------------------

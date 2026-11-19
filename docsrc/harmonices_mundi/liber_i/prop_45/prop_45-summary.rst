@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: I.Prop. XLV
 :order: 4
+:folio: harmonices_mundi:0050
 :tracks: Latin: prop_45-la | English: prop_45-en | Summary: prop_45-summary | Notes: prop_45-notes
 
 .. _hm-liber-i-prop_45-summary:
 
-Proposition XLV: Executive Geometric Summary
-=============================================
+Proposition XLV: Summary
+========================
 
 Kepler's Anticipation of Galois Multiplicity
 --------------------------------------------

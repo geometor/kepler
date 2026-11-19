@@ -1,6 +1,7 @@
 :layout: book
 :canonical_id: § 1
 :order: 1
+:folio: strena_sexangula:0023
 :tracks: Latin: sec_01-la | English: sec_01-en | Summary: sec_01-summary | Notes: sec_01-notes
 
 .. _unit-2-strena-snowflake-la:
@@ -8,8 +9,6 @@
 
 Sectio I: Ad Illustrem D. Ioannem Matthaeum Wackherium a Wackenfels — De Stella Nivea
 =====================================================================================
-
-*Public-domain Neo-Latin text from Ioannis Kepleri S. Cæs. Maiest. Mathematici Strena seu de Nive Sexangula* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`ed. Ch. Frisch, Vol. VII, pp. 715–730 <frisch:1868:v7>`).
 
 .. rst-class:: latin-source
 

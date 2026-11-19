@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: I.Prop. XLV
 :order: 4
+:folio: harmonices_mundi:0050
 :tracks: Latin: prop_45-la | English: prop_45-en | Summary: prop_45-summary | Notes: prop_45-notes
 
 .. _hm-liber-i-prop_45-notes:
 
-Proposition XLV: Historical & Mathematical Commentary
-=====================================================
+Proposition XLV: Notes & Provenance
+===================================
 
 Derivation of Bürgi's Chord Equation in SymPy
 ---------------------------------------------
@@ -20,3 +21,10 @@ Since the heptagon side in a unit circle is $y = 2\sin(\pi/7)$ with $x = 2\cos(2
 $$(2 - u)^3 + (2 - u)^2 - 2(2 - u) - 1 = -u^3 + 7u^2 - 14u + 7 = 0 \implies y^6 - 7y^4 + 14y^2 - 7 = 0,$$
 
 recovering **Jost Bürgi's exact Cossic sextic** verified in ``geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction``!
+
+Transcription & Provenance
+--------------------------
+
+* **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 119–125 <frisch:1864:v5>`).
+* **English Track**: *Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`Frisch V, pp. 119–125 <frisch:1864:v5>`).
+* **Folio Scan**: Verified 300-DPI scan ``harmonices_mundi:0050`` (p. 32).

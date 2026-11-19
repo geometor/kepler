@@ -6,8 +6,8 @@
 .. _unit-5-harmonices-liber-v-summary:
 .. _hm-epistola_1597-summary:
 
-Epistola 1597: Executive Geometric Summary
-==========================================
+Letter to Mästlin: Summary
+==========================
 
 The Kepler Right Triangle over $\mathbb{Q}(\sqrt{\phi})$
 ----------------------------------------------------------

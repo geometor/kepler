@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: V.Cap. IV–IX
 :order: 3
+:folio: harmonices_mundi:0283
 :tracks: Latin: cap_04_09-la | English: cap_04_09-en | Summary: cap_04_09-summary | Notes: cap_04_09-notes
 
 .. _hm-cap_04_09-en:
 .. _hm-cap_04_09:
 
-Liber V, Capita IV–IX: Consonances of Extremal Motions & Polyhedral Synthesis
-=============================================================================
+Chapters IV–IX: Consonances of Extremal Motions & Polyhedral Synthesis
+======================================================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber V, Capita IV–IX* (:cite:`Linz: Tampach/Plancus, 1619, pp. 190–255 <kepler:1619:hm>`; :cite:`Frisch V, pp. 285–329 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0283
+   :page: p. 191
 
 Why then did the :term:`five regular solids <corpora-quinque-regularia>` of *Mysterium Cosmographicum* leave small discrepancies when compared with :person:`Copernicus's <copernicus>` and :person:`Brahe's <brahe>` eccentricities? Because—Kepler demonstrates in Chapters IV–IX—the Supreme Geometer wedded **two distinct archetypes** in a single cosmos:
 

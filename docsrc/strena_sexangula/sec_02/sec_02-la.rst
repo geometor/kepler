@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: § 2
 :order: 2
+:folio: strena_sexangula:0029
 :tracks: Latin: sec_02-la | English: sec_02-en | Summary: sec_02-summary | Notes: sec_02-notes
 
 .. _strena-sec_02-la:
 
 Sectio II: De Apum Alveolis & Inventione Duorum Corporum Rhombicorum
 ====================================================================
-
-*Public-domain Neo-Latin text from Ioannis Kepleri S. Cæs. Maiest. Mathematici Strena seu de Nive Sexangula* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`ed. Ch. Frisch, Vol. VII, pp. 718–722 <frisch:1868:v7>`).
 
 .. rst-class:: latin-source
 

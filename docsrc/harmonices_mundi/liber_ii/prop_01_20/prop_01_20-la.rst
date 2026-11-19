@@ -1,14 +1,13 @@
 :layout: book
 :canonical_id: II.Prop. I–XX
 :order: 2
+:folio: harmonices_mundi:0076
 :tracks: Latin: prop_01_20-la | English: prop_01_20-en | Summary: prop_01_20-summary | Notes: prop_01_20-notes
 
 .. _hm-liber-ii-prop_01_20-la:
 
 Propositiones I–XX — Undecim Species Congruentiae Planae Uniformis
 ===================================================================
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber II, Propositiones I–XX* (:cite:`Linz, 1619, pp. 48–58 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 127–137 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

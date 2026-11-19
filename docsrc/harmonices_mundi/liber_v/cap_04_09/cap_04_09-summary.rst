@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: V.Cap. IV–IX
 :order: 3
+:folio: harmonices_mundi:0283
 :tracks: Latin: cap_04_09-la | English: cap_04_09-en | Summary: cap_04_09-summary | Notes: cap_04_09-notes
 
 .. _hm-cap_04_09-summary:
 
-Capita IV–IX: Executive Geometric Summary
-=========================================
+Chapters IV–IX: Summary
+=======================
 
 Planetary Extremal Consonances & Sesquialterate Table
 -----------------------------------------------------

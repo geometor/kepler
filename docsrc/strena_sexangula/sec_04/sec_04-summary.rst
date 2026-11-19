@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: § 4
 :order: 4
+:folio: strena_sexangula:0034
 :tracks: Latin: sec_04-la | English: sec_04-en | Summary: sec_04-summary | Notes: sec_04-notes
 
 .. _strena-sec_04-summary:
 
-Section 4: Executive Geometric Summary
-======================================
+Pentamerous Blossoms & Fibonacci: Summary
+=========================================
 
 Botanical Pentamery & Fibonacci Convergence to $\phi$
 ------------------------------------------------------

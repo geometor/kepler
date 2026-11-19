@@ -1,6 +1,7 @@
 :layout: book
 :canonical_id: I.Prooemium
 :order: 1
+:folio: harmonices_mundi:0020
 :tracks: Latin: prooemium-la | English: prooemium-en | Summary: prooemium-summary | Notes: prooemium-notes
 
 .. _unit-3-harmonices-liber-i-la:
@@ -8,8 +9,6 @@
 
 Prooemium — Defensio Libri Decimi Euclidis adversus Petrum Ramum
 ================================================================
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I: Geometricus, de ortu figurarum regularium* (:cite:`Linz, 1619, pp. 1–46 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 75–125 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

@@ -40,6 +40,7 @@ Table of Contents
    praefatio/praefatio-en
    cap_02/cap_02-en
    cap_12/cap_12-en
+   cap_13/cap_13-en
    cap_14/cap_14-en
 
 
@@ -59,6 +60,10 @@ Table of Contents
    cap_12/cap_12-la
    cap_12/cap_12-summary
    cap_12/cap_12-notes
+   cap_13/cap_13-en
+   cap_13/cap_13-la
+   cap_13/cap_13-summary
+   cap_13/cap_13-notes
    cap_14/cap_14-en
    cap_14/cap_14-la
    cap_14/cap_14-summary

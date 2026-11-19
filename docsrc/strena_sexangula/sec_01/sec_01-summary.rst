@@ -1,13 +1,14 @@
 :layout: book
 :canonical_id: § 1
 :order: 1
+:folio: strena_sexangula:0023
 :tracks: Latin: sec_01-la | English: sec_01-en | Summary: sec_01-summary | Notes: sec_01-notes
 
 .. _unit-2-strena-snowflake-summary:
 .. _strena-sec_01-summary:
 
-Section 1: Executive Geometric Summary
-======================================
+Dedication & Snow Stars: Summary
+================================
 
 Birth of Mathematical Crystallography
 -------------------------------------

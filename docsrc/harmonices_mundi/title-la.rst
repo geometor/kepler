@@ -43,7 +43,10 @@ Liber II: De Congruentia Figurarum
 * Definitiones: :doc:`Latin <liber_ii/definitiones/definitiones-la>` · :doc:`English <liber_ii/definitiones/definitiones-en>`
 * Propositiones I–XX: :doc:`Latin <liber_ii/prop_01_20/prop_01_20-la>` · :doc:`English <liber_ii/prop_01_20/prop_01_20-en>`
 * Figura Aa: :doc:`Latin <liber_ii/figura_aa/figura_aa-la>` · :doc:`English <liber_ii/figura_aa/figura_aa-en>`
-* Propositiones XXV–XXVIII: :doc:`Latin <liber_ii/prop_25_28/prop_25_28-la>` · :doc:`English <liber_ii/prop_25_28/prop_25_28-en>`
+* Propositio XXV: :doc:`Latin <liber_ii/prop_25/prop_25-la>` · :doc:`English <liber_ii/prop_25/prop_25-en>`
+* Propositio XXVI: :doc:`Latin <liber_ii/prop_26/prop_26-la>` · :doc:`English <liber_ii/prop_26/prop_26-en>`
+* Propositio XXVII: :doc:`Latin <liber_ii/prop_27/prop_27-la>` · :doc:`English <liber_ii/prop_27/prop_27-en>`
+* Propositio XXVIII: :doc:`Latin <liber_ii/prop_28/prop_28-la>` · :doc:`English <liber_ii/prop_28/prop_28-en>`
 
 Liber V: De Harmonia Motuum Coelestium
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

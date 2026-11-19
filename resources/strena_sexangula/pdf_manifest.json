@@ -1,0 +1,12 @@
+{
+  "edition": "strena_sexangula",
+  "source_pdf": "resources/pdfs/strena_1611.pdf",
+  "total_pages": 64,
+  "dpi": 300,
+  "preserve_color": false,
+  "folio_png_count": 64,
+  "rendered_new_count": 64,
+  "extracted_text_pages": 26,
+  "extracted_graphics_count": 0,
+  "extracted_graphics": []
+}

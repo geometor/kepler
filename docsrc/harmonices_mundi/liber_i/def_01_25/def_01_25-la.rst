@@ -1,6 +1,7 @@
 :layout: book
 :canonical_id: I.Def. I–XXV
 :order: 2
+:folio: harmonices_mundi:0022
 :tracks: Latin: def_01_25-la | English: def_01_25-en | Summary: def_01_25-summary | Notes: def_01_25-notes
 
 .. _hm-liber-i-def_01_25-la:
@@ -8,8 +9,6 @@
 Definitiones VII–XXV — Octo Gradus Scibilitatis Geometricae
 =============================================================
 
-
-*Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I, Definitiones VII–XXV* (:cite:`Linz, 1619, pp. 3–14 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 78–92 <frisch:1864:v5>`).
 
 .. rst-class:: latin-source
 

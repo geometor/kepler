@@ -1,6 +1,7 @@
 :layout: book
 :canonical_id: Praefatio
 :order: 1
+:folio: mysterium_cosmographicum:0015
 :tracks: Latin: praefatio-la | English: praefatio-en | Summary: praefatio-summary | Notes: praefatio-notes
 
 .. _unit-1-mysterium-cosmographicum-la:
@@ -8,8 +9,6 @@
 
 Praefatio ad Lectorem (De Inventione Graecensi, 19 Julii 1595)
 ==============================================================
-
-*Public-domain Neo-Latin text from Johannes Kepler's Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; *Editio altera*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 106–152 <frisch:1858:v1>`).
 
 .. rst-class:: latin-source
 

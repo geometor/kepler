@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: V.Cap. III Prop. VIII
 :order: 2
+:folio: harmonices_mundi:0278
 :tracks: Latin: cap_03_prop_08-la | English: cap_03_prop_08-en | Summary: cap_03_prop_08-summary | Notes: cap_03_prop_08-notes
 
 .. _hm-cap_03_prop_08-en:
 .. _hm-cap_03_prop_08:
 
-Liber V, Caput I & III (Prop. VIII): The Harmonic Third Law
-===========================================================
+Chapter III, Prop. VIII: The Harmonic Third Law
+===============================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber V: De Harmonia Perfectissima Motuum Coelestium, Caput I & III* (:cite:`Linz: Tampach/Plancus, 1619, pp. 177–189 <kepler:1619:hm>`; :cite:`Frisch V, pp. 269–285 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0278
+   :page: ad pag. 186
 
 In the **Fifth Book** of *Harmonices Mundi* (completed May 27, 1618; printed 1619), :person:`Kepler <kepler>` returns after twenty-two years to the **five regular solids** of *Mysterium Cosmographicum* (:cite:`1596 <kepler:1596:mc>`), armed now with :person:`Tycho Brahe's <brahe>` exact observations and his own discovery in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`) that each planetary orbit is a focal ellipse :g:`cORB` with the Sun :g:`Sol_f` at one focus, sweeping equal areas in equal times between :g:`P_per` (perihelion) and :g:`A_aph` (aphelion) along the major axis :g:`AP_axis` (semi-major axis $a$ around orbital center :g:`C_orb`).
 

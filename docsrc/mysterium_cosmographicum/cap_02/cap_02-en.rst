@@ -13,8 +13,6 @@ Chapter II: Curved and Straight — Cusanus & the Five Solids
 .. folio:: mysterium_cosmographicum:0034
    :page: Tabula III
 
-*Original GEOMETOR English translation from Johannes Kepler's Mysterium Cosmographicum, Caput II* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`Frisch I, pp. 112–115 <frisch:1858:v1>`).
-
 In this one matter above all, :person:`Nicholas of Cusa <cusanus>` (:cite:`De Docta Ignorantia, 1440 <cusanus:1440>`) and others seem truly divine to me: namely, that they esteemed so highly the mutual relationship between the **Straight** (*rectum*) and the **Curved** (*curvum*), and dared to liken the Curved to God Himself, but the Straight to created beings. For in the outermost spherical surface of the fixed stars—centered upon the Sun and embracing the intermediate ethereal space—shines forth the image of the eternal Trinity; whereas the rectilinear corporeal boundaries of created magnitudes must be drawn **within** the sphere by inscription and circumscription.
 
 Now if any rectilinear figures are to prescribe a finite limit to the number of mobile planetary orbs, they must share the perfection of uniformity, having all faces congruent regular polygons and all solid angles equal. Yet :person:`Euclid <euclid>` demonstrates in Book XIII (:cite:`Elements XIII.18 <euclid:elements>`) that around a solid vertex at least three plane angles must meet with sum strictly less than four right angles ($360^\circ$), permitting solely:

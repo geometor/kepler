@@ -1,12 +1,13 @@
 :layout: book
 :canonical_id: I.Def. I–XXV
 :order: 2
+:folio: harmonices_mundi:0022
 :tracks: Latin: def_01_25-la | English: def_01_25-en | Summary: def_01_25-summary | Notes: def_01_25-notes
 
 .. _hm-liber-i-def_01_25-summary:
 
-Definitions I–XXV: Executive Geometric Summary
-==============================================
+Definitions I–XXV: Summary
+==========================
 
 Cyclotomic Minimal Polynomials of $2\cos(2\pi/n)$
 --------------------------------------------------

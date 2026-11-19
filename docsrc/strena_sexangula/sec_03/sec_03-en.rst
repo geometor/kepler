@@ -1,15 +1,17 @@
 :layout: book
 :canonical_id: § 3
 :order: 3
+:folio: strena_sexangula:0031
 :tracks: Latin: sec_03-la | English: sec_03-en | Summary: sec_03-summary | Notes: sec_03-notes
 
 .. _strena-sec_03-en:
 .. _strena-sec_03:
 
-Section 3: Pomegranate Seeds & the Sphere Close-Packing Conjecture
-==================================================================
+Pomegranate Seeds & Sphere Close-Packing
+========================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Strena seu de Nive Sexangula, §§10–14* (:cite:`Frankfurt am Main: Tampach, 1611 <kepler:1611:strena>`; :cite:`Frisch VII, pp. 722–726 <frisch:1868:v7>`).
+.. folio:: strena_sexangula:0031
+   :page: p. 9
 
 Turn next to the **pomegranate** (*malum granatum*), whose angular crimson kernels are packed tightly inside a tough rind. Why are those seeds faceted into rhomboidal planes? Not from any formal soul counting faces, declare I, but from **material compression of round globules**!
 

@@ -1,16 +1,18 @@
 :layout: book
 :canonical_id: Praefatio
 :order: 1
+:folio: mysterium_cosmographicum:0015
 :tracks: Latin: praefatio-la | English: praefatio-en | Summary: praefatio-summary | Notes: praefatio-notes
 
 .. _unit-1-mysterium-cosmographicum-en:
 .. _mc-praefatio-en:
 .. _mc-praefatio:
 
-Preface to the Reader: The Graz Discovery (July 19, 1595)
-=========================================================
+Preface to the Reader: The Graz Discovery
+=========================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596 <kepler:1596:mc>`; *Editio altera cum notis authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`Frisch I, pp. 106–152 <frisch:1858:v1>`).
+.. folio:: mysterium_cosmographicum:0015
+   :page: p. 8
 
 It is my intention, gentle Reader, to demonstrate in this little book that the Most Good and Great Creator, in founding this mobile world and arranging the order of the heavenly orbs, looked upon those :term:`five regular bodies <corpora-quinque-regularia>` that have earned such celebrated renown from the time of :person:`Pythagoras <pythagoras>` and :person:`Plato <plato>` down to our own day, and that to their nature He accommodated the number of the heavens, their proportions, and the law of their motions.
 

@@ -1,13 +1,14 @@
 :layout: book
 :canonical_id: Praefatio
 :order: 1
+:folio: mysterium_cosmographicum:0015
 :tracks: Latin: praefatio-la | English: praefatio-en | Summary: praefatio-summary | Notes: praefatio-notes
 
 .. _unit-1-mysterium-cosmographicum-summary:
 .. _mc-praefatio-summary:
 
-Preface: Executive Geometric Summary
-====================================
+Preface: Summary
+================
 
 Core Discovery of the Graz Chalkboard (July 19, 1595)
 -----------------------------------------------------

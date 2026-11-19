@@ -1,16 +1,18 @@
 :layout: book
 :canonical_id: I.Prooemium
 :order: 1
+:folio: harmonices_mundi:0020
 :tracks: Latin: prooemium-la | English: prooemium-en | Summary: prooemium-summary | Notes: prooemium-notes
 
 .. _unit-3-harmonices-liber-i-en:
 .. _hm-liber-i-prooemium-en:
 .. _hm-liber-i-prooemium:
 
-Prooemium: Vindication of Euclid Book X Against Petrus Ramus
-============================================================
+Preface: Vindication of Euclid Book X
+=====================================
 
-*Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I: De ortu figurarum regularium harmonicarum* (:cite:`Linz: Tampach/Plancus, 1619, pp. 1–46 <kepler:1619:hm>`; :cite:`Frisch V, pp. 75–125 <frisch:1864:v5>`).
+.. folio:: harmonices_mundi:0020
+   :page: p. 2
 
 Since antiquity saw that the origins of harmonic proportions arise from the divisions of the circle into equal parts executed geometrically—that is, from **knowable** (*scibiles*) regular plane figures—it was necessary first of all to point out to geometers today those deepest mysteries which :person:`Euclid <euclid>` set forth in his **Tenth Book** concerning incommensurable lines (:cite:`Elements X <euclid:elements>`), corroborated by the commentary of :person:`Proclus Diadochus <proclus>` (:cite:`In Euclidem <proclus:in-euclidem>`).
 
