@@ -27,3 +27,13 @@ This is a scholium to the last proposition of the last book of Euclid (:just:`XI
 
 .. folio:: harmonices_mundi:0081
    :page: Plates Oo–Rr
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0081.g1.png
+      :alt: Archival 1619 copperplate of the Five Elemental Platonic Solids (Harmonices Mundi Book II, Plates Oo–Rr)
+      :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): The Five Platonic Solids with elemental motifs (Plates Oo–Rr).
+
+   .. picture:: 0074.g1.png
+      :alt: Archival 1619 solid-angle congruence woodcuts (Harmonices Mundi Book II, p. 58, fol. 0074)
+      :caption: Archival scan (Linz 1619, Lib. II, p. 58, fol. 0074): Solid-angle closure diagrams.

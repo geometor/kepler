@@ -32,6 +32,17 @@ The Cosmographic Mystery
    | **Primary Latin Witness:** *Editio princeps* (Tübingen, 1596); *Editio altera cum notis authoris* (Frankfurt, 1621); Christian Frisch, *Opera Omnia* I (1858), pp. 106–152.
    | **GEOMETOR Edition:** English Translation, Executive Summaries, Commentary & Exact Symbolic Verifications.
 
+.. _mysterium-3d-studio:
+
+Interactive 3D Nested Polyhedra Model
+-------------------------------------
+
+Kepler's cosmic polyhedral architecture (*Tabula III* & *Chapter XIV*): **Cube** (Saturn–Jupiter) $\supset$ **Tetrahedron** (Jupiter–Mars) $\supset$ **Dodecahedron** (Mars–Earth) $\supset$ **Icosahedron** (Earth–Venus) $\supset$ **Octahedron** (Venus–Mercury). Drag to orbit, toggle individual solids, switch between **Glass / Wireframe / Solid**, or compare **Stepped** visibility against **Exact Caput XIII** insphere/circumsphere proportions.
+
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="520"></div>
+
 Table of Contents
 -----------------
 

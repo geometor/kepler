@@ -17,3 +17,13 @@ Propositio XXVIII: Tredecim Corpora Archimedea
 **Perfectae in solido congruentiae gradus inferioris, species sunt tredecim; ex quibus tredecim oriuntur Archimedea Corpora.**
 
 Seclusis infinitis columnis prismaticis et antiprismaticis, :person:`Keplerus <kepler>` omnia tredecim :term:`corpora semiregularia Archimedis <archimedean-solids>` demonstrat atque nominat (:cite:`Pappus, Synagoge V <pappus:synagoge:v>`): inter quae in folio p. 62 figuris ``8``–``13`` delineantur **Cuboctaëdron** (num. 8), **Icosidodecaëdron** (num. 9), **Rhombicuboctaëdron** (num. 10), **Rhombicosidodecaëdron** (num. 11), **Cubus simus** (num. 12), atque **Dodecaëdron simum** (num. 13).
+
+.. picture:: 0088.g1.png
+   :class: archival-plate
+   :alt: Tredecim Corpora Archimedea 1–13 (Lincii 1619, Lib. II, fol. 0088)
+   :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0088): Tredecim corpora Archimedea (Fig. 1–13).
+
+.. picture:: 0086.g1.png
+   :class: archival-plate
+   :alt: Schema truncationis corporum semiregularium (Lincii 1619, Lib. II, p. 62)
+   :caption: Editio princeps (Lincii 1619, Lib. II, p. 62, fol. 0086): Constructio corporum semiregularium.

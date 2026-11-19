@@ -15,7 +15,18 @@ Dividuntur quinque corpora in duos ordines: **tria primaria** (**Cubus**, **Tetr
 
    *"**Terra est Circulus mensor omnium**: Illi circumscribe **Dodecaedron** (:g:`DODEC`): Circulus hoc comprehendens erit **Mars** (:g:`cMAR_in`). Marti circumscribe **Tetraedron**: Circulus hoc comprehendens erit **Iupiter** (:g:`cJUP`). Iovi circumscribe **Cubum** (:g:`CUBUS`): Circulus hunc comprehendens erit **Saturnus** (:g:`cSAT`). Iam Terrae inscribe **Icosaedron**: Illi inscriptus Circulus erit **Venus** (:g:`cVEN`). Veneri inscribe **Octaedron**: Illi inscriptus Circulus erit **Mercurius** (:g:`cMER`). Habes rationem numeri planetarum."*
 
-.. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
-   :alt: Ordo Sex Orbium Coelestium et Quinque Corporum Regularium
+.. container:: kepler-plate-pair
+
+   .. picture:: 0059.g1.png
+      :alt: Tabella IIII (Tubingae 1596, p. 49, fol. 0059): Crassitudines orbium planetarum
+      :caption: Tabella IIII (Tubingae 1596, p. 49, fol. 0059): Crassitudines orbium et intervalla corporum.
+
+   .. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
+      :alt: Ordo Sex Orbium Coelestium et Quinque Corporum Regularium
+      :caption: Schema vectoriale: Ordo concentricus sex orbium et quinque corporum regularium.
+
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>
 
 *(Ex Notis Authoris, 1621)*: Neque tamen nudis hisce sphaeris sine crassitudine eccentricitatum contenta fuit Natura; sed in *Harmonicis Mundi* libro V (:cite:`1619 <kepler:1619:hm>`) demonstravimus, eccentricitates ipsas ex proportionibus harmonicis motuum extremorum aphelii et perihelii certissima lege temperari.

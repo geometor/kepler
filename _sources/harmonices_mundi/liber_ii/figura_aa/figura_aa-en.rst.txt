@@ -19,5 +19,12 @@ $$144^\circ + 108^\circ + 108^\circ = 360^\circ, \qquad 144^\circ + 144^\circ + 
 
 generating radiating rings of decagons, stars, and twin-pentagon monsters that expand outward indefinitely according to a hidden law of the :term:`Divine Section <sectio-divina>`!
 
-.. picture:: /_static/figures/fig08_kepler_pentagram_monster_aa.svg
-   :alt: Kepler's Figure Aa Pentagonal-Decagonal Star Congruence and Golden Rhombic Triacontahedron
+.. container:: kepler-plate-pair
+
+   .. picture:: 0078.g1.png
+      :alt: Archival 1619 copperplate Plates Y, Z, and Aa showing Kepler's fivefold pentagonal and decagonal star congruence
+      :caption: Archival scan (Linz 1619, Lib. II, fol. 0078): Plates Y, Z, and Aa pentagonal-decagonal congruence.
+
+   .. picture:: /_static/figures/fig08_kepler_pentagram_monster_aa.svg
+      :alt: Kepler's Figure Aa Pentagonal-Decagonal Star Congruence and Golden Rhombic Triacontahedron
+      :caption: Calibrated vectorization: Figure Aa central decagon, pentagonal flowers, and five-pointed stars.

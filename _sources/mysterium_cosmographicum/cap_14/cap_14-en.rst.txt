@@ -17,11 +17,18 @@ The five solids divide naturally into two noble ranks: **three primary solids** 
 
    *"Earth is the Circle that measures all things: circumscribe about it a **Dodecahedron** (:g:`DODEC`); the circle comprehending this will be **Mars** (:g:`cMAR_in`). About Mars circumscribe a **Tetrahedron**; the circle comprehending this will be **Jupiter** (:g:`cJUP`). About Jupiter circumscribe a **Cube** (:g:`CUBUS`); the circle comprehending this will be **Saturn** (:g:`cSAT`). Now inscribe within Earth an **Icosahedron**; the circle inscribed in it will be **Venus** (:g:`cVEN`). Within Venus inscribe an **Octahedron**; the circle inscribed in it will be **Mercury** (:g:`cMER`). There you have the reason for the number of the planets!"*
 
-.. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
-   :alt: Concentric Heliocentric Planetary Orbs and Five Regular Solids in Mysterium Cosmographicum
+.. container:: kepler-plate-pair
+
+   .. picture:: 0059.g1.png
+      :alt: Archival 1596 folding plate Tabella IIII showing planetary orb thicknesses and eccentric shells (p. 49)
+      :caption: Tabella IIII archival scan (Tübingen 1596, p. 49, fol. 0059): Planetary orb thicknesses and polyhedral intervals.
+
+   .. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
+      :alt: Concentric Heliocentric Planetary Orbs and Five Regular Solids in Mysterium Cosmographicum
+      :caption: Calibrated schematic: Concentric planetary orbs from Saturn down to Mercury separated by the five regular solids.
 
 .. raw:: html
 
-   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids"></div>
+   <div class="kepler-3d-mount" data-scene="mysterium_nested_solids" data-height="500"></div>
 
 In his **1621 Author's Notes** (*Notae Authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`), Kepler triumphantly observes that the small residual discrepancies between thin polyhedral spheres and :person:`Tycho Brahe's <brahe>` observations do not refute the five regular bodies, but rather correspond to the **orbital eccentricities** governed by harmonic consonances in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`).

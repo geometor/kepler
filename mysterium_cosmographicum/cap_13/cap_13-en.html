@@ -33,7 +33,7 @@
   <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
   <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=f1075037" />
   <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
-  <link rel="stylesheet" type="text/css" href="../../_static/kepler_codex.css?v=bd6fe3fe" />
+  <link rel="stylesheet" type="text/css" href="../../_static/kepler_codex.css?v=29b62322" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
@@ -129,15 +129,152 @@
         <span id="mc-cap-13"></span><span id="mc-cap-13-en"></span><h1>Chapter XIII: Computing Inscribed and Circumscribed Spheres<a class="headerlink" href="#chapter-xiii-computing-inscribed-and-circumscribed-spheres" title="Link to this heading">¶</a></h1>
         <span class="folio-anchor" id="folio-mysterium_cosmographicum:0054" data-folio="mysterium_cosmographicum:0054" data-page="p. 44"></span><p>Hitherto nothing has been said except congruent signs and plausible indications of our proposed theorem. Let us now pass to the astronomical distances of the orbs and geometrical demonstrations: unless these agree, we shall undoubtedly have wasted all our preceding labor. First of all, let us see in what proportion the orbs inscribed in each of these five regular bodies stand to those circumscribed about them.</p>
         <p>The radii (semidiameters) of the circumscribed spheres equal the semi-diagonals of the bodies; for unless all angles of the figure touch the same surface, the body will not be regular. Opposite vertices and the center of the figure always lie on the same diameter, except in the Tetrahedron, where each vertex lies opposite a face center. The straight line joining the center of the figure and the center of a face is the radius of the inscribed sphere.</p>
-        <p>Hence the square of the circumradius of one face ($HI$) must be subtracted from the square of the circumsphere radius ($HO$) to leave the square of the insphere radius ($IO$): in the diagram on p. 44, angle $HIO$ is right, so by <span class="justification" data-ref-target="I.47" title="I.47">[I.47]</span>, $HO^2 - HI^2 = IO^2$.</p>
+        <p>Hence the square of the circumradius of one face (<span class="geom-ref" data-ref="/ H I /" title="/ H I /">HI</span>) must be subtracted from the square of the circumsphere radius (<span class="geom-ref" data-ref="/ H O /" title="/ H O /">HO</span>) to leave the square of the insphere radius (<span class="geom-ref" data-ref="/ O I /" title="/ O I /">OI</span>): in the diagram on p. 44, angle $HIO$ is right around center <span class="geom-ref" data-ref="O" title="O">O</span>, face center <span class="geom-ref" data-ref="I" title="I">I</span>, and vertex <span class="geom-ref" data-ref="H" title="H">H</span>, so by <span class="justification" data-ref-target="I.47" title="I.47">[I.47]</span>, $HO^2 - HI^2 = IO^2$.</p>
+        <div class="kepler-plate-pair docutils container">
+        <figure class="photon-picture">
+        <a href="0054.g1.png">
+        <picture>
+        <source srcset="0054.g1_800w_4fb5500a.webp" type="image/webp">
+            <img src="0054.g1.png" alt="Archival 1596 woodcut of Kepler's insphere radius Pythagorean triangle HO-HI-IO (p. 44)">
+        </picture>
+        </a>
+        <figcaption>Archival scan (Tübingen 1596, p. 44, fol. 0054): General insphere right triangle HIO.</figcaption>
+        </figure>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 390" width="440" height="390" data-graphic-id="0054.g1" data-folio="0054" data-graphic="g1" role="img" aria-label="Chapter XIII Insphere Right Triangle HIO with Base Circle HGL">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+            </marker>
+          </defs>
+          <g id="elements">
+            <circle class="geom-circle" cx="220.00" cy="245.00" r="105.00" fill="none" data-ref="( I H )" stroke-width="1.7"/>
+            <path class="geom-line" d="M 115.00 245.00 L 167.50 195.00 L 220.00 145.00" fill="none" data-ref="/ H O /" stroke="var(--geom-accent, #d97706)" stroke-width="2.1"/>
+            <path class="geom-line" d="M 220.00 145.00 L 272.50 95.00 L 325.00 45.00" fill="none" data-ref="/ O M /" stroke-width="1.6"/>
+            <path class="geom-line" d="M 220.00 145.00 L 220.00 195.00 L 220.00 245.00" fill="none" data-ref="/ I O /" stroke="#10b981" stroke-width="2.1"/>
+            <path class="geom-line" d="M 115.00 245.00 L 167.50 245.00 L 220.00 245.00" fill="none" data-ref="/ H I /" stroke-width="2.0"/>
+          </g>
+          <g id="graphics">
+            <path class="geom-dashed" d="M 115.00 245.00 L 206.52 209.87 L 298.03 174.74" fill="none" data-ref="/ H G /" opacity="0.7"/>
+            <path class="geom-dashed" d="M 298.03 174.74 L 276.97 259.20 L 255.91 343.67" fill="none" data-ref="/ G L /" opacity="0.7"/>
+            <path class="geom-dashed" d="M 255.91 343.67 L 185.46 294.33 L 115.00 245.00" fill="none" data-ref="/ L H /" opacity="0.7"/>
+            <path class="geom-line" d="M 207.00 245.00 L 207.00 238.50 L 207.00 232.00" fill="none" stroke-width="1.3"/>
+            <path class="geom-line" d="M 207.00 232.00 L 213.50 232.00 L 220.00 232.00" fill="none" stroke-width="1.3"/>
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <polygon class="geom-polygon" points="115.00,245.00 220.00,245.00 220.00,145.00" data-ref="&lt; H I O &gt;"/>
+          </g>
+          <g id="points">
+            <circle class="geom-point" cx="220.00" cy="145.00" r="3.50" data-ref="O"/>
+            <circle class="geom-point" cx="220.00" cy="245.00" r="3.50" data-ref="I"/>
+            <circle class="geom-point" cx="115.00" cy="245.00" r="3.50" data-ref="H"/>
+            <circle class="geom-point" cx="298.03" cy="174.74" r="3.50" data-ref="G"/>
+            <circle class="geom-point" cx="255.91" cy="343.67" r="3.50" data-ref="L"/>
+            <circle class="geom-point" cx="325.00" cy="45.00" r="3.50" data-ref="M"/>
+          </g>
+          <g id="labels">
+            <text class="geom-label" x="220.00" y="24.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.2px;">Chapter XIII (p. 44) — Insphere Radius: HO² = HI² + IO²</text>
+            <text class="geom-label" x="204.00" y="137.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="O">O</text>
+            <text class="geom-label" x="234.00" y="257.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="I">I</text>
+            <text class="geom-label" x="99.00" y="245.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="H">H</text>
+            <text class="geom-label" x="312.03" y="166.74" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="G">G</text>
+            <text class="geom-label" x="269.91" y="355.67" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="L">L</text>
+            <text class="geom-label" x="339.00" y="37.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="M">M</text>
+            <text class="geom-label" x="145.50" y="185.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ H O /">R (circumsphere)</text>
+            <text class="geom-label" x="266.00" y="195.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ I O /">r (insphere)</text>
+            <text class="geom-label" x="167.50" y="263.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="/ H I /">r_base</text>
+          </g>
+        </svg>
+        <figcaption>Calibrated vectorization: Sphere diameter O–L, circumradius HO, face radius HI, and insphere radius OI.</figcaption>
+        </figure>
+        </div>
         <p>When each regular solid is inscribed in a unit outer sphere ($R_{\text{out}} = 1$, $Q_{\text{out}} = 1$), exact Euclidean demonstration yields three distinct <a class="term-ref glossary-term" id="occ-term-quadrance-1" href="../../glossary.html#term-quadrance" data-term="quadrance" title="potentia / quadrance (Q = r²) (Exact squared length of a segment (Euclid&#x27;s δύναμις / potentia; Wildberger&#x27;s quadrance)): In both Euclid Book X (potentia) and GEOMETOR&#x27;s Rational Trigonometry (geometor/wildberger), the squared length Q(A,B) avoids unnecessary square roots: the insphere-to-circumsphere quadrance ratios of the five Platonic solids reduce cleanly to Q_in/Q_out = 1/3 (cube, octahedron), 1/9 (tetrahedron), and (5 + 2√5)/15 ∈ Q(φ) (dodecahedron, icosahedron).">quadrance</a> ratios, because <strong>polar-dual</strong> solids share identical insphere-to-circumsphere proportions:</p>
         <ul>
         <li><p><strong>Cube &amp; Octahedron</strong> ($\{4, 3\}$ and $\{3, 4\}$):</p>
         <p>$$\frac{r_{\text{in}}}{R_{\text{out}}} = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3} \approx 0.57735, \qquad \frac{Q_{\text{in}}}{Q_{\text{out}}} = \frac{1}{3}.$$</p>
         </li>
-        <li><p><strong>Tetrahedron</strong> ($\{3, 3\}$, self-dual):</p>
+        <li><p><strong>Tetrahedron</strong> ($\{3, 3\}$, self-dual — vertex <span class="geom-ref" data-ref="N" title="N">N</span>, center <span class="geom-ref" data-ref="O" title="O">O</span>, base centroid <span class="geom-ref" data-ref="I" title="I">I</span>, antipode <span class="geom-ref" data-ref="M" title="M">M</span>, with $OI = \frac{1}{3} NO = \frac{1}{6} NM$):</p>
         <p>$$\frac{r_{\text{in}}}{R_{\text{out}}} = \frac{1}{3} \approx 0.33333, \qquad \frac{Q_{\text{in}}}{Q_{\text{out}}} = \frac{1}{9}.$$</p>
         </li>
+        </ul>
+        <div class="kepler-plate-pair docutils container">
+        <figure class="photon-picture">
+        <a href="0057.g1.png">
+        <picture>
+        <source srcset="0057.g1_800w_b4e619bd.webp" type="image/webp">
+            <img src="0057.g1.png" alt="Archival 1596 woodcut of Kepler's Tetrahedron altitude and 1:3 sphere ratio proof (p. 47)">
+        </picture>
+        </a>
+        <figcaption>Archival scan (Tübingen 1596, p. 47, fol. 0057): Tetrahedron altitude N-O-I-M and 1:3 ratio.</figcaption>
+        </figure>
+        <figure class="photon-picture photon-svg">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 420" width="460" height="420" data-graphic-id="0057.g1" data-folio="0057" data-graphic="g1" role="img" aria-label="Chapter XIII Tetrahedron Altitude and Sphere Ratio Construction N-G-O-I-H-M">
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+              <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+              <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+            </marker>
+          </defs>
+          <g id="elements">
+            <path class="geom-line" d="M 230.00 60.00 L 174.00 139.00 L 118.00 218.00" fill="none" data-ref="/ N G /" stroke-width="1.8"/>
+            <path class="geom-line" d="M 230.00 60.00 L 291.00 159.00 L 352.00 258.00" fill="none" data-ref="/ N H /" stroke-width="2.0"/>
+            <path class="geom-line" d="M 230.00 60.00 L 203.00 176.00 L 176.00 292.00" fill="none" data-ref="/ N K /" stroke-width="1.8"/>
+            <path class="geom-line" d="M 118.00 218.00 L 147.00 255.00 L 176.00 292.00" fill="none" data-ref="/ G K /" stroke-width="1.8"/>
+            <path class="geom-line" d="M 176.00 292.00 L 264.00 275.00 L 352.00 258.00" fill="none" data-ref="/ K H /" stroke-width="1.8"/>
+            <path class="geom-dashed" d="M 118.00 218.00 L 235.00 238.00 L 352.00 258.00" fill="none" data-ref="/ G H /" stroke-width="1.4"/>
+            <path class="geom-line" d="M 230.00 60.00 L 230.00 127.50 L 230.00 195.00" fill="none" data-ref="/ N O /" stroke="var(--geom-accent, #d97706)" stroke-width="2.0"/>
+            <path class="geom-line" d="M 230.00 195.00 L 230.00 217.50 L 230.00 240.00" fill="none" data-ref="/ O I /" stroke="#10b981" stroke-width="2.4"/>
+            <path class="geom-line" d="M 230.00 240.00 L 230.00 285.00 L 230.00 330.00" fill="none" data-ref="/ I M /" stroke-width="1.5"/>
+            <path class="geom-line" d="M 230.00 240.00 L 291.00 249.00 L 352.00 258.00" fill="none" data-ref="/ H I /" stroke-width="1.6"/>
+            <path class="geom-dashed" d="M 230.00 195.00 L 291.00 226.50 L 352.00 258.00" fill="none" data-ref="/ O H /" stroke="var(--geom-accent, #d97706)" stroke-width="1.4"/>
+          </g>
+          <g id="graphics">
+            <circle class="geom-dashed" cx="230.00" cy="195.00" r="135.00" fill="none" data-ref="( O N )" opacity="0.45"/>
+            <circle class="geom-dashed" cx="230.00" cy="195.00" r="45.00" fill="none" data-ref="( O I )" stroke="#10b981" opacity="0.65"/>
+          </g>
+          <g id="highlights" style="pointer-events: none;">
+            <polygon class="geom-polygon" points="230.00,195.00 230.00,240.00 352.00,258.00" data-ref="&lt; O I H &gt;"/>
+          </g>
+          <g id="points">
+            <circle class="geom-point" cx="230.00" cy="60.00" r="3.50" data-ref="N"/>
+            <circle class="geom-point" cx="230.00" cy="195.00" r="3.50" data-ref="O"/>
+            <circle class="geom-point" cx="230.00" cy="240.00" r="3.50" data-ref="I"/>
+            <circle class="geom-point" cx="230.00" cy="330.00" r="3.50" data-ref="M"/>
+            <circle class="geom-point" cx="118.00" cy="218.00" r="3.50" data-ref="G"/>
+            <circle class="geom-point" cx="352.00" cy="258.00" r="3.50" data-ref="H"/>
+          </g>
+          <g id="labels">
+            <text class="geom-label" x="230.00" y="24.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.6px;">Chapter XIII (p. 47) — Tetrahedron: OI = ⅓ NO = ¼ NI = ⅙ NM</text>
+            <text class="geom-label" x="230.00" y="46.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="N">N</text>
+            <text class="geom-label" x="246.00" y="187.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="O">O</text>
+            <text class="geom-label" x="216.00" y="252.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="I">I</text>
+            <text class="geom-label" x="230.00" y="346.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="M">M</text>
+            <text class="geom-label" x="103.00" y="214.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="G">G</text>
+            <text class="geom-label" x="367.00" y="262.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="H">H</text>
+            <text class="geom-label" x="230.00" y="392.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px;">r / R = 1 : 3  (333 : 1000)   ·   a / R = 2√6 / 3 ≈ 1.633</text>
+          </g>
+        </svg>
+        <figcaption>Calibrated vectorization: Tetrahedron N-G-H with center O, face centroid I, and exact ratio OI : ON = 1 : 3.</figcaption>
+        </figure>
+        </div>
+        <ul>
         <li><p><strong>Dodecahedron &amp; Icosahedron</strong> ($\{5, 3\}$ and $\{3, 5\}$):</p>
         <p>$$\frac{r_{\text{in}}}{R_{\text{out}}} = \sqrt{\frac{5 + 2\sqrt{5}}{15}} = \sqrt{\frac{4\phi + 3}{15}} \approx 0.79465, \qquad \frac{Q_{\text{in}}}{Q_{\text{out}}} = \frac{5 + 2\sqrt{5}}{15}.$$</p>
         </li>
@@ -240,7 +377,7 @@
   <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
   <script src="../../_static/js/collection_directory.js?v=2422530d"></script>
   <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
-  <script src="../../_static/js/kepler_3d_mysterium.js?v=147a556b"></script>
+  <script src="../../_static/js/kepler_3d_mysterium.js?v=1e79cc09"></script>
   <script src="../../_static/js/search_highlight.js"></script>
 
 </body>

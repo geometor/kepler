@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 760" width="620" height="760" class="euclid-graphic" data-graphic-id="0027.g1" data-folio="0027" data-graphic="g1" role="img" aria-label="Tabella II: Ptolemaic Geocentric Epicycles and Prosthaphaeresis Arcs">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="310.00" cy="650.00" r="14.00" fill="none" data-ref="cLUNA_pt" stroke-width="1.1"/>
+    <circle class="geom-dashed" cx="310.00" cy="650.00" r="36.00" fill="none" data-ref="cMER_def" stroke-width="1.0"/>
+    <circle class="geom-circle" cx="310.00" cy="614.00" r="13.19" fill="none" data-ref="cMER_ep" stroke-width="1.25"/>
+    <circle class="geom-dashed" cx="310.00" cy="650.00" r="64.00" fill="none" data-ref="cVEN_def" stroke-width="1.0"/>
+    <circle class="geom-circle" cx="310.00" cy="586.00" r="46.04" fill="none" data-ref="cVEN_ep" stroke-width="1.3" stroke="#10b981"/>
+    <circle class="geom-circle" cx="310.00" cy="650.00" r="92.00" fill="none" data-ref="cSOL_pt" stroke-width="1.35" stroke="var(--geom-accent, #d97706)"/>
+    <path class="geom-arc" d="M 128.76 508.40 A 230.00 230.00 0 0 1 310.00 420.00 A 230.00 230.00 0 0 1 491.24 508.40" fill="none" data-ref="cMAR_ep_def" opacity="0.55"/>
+    <circle class="geom-circle" cx="310.00" cy="420.00" r="153.90" fill="none" data-ref="cMAR_ep" stroke="var(--geom-accent, #d97706)" stroke-width="1.65"/>
+    <path class="geom-arc" d="M 43.25 373.77 A 384.00 384.00 0 0 1 310.00 266.00 A 384.00 384.00 0 0 1 576.75 373.77" fill="none" data-ref="cJUP_ep_def" opacity="0.55"/>
+    <circle class="geom-circle" cx="310.00" cy="266.00" r="73.27" fill="none" data-ref="cJUP_ep" stroke-width="1.65"/>
+    <path class="geom-arc" d="M 14.93 243.87 A 502.00 502.00 0 0 1 310.00 148.00 A 502.00 502.00 0 0 1 605.07 243.87" fill="none" data-ref="cSAT_ep_def" opacity="0.55"/>
+    <circle class="geom-circle" cx="310.00" cy="148.00" r="52.47" fill="none" data-ref="cSAT_ep" stroke-width="1.65"/>
+    <path class="geom-arc" d="M -24.40 154.24 A 598.00 598.00 0 0 1 310.00 52.00 A 598.00 598.00 0 0 1 644.40 154.24" fill="none" data-ref="cFIXAE" stroke-width="1.6"/>
+    <path class="geom-arc" d="M -33.34 140.97 A 614.00 614.00 0 0 1 310.00 36.00 A 614.00 614.00 0 0 1 653.34 140.97" fill="none" data-ref="cFIXAE_out" stroke-width="1.2"/>
+    <path class="geom-line" d="M 310.00 650.00 L 281.52 378.99 L 253.03 107.99" fill="none" data-ref="arcSAT_ray" stroke="#94a3b8" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-line" d="M 310.00 650.00 L 338.48 378.99 L 366.97 107.99" fill="none" data-ref="arcSAT_ray" stroke="#94a3b8" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-arc" d="M 277.39 339.71 A 312.00 312.00 0 0 1 310.00 338.00 A 312.00 312.00 0 0 1 342.61 339.71" fill="none" data-ref="arcSAT" stroke="#94a3b8" stroke-width="2.0"/>
+    <path class="geom-line" d="M 310.00 650.00 L 266.50 426.19 L 222.99 202.38" fill="none" data-ref="arcJUP_ray" stroke="#60a5fa" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-line" d="M 310.00 650.00 L 353.50 426.19 L 397.01 202.38" fill="none" data-ref="arcJUP_ray" stroke="#60a5fa" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-arc" d="M 252.38 353.55 A 302.00 302.00 0 0 1 310.00 348.00 A 302.00 302.00 0 0 1 367.62 353.55" fill="none" data-ref="arcJUP" stroke="#60a5fa" stroke-width="2.0"/>
+    <path class="geom-line" d="M 310.00 650.00 L 252.28 503.46 L 194.55 356.92" fill="none" data-ref="arcMER_ray" stroke="#38bdf8" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-line" d="M 310.00 650.00 L 367.72 503.46 L 425.45 356.92" fill="none" data-ref="arcMER_ray" stroke="#38bdf8" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-arc" d="M 202.98 378.32 A 292.00 292.00 0 0 1 310.00 358.00 A 292.00 292.00 0 0 1 417.02 378.32" fill="none" data-ref="arcMER" stroke="#38bdf8" stroke-width="2.0"/>
+    <path class="geom-line" d="M 310.00 650.00 L 203.61 531.84 L 97.22 413.68" fill="none" data-ref="arcMAR_ray" stroke="var(--geom-accent, #d97706)" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-line" d="M 310.00 650.00 L 416.39 531.84 L 522.78 413.68" fill="none" data-ref="arcMAR_ray" stroke="var(--geom-accent, #d97706)" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-arc" d="M 121.31 440.43 A 282.00 282.00 0 0 1 310.00 368.00 A 282.00 282.00 0 0 1 498.69 440.43" fill="none" data-ref="arcMAR" stroke="var(--geom-accent, #d97706)" stroke-width="2.0"/>
+    <path class="geom-line" d="M 310.00 650.00 L 198.50 542.33 L 87.00 434.66" fill="none" data-ref="arcVEN_ray" stroke="#10b981" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-line" d="M 310.00 650.00 L 421.50 542.33 L 533.00 434.66" fill="none" data-ref="arcVEN_ray" stroke="#10b981" stroke-width="1.2" opacity="0.88"/>
+    <path class="geom-arc" d="M 114.34 461.05 A 272.00 272.00 0 0 1 310.00 378.00 A 272.00 272.00 0 0 1 505.66 461.05" fill="none" data-ref="arcVEN" stroke="#10b981" stroke-width="2.0"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-dashed" d="M 310.00 650.00 L 310.00 351.00 L 310.00 52.00" fill="none" data-ref="/ Terra Axis /" opacity="0.35"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="310.00" cy="420.00" r="2.80" data-ref="g"/>
+    <circle class="geom-point" cx="310.00" cy="266.00" r="2.80" data-ref="i"/>
+    <circle class="geom-point" cx="310.00" cy="148.00" r="2.80" data-ref="l"/>
+    <circle class="geom-point" cx="257.53" cy="148.00" r="2.60" data-ref="n"/>
+    <circle class="geom-point" cx="362.47" cy="148.00" r="2.60" data-ref="p"/>
+    <circle class="geom-point" cx="310.00" cy="95.53" r="2.60" data-ref="b"/>
+    <circle class="geom-point" cx="310.00" cy="200.47" r="2.60" data-ref="a"/>
+    <circle class="geom-point" cx="310.00" cy="266.10" r="2.60" data-ref="gamma"/>
+    <circle class="geom-point" cx="310.00" cy="573.90" r="2.60" data-ref="delta"/>
+    <circle class="geom-point" cx="310.00" cy="650.00" r="4.50" data-ref="Terra" fill="#10b981"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="322.00" y="422.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="g">g</text>
+    <text class="geom-label" x="310.00" y="438.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px;" data-ref="cMAR_ep">MARS</text>
+    <text class="geom-label" x="322.00" y="268.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="i">i</text>
+    <text class="geom-label" x="310.00" y="284.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px;" data-ref="cJUP_ep">JUPITER</text>
+    <text class="geom-label" x="322.00" y="150.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="l">l</text>
+    <text class="geom-label" x="310.00" y="166.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px;" data-ref="cSAT_ep">SATURN</text>
+    <text class="geom-label" x="25.50" y="114.93" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="122.74" y="73.66" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="225.66" y="49.90" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="331.15" y="44.37" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="435.99" y="57.24" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="537.01" y="88.13" text-anchor="middle" dominant-baseline="central" style="font-size: 9.5px;">★</text>
+    <text class="geom-label" x="310.00" y="65.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px;" data-ref="cFIXAE">FIXARVM STELLARVM SPHAERA</text>
+    <text class="geom-label" x="310.00" y="328.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="arcSAT">Saturni 12°</text>
+    <text class="geom-label" x="361.01" y="340.17" text-anchor="start" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="arcJUP">Iovis 22°</text>
+    <text class="geom-label" x="405.33" y="361.33" text-anchor="start" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="arcMER">Mercurii 43°</text>
+    <text class="geom-label" x="481.56" y="411.25" text-anchor="start" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="arcMAR">Martis 84°</text>
+    <text class="geom-label" x="522.27" y="462.29" text-anchor="start" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="arcVEN">Veneris 92°</text>
+    <text class="geom-label" x="310.00" y="395.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;">Arcus prosthaphaereseon</text>
+    <text class="geom-label" x="245.53" y="148.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="n">n</text>
+    <text class="geom-label" x="374.47" y="148.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="p">p</text>
+    <text class="geom-label" x="310.00" y="84.53" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="b">b</text>
+    <text class="geom-label" x="310.00" y="211.47" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="a">a</text>
+    <text class="geom-label" x="322.00" y="272.10" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="gamma">γ</text>
+    <text class="geom-label" x="322.00" y="567.90" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="delta">δ</text>
+    <text class="geom-label" x="310.00" y="668.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px;" data-ref="Terra">⊕ TERRA (Immobile Center)</text>
+    <text class="geom-label" x="310.00" y="702.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px;" data-ref="cVEN_ep">VENVS</text>
+    <text class="geom-label" x="378.00" y="728.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px;" data-ref="cSOL_pt">☉ SOL</text>
+    <text class="geom-label" x="310.00" y="22.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.5px;">TABELLA II — Ptolemaic Geocentric Epicycles &amp; Prosthaphaeresis Arcs</text>
+  </g>
+</svg>

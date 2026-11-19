@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" width="640" height="290" class="euclid-graphic" data-graphic-id="0031.g1" data-folio="0031" data-graphic="g1" role="img" aria-label="Strena Square Order A versus Triangular Close-Packed Order B">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="85.00" cy="92.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="135.00" cy="92.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="185.00" cy="92.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="235.00" cy="92.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="85.00" cy="142.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="135.00" cy="142.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="185.00" cy="142.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="235.00" cy="142.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="85.00" cy="192.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="135.00" cy="192.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="185.00" cy="192.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="235.00" cy="192.00" r="25.00" fill="none" data-ref="gridA" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="408.00" cy="96.00" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="458.00" cy="96.00" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="508.00" cy="96.00" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="383.00" cy="139.30" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="433.00" cy="139.30" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="483.00" cy="139.30" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="533.00" cy="139.30" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="408.00" cy="182.60" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="458.00" cy="182.60" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+    <circle class="geom-circle" cx="508.00" cy="182.60" r="25.00" fill="none" data-ref="gridB" stroke="var(--geom-accent, #d97706)" stroke-width="1.6"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-dashed" d="M 85.00 92.00 L 110.00 92.00 L 135.00 92.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 85.00 92.00 L 85.00 117.00 L 85.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 135.00 92.00 L 160.00 92.00 L 185.00 92.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 135.00 92.00 L 135.00 117.00 L 135.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 185.00 92.00 L 210.00 92.00 L 235.00 92.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 185.00 92.00 L 185.00 117.00 L 185.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 235.00 92.00 L 235.00 117.00 L 235.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 85.00 142.00 L 110.00 142.00 L 135.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 85.00 142.00 L 85.00 167.00 L 85.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 135.00 142.00 L 160.00 142.00 L 185.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 135.00 142.00 L 135.00 167.00 L 135.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 185.00 142.00 L 210.00 142.00 L 235.00 142.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 185.00 142.00 L 185.00 167.00 L 185.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 235.00 142.00 L 235.00 167.00 L 235.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 85.00 192.00 L 110.00 192.00 L 135.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 135.00 192.00 L 160.00 192.00 L 185.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 185.00 192.00 L 210.00 192.00 L 235.00 192.00" fill="none" opacity="0.35"/>
+    <path class="geom-dashed" d="M 408.00 96.00 L 433.00 96.00 L 458.00 96.00" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 408.00 96.00 L 395.50 117.65 L 383.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 408.00 96.00 L 420.50 117.65 L 433.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 458.00 96.00 L 483.00 96.00 L 508.00 96.00" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 458.00 96.00 L 445.50 117.65 L 433.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 458.00 96.00 L 470.50 117.65 L 483.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 508.00 96.00 L 495.50 117.65 L 483.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 508.00 96.00 L 520.50 117.65 L 533.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 383.00 139.30 L 408.00 139.30 L 433.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 383.00 139.30 L 395.50 160.95 L 408.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 433.00 139.30 L 458.00 139.30 L 483.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 433.00 139.30 L 420.50 160.95 L 408.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 433.00 139.30 L 445.50 160.95 L 458.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 483.00 139.30 L 508.00 139.30 L 533.00 139.30" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 483.00 139.30 L 470.50 160.95 L 458.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 483.00 139.30 L 495.50 160.95 L 508.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 533.00 139.30 L 520.50 160.95 L 508.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 408.00 182.60 L 433.00 182.60 L 458.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+    <path class="geom-dashed" d="M 458.00 182.60 L 483.00 182.60 L 508.00 182.60" fill="none" stroke="var(--geom-accent, #d97706)" opacity="0.4"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="320.00" y="22.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px;">Strena (p. 9) — Planar Packing Orders: Square (A) vs. Triangular (B)</text>
+    <text class="geom-label" x="42.00" y="142.00" text-anchor="middle" dominant-baseline="central" style="font-size: 16.0px;" data-ref="gridA">A</text>
+    <text class="geom-label" x="160.00" y="260.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="gridA">Square Order: 4 in plane (6 in cubic 3D)</text>
+    <text class="geom-label" x="352.00" y="139.30" text-anchor="middle" dominant-baseline="central" style="font-size: 16.0px;" data-ref="gridB">B</text>
+    <text class="geom-label" x="458.00" y="260.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="gridB">Triangular Order: 6 in plane (12 in FCC/HCP)</text>
+  </g>
+</svg>

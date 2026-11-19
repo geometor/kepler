@@ -24,3 +24,13 @@ Tres igitur Trigoni, singulis angulis congruentes, minus quàm 4, id est, duos a
 Quatuor Trigoni, singulis angulis congruentes, efficiunt 8 tertias, quod est minus quàm 12 tertiae, seu 4 recti; fitque junctis trigonorum lateribus Pyramis, basi quadrilaterâ hiante: cui ex adverso alia talis Pyramis simili hiatu congruit, ad figuram undique claudendam. Hinc **Octaëdron**.
 
 Quinque Trigoni, singulis angulis congruentes, efficiunt 10 tertias, quod est minus quàm 12 tertiae, fitque aptatis denis & denis lateribus ad angulum communem, Pyramis basi quinquelaterâ... Hinc **Icosaëdron** (``Pp``); ex ternis Tetragonis **Cubus** (``Qq``); ex ternis Pentagonis **Dodecaëdron** (``Rr``).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0081.g1.png
+      :alt: Quinque Corpora Regularia cum elementis (Lincii 1619, Lib. II, fol. 0081)
+      :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Quinque corpora regularia (Tabulae Oo–Rr).
+
+   .. picture:: 0074.g1.png
+      :alt: Diagrammata congruentiae angulorum solidorum (Lincii 1619, Lib. II, p. 58)
+      :caption: Editio princeps (Lincii 1619, Lib. II, p. 58, fol. 0074): Congruentiae solidorum angulorum.

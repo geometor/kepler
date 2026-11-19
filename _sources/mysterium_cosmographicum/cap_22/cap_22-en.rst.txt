@@ -22,8 +22,18 @@ Mästlin had pointed out that Copernicus's tiny epicyclet—introduced to reprod
 
 Even more profoundly, Kepler shows on folio ``0090`` (p. 78) that his **solar moving soul** from Chapter XX directly produces the equant effect inside every single planetary orbit! In his engraved diagram on p. 78:
 
-* Point **$A$** is the source of the motive soul—the **Sun**.
-* Point **$B$** is the geometric center of the eccentric planetary path $EFGH$, with eccentricity $AB$.
-* Point **$D$** lies along the line of apsides at double distance $AD = 2\,AB$ (so $BD = BA$, and $C$ bisects $BD$).
+* Point :g:`A` is the source of the motive soul—the **Sun** (center of concentric circle :g:`cNOLM`).
+* Point :g:`B` is the geometric center of the eccentric planetary path :g:`cEFGH`, with eccentricity :g:`/ A B /`.
+* Point :g:`D` lies along the line of apsides at double distance $AD = 2\,AB$ (so :g:`/ B D /` = :g:`/ A B /`, midpoint :g:`C` bisects $BD$, and :g:`cIKPQ` is the equant circle).
 
-At aphelion $EF$, the planet stands farther from the Sun $A$ by distance $AB$ than on the concentric circle $NOML$, so the weakened solar force slows it down; at perihelion $HG$, it approaches closer to $A$ by $AB$, so the strengthened solar force accelerates it—making the planet's speed vary inversely with solar distance **exactly as if it moved uniformly about the bisected equant center $D$**! Only Earth's annual motion still puzzled Kepler here, because Copernicus and Ptolemy had given Earth no equant—a puzzle Kepler later cracked in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`) by proving Earth *does* obey the exact same bisected eccentricity and Area Law!
+.. container:: kepler-plate-pair
+
+   .. picture:: 0090.g1.png
+      :alt: Archival 1596 woodcut of Kepler's solar anima motrix and bisected equant diagram A-B-C-D (p. 78)
+      :caption: Archival scan (Tübingen 1596, p. 78, fol. 0090): Solar motive soul (A), eccentric orbit (B), and equant (D).
+
+   .. picture:: 0090.g1.svg
+      :alt: Calibrated interactive vectorization of Kepler's bisected equant diagram A-B-C-D
+      :caption: Calibrated vectorization: Concentric solar circle NOLM, eccentric orbit EFGH, and bisected equant IKPQ.
+
+At aphelion $EF$, the planet stands farther from the Sun :g:`A` by distance :g:`/ A B /` than on the concentric circle :g:`cNOLM`, so the weakened solar force slows it down; at perihelion $HG$, it approaches closer to :g:`A` by :g:`/ A B /`, so the strengthened solar force accelerates it—making the planet's speed vary inversely with solar distance **exactly as if it moved uniformly about the bisected equant center** :g:`D`! Only Earth's annual motion still puzzled Kepler here, because Copernicus and Ptolemy had given Earth no equant—a puzzle Kepler later cracked in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`) by proving Earth *does* obey the exact same bisected eccentricity and Area Law!

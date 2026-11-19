@@ -20,10 +20,31 @@ Et radij quidem sive semidiametri circumscriptorum aequant semidiagonios corporu
 
 Iam recta connectens centra figurae & basis est radius sive semidiameter inscripti per ultimam lib. 15. Campani in Euclidem. Orbis enim inscriptus tangere debet omnia centra figurae; & figurae inscriptae cum circumscriptis omnes possident idem centrum.
 
-Quod cum ita sit, facile est videre, potentiam radij, quo circulus basi circumscribitur, auferendam de potentia radij orbis circumscripti, ut residua sit potentia quaesitae lineae seu radij orbis inscripti. In adiuncto schemate ``HOM`` est axis circumscripti orbis, cuius ut & figurae inscriptae commune centrum in ``O``, ``HGL`` planum unum figurae, quod hic sit basis, ``I`` centrum basis, ``HI`` radius circumscripti basi. Et recta ex centro orbis ``O`` in ``I`` centrum minoris circuli demissa perpendicularis erit circulo & lineae ``HI``. In triangulo igitur ``HIO`` angulus ad ``I`` rectus. Ergo ``HO`` potentia aequat potentias ``HI`` ``IO``. Et potentia ``HI`` ablata ex ``HO`` potentia, relinquit ``IO`` potentiam quaesitam, per 47. primi.
+Quod cum ita sit, facile est videre, potentiam radij, quo circulus basi circumscribitur, auferendam de potentia radij orbis circumscripti, ut residua sit potentia quaesitae lineae seu radij orbis inscripti. In adiuncto schemate ``HOM`` est axis circumscripti orbis, cuius ut & figurae inscriptae commune centrum in :g:`O`, ``HGL`` planum unum figurae, quod hic sit basis, :g:`I` centrum basis, :g:`/ H I /` radius circumscripti basi. Et recta ex centro orbis :g:`O` in :g:`I` centrum minoris circuli demissa perpendicularis erit circulo & lineae :g:`/ H I /`. In triangulo igitur ``HIO`` angulus ad :g:`I` rectus. Ergo :g:`/ H O /` potentia aequat potentias :g:`/ H I /` :g:`/ O I /`. Et potentia :g:`/ H I /` ablata ex :g:`/ H O /` potentia, relinquit :g:`/ O I /` potentiam quaesitam, per 47. primi.
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0054.g1.png
+      :alt: Schema trianguli rectanguli HIO (Tubingae 1596, p. 44)
+      :caption: Editio princeps (Tubingae 1596, p. 44, fol. 0054): Triangulum rectangulum HIO radii inscripti.
+
+   .. picture:: 0054.g1.svg
+      :alt: Schema vectoriale trianguli HIO
+      :caption: Schema vectoriale: Diameter OL, radius circumscriptus HO, radius basis HI, et radius inscriptus OI.
 
 Si cuilibet sphaerae circumscriptae semidiameter ponatur $1000$ (aut unitas $R_{\text{out}} = 1$), sphaerae inscriptae semidiameter $r_{\text{in}}$ per :person:`Euclidis <euclid>` librum XIII ita se habet, ut cognata corpora dualia eandem prorsus teneant rationem:
 
 * In **Cubo** et **Octaedro**: $Q_{\text{in}} : Q_{\text{out}} = 1 : 3$ (pro $1000$ prodit $577$).
 * In **Tetraedro** (Pyramide): $r_{\text{in}} : R_{\text{out}} = 1 : 3$, $Q_{\text{in}} : Q_{\text{out}} = 1 : 9$ (pro $1000$ prodit $333$).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0057.g1.png
+      :alt: Schema Tetraedri N-O-I-M (Tubingae 1596, p. 47)
+      :caption: Editio princeps (Tubingae 1596, p. 47, fol. 0057): Altitudo Tetraedri et proportio 1 : 3.
+
+   .. picture:: 0057.g1.svg
+      :alt: Schema vectoriale Tetraedri N-G-O-I-H-M
+      :caption: Schema vectoriale: Tetraedrum N-G-H cum centro O, centro basis I et ratione OI : ON = 1 : 3.
+
 * In **Dodecaedro** et **Icosaedro**: ex :term:`sectione divina <sectio-divina>` fluit $Q_{\text{in}} : Q_{\text{out}} = (5 + 2\sqrt{5}) : 15$ (pro $1000$ prodit fere $795$).

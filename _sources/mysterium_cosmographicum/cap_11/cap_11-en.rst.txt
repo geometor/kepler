@@ -25,4 +25,14 @@ Linking opposite face-centers of the three primary solids with opposite vertices
 3. **In-phase superposition**: Aligning vertices of the Icosahedron's polar pentagons with vertices of the Dodecahedron's polar pentagons produces a symmetric double-wave band around the ecliptic line.
 4. **Out-of-phase superposition**: Rotating one solid so its vertices align with edge midpoints of the other generates an interlocking lattice of lozenges spanning the ecliptic latitude zone.
 
-From these superimposed polyhedral equators—bounded symmetrically between the two poles—Kepler derives the geometric archetype of the **Zodiacal band** along which the planets travel.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0048.g1.png
+      :alt: Archival 1596 woodcut of Kepler's four unrolled equatorial zodiacal belts (p. 38)
+      :caption: Archival scan (Tübingen 1596, p. 38, fol. 0048): Unrolled equatorial bands of the Dodecahedron, Icosahedron, and Octahedron.
+
+   .. picture:: 0048.g1.svg
+      :alt: Calibrated vectorization of Kepler's four unrolled equatorial zodiacal belts
+      :caption: Calibrated vectorization: Dodecahedron zig-zag, Icosahedron triangles, and Octahedron equatorial plane.
+
+From these superimposed polyhedral equators—the Dodecahedron belt (:g:`dod_belt`), the Icosahedron belt (:g:`ico_belt`), and the Octahedron equatorial midline (:g:`oct_equator`) bounded symmetrically between the two poles—Kepler derives the geometric archetype of the **Zodiacal band** along which the planets travel.

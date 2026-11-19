@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 270" width="620" height="270" class="euclid-graphic" data-graphic-id="0032.g1" data-folio="0032" data-graphic="g1" role="img" aria-label="Strena Five-Tier Triangular Sphere Packing Pyramid A through E">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="68.00" cy="212.00" r="12.50" fill="none" data-ref="tier_A" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="148.00" cy="190.35" r="12.50" fill="none" data-ref="tier_B" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="135.50" cy="212.00" r="12.50" fill="none" data-ref="tier_B" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="160.50" cy="212.00" r="12.50" fill="none" data-ref="tier_B" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="245.00" cy="168.70" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="232.50" cy="190.35" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="257.50" cy="190.35" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="220.00" cy="212.00" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="245.00" cy="212.00" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="270.00" cy="212.00" r="12.50" fill="none" data-ref="tier_C" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="365.00" cy="147.05" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="352.50" cy="168.70" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="377.50" cy="168.70" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="340.00" cy="190.35" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="365.00" cy="190.35" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="390.00" cy="190.35" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="327.50" cy="212.00" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="352.50" cy="212.00" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="377.50" cy="212.00" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="402.50" cy="212.00" r="12.50" fill="none" data-ref="tier_D" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="510.00" cy="125.40" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="497.50" cy="147.05" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="522.50" cy="147.05" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="485.00" cy="168.70" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="510.00" cy="168.70" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="535.00" cy="168.70" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="472.50" cy="190.35" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="497.50" cy="190.35" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="522.50" cy="190.35" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="547.50" cy="190.35" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="460.00" cy="212.00" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="485.00" cy="212.00" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="510.00" cy="212.00" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="535.00" cy="212.00" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+    <circle class="geom-circle" cx="560.00" cy="212.00" r="12.50" fill="none" data-ref="tier_E" stroke="var(--geom-accent, #d97706)" stroke-width="1.55"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="310.00" y="22.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px;">Strena (p. 10) — Triangular Close-Packed Pyramid Tiers A (1) to E (15)</text>
+    <text class="geom-label" x="68.00" y="242.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.0px;" data-ref="tier_A">A (1)</text>
+    <text class="geom-label" x="148.00" y="242.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.0px;" data-ref="tier_B">B (3)</text>
+    <text class="geom-label" x="245.00" y="242.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.0px;" data-ref="tier_C">C (6)</text>
+    <text class="geom-label" x="365.00" y="242.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.0px;" data-ref="tier_D">D (10)</text>
+    <text class="geom-label" x="510.00" y="242.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.0px;" data-ref="tier_E">E (15)</text>
+  </g>
+</svg>

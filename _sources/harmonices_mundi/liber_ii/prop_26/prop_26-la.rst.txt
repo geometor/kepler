@@ -17,3 +17,12 @@ Propositio XXVI: Duo Corpora Regularia Stellata
 **Addi possunt congruentijs perfectissimis regularibus, duae etiam aliae congruentiae, stellarum duodecim planarum Pentagonicarum; & duae semisolidae, stellarum Octangulae, & Decangulae.**
 
 Ex duodecim :term:`stellis quinquangulis <stella-quinquangula>` $\{5/2\}$ invicem connexis nascuntur duo corpora solida aculeata undique: alterum duodecim angulorum quinquelinearium (**Dodecaedron Stellatum Minus**, $\{5/2, 5\}$, tabula ``Ss``), alterum viginti angulorum trilinearium (**Dodecaedron Stellatum Maius**, $\{5/2, 3\}$, tabula ``Tt``). Quina triangula aequicrura pentagonica semper in unum idemque planum competunt, occultum sub soliditate quinquangulum veluti cor suum circumstantia.
+
+.. picture:: 0081.g2.png
+   :class: archival-plate
+   :alt: Tabulae Ss et Tt: Duo Corpora Regularia Stellata (Lincii 1619, Lib. II, fol. 0081)
+   :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Dodecaedron Stellatum Minus (Ss) et Maius (Tt).
+
+.. raw:: html
+
+   <div class="kepler-3d-mount" data-scene="harmonices_stellated" data-height="480"></div>

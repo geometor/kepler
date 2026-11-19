@@ -15,4 +15,14 @@ Caput XI — De Situ Corporum et Origine Zodiaci
 
 Responsurus physicis qui mirantur ex figuris mathematicis et sectionum imaginatione circulorum coelestium origines investigari, monet :person:`Keplerus <kepler>` Deum Conditorem, cum mens sit, liberrime ad intelligibiles figuras res coelestes aptare. Colligatis igitur centris planorum primariorum et angulis oppositis secundariorum tamquam polis communibus, **Dodecaedron** per medium decem lateribus viam zig-zag describit, **Icosaedron** vero manifestam zonam triangulorum efficit, transeunte per medium quadrato **Octaedri** in planum extenso (ut quatuor diagrammata pagina 38 ostendunt).
 
+.. container:: kepler-plate-pair
+
+   .. picture:: 0048.g1.png
+      :alt: Diagrammata Zodiaci aequatorialis (Tubingae 1596, p. 38)
+      :caption: Editio princeps (Tubingae 1596, p. 38, fol. 0048): Zonae aequatoriales Dodecaedri, Icosaedri et Octaedri.
+
+   .. picture:: 0048.g1.svg
+      :alt: Schema vectoriale zonarum Zodiaci
+      :caption: Schema vectoriale: Quatuor zonae aequatoriales corporum regularium.
+
 Quid restat igitur, quin dicamus Planetas illam viam Zodiaci tot manifestis punctis notatam a Creatore iussos ire, cum inter assumptos polos media sit?

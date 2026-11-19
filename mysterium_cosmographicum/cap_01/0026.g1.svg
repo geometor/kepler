@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 650" width="620" height="650" class="euclid-graphic" data-graphic-id="0026.g1" data-folio="0026" data-graphic="g1" role="img" aria-label="Tabella I: Copernican Heliocentric Orbs and Prosthaphaeresis Angles">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="278.00" fill="none" data-ref="cSAT" stroke-width="2.0"/>
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="178.00" fill="none" data-ref="cJUP" stroke-width="1.7"/>
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="89.00" fill="none" data-ref="cMAR" stroke-width="1.6" stroke="var(--geom-accent, #d97706)"/>
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="58.00" fill="none" data-ref="cTER" stroke-width="2.0" stroke="#10b981"/>
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="39.00" fill="none" data-ref="cVEN" stroke-width="1.4"/>
+    <circle class="geom-circle" cx="310.00" cy="330.00" r="20.00" fill="none" data-ref="cMER" stroke-width="1.3"/>
+    <circle class="geom-dashed" cx="310.00" cy="272.00" r="8.50" fill="none" data-ref="cLUNA" stroke-width="1.0"/>
+    <path class="geom-line" d="M 310.00 52.00 L 281.64 184.95 L 253.28 317.90" fill="none" data-ref="/ L P /" stroke-width="1.35"/>
+    <path class="geom-line" d="M 310.00 52.00 L 338.36 184.95 L 366.72 317.90" fill="none" data-ref="/ L N /" stroke-width="1.35"/>
+    <path class="geom-line" d="M 310.00 152.00 L 282.58 231.55 L 255.17 311.10" fill="none" data-ref="/ I P /" stroke-width="1.35"/>
+    <path class="geom-line" d="M 310.00 152.00 L 337.42 231.55 L 364.83 311.10" fill="none" data-ref="/ I N /" stroke-width="1.35"/>
+    <path class="geom-line" d="M 310.00 241.00 L 266.01 292.20 L 222.02 343.40" fill="none" data-ref="/ G T /" stroke="var(--geom-accent, #d97706)" stroke-width="1.45"/>
+    <path class="geom-line" d="M 310.00 241.00 L 353.99 292.20 L 397.98 343.40" fill="none" data-ref="/ G V /" stroke="var(--geom-accent, #d97706)" stroke-width="1.45"/>
+    <path class="geom-line" d="M 310.00 272.00 L 262.79 323.97 L 215.58 375.93" fill="none" data-ref="/ A X /" stroke="#10b981" stroke-width="1.3"/>
+    <path class="geom-line" d="M 310.00 272.00 L 357.21 323.97 L 404.42 375.93" fill="none" data-ref="/ A Y /" stroke="#10b981" stroke-width="1.3"/>
+    <path class="geom-dashed" d="M 310.00 272.00 L 282.84 345.93 L 255.68 419.86" fill="none" data-ref="/ A Ae /" stroke-width="1.25"/>
+    <path class="geom-dashed" d="M 310.00 272.00 L 337.16 345.93 L 364.32 419.86" fill="none" data-ref="/ A Z /" stroke-width="1.25"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-dashed" d="M 310.00 52.00 L 310.00 330.00 L 310.00 608.00" fill="none" data-ref="/ L M /" opacity="0.32"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <polygon class="wedge" points="310.00,52.00 288.39,153.32 331.61,153.32" data-ref="&lt; R L S )"/>
+    <polygon class="wedge" points="310.00,152.00 255.17,311.10 364.83,311.10" data-ref="&lt; P I N )"/>
+    <polygon class="wedge" points="310.00,241.00 222.02,343.40 397.98,343.40" data-ref="&lt; T G V )"/>
+    <polygon class="wedge" points="310.00,272.00 215.58,375.93 404.42,375.93" data-ref="&lt; X A Y )"/>
+    <polygon class="wedge" points="310.00,272.00 255.68,419.86 364.32,419.86" data-ref="&lt; Z A Ae )"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="310.00" cy="330.00" r="4.20" data-ref="Sol" fill="var(--geom-accent, #d97706)"/>
+    <circle class="geom-point" cx="310.00" cy="52.00" r="3.20" data-ref="L"/>
+    <circle class="geom-point" cx="310.00" cy="608.00" r="3.00" data-ref="M"/>
+    <circle class="geom-point" cx="310.00" cy="152.00" r="3.20" data-ref="I"/>
+    <circle class="geom-point" cx="310.00" cy="508.00" r="3.00" data-ref="K"/>
+    <circle class="geom-point" cx="310.00" cy="241.00" r="3.20" data-ref="G"/>
+    <circle class="geom-point" cx="310.00" cy="419.00" r="3.00" data-ref="H"/>
+    <circle class="geom-point" cx="310.00" cy="272.00" r="3.20" data-ref="A"/>
+    <circle class="geom-point" cx="310.00" cy="388.00" r="3.00" data-ref="B"/>
+    <circle class="geom-point" cx="288.39" cy="153.32" r="2.80" data-ref="R"/>
+    <circle class="geom-point" cx="331.61" cy="153.32" r="2.80" data-ref="S"/>
+    <circle class="geom-point" cx="255.17" cy="311.10" r="2.80" data-ref="P"/>
+    <circle class="geom-point" cx="364.83" cy="311.10" r="2.80" data-ref="N"/>
+    <circle class="geom-point" cx="222.02" cy="343.40" r="2.80" data-ref="T"/>
+    <circle class="geom-point" cx="397.98" cy="343.40" r="2.80" data-ref="V"/>
+    <circle class="geom-point" cx="215.58" cy="375.93" r="2.80" data-ref="X"/>
+    <circle class="geom-point" cx="404.42" cy="375.93" r="2.80" data-ref="Y"/>
+    <circle class="geom-point" cx="255.68" cy="419.86" r="2.80" data-ref="Ae"/>
+    <circle class="geom-point" cx="364.32" cy="419.86" r="2.80" data-ref="Z"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="310.00" y="22.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.5px;">TABELLA I — Copernican Heliocentric Orbs &amp; Prosthaphaeresis Angles</text>
+    <text class="geom-label" x="326.00" y="42.00" text-anchor="start" dominant-baseline="central" style="font-size: 12.0px; font-style: italic;" data-ref="L">L (♄ Saturn)</text>
+    <text class="geom-label" x="310.00" y="623.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.5px; font-style: italic;" data-ref="M">M</text>
+    <text class="geom-label" x="344.00" y="140.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.8px; font-style: italic;" data-ref="I">I (♃ Jupiter)</text>
+    <text class="geom-label" x="310.00" y="522.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.5px; font-style: italic;" data-ref="K">K</text>
+    <text class="geom-label" x="344.00" y="229.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="G">G (♂ Mars)</text>
+    <text class="geom-label" x="310.00" y="432.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="H">H</text>
+    <text class="geom-label" x="348.00" y="266.00" text-anchor="start" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="A">A (⊕ Earth)</text>
+    <text class="geom-label" x="310.00" y="399.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px; font-style: italic;" data-ref="B">B</text>
+    <text class="geom-label" x="279.00" y="326.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="cVEN">C</text>
+    <text class="geom-label" x="341.00" y="326.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.5px; font-style: italic;" data-ref="cVEN">D</text>
+    <text class="geom-label" x="310.00" y="319.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="cMER">E</text>
+    <text class="geom-label" x="310.00" y="343.00" text-anchor="middle" dominant-baseline="central" style="font-size: 10.0px; font-style: italic;" data-ref="cMER">F</text>
+    <text class="geom-label" x="275.39" y="153.32" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="R">R</text>
+    <text class="geom-label" x="344.61" y="153.32" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="S">S</text>
+    <text class="geom-label" x="242.17" y="309.10" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="P">P</text>
+    <text class="geom-label" x="377.83" y="309.10" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="N">N</text>
+    <text class="geom-label" x="209.02" y="345.40" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="T">T</text>
+    <text class="geom-label" x="410.98" y="345.40" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="V">V</text>
+    <text class="geom-label" x="202.58" y="383.93" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="X">X</text>
+    <text class="geom-label" x="417.42" y="383.93" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="Y">Y</text>
+    <text class="geom-label" x="247.68" y="432.86" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="Ae">Æ</text>
+    <text class="geom-label" x="374.32" y="432.86" text-anchor="middle" dominant-baseline="central" style="font-size: 11.5px; font-style: italic;" data-ref="Z">Z</text>
+  </g>
+</svg>

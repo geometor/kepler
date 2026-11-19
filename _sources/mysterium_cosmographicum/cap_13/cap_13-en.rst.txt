@@ -17,7 +17,17 @@ Hitherto nothing has been said except congruent signs and plausible indications 
 
 The radii (semidiameters) of the circumscribed spheres equal the semi-diagonals of the bodies; for unless all angles of the figure touch the same surface, the body will not be regular. Opposite vertices and the center of the figure always lie on the same diameter, except in the Tetrahedron, where each vertex lies opposite a face center. The straight line joining the center of the figure and the center of a face is the radius of the inscribed sphere.
 
-Hence the square of the circumradius of one face ($HI$) must be subtracted from the square of the circumsphere radius ($HO$) to leave the square of the insphere radius ($IO$): in the diagram on p. 44, angle $HIO$ is right, so by :just:`I.47`, $HO^2 - HI^2 = IO^2$.
+Hence the square of the circumradius of one face (:g:`/ H I /`) must be subtracted from the square of the circumsphere radius (:g:`/ H O /`) to leave the square of the insphere radius (:g:`/ O I /`): in the diagram on p. 44, angle $HIO$ is right around center :g:`O`, face center :g:`I`, and vertex :g:`H`, so by :just:`I.47`, $HO^2 - HI^2 = IO^2$.
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0054.g1.png
+      :alt: Archival 1596 woodcut of Kepler's insphere radius Pythagorean triangle HO-HI-IO (p. 44)
+      :caption: Archival scan (Tübingen 1596, p. 44, fol. 0054): General insphere right triangle HIO.
+
+   .. picture:: 0054.g1.svg
+      :alt: Calibrated interactive vectorization of Kepler's insphere radius right triangle HO^2 = HI^2 + IO^2
+      :caption: Calibrated vectorization: Sphere diameter O–L, circumradius HO, face radius HI, and insphere radius OI.
 
 When each regular solid is inscribed in a unit outer sphere ($R_{\text{out}} = 1$, $Q_{\text{out}} = 1$), exact Euclidean demonstration yields three distinct :term:`quadrance <quadrance>` ratios, because **polar-dual** solids share identical insphere-to-circumsphere proportions:
 
@@ -25,9 +35,19 @@ When each regular solid is inscribed in a unit outer sphere ($R_{\text{out}} = 1
 
   $$\frac{r_{\text{in}}}{R_{\text{out}}} = \frac{1}{\sqrt{3}} = \frac{\sqrt{3}}{3} \approx 0.57735, \qquad \frac{Q_{\text{in}}}{Q_{\text{out}}} = \frac{1}{3}.$$
 
-* **Tetrahedron** ($\{3, 3\}$, self-dual):
+* **Tetrahedron** ($\{3, 3\}$, self-dual — vertex :g:`N`, center :g:`O`, base centroid :g:`I`, antipode :g:`M`, with $OI = \frac{1}{3} NO = \frac{1}{6} NM$):
 
   $$\frac{r_{\text{in}}}{R_{\text{out}}} = \frac{1}{3} \approx 0.33333, \qquad \frac{Q_{\text{in}}}{Q_{\text{out}}} = \frac{1}{9}.$$
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0057.g1.png
+      :alt: Archival 1596 woodcut of Kepler's Tetrahedron altitude and 1:3 sphere ratio proof (p. 47)
+      :caption: Archival scan (Tübingen 1596, p. 47, fol. 0057): Tetrahedron altitude N-O-I-M and 1:3 ratio.
+
+   .. picture:: 0057.g1.svg
+      :alt: Calibrated interactive vectorization of Kepler's Tetrahedron sphere-ratio proof N-G-O-I-H-M
+      :caption: Calibrated vectorization: Tetrahedron N-G-H with center O, face centroid I, and exact ratio OI : ON = 1 : 3.
 
 * **Dodecahedron & Icosahedron** ($\{5, 3\}$ and $\{3, 5\}$):
 

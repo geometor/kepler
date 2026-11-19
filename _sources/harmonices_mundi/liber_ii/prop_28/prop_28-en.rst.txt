@@ -30,3 +30,13 @@ Cleanly setting aside the two infinite families of regular **prisms** ($4.4.n$) 
 11. **Rhombicosidodecahedron** (*Figure 11*, $3.4.5.4$)
 12. **Great Rhombicosidodecahedron** (Truncated Icosidodecahedron)
 13. **Snub Dodecahedron** (*Dodecaedron simum*, *Figure 13*, $3.3.3.3.5$)
+
+.. picture:: 0088.g1.png
+   :class: archival-plate
+   :alt: Archival 1619 folding copperplate illustrating all thirteen Archimedean semi-regular solids numbered 1 through 13
+   :caption: Archival scan (Linz 1619, Lib. II, fol. 0088): Kepler's complete engraved plate of all 13 Archimedean solids (Figs. 1–13).
+
+.. picture:: 0086.g1.png
+   :class: archival-plate
+   :alt: Archival 1619 woodcut showing semi-regular solid vertex truncation (Harmonices Mundi II.28, p. 62)
+   :caption: Archival scan (Linz 1619, Lib. II, p. 62, fol. 0086): Semi-regular solid vertex construction.

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" class="euclid-graphic" data-graphic-id="0050.g1" data-folio="0050" data-graphic="g1" role="img" aria-label="Harmonices Mundi Book I Proposition XLV Regular Heptagon BCDEFGH">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="220.00" cy="224.00" r="148.00" fill="none" data-ref="( A B )" stroke-width="1.8"/>
+    <path class="geom-line" d="M 220.00 76.00 L 162.14 103.86 L 104.29 131.72" fill="none" data-ref="/ B C /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 104.29 131.72 L 90.00 194.33 L 75.71 256.93" fill="none" data-ref="/ C D /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 75.71 256.93 L 115.75 307.14 L 155.79 357.34" fill="none" data-ref="/ D E /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 155.79 357.34 L 220.00 357.34 L 284.21 357.34" fill="none" data-ref="/ E F /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 284.21 357.34 L 324.25 307.14 L 364.29 256.93" fill="none" data-ref="/ F G /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 364.29 256.93 L 350.00 194.33 L 335.71 131.72" fill="none" data-ref="/ G H /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 335.71 131.72 L 277.86 103.86 L 220.00 76.00" fill="none" data-ref="/ H B /" stroke-width="1.85"/>
+    <path class="geom-line" d="M 220.00 76.00 L 187.89 216.67 L 155.79 357.34" fill="none" data-ref="/ B E /" stroke="var(--geom-accent, #d97706)" stroke-width="1.85"/>
+    <path class="geom-line" d="M 104.29 131.72 L 194.25 244.53 L 284.21 357.34" fill="none" data-ref="/ C F /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-line" d="M 75.71 256.93 L 220.00 256.93 L 364.29 256.93" fill="none" data-ref="/ D G /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-line" d="M 155.79 357.34 L 245.75 244.53 L 335.71 131.72" fill="none" data-ref="/ E H /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-line" d="M 284.21 357.34 L 252.11 216.67 L 220.00 76.00" fill="none" data-ref="/ F B /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-line" d="M 364.29 256.93 L 234.29 194.33 L 104.29 131.72" fill="none" data-ref="/ G C /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-line" d="M 335.71 131.72 L 205.71 194.33 L 75.71 256.93" fill="none" data-ref="/ H D /" stroke-width="1.05" opacity="0.72"/>
+    <path class="geom-dashed" d="M 220.00 76.00 L 220.00 224.00 L 220.00 372.00" fill="none" data-ref="/ B P /" stroke="#10b981" stroke-width="1.5"/>
+    <path class="geom-dashed" d="M 220.00 224.00 L 187.89 290.67 L 155.79 357.34" fill="none" data-ref="/ A E /" stroke="#10b981" stroke-width="1.4"/>
+  </g>
+  <g id="graphics">
+    <path class="geom-line" d="M 220.00 76.00 L 147.86 166.47 L 75.71 256.93" fill="none" data-ref="/ B D /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 104.29 131.72 L 130.04 244.53 L 155.79 357.34" fill="none" data-ref="/ C E /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 75.71 256.93 L 179.96 307.14 L 284.21 357.34" fill="none" data-ref="/ D F /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 155.79 357.34 L 260.04 307.14 L 364.29 256.93" fill="none" data-ref="/ E G /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 284.21 357.34 L 309.96 244.53 L 335.71 131.72" fill="none" data-ref="/ F H /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 364.29 256.93 L 292.14 166.47 L 220.00 76.00" fill="none" data-ref="/ G B /" stroke-width="1.05" opacity="0.68"/>
+    <path class="geom-line" d="M 335.71 131.72 L 220.00 131.72 L 104.29 131.72" fill="none" data-ref="/ H C /" stroke-width="1.05" opacity="0.68"/>
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <polygon class="geom-polygon" points="220.00,76.00 155.79,357.34 284.21,357.34" data-ref="&lt; B E F &gt;"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="220.00" cy="224.00" r="3.50" data-ref="A"/>
+    <circle class="geom-point" cx="220.00" cy="372.00" r="3.20" data-ref="P"/>
+    <circle class="geom-point" cx="220.00" cy="76.00" r="3.40" data-ref="B"/>
+    <circle class="geom-point" cx="104.29" cy="131.72" r="3.40" data-ref="C"/>
+    <circle class="geom-point" cx="75.71" cy="256.93" r="3.40" data-ref="D"/>
+    <circle class="geom-point" cx="155.79" cy="357.34" r="3.40" data-ref="E"/>
+    <circle class="geom-point" cx="284.21" cy="357.34" r="3.40" data-ref="F"/>
+    <circle class="geom-point" cx="364.29" cy="256.93" r="3.40" data-ref="G"/>
+    <circle class="geom-point" cx="335.71" cy="131.72" r="3.40" data-ref="H"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="220.00" y="58.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="B">B</text>
+    <text class="geom-label" x="90.22" y="120.50" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="C">C</text>
+    <text class="geom-label" x="58.16" y="260.94" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="D">D</text>
+    <text class="geom-label" x="147.98" y="373.56" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="E">E</text>
+    <text class="geom-label" x="292.02" y="373.56" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="F">F</text>
+    <text class="geom-label" x="381.84" y="260.94" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="G">G</text>
+    <text class="geom-label" x="349.78" y="120.50" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="H">H</text>
+    <text class="geom-label" x="220.00" y="22.00" text-anchor="middle" dominant-baseline="central" style="font-size: 12.8px;">Harmonices Mundi I.45 (p. 32) — Regular Heptagon BCDEFGH</text>
+    <text class="geom-label" x="208.00" y="214.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px; font-style: italic;" data-ref="A">A</text>
+    <text class="geom-label" x="220.00" y="388.00" text-anchor="middle" dominant-baseline="central" style="font-size: 13.5px; font-style: italic;" data-ref="P">P</text>
+    <text class="geom-label" x="220.00" y="414.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px;">Isosceles △BEF (angles 3:3:1) · Irreducible cubic x³ − x² − 2x + 1 = 0</text>
+  </g>
+</svg>
