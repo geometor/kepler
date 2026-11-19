@@ -29,12 +29,68 @@ Why then did the :term:`five regular solids <corpora-quinque-regularia>` of *Mys
    * **Venus** ($94'50'' : 97'37''$ per day $\approx 24 : 25$) — **Chromatic Diesis** (nearly circular orbit inside the icosahedron);
    * **Mercury** ($164'0'' : 384'0''$ per day $= 5 : 12$) — **Octave plus Minor Third** (*diapason cum semiditono*, matching Mercury's dramatic eccentricity inside the octahedron).
 
+Live Celestial Music Studio (Exact 1619 Just Intonation)
+--------------------------------------------------------
+
+Bring Kepler's 1619 notation to life directly in your browser. Every pitch below is tuned to **exact 5-limit Just Intonation** ratios transcribed from folios ``0297``–``0302`` (anchored at $G_2 = 98\text{ Hz}$): play individual planetary scales (including Kepler's seventh marginal voice for the **Moon**), switch between **Discrete Notes** and **Continuous Orbital Glissando**, ignite the **Live Elliptical Orrery Choir**, strike the **Four Universal Creation Chords**, or toggle **Just Intonation vs. 12-TET Equal Temperament** to hear the pure beating vanish.
+
+.. raw:: html
+
+   <div class="kepler-cad-studio" data-scene="harmonices_audio_studio">
+     <iframe class="kepler-audio-iframe" src="../../../_static/harmonices-mundi-studio.html?embed=1&amp;tab=melodies" title="Harmonices Mundi (1619) — Live Celestial Music &amp; Just-Intonation Studio" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Harmonices Mundi (1619, Folios 0297–0302)</strong> · Live Web Audio Synthesizer (7 Voices · Orbital Choir · 4 Universal Chords · Monochord)</span>
+       <span>
+         <a href="../../../_static/harmonices-mundi-studio.html" target="_blank" rel="noopener">Full-Screen Music Studio ↗</a> ·
+         <a href="../../../_static/audio/kepler_harmonices_1619.mid" download>Microtonal Just-Intonation .MIDI</a>
+       </span>
+     </div>
+   </div>
+
+   <div class="kepler-audio-bar">
+     <div class="kepler-audio-card">
+       <div class="kepler-audio-card-title">I. Seven-Voice Planetary Motet (Folio 0299, p. 207)</div>
+       <div class="kepler-audio-card-meta">Exact Just-Intonation stereo cathedral organ realization of Saturn, Jupiter, Mars, Earth (<em>MI–FA–MI</em>), Venus, Mercury's 14-note arpeggio, and the Moon.</div>
+       <audio controls preload="metadata" src="../../../_static/audio/kepler_planetary_motet.mp3"></audio>
+     </div>
+     <div class="kepler-audio-card">
+       <div class="kepler-audio-card-title">II. Four Universal Creation Chords (Folios 0301–0302, pp. 209–210)</div>
+       <div class="kepler-audio-card-meta">Kepler's four rare six-planet harmonic alignments—<em>Genus Durum</em> (G Major &amp; C Major) and <em>Genus Molle</em> (G Minor &amp; E♭/C Minor)—realized in pure harmonic ratios.</div>
+       <audio controls preload="metadata" src="../../../_static/audio/kepler_creation_chords.mp3"></audio>
+     </div>
+   </div>
+
+Archival Plates: Planetary Melodies & Harmonic Scales (pp. 205–207)
+-------------------------------------------------------------------
+
 .. container:: kepler-plate-pair
 
    .. picture:: 0299.g1.png
-      :alt: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius (Harmonices Mundi Book V, p. 207)
-      :caption: Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets.
+      :alt: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius and Luna (Harmonices Mundi Book V, p. 207)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets plus the Moon ("Hic locum habet etiam ☽").
 
    .. picture:: 0297.g1.png
       :alt: Archival 1619 musical staff and harmonic scale diagrams for the planets (Harmonices Mundi Book V, p. 205)
-      :caption: Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the durus and mollis modes.
+      :caption: Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the cantus durus and cantus mollis modes with string lengths 2160–864.
+
+Universal Six-Planet Harmonies of Creation (pp. 209–210)
+--------------------------------------------------------
+
+.. folio:: harmonices_mundi:0301
+   :page: p. 209 (Universal Harmonies — Genus Durum)
+
+.. folio:: harmonices_mundi:0302
+   :page: p. 210 (Universal Harmonies — Genus Molle)
+
+In Chapter VII (*Quod Universales omnium sex Planetarum Harmoniae possint existere*), Kepler asks whether all six planets can ever simultaneously strike a single consonant six-part chord—a cosmological alignment so rare that *"it is possible that it has happened only once, at the very beginning of Creation."* By intersecting the extremal intervals of all six planets, Kepler proves that precisely **four universal six-planet harmonies** exist: two in the bright **Major genus** (*Genus Durum*, p. 209: *Ut ♮ concordet* and *Ut c concordet*) and two in the solemn **Minor genus** (*Genus Molle*, p. 210: *Ut b concordet* and *Ut c concordet*).
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0301.g1.png
+      :alt: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Duri (Harmonices Mundi Book V, p. 209)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 209, fol. 0301): Universal six-planet harmonies of the Genus Durum (Major mode).
+
+   .. picture:: 0302.g1.png
+      :alt: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Mollis (Harmonices Mundi Book V, p. 210)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 210, fol. 0302): Universal six-planet harmonies of the Genus Molle (Minor mode).
+

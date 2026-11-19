@@ -31,6 +31,28 @@ The Harmony of the World
    | **Primary Latin Witness:** *Editio princeps* (Linz: Tampach / excudebat Ioannes Plancus, 1619); Christian Frisch, *Opera Omnia* V (1864), pp. 75–334.
    | **GEOMETOR Edition:** English Translation, Executive Summaries, Commentary & Exact Symbolic Verifications across Books I, II, and V.
 
+.. _harmonices-audio-studio:
+
+Interactive Celestial Music Studio — Folios 0297–0302 (1619)
+------------------------------------------------------------
+
+Hear Kepler's *Music of the Spheres* live in **exact 5-limit Just Intonation** transcribed verbatim from the 1619 Linz engravings. Ignite the **Live Keplerian Orbital Orrery** (each planet singing its instantaneous angular velocity $\omega \propto 1/r^2$ as golden consonance beams flash across pure intervals), play the **1619 Planetary Melodies** (including Earth's *MI–FA–MI* and Mercury's 14-note arpeggio), strike all **Four Universal Six-Planet Creation Chords** (pp. 209–210), or pluck the **Vibrating Brass Monochord**.
+
+.. raw:: html
+
+   <div class="kepler-cad-studio" data-scene="harmonices_audio_studio">
+     <iframe class="kepler-audio-iframe" src="../_static/harmonices-mundi-studio.html?embed=1&amp;tab=orrery" title="Interactive Celestial Music Studio — Kepler Harmonices Mundi (1619)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Harmonices Mundi (1619)</strong> · Live Web Audio Synthesizer (Exact 5-Limit Just Intonation · 12-TET Comparison · Cathedral Reverb)</span>
+       <span>
+         <a href="../_static/harmonices-mundi-studio.html" target="_blank" rel="noopener">Full-Screen Music Studio ↗</a> ·
+         <a href="../_static/audio/kepler_planetary_motet.mp3" download>Planetary Motet .MP3</a> ·
+         <a href="../_static/audio/kepler_creation_chords.mp3" download>Creation Chords .MP3</a> ·
+         <a href="../_static/audio/kepler_harmonices_1619.mid" download>Microtonal .MIDI</a>
+       </span>
+     </div>
+   </div>
+
 The Five Books of The Harmony of the World
 ------------------------------------------
 

@@ -243,7 +243,7 @@ def test_archival_bitmaps_vectorizations_and_3d_studios() -> None:
     png_plates = sorted(docsrc_dir.rglob("*.g*.png"))
     svg_plates = sorted(docsrc_dir.rglob("*.g*.svg"))
 
-    assert len(png_plates) == 32, f"Expected 32 extracted archival bitmap plates, found {len(png_plates)}"
+    assert len(png_plates) == 34, f"Expected 34 extracted archival bitmap plates, found {len(png_plates)}"
     assert len(svg_plates) == 14, f"Expected 14 calibrated folio SVG vectorizations, found {len(svg_plates)}"
 
     for png_path in png_plates:
@@ -329,6 +329,71 @@ def test_tabula_iii_3d_cad_model_and_exports() -> None:
         "models/tabula_iii.mtl",
     ):
         assert (static_dir / rel).is_file(), f"Missing static 3D CAD asset: {rel}"
+
+
+def test_harmonices_music_engine_and_studio() -> None:
+    from geometor.kepler import (
+        get_folio_0297_scales,
+        get_planetary_melodies,
+        get_universal_chords,
+        verify_kepler_just_intonation,
+    )
+
+    checks = verify_kepler_just_intonation()
+    assert len(checks) >= 10
+    assert all(checks.values()), f"Kepler Just-Intonation check failed: {checks}"
+
+    melodies = get_planetary_melodies()
+    assert len(melodies) == 7
+    assert [m.key for m in melodies] == [
+        "saturn",
+        "jupiter",
+        "mars",
+        "earth",
+        "venus",
+        "mercury",
+        "moon",
+    ]
+    mercury = next(m for m in melodies if m.key == "mercury")
+    assert len(mercury.notes) == 14
+    for melody in melodies:
+        for note in melody.notes:
+            assert isinstance(note.ratio_from_g2, sp.Rational)
+            assert isinstance(note.freq_hz, sp.Rational)
+            assert not note.freq_hz.has(sp.Float)
+
+    chords = get_universal_chords()
+    assert len(chords) == 4
+    scales = get_folio_0297_scales()
+    assert set(scales.keys()) == {"cantus_durus", "cantus_mollis"}
+
+    # Verify static Web Audio studio, microtonal MIDI, and stereo MP3s
+    static_dir = PROJECT_ROOT / "docsrc" / "_static"
+    studio_html = static_dir / "harmonices-mundi-studio.html"
+    assert studio_html.is_file() and studio_html.stat().st_size > 20_000
+    studio_txt = studio_html.read_text(encoding="utf-8")
+    assert "AudioContext" in studio_txt
+    assert "harmonices_mundi" in studio_txt or "Harmonices Mundi" in studio_txt
+
+    midi_path = static_dir / "audio" / "kepler_harmonices_1619.mid"
+    assert midi_path.is_file() and midi_path.read_bytes()[:4] == b"MThd"
+
+    for mp3_name in ("kepler_planetary_motet.mp3", "kepler_creation_chords.mp3"):
+        mp3_path = static_dir / "audio" / mp3_name
+        assert mp3_path.is_file() and mp3_path.stat().st_size > 100_000
+
+    # Confirm studio & audio embeds in Book Codex RSTs
+    docsrc_dir = PROJECT_ROOT / "docsrc"
+    for rel_path in (
+        "harmonices_mundi/index.rst",
+        "harmonices_mundi/liber_v/cap_04_09/cap_04_09-en.rst",
+        "harmonices_mundi/liber_v/cap_04_09/cap_04_09-la.rst",
+        "mysterium_cosmographicum/cap_12/cap_12-en.rst",
+        "mysterium_cosmographicum/cap_12/cap_12-la.rst",
+    ):
+        txt = (docsrc_dir / rel_path).read_text(encoding="utf-8")
+        assert "harmonices-mundi-studio.html" in txt, f"Missing live music studio embed in {rel_path}"
+
 
 
 

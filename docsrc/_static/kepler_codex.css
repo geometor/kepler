@@ -242,3 +242,62 @@ body.light-mode .kepler-3d-layer.is-active {
   text-decoration: underline;
 }
 
+/* Interactive Web Audio Studio & Synthesized Cathedral Organ Bar */
+.kepler-audio-iframe {
+  display: block;
+  width: 100%;
+  height: 670px;
+  border: 0;
+  background: #0b0e14;
+}
+
+@media (max-width: 760px) {
+  .kepler-audio-iframe {
+    height: 540px;
+  }
+}
+
+.kepler-audio-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.9rem;
+  margin: 1.1rem 0 1.6rem 0;
+}
+
+.kepler-audio-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.85rem 1rem;
+  border-radius: 9px;
+  background: var(--book-surface, rgba(22, 24, 29, 0.72));
+  border: 1px solid var(--book-border, rgba(217, 173, 92, 0.32));
+}
+
+body.light-mode .kepler-audio-card {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.kepler-audio-card-title {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--book-accent, #f5b942);
+}
+
+body.light-mode .kepler-audio-card-title {
+  color: #b45309;
+}
+
+.kepler-audio-card-meta {
+  font-size: 0.76rem;
+  color: var(--book-muted, #94a3b8);
+  line-height: 1.4;
+}
+
+.kepler-audio-card audio {
+  width: 100%;
+  height: 36px;
+}
+
+

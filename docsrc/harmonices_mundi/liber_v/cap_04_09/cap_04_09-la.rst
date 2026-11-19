@@ -20,12 +20,42 @@ Cum planeta areas focales temporibus proportionales verrat—confer sectorem per
 * **Venus**: $94'50'' : 97'37'' \approx 24 : 25$ (*Diesis* enharmonica);
 * **Mercurius**: $164'0'' : 384'0'' = 5 : 12$ (*Diapason cum tertia minore*).
 
+.. raw:: html
+
+   <div class="kepler-cad-studio" data-scene="harmonices_audio_studio">
+     <iframe class="kepler-audio-iframe" src="../../../_static/harmonices-mundi-studio.html?embed=1&amp;tab=melodies" title="Harmonices Mundi (1619) — Cantus Planetarum &amp; Harmoniae Universales" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Harmonia Coelestis (Lincii 1619, fol. 0297–0302)</strong> · Organum harmonicum rationum iustarum</span>
+       <span>
+         <a href="../../../_static/harmonices-mundi-studio.html" target="_blank" rel="noopener">Aperire Studio ↗</a> ·
+         <a href="../../../_static/audio/kepler_harmonices_1619.mid" download>.MIDI</a>
+       </span>
+     </div>
+   </div>
+
 .. container:: kepler-plate-pair
 
    .. picture:: 0299.g1.png
-      :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii (Lincii 1619, Lib. V, p. 207)
-      :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum.
+      :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
 
    .. picture:: 0297.g1.png
       :alt: Scalae harmonicae planetarum in cantu duro et molli (Lincii 1619, Lib. V, p. 205)
       :caption: Editio princeps (Lincii 1619, Lib. V, p. 205, fol. 0297): Scalae harmonicae in cantu duro et molli.
+
+.. folio:: harmonices_mundi:0301
+   :page: p. 209 (Harmoniae Universales — Generis Duri)
+
+.. folio:: harmonices_mundi:0302
+   :page: p. 210 (Harmoniae Universales — Generis Mollis)
+
+.. container:: kepler-plate-pair
+
+   .. picture:: 0301.g1.png
+      :alt: Harmoniae Planetarum omnium seu Universales Generis Duri (Lincii 1619, Lib. V, p. 209)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 209, fol. 0301): Harmoniae Universales Generis Duri.
+
+   .. picture:: 0302.g1.png
+      :alt: Harmoniae Planetarum omnium seu Universales Generis Mollis (Lincii 1619, Lib. V, p. 210)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 210, fol. 0302): Harmoniae Universales Generis Mollis.
+

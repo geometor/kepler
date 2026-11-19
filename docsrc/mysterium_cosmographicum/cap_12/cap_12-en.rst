@@ -24,6 +24,18 @@ In Chapter XII, Kepler further links the five regular solids to the divisions of
    :alt: Archival 1596 musical monochord and zodiacal aspect diagram (p. 40)
    :caption: Archival scan (Tübingen 1596, p. 40, fol. 0050): Musical consonances and zodiacal aspect divisions.
 
+.. raw:: html
+
+   <div class="kepler-cad-studio" data-scene="harmonices_monochord_studio">
+     <iframe class="kepler-audio-iframe" src="../../_static/harmonices-mundi-studio.html?embed=1&amp;tab=monochord" title="Interactive Kepler Monochord &amp; Constructible Polygon Plucker (1596 / 1619)" loading="lazy"></iframe>
+     <div class="kepler-cad-caption">
+       <span><strong>Interactive Monochord &amp; Polygon Plucker (Folios 0050 &amp; 0297)</strong> · Pluck constructible (<em>Scibilia</em>) vs. non-constructible (7, 9) harmonic string divisions</span>
+       <span>
+         <a href="../../_static/harmonices-mundi-studio.html?tab=monochord" target="_blank" rel="noopener">Full-Screen Music Studio ↗</a>
+       </span>
+     </div>
+   </div>
+
 .. container:: kepler-plate-pair
 
    .. picture:: 0052.g1.png
