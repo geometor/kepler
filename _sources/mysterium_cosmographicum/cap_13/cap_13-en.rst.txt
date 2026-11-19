@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: Cap. XIII
-:order: 4
+:order: 14
 :folio: mysterium_cosmographicum:0054
 :tracks: Latin: cap_13-la | English: cap_13-en | Summary: cap_13-summary | Notes: cap_13-notes
 

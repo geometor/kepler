@@ -1,7 +1,7 @@
 :layout: book
 :canonical_id: Cap. XIV
-:order: 5
-:folio: mysterium_cosmographicum:0062
+:order: 15
+:folio: mysterium_cosmographicum:0059
 :tracks: Latin: cap_14-la | English: cap_14-en | Summary: cap_14-summary | Notes: cap_14-notes
 
 .. _mc-cap_14-la:
