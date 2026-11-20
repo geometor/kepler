@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "geometor-kepler"
 authors = [{name = "phi ARCHITECT", email = "phi@geometor.com"}]
 description = "Scholarly bilingual Latin/English Book Codices of Johannes Kepler's Mysterium Cosmographicum (1596/1621), Strena seu de Nive Sexangula (1611), and Harmonices Mundi (1619) in the GEOMETOR Digital Scriptorium."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 license = {text = "MIT"}
 dynamic = ["version"]
