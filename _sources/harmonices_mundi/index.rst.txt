@@ -10,7 +10,7 @@
 :author: Johannes Kepler
 :year: 1619
 :tracks: English: index | Latin: title-la
-:excerpt: Kepler's masterwork uniting the geometric knowability of constructible polygons (Book I), the complete architectonic classification of 11 uniform planar tilings and star polyhedra (Book II), and the harmonic third law of planetary motion (Book V).
+:excerpt: Kepler's masterwork uniting the geometric knowability of constructible polygons (Book I), 11 uniform planar tilings and star polyhedra (Book II), 5-limit Just Intonation (Book III), celestial aspects (Book IV), and the harmonic third law of planetary motion (Book V).
 
 .. _harmonices-mundi-index:
 .. _harmonices-mundi:
@@ -26,10 +26,10 @@ The Harmony of the World
    | **Johannes Kepler**
    | *Harmonices Mundi Libri V* (*The Harmony of the World in Five Books*, 1619)
    |
-   | Geometric Scibilitas of Constructible Polygons, Architectonic Congruence of Planar Tilings and Polyhedra, and the Harmonic Third Law of Planetary Motion
+   | Geometric Scibilitas, Architectonic Congruence, Musical Just Intonation, Celestial Aspects, and the Harmonic Third Law
    |
    | **Primary Latin Witness:** *Editio princeps* (Linz: Tampach / excudebat Ioannes Plancus, 1619); Christian Frisch, *Opera Omnia* V (1864), pp. 75–334.
-   | **GEOMETOR Edition:** English Translation, Executive Summaries, Commentary & Exact Symbolic Verifications across Books I, II, and V.
+   | **GEOMETOR Edition:** English Translation, Executive Summaries, Commentary & Exact Symbolic Verifications across all **Five Books (I–V)**.
 
 .. _harmonices-audio-studio:
 
@@ -60,6 +60,8 @@ The Five Books of The Harmony of the World
 
    liber_i/index
    liber_ii/index
+   liber_iii/index
+   liber_iv/index
    liber_v/index
 
 
@@ -69,6 +71,8 @@ The Five Books of The Harmony of the World
 
    liber_i/index
    liber_ii/index
+   liber_iii/index
+   liber_iv/index
    liber_v/index
 
 .. toctree::

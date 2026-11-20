@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: II.Figura Aa
-:order: 3
+:order: 9
 :folio: harmonices_mundi:0078
 :tracks: Latin: figura_aa-la | English: figura_aa-en | Summary: figura_aa-summary | Notes: figura_aa-notes
 

@@ -1,0 +1,561 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Book III: On Harmonic Proportions &amp; Musical Theory — The Harmony of the World • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/kepler/harmonices_mundi/liber_iii/" />
+  <meta name="description" content="Book III of The Harmony of the World: Geometric derivation of 5-limit Just Intonation from constructible polygons, Genus Durum &amp; Molle scales, the 13-pitch octave (1080–2160), twelve modes, and…" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Book III: On Harmonic Proportions &amp; Musical Theory — The Harmony of the World • GEOMETOR" />
+  <meta property="og:description" content="Book III of The Harmony of the World: Geometric derivation of 5-limit Just Intonation from constructible polygons, Genus Durum &amp; Molle scales, the 13-pitch octave (1080–2160), twelve modes, and…" />
+  <meta property="og:url" content="https://geometor.github.io/kepler/harmonices_mundi/liber_iii/" />
+  <meta property="og:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1280" />
+  <meta property="og:image:height" content="640" />
+  <meta property="og:image:alt" content="Johannes Kepler — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Book III: On Harmonic Proportions &amp; Musical Theory — The Harmony of the World • GEOMETOR" />
+  <meta name="twitter:description" content="Book III of The Harmony of the World: Geometric derivation of 5-limit Just Intonation from constructible polygons, Genus Durum &amp; Molle scales, the 13-pitch octave (1080–2160), twelve modes, and…" />
+  <meta name="twitter:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
+  <meta name="twitter:image:alt" content="Johannes Kepler — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=f1075037" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" type="text/css" href="../../_static/kepler_codex.css?v=da14ece0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR kepler"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">kepler</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../mysterium_cosmographicum/index.html"  >Cosmographic Mystery</a>
+        </li>
+        <li>
+          <a href="../../strena_sexangula/index.html"  >Six-Cornered Snowflake</a>
+        </li>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Harmony of the World</a>
+        </li>
+        <li>
+          <a href="../../people/index.html"  >People</a>
+        </li>
+        <li>
+          <a href="../../sources/index.html"  >Sources</a>
+        </li>
+        <li>
+          <a href="../../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../concordance.html"  >Concordance</a>
+        </li>
+        <li>
+          <a href="../../glossary.html"  >Glossary</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane" data-canonical-id="Book III">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Harmony of the World</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <span class="book-crumb-current" aria-current="page">Book III</span>
+          </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../liber_ii/prop_28/prop_28-en.html" title="Proposition XXVIII: The Thirteen Archimedean Solids">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="prooemium/prooemium-en.html" title="Prooemium: Geometric Causes of Harmonic Proportions"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="book-iii-on-harmonic-proportions-musical-theory">
+        <span id="hm-liber-iii"></span><span id="harmonices-mundi-liber-iii"></span><h1>Book III: On Harmonic Proportions &amp; Musical Theory<a class="headerlink" href="#book-iii-on-harmonic-proportions-musical-theory" title="Link to this heading">¶</a></h1>
+        <p class="rubric"><em>Harmonices Mundi Liber III: Harmonicus, de Ortu Proportionum Harmonicarum, deque Natura &amp; Differentiis Rerum ad Cantum Pertinentium</em> (Linz, 1619)</p>
+        <section class="level-2" id="outline-of-book-iii">
+        <h2>Outline of Book III<a class="headerlink" href="#outline-of-book-iii" title="Link to this heading">¶</a></h2>
+            <section class="collection ">
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="prooemium/prooemium-en.html">Prooemium: Geometric Causes of Harmonic Proportions</a></h2>
+                      <p>Having laid the geometric foundations of constructible (<em>scibiles</em>) figures in Book I and their congruences in Book II, Kepler opens <strong>Book III</strong> (<em>De Proportionibus Harmonicis</em>) by confronting the ancient Pythagorean and Ptolemaic division of musical intervals. Pure arithmetic ratios—the Pythagorean tetraktys $\{1, 2, 3, 4\}$—cannot explain why $5:4$ (<em>Major Third</em>), $6:5$ (<em>Minor Third</em>), $5:3$, and $8:5$ sing as sweet consonances while $7:6$ or $7:4$ remain harsh. The true principle is <strong>geometrical</strong>: consonances are born directly from circle divisions effected by <strong>knowable regular polygons</strong> ($n = 2, 3, 4, 5, 6, 8, 10, 12\dots$).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="prooemium/prooemium-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="prooemium/prooemium-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="prooemium/prooemium-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="prooemium/prooemium-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_01/cap_01-en.html">Chapter I: Origin of Consonances from Constructible Polygons</a></h2>
+                      <p>In Chapter I, Kepler states his <strong>Seven Harmonic Axioms</strong>: when a circle is divided by an inscribed constructible regular polygon, the resulting arc and its remainder stand in a consonant relation to the whole circle—and to one another—only when the polygon is <em>knowable</em> (<span class="term-ref glossary-term">scibilis</span>, Book I). Thus the <strong>Diameter</strong> ($1:2$), <strong>Triangle</strong> ($1:3, 2:3$), <strong>Square</strong> ($1:4, 3:4$), <strong>Pentagon</strong> ($1:5, 2:5, 3:5, 4:5$), <strong>Hexagon</strong> ($1:6, 5:6$), and <strong>Octagon</strong> ($1:8, 3:8, 5:8$) generate the exact <strong>5-limit Just-Intonation consonances</strong>, while the <strong>Heptagon</strong> ($7$) is excluded for lack of geometric constructibility.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_01/cap_01-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_01/cap_01-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_01/cap_01-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_01/cap_01-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_02/cap_02-en.html">Chapter II: The Seven Harmonic Sections of a Vibrating String</a></h2>
+                      <p>How does circular polygon division govern a straight <strong>monochord string</strong>? In Chapter II, Kepler equates the string’s total length $L$ to a circle’s circumference bent straight, and distinguishes <strong>seven fundamental harmonic sections</strong>: bisection ($1/2$, octave), trisection ($1/3, 2/3$, fifth/twelfth), quadrisection ($1/4, 3/4$, fourth/double-octave), quinquisection ($1/5..4/5$, major/minor thirds and sixths), sexisection ($1/6, 5/6$), octosection ($1/8, 3/8, 5/8$), and decasection ($1/10..9/10$).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_02/cap_02-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_02/cap_02-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_02/cap_02-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_02/cap_02-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_03/cap_03-en.html">Chapter III: Harmonic Means and the Trinity of Concordant Pitches</a></h2>
+                      <p>When a third pitch is interposed inside an octave $1:2$, fifth $2:3$, or fourth $3:4$, what governs true triad harmony? Chapter III analyzes the <strong>Arithmetic</strong>, <strong>Geometric</strong>, and <strong>Harmonic</strong> means (<em>Medietates</em>). Placing the harmonic mean inside the octave ($6:4:3$, or $12:8:6$) yields fifth below and fourth above; dividing the fifth arithmetically ($4:5:6$) splits it into Major Third ($4:5$) and Minor Third ($5:6$), establishing the <strong>triadic basis</strong> of polyphony.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_03/cap_03-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_03/cap_03-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_03/cap_03-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_03/cap_03-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_04/cap_04-en.html">Chapter IV: Origin and Naming of Melodic (Concinnous) Intervals</a></h2>
+                      <p>Between primary consonances lie melodic steps (<em>concinnitates</em>) needed to connect voices smoothly in scale stepwise motion. Chapter IV derives the <strong>Major Tone</strong> ($8:9$), <strong>Minor Tone</strong> ($9:10$), <strong>Diatonic Semitone</strong> ($15:16$), <strong>Chromatic Diesis</strong> ($24:25$), <strong>Limma</strong> ($128:135$), and <strong>Syntonic Comma</strong> ($80:81$) by subtracting consonances from one another ($2/3 \div 3/4 = 8/9$, $4/5 \div 3/4 = 15/16$), tracing Greek and Latin musical nomenclature (<em>Loca</em>, <em>Voces</em>).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_04/cap_04-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_04/cap_04-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_04/cap_04-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_04/cap_04-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_05/cap_05-en.html">Chapter V: Partition of Consonances into Melodic Step Intervals</a></h2>
+                      <p>Chapter V demonstrates how each primary consonance decomposes into chains of usual melodic steps: the <strong>Fourth</strong> ($3:4$) contains one major tone, one minor tone, and one semitone ($\frac{8}{9} \cdot \frac{9}{10} \cdot \frac{15}{16} = \frac{3}{4}$); the <strong>Fifth</strong> ($2:3$) adds one further major tone; and the <strong>Octave</strong> ($1:2$) contains three major tones, two minor tones, and two diatonic semitones.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_05/cap_05-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_05/cap_05-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_05/cap_05-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_05/cap_05-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_06/cap_06-en.html" aria-label="Archival 1619 diagram of Genus Molle and Genus Durum sections, musical staves, and harmonic means (Harmonices Mundi Book III, p. 43)">
+                      <img src="cap_06/0133.g1_300w_18938ff3.webp" alt="Archival 1619 diagram of Genus Molle and Genus Durum sections, musical staves, and harmonic means (Harmonices Mundi Book III, p. 43)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_06/cap_06-en.html">Chapter VI: The Soft (Minor) and Hard (Major) Musical Genera</a></h2>
+                      <p>Why are there <strong>exactly two</strong> fundamental musical modes—<strong>Genus Molle</strong> (Minor, <em>cantus mollis</em>) and <strong>Genus Durum</strong> (Major, <em>cantus durus</em>)? Chapter VI traces them straight back to Book I’s dichotomy between <strong>expressible polygons</strong> (Triangle &amp; Square) and the <strong>inexpressible-sided Pentagon</strong>: combining bisection with trigonal division gives <em>Genus Molle</em> (integer proportions <cite>12 : 15 : 16 : 18 : 20 : 24</cite>), while dual reordering produces <em>Genus Durum</em> (<cite>30 : 36 : 40 : 45 : 48 : 60</cite>).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_06/cap_06-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_06/cap_06-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_06/cap_06-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_06/cap_06-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_07/cap_07-en.html" aria-label="Archival 1619 table In cantu duro showing pitches I–VIII, staff notation, string lengths 360–720, and upper/lower fourths (Harmonices Mundi Book III, p. 46)">
+                      <img src="cap_07/0136.g1_300w_2eda5afd.webp" alt="Archival 1619 table In cantu duro showing pitches I–VIII, staff notation, string lengths 360–720, and upper/lower fourths (Harmonices Mundi Book III, p. 46)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_07/cap_07-en.html">Chapter VII: Proportions of the Eight Diatonic Notes of an Octave</a></h2>
+                      <p>Joining two natural fourths (<em>Quartae</em>)—an upper tetrachord (<cite>120 : 135 : 144 : 160</cite>) and a lower tetrachord (<cite>135 : 144 : 160 : 180</cite>), separated by the central tone—Kepler constructs the complete <strong>eight-note diatonic octave scale</strong> (<cite>360, 405, 432, 480, 540, 576, 640, 720</cite> in <em>Cantus durus</em> and <cite>360, 405, 432, 480, 540, 600, 640, 720</cite> in <em>Cantus mollis</em>).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_07/cap_07-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_07/cap_07-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_07/cap_07-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_07/cap_07-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_08/cap_08-en.html" aria-label="Archival 1619 13-string monochord table 1080–2160 with Semitonium, Limma, and Diesis steps and staff notation (Harmonices Mundi Book III, p. 47)">
+                      <img src="cap_08/0137.g1_300w_5a4620df.webp" alt="Archival 1619 13-string monochord table 1080–2160 with Semitonium, Limma, and Diesis steps and staff notation (Harmonices Mundi Book III, p. 47)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_08/cap_08-en.html">Chapter VIII: Thirteen Minimum Steps of the Chromatic-Enharmonic Octave</a></h2>
+                      <p>Combining <em>Cantus durus</em> and <em>Cantus mollis</em> and subdividing major whole tones cleanly to permit transposition without harsh commas, Kepler arrives at <strong>thirteen pitches</strong> (twelve minimal microtonal intervals per octave) spanning string lengths <strong>1080 to 2160</strong>: three <em>Limmas</em> ($128:135$), two <em>Dieses</em> ($24:25$), and seven <em>Diatonic Semitones</em> ($15:16$).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_08/cap_08-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_08/cap_08-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_08/cap_08-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_08/cap_08-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_09/cap_09-en.html">Chapter IX: Staves, Clefs, Note Shapes, and the Musical Scale</a></h2>
+                      <p>In Chapter IX, Kepler turns to practical musical semiography: why the five-line staff (<em>Diagramma</em>), vertical spacing by thirds (<em>Lineae</em> &amp; <em>Spatia</em>), F/C/G clefs (<em>Claves</em>), rhythmic diamond note heads, and alphabetic pitch indices (<em>G, A, b, h, c, d, e, f, g</em>) map naturally onto human vocal perception.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_09/cap_09-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_09/cap_09-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_09/cap_09-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_09/cap_09-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_10/cap_10-en.html" aria-label="Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)">
+                      <img src="cap_10/0145.g1_300w_b2342240.webp" alt="Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_10/cap_10-en.html">Chapter X: Tetrachords and the Six Solmization Syllables (Ut, Re, Mi, Fa, Sol, La)</a></h2>
+                      <p>Reviewing Greek conjunct (<em>Synemmena</em>) and disjunct (<em>Diezeugmena</em>) tetrachords alongside Guido of Arezzo’s six-syllable hexachord (<em>Ut, re, mi, fa, sol, la</em>), Kepler demonstrates why six <strong>true Just-Intonation tetrachord species</strong> (<cite>I–VI</cite>) replace the classical three once the Syntonic distinction between Major Tone ($8:9$) and Minor Tone ($9:10$) is respected.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_10/cap_10-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_10/cap_10-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_10/cap_10-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_10/cap_10-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_11/cap_11-en.html" aria-label="Archival 1619 three-column monochord arithmetic table Corollaria Arithmetica & Mechanica (Harmonices Mundi Book III, p. 59)">
+                      <img src="cap_11/0149.g1_300w_a51746d1.webp" alt="Archival 1619 three-column monochord arithmetic table Corollaria Arithmetica & Mechanica (Harmonices Mundi Book III, p. 59)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_11/cap_11-en.html">Chapter XI: Composition of Greater Systems & Mechanical Monochord Corollaries</a></h2>
+                      <p>Chapter XI extends the one-octave tuning across the full multi-octave <strong>Great System</strong> (<em>Systema magnum</em>). On folio <code class="docutils literal notranslate"><span class="pre">0149</span></code> (<em>Corollaria Arithmetica &amp; Mechanica</em>), Kepler furnishes practical artisan algorithms—dividing a string by repeated factors of $135, 192, 288$, or $48$ and $45$ parts—so instrument builders can fret lutes and harpsichords in pure Just Intonation.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_11/cap_11-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_11/cap_11-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_11/cap_11-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_11/cap_11-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_12/cap_12-en.html">Chapter XII: Adulterate (Comma-Impure) Consonances</a></h2>
+                      <p>Chapter XII exposes the <strong>wolf intervals</strong> (<em>consonantiae adulterinae</em>) inevitable in any fixed diatonic tuning: specifically the deficient fifth $D$–$a$ ($27:40$ instead of $2:3$) and the sharpened minor third $d$–$f$ ($27:32$ instead of $5:6$), each corrupted by exactly one <strong>Syntonic Comma</strong> ($80:81$).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_12/cap_12-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_12/cap_12-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_12/cap_12-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_12/cap_12-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_13/cap_13-en.html" aria-label="Archival 1619 musical engraving of the Easter sequence Victimae paschali laudes (Harmonices Mundi Book III, p. 61)">
+                      <img src="cap_13/0151.g1_300w_91eb1b1b.webp" alt="Archival 1619 musical engraving of the Easter sequence Victimae paschali laudes (Harmonices Mundi Book III, p. 61)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_13/cap_13-en.html">Chapter XIII: Naturally Concinnous Melody (Victimae Paschali Laudes)</a></h2>
+                      <p>What makes a melody <strong>naturally apt and pleasing</strong> to human ears—as opposed to the jarring intervals Kepler overheard from Turkish ambassadors at prayer in Prague? True <em>cantus concinnus</em> anchors itself on consonant pitches ($G, b, c, d, g$) and navigates steps via true 5-limit ratios, exemplified by the Easter sequence <em>Victimae paschali laudes immolent Christiani</em>.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_13/cap_13-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_13/cap_13-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_13/cap_13-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_13/cap_13-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <figure>
+                    <a href="cap_14/cap_14-en.html" aria-label="Archival 1619 12x12 modal lattice Rete intervallorum showing S (Semitonium), D (Diesis), and L (Limma) across pitches G to f# (Harmonices Mundi Book III, p. 67)">
+                      <img src="cap_14/0157.g1_300w_f78c7a0a.webp" alt="Archival 1619 12x12 modal lattice Rete intervallorum showing S (Semitonium), D (Diesis), and L (Limma) across pitches G to f# (Harmonices Mundi Book III, p. 67)">
+                    </a>
+                  </figure>
+                  <section>
+                    <h2><a href="cap_14/cap_14-en.html">Chapter XIV: The Twelve Musical Modes and the Modal Matrix (Rete Intervallorum)</a></h2>
+                      <p>In Chapter XIV, Kepler derives the <strong>twelve authentic and plagal modes</strong> (<em>Dorian, Phrygian, Lydian, Mixolydian, Aeolian, Ionian</em> and their Hypo- counterparts) by testing all twelve starting degrees in his square $12\times 12$ permutation lattice (<em>Rete intervallorum</em>, <code class="docutils literal notranslate"><span class="pre">0157.g1.png</span></code>) of Semitones ($S$), Diesis ($D$), and Limma ($L$).</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_14/cap_14-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_14/cap_14-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_14/cap_14-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_14/cap_14-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_15/cap_15-en.html">Chapter XV: Which Modes Serve Which Emotional Affects</a></h2>
+                      <p>Why does one mode stir solemn grief while another kindles joyous triumph? Chapter XV links <strong>musical affect</strong> (<em>ethos</em>) directly to the internal triad and semitone geometry of each mode—specifically whether the <em>Major</em> (<em>Genus Durum</em>) or <em>Minor</em> (<em>Genus Molle</em>) third sits above the modal final, and whether the $15:16$ semitone rises or falls against the key center.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_15/cap_15-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_15/cap_15-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_15/cap_15-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_15/cap_15-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+              <article class="excerpt">
+                <div class="content">
+                  <section>
+                    <h2><a href="cap_16/cap_16-en.html">Chapter XVI: Figured Counterpoint & the Political Digression on Proportion</a></h2>
+                      <p>Book III culminates in Chapter XVI on <strong>polyphonic harmony</strong> (<em>Cantus figuratus</em> / counterpoint)—celebrating multi-voice composition (Orlando di Lasso) across Bass, Tenor, Alto, and Soprano—followed by a sweeping <strong>Digressio Politica</strong> (<em>Appendix</em>, pp. 86–103) comparing Arithmetic, Geometric, and Harmonic proportions in civic justice and governance.</p>
+                    <nav class="excerpt-tracks" aria-label="Tracks">
+                      <a class="excerpt-track-link" href="cap_16/cap_16-la.html">Latin</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_16/cap_16-en.html">English</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_16/cap_16-summary.html">Summary</a>
+                      <span class="excerpt-track-sep">&middot;</span>
+                      <a class="excerpt-track-link" href="cap_16/cap_16-notes.html">Notes</a>
+                    </nav>
+                  </section>
+                </div>
+              </article>
+            </section><div class="toctree-wrapper compound">
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../liber_ii/prop_28/prop_28-en.html" title="Proposition XXVIII: The Thirteen Archimedean Solids">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Harmony of the World</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="prooemium/prooemium-en.html" title="Prooemium: Geometric Causes of Harmonic Proportions"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.323-155100/index.html">Visual & Symbolic Audits: Bringing Kepler’s 3D Polyhedra & Celestial Music to Life</a></li>
+        <li><a href="../../log/26.316-150000/index.html">Initial Bilingual Book Codex & Symbolic Engine of Kepler’s Cosmography, Strena & Harmonices</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../tags/chromium-qa.html">chromium-qa</a></li>
+        <li><a href="../../tags/golden-ratio.html">golden-ratio</a></li>
+        <li><a href="../../tags/harmonices-mundi.html">harmonices-mundi</a></li>
+        <li><a href="../../tags/just-intonation.html">just-intonation</a></li>
+        <li><a href="../../tags/kepler.html">kepler</a></li>
+        <li><a href="../../tags/mysterium.html">mysterium</a></li>
+        <li><a href="../../tags/polyhedra.html">polyhedra</a></li>
+        <li><a href="../../tags/strena.html">strena</a></li>
+        <li><a href="../../tags/tabula-iii.html">tabula-iii</a></li>
+        <li><a href="../../tags/web-audio.html">web-audio</a></li>
+        <li><a href="../../tags/webgl.html">webgl</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-categories">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="../../categories/3d-cad.html">3d-cad</a></li>
+        <li><a href="../../categories/celestial-music.html">celestial-music</a></li>
+        <li><a href="../../categories/codex.html">codex</a></li>
+        <li><a href="../../categories/scriptorium.html">scriptorium</a></li>
+        <li><a href="../../categories/symbolic-geometry.html">symbolic-geometry</a></li>
+        <li><a href="../../categories/translation.html">translation</a></li>
+        <li><a href="../../categories/visual-audit.html">visual-audit</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+        <li><a href="../../types/book_title.html">book_title</a></li>
+        <li><a href="../../types/log.html">log</a></li>
+        <li><a href="../../types/person.html">person</a></li>
+        <li><a href="../../types/source_record.html">source_record</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../../usage/index.html"  >Usage</a></li>
+        <li><a href="https://github.com/geometor/kepler" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://github.com/geometor/kepler/issues" target="_blank" rel="noopener">Support</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1596 / 1611 / 1619 / 1621 · 1858–1868 Frisch · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=938c9ccc"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/collection_directory.js?v=2422530d"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/kepler_3d_mysterium.js?v=1e79cc09"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

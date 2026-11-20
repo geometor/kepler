@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: I.Prop. XLV
-:order: 4
+:order: 28
 :folio: harmonices_mundi:0050
 :tracks: Latin: prop_45-la | English: prop_45-en | Summary: prop_45-summary | Notes: prop_45-notes
 

@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: Prop. XXVIII
-:order: 7
+:order: 17
 :folio: harmonices_mundi:0086
 :tracks: Latin: prop_28-la | English: prop_28-en | Summary: prop_28-summary | Notes: prop_28-notes
 
