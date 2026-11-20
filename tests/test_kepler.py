@@ -206,23 +206,44 @@ def test_bilingual_codex_tracks_and_picture_directives() -> None:
         ),
         docsrc_dir / "harmonices_mundi" / "liber_i": (
             "prooemium",
-            "def_01_25",
+            "def_01",
+            "def_02",
+            "def_03",
+            "prop_04",
+            *(f"def_{i:02d}" for i in range(5, 21)),
+            "prop_21",
+            "def_22",
+            "prop_23",
+            "prop_24",
+            "def_25",
             "prop_29",
             "prop_45",
         ),
         docsrc_dir / "harmonices_mundi" / "liber_ii": (
             "definitiones",
-            "prop_01_20",
+            *(f"prop_{i:02d}" for i in range(14, 21)),
             "figura_aa",
+            "prop_21",
+            "axioma_22",
+            "prop_23",
+            "prop_24",
             "prop_25",
             "prop_26",
             "prop_27",
             "prop_28",
         ),
+        docsrc_dir / "harmonices_mundi" / "liber_iii": (
+            "prooemium",
+            *(f"cap_{i:02d}" for i in range(1, 17)),
+        ),
+        docsrc_dir / "harmonices_mundi" / "liber_iv": (
+            "praeambulum",
+            *(f"cap_{i:02d}" for i in range(1, 8)),
+        ),
         docsrc_dir / "harmonices_mundi" / "liber_v": (
             "epistola_1597",
             "cap_03_prop_08",
-            "cap_04_09",
+            *(f"cap_{i:02d}" for i in range(4, 10)),
         ),
     }
     tracks = ("en", "la", "summary", "notes")
@@ -243,7 +264,7 @@ def test_archival_bitmaps_vectorizations_and_3d_studios() -> None:
     png_plates = sorted(docsrc_dir.rglob("*.g*.png"))
     svg_plates = sorted(docsrc_dir.rglob("*.g*.svg"))
 
-    assert len(png_plates) == 34, f"Expected 34 extracted archival bitmap plates, found {len(png_plates)}"
+    assert len(png_plates) == 43, f"Expected 43 extracted archival bitmap plates, found {len(png_plates)}"
     assert len(svg_plates) == 14, f"Expected 14 calibrated folio SVG vectorizations, found {len(svg_plates)}"
 
     for png_path in png_plates:
@@ -386,8 +407,8 @@ def test_harmonices_music_engine_and_studio() -> None:
     docsrc_dir = PROJECT_ROOT / "docsrc"
     for rel_path in (
         "harmonices_mundi/index.rst",
-        "harmonices_mundi/liber_v/cap_04_09/cap_04_09-en.rst",
-        "harmonices_mundi/liber_v/cap_04_09/cap_04_09-la.rst",
+        "harmonices_mundi/liber_v/cap_06/cap_06-en.rst",
+        "harmonices_mundi/liber_v/cap_06/cap_06-la.rst",
         "mysterium_cosmographicum/cap_12/cap_12-en.rst",
         "mysterium_cosmographicum/cap_12/cap_12-la.rst",
     ):

@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: I.Prop. XXIX
-:order: 3
+:order: 27
 :folio: harmonices_mundi:0041
 :tracks: Latin: prop_29-la | English: prop_29-en | Summary: prop_29-summary | Notes: prop_29-notes
 

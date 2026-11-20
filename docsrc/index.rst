@@ -10,6 +10,10 @@
 Johannes Kepler
 ===============
 
+.. image:: _static/medallion.svg
+   :alt: Johannes Kepler Medallion
+   :class: repo-medallion-hero
+
 The works of :person:`Johannes Kepler <kepler>` (1571–1630) revolutionized modern astronomy and geometry, uniting Copernican cosmology with the Platonic solids, founding mathematical crystallography, and discovering the harmonic laws of planetary motion. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, the *Mysterium Cosmographicum*, *Strena seu de Nive Sexangula*, and *Harmonices Mundi* are liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. reference-directory::

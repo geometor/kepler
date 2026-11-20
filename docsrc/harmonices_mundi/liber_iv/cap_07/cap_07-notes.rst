@@ -1,0 +1,19 @@
+:layout: book
+:canonical_id: IV.Cap. VII
+:order: 8
+:folio: harmonices_mundi:0247
+:tracks: Latin: cap_07-la | English: cap_07-en | Summary: cap_07-summary | Notes: cap_07-notes
+
+.. _hm-liber-iv-cap_07-notes:
+
+Chapter VII: Notes & Provenance
+===============================
+
+Spans folios ``0247``–``0266`` (pp. 157–176, closing *Finis Libri IV.* on ``0266``).
+
+Transcription & Provenance
+--------------------------
+
+* **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi* (:cite:`Linz: Tampach/Plancus, 1619, pp. 157–176 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 241–268 <frisch:1864:v5>`).
+* **English Track**: *Original GEOMETOR English translation & critical apparatus* (:cite:`Linz, 1619, pp. 157–176 <kepler:1619:hm>`).
+* **Folio Scan**: Verified 300-DPI primary scan ``harmonices_mundi:0247`` (pp. 157–176).

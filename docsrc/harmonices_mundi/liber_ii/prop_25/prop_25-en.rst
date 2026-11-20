@@ -1,6 +1,6 @@
 :layout: book
 :canonical_id: Prop. XXV
-:order: 4
+:order: 14
 :folio: harmonices_mundi:0073
 :tracks: Latin: prop_25-la | English: prop_25-en | Summary: prop_25-summary | Notes: prop_25-notes
 
