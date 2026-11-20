@@ -1,13 +1,13 @@
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • kepler Medallion
+   :target: https://geometor.github.io/kepler/
+   :width: 150px
+   :align: right
+
 GEOMETOR • kepler
 =================
 
 **Visit the Online Archive:** https://geometor.github.io/kepler/
-
-.. image:: docsrc/_static/logo.png
-   :alt: GEOMETOR • kepler Medallion
-   :target: https://geometor.github.io/kepler/
-   :width: 180px
-   :align: center
 
 .. image:: docsrc/_static/figures/fig01_graz_triangle_conjunction.svg
    :alt: GEOMETOR • kepler featured geometric construction
