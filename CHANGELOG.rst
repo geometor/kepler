@@ -2,6 +2,20 @@
 Changelog
 =========
 
+0.2.0 (2026-11-19)
+------------------
+
+* **added**:
+
+  * **Exact Symbolic Celestial Music Engine (``geometor.kepler.music``)** & **Live Web Audio Studio (``docsrc/_static/harmonices-mundi-studio.html``)**: 100% exact ``sp.Rational`` 5-limit Just-Intonation transcription of Kepler's 1619 *Harmonices Mundi* folios ``0297``–``0302`` and 1596 Monochord (folio ``0050``), featuring all **7 voices** on folio ``0299`` (Saturn, Jupiter, Mars, Earth *MI–FA–MI*, Venus, Mercury's 14-note arpeggio, and the Moon's marginal cradle monody), all **4 Universal Six-Planet Creation Chords** (folios ``0301``–``0302``), live elliptical Keplerian Orbital Orrery Choir with golden Consonance Beam Detector, interactive vibrating brass Monochord & constructible-polygon plucker, pre-rendered stereo Cathedral Organ ``.mp3`` recordings, and a microtonal 14-bit pitch-bend ``.mid`` score.
+  * **Tabula III (Folio 0034) 13-Group Parametric 3D CAD Model (``tabula_iii_3d/``)** & **WebGL PBR CAD Studio (``docsrc/_static/tabula-iii-3d.html``)**: Full architectural reconstruction of Christoph Leibfried's 1597 folding copperplate obeying Kepler's exact Caput XIII insphere/circumsphere ratios ($1/\sqrt{3}$, $1/3$, $\sqrt{(5+2\sqrt{5})/15}$)—six thick-walled cutaway planetary bowls ($\alpha$–$\lambda$), five mitered open-frame Platonic scaffolds ($\beta$–$\kappa$), Solar core ($\mu$), and carved 1597 pedestal—exported to IngeTrazo ``.igz``, Binary glTF ``.glb``, Wavefront ``.obj``/``.mtl``, and native Blender ``.blend`` with studio renders, paired with interactive 3D Kepler–Poinsot Star Polyhedra in Book II, Prop. XXVI.
+  * **Complete 616-Folio Primary-Source Provenance & Paired Archival Plates**: Ingested 300-DPI scans across *Mysterium Cosmographicum* (1596, 194 folios, complete Chapters I–XXIII), *Strena Sexangula* (1611, 64 folios), and *Harmonices Mundi* (1619, 358 folios), extracting **34** contrast-normalized archival bitmap plates (including Universal Chords ``0301.g1.png`` & ``0302.g1.png``) paired with **14** calibrated five-layer ``.euclid-graphic`` SVG vectorizations (**61/61** ``.. folio::`` directives and **164/164** ``:folio:`` badges resolved; zero orphans).
+  * **Illustrated Visual & Symbolic Audit Log (``docsrc/log/26.323-155100/``)**: Preserves headless Chromium WebGL/Canvas audit captures, multimodal scan findings, and the 4-gate verification matrix.
+
+* **changed**:
+
+  * Elevated all three treatises into canonical top-level English-first standalone Book Codices (``mysterium_cosmographicum/``, ``strena_sexangula/``, ``harmonices_mundi/``) with one chapter or proposition per page, synchronized four-track navigation (``English · Latin · Summary · Notes``), native Latin companion title pages (``title-la.rst``), and structured ``People`` and ``Sources`` directories.
+
 0.1.4 (2026-11-15)
 ------------------
 

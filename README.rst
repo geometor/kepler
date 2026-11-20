@@ -26,9 +26,10 @@ Books in This Archive
 Repository Contents
 -------------------
 
-- ``docsrc/`` — Four-track Book Codex, apparatus registries, and Sphinx docs compiled by `PHOTON publish <https://github.com/photon-platform/publish>`_.
-- ``resources/`` — Primary folio scans, structure maps, persons/citations registries, and review manifests.
-- ``src/geometor/kepler/`` — Exact symbolic models in SymPy, polyhedral analyzers, and demonstration pipelines.
+- ``docsrc/`` — Four-track Book Codices (616 primary folios, 34 archival bitmap plates, 14 calibrated ``.euclid-graphic`` SVGs), interactive **Tabula III 3D WebGL CAD Studio** & **Harmonices Mundi Live Celestial Music Studio**, stereo organ ``.mp3`` & microtonal ``.mid`` assets, and Sphinx docs compiled by `PHOTON publish <https://github.com/photon-platform/publish>`_.
+- ``tabula_iii_3d/`` — 13-group parametric 3D CAD reconstruction of Tabula III (1597, folio ``0034``) with IngeTrazo ``.igz``, glTF ``.glb``, Wavefront ``.obj``, and native Blender ``.blend`` exports.
+- ``resources/`` — Primary 300-DPI folio scans (616 tracked folios), structure maps, persons/citations registries, and review manifests.
+- ``src/geometor/kepler/`` — Exact symbolic models in SymPy, polyhedral & crystallographic analyzers, and the 5-limit Just-Intonation celestial music engine (``music.py``).
 
 Local Build & Verification
 --------------------------

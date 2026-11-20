@@ -52,7 +52,7 @@ from geometor.kepler.strena_packing import (
     verify_kepler_sphere_packing,
 )
 
-__version__ = "0.1.4"
+__version__ = "0.2.0"
 
 __all__ = [
     "__version__",

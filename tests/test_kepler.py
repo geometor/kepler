@@ -44,7 +44,7 @@ def _assert_zero_floats_in_model(model: Model) -> None:
 
 
 def test_version_and_cli() -> None:
-    assert __version__ == "0.1.4"
+    assert __version__ == "0.2.0"
     assert cli_main() == 0
 
 
