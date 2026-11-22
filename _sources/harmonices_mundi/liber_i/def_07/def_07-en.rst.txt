@@ -13,4 +13,4 @@ Definition VII: To Know (Scire) in Geometry
 .. folio:: harmonices_mundi:0025
    :page: p. 8
 
-**To know** (*scire*) in geometric matters is **to measure by a known measure**; and in our investigation of inscribing figures in a circle, that canonical known measure is the **diameter of the circle** ($D = 2R$).
+**To Know** in geometric matters is to measure by a known measure; and this known measure in this business of inscribing Figures in a circle is the diameter of the circle.

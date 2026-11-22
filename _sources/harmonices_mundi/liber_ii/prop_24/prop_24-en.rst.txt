@@ -7,10 +7,14 @@
 .. _hm-liber-ii-prop_24-en:
 .. _hm-liber-ii-prop_24:
 
-Proposition XXIV: Three Distinct Species Never Form a Perfect Solid
-===================================================================
+Proposition XXIV: Three Angles of Three Species with One Odd-Sided
+==================================================================
 
 .. folio:: harmonices_mundi:0073
    :page: p. 57
 
-Three plane angles belonging to three distinct species, when at least one is an odd-sided polygon, cannot complete a uniform solid figure—for again by Proposition XVII the solid corners fail to repeat homogeneously around the odd face.
+**Proposition XXIV.**
+
+*Three plane angles of three figures distinct in species, one of them being odd-sided, meeting together do not complete a perfect solid figure.*
+
+For again by Proposition XVII, the solid angles become diverse in form, which is contrary to the definitions.

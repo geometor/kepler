@@ -10,7 +10,9 @@
 Proposition XXIII: Exclusion of Unqualified Incommensurables
 ============================================================
 
-.. folio:: harmonices_mundi:0030
+.. folio:: harmonices_mundi:0031
    :page: p. 13
 
-There remain pairs totally incommensurable in both length and square. Yet some cannot achieve the required effects—such as two *Mesae*, or one *Mese* paired with an expressible line—either from excessive lowliness or discordant natures (Euclid X.71, 108–109). No valid composition species arises from them.
+**There remain, therefore, lines utterly incommensurable with one another. Yet among these, certain pairs cannot produce the required effects; such are two Mesae, and likewise one MESE with one Expressible.**
+
+The former indeed on account of the lowliness of the pair, and the latter on account of their discordant Natures. See 71, 108, and 109 of the tenth book of Euclid. No species of composition, therefore, can be fetched from hence: and there remain to us only the Lower lines, both Expressibles and *Mesae* having been excluded.

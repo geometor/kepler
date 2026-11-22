@@ -13,4 +13,4 @@ Definition III: Semi-Regular Figures (Rhombi)
 .. folio:: harmonices_mundi:0024
    :page: p. 7
 
-**Semi-regular figures** are those which vary in their angles while keeping four equal sides—such as the equilateral rhombi $NMPO$ and $GEKD$.
+**Semi-regular** are those which, varying in their angles, have four equal sides; as the Rhombi $NMPO$, $GEKD$.

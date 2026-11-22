@@ -9,4 +9,4 @@
 Chapter XI: Summary
 ===================
 
-Provides practical integer algorithms (`135x`, `192x`, `288x`, `48`- and `45`-part subdivisions) for physically fretting a multi-octave Just-Intonation monochord (`0149.g1.png`).
+Extends the one-octave tuning across the multi-octave **Great System** (*Disdiapason*), mapping Kepler's scale (*G* = 2160 to *gg* = 540) onto Ptolemy's Greek nomenclature (*Proslambanomenos* to *Nete Hyperbolaeon*), and on folio ``0149`` (*Corollaria Arithmetica & Mechanica*, ``0149.g1.png``) provides practical integer algorithms (`135x`, `192x`, `288x`, `45`- and `48`-part monochord subdivisions) for physically fretting lutes and harpsichords in pure Just Intonation.

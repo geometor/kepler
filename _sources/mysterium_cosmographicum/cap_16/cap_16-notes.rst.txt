@@ -18,5 +18,5 @@ Transcription & Provenance
 --------------------------
 
 * **Primary Witness**: Johannes Kepler, *Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596, Caput XVI, pp. 53–56 (folios 0065–0068) <kepler:1596:mc>`; *Editio altera cum notis authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 151–153 <frisch:1858:v1>`).
-* **Folio Scan**: Verified 300-DPI scan ``mysterium_cosmographicum:0065`` (p. 53).
-* **English Track**: Original GEOMETOR English exposition and translation of the 1596 Latin *editio princeps*.
+* **Folio Scans**: Verified 300-DPI scans ``mysterium_cosmographicum:0065``–``0068`` (pp. 53–56).
+* **English Track**: Direct first-person English translation of the 1596 Latin *editio princeps*.

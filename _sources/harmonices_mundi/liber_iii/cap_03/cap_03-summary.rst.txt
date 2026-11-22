@@ -9,4 +9,4 @@
 Chapter III: Summary
 ====================
 
-Establishes Major triad $4:5:6$ (arithmetic division of the fifth) and Minor triad $10:12:15$ (harmonic division of the fifth) as the dual geometric poles of three-voice consonance.
+Rejects the ancients' arithmetic rule for harmonic means, deriving the six consonant pairs dividing the octave ($3:4:5:6$ through $15:20:24:30$), establishing the triadic basis of polyphony ($4:5:6$ and $10:12:15$), and explaining why three-part harmony arises from plane geometric causes rather than solid dimensions or mystical numerology.

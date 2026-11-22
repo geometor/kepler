@@ -11,6 +11,13 @@ Definition II: Primary vs. Augmented (Star) Figures
 ===================================================
 
 .. folio:: harmonices_mundi:0023
-   :page: pp. 6–7
+   :page: p. 6
 
-Of regular plane figures, some are **primary and radical**—remaining within their own bounding sides without extending them (for example pentagon $ABCDE$). Others are **augmented** (*auctae*), formed by producing non-adjacent sides of a radical polygon until they intersect cleanly, and these are called **Stars** (*Stellae*)—such as the regular pentagram $FGHIKE$ produced from sides $AB$ and $DC$ meeting at $I$.
+Of these, some are **primary and radical**, which do not go beyond their own bounds, to which the definition just laid down properly belongs; others are **augmented**, which go as it were beyond their own sides, when non-adjacent sides of some radical figure are continued to their intersection: these are called **Stars**.
+
+.. folio:: harmonices_mundi:0025
+   :page: p. 7
+
+Thus here $ABCDE$ is a complete pentagon, and it is a primary figure, requiring no other complete figure from which it may be produced by continuing the sides.
+
+Whereas $FGHIKE$ is a pentagonal star, and an augmented figure, formed by continuing pairs of non-adjacent sides—for instance $AB$ and $DC$—to their intersection $I$.

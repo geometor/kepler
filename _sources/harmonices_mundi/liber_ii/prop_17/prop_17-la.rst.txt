@@ -14,4 +14,8 @@ Propositio XVII — Figura Imparilatera Duarum Specierum
 
 .. rst-class:: latin-source
 
-*Figura imparilatera, cujus aptantur lateribus, figurae duarum specierum, non potest aequali forma omnibus angulis concurrere vel in plano vel in solido.* Nam fit in uno ipsius angulorum, ut ejusdem speciei figurae utrinque stent, quod in caeteris angulis non fit.
+**XVII. Propositio.**
+
+*Figura imparilatera, cujus aptantur lateribus, figurae duarum specierum, non potest aequali formâ omnibus angulis concurrere vel in plano vel in solido.*
+
+Nam fit in uno ipsius angulorum, ut ejusdem speciei figurae utrinque stent, quod in caeteris angulis non fit. Hujus rei causâ vide figuram C, typi aenei seq.

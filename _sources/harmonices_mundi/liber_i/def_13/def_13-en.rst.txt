@@ -13,4 +13,6 @@ Definition XIII: Second Degree (Expressible in Length)
 .. folio:: harmonices_mundi:0026
    :page: p. 9
 
-The **second degree** arises when the diameter (or its square) is divided into some certain number of equal parts and the proposed line or plane equals one or more such parts. Such a line is called in Greek *ῥητὴ μήκει*, **expressible in length** (:term:`effabilis longitudine <effabilis-longitudine>`), exemplified by the **Regular Hexagon** ($s_6 = R = \frac{1}{2}D$, :just:`IV.15`). For *number is the speech of geometers* (*Numerus enim est Geometrarum sermo*).
+The **second degree** is when, after dividing the diameter—or similarly its square—into some equal parts by a certain number, the proposed line or plane equals such a part or parts. Such a line is called in Greek ῥητὴ μήκει, **Expressible in length** (:term:`effabilis longitudine <effabilis-longitudine>`). And such a plane is called simply ῥητὸν, **Expressible**. For number is the speech of Geometers.
+
+We arrive at this degree of knowledge either through description and inscription, or otherwise also through kinship with some other quantity which was reached through those means. On that account this quality does not determine any single quantity; nor is it enough for determination that I know something to be thus and so disposed for the sake of commensuration—I must also know *how*, that is, by what number it is Expressible.

@@ -9,4 +9,4 @@
 Chapter XIII: Summary
 =====================
 
-Contrasts melodic naturalness (*Victimae paschali laudes*, plate ``0151.g1.png``) with non-harmonic microtonal chants Kepler personally transcribed in Prague.
+Defines what makes a melody **naturally apt and concinnous** (*cantus naturaliter concinnus*) to human ears—as opposed to the non-harmonic intervals Kepler overheard from a Turkish envoy's priest at prayer in Prague. Anchoring melody on the consonant *skeleton* of the octave ($G, b, c, d, g$) exemplified by *Victimae paschali laudes* (``0151.g1.png``) and *Christ ist erstanden*, Kepler analyzes Euclid's four melodic functions (*agoge*, *tone*, *petteia*, *ploke*), states ten laws forbidding inconcinnous melodic successions, and explains how Latin quantity, Greek *political* accentual verse, German/French/Italian/Spanish rhythmic prosody, and musical *tactus* govern the placement of consonance and dissonance.

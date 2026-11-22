@@ -9,4 +9,4 @@
 Proposition XXIII: Summary
 ==========================
 
-Applies Book II's parity theorem from planar tilings to three-dimensional polyhedra, immediately ruling out vertex types such as `3.3.4`? Wait: for *two-of-A + one-of-B*, *A* has parity constraint when *B* is odd! Specifically `A=even, B=odd` fails around *B*—and `5.5.4` or `3.3.5`? Wait: `A=3 (odd), B=any`: around `A` (triangle, odd!), its neighbors alternate? Wait: if `A.A.B`, around triangle `A`, two edges meet `A` and `B`, which is impossible for *three* faces around an odd polygon!
+Extends Book II's odd-cycle parity theorem (Prop. XVII) from planar tilings to three-dimensional polyhedra: whenever a trivalent vertex has type $p.p.q$ with $p$ odd, the two $p$-gons sharing an edge force their shared $p$-gon to alternate $p$ and $q$ around its $p$ edges, which fails on an odd cycle. This immediately rules out non-existent vertex types such as `3.3.q` ($q \ne 3$) and `5.5.q` ($q \ne 5$).

@@ -9,7 +9,7 @@
 Chapter VI: Notes & Provenance
 ==============================
 
-Starts near bottom of folio ``0240`` (p. 149bis) through ``0246`` (p. 156).
+Starts near the bottom of folio ``0240`` (p. 149bis) and runs through folio ``0246`` (p. 156); the 1619 Linz printer omitted page number ``150`` after printing ``149`` twice, so folio ``0241`` is numbered ``p. 151``. References Kepler's earlier polemics (*De Stella Nova* 1606, *Antwort auff Röslini Discurs* 1609, *Tertius Interveniens* 1610, and *Ephemerides* Prolegomena fols. 33–36) and explains the exclusion of the Semisextile ($30^\circ$) from music versus its prominence in meteorology via the Roman-senate marriage allegory of Remainders.
 
 Transcription & Provenance
 --------------------------

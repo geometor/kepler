@@ -15,7 +15,7 @@ Definitio VIII — Quid sit Scibile (γνώριμον)
 
 .. rst-class:: latin-source
 
-*Scibile dicitur, quod vel ipsum per se immediate est mensurabile per diametrum, si linea; vel per ejus quadratum, si superficies: vel quod formatur ad minimum ex talibus quantitatibus, certa & geometrica ratione, quae quantumcunque longa serie, tandem tamen a Diametro, ejusve quadrato dependeat. Graece dicitur γνώριμον.*
+*Scibile dicitur, quod vel ipsum per se immediate est mensurabile per diametrum, si linea; vel per ejus quadratum, si superficies: vel quod formatur ad minimum ex talibus quantitatibus, certa & geometrica ratione, quae quantumcunque longa serie, tandem tamen a Diametro, ejusve quadrato dependeant. Graece dicitur γνώριμον.*
 
 .. picture:: /_static/figures/fig06_scibilia_pentagon_vs_heptagon.svg
    :alt: Pentagonum et Decagonum Scibilia contra Septangulum Inscibile

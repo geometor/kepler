@@ -13,4 +13,6 @@ Definition V: Describing a Figure Geometrically
 .. folio:: harmonices_mundi:0024
    :page: p. 7
 
-**To describe a figure** is to determine by a geometric act the proportion of the lines subtending its angles to the legs of the angle, and from these triangles—such as $DAE$, $DAC$, $CAB$ composing pentagon $ABCDE$—to assemble the complete figure.
+**To Describe a Figure** is to determine by a geometric act the proportion of the lines subtending its angles to the legs of the angle; from those determined proportions to construct the Elementary triangles of the figure; and from the triangles fitted together to complete the figure itself.
+
+For given the proportion of $DA$ to $AE, ED$, the triangles $DAE, DAC, CAB$ are formed, of which the figure consists.

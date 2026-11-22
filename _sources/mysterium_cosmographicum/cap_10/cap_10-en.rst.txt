@@ -13,18 +13,35 @@ Chapter X: Origin of the Noble Sexagesimal Numbers
 .. folio:: mysterium_cosmographicum:0045
    :page: p. 35
 
-Turning from qualitative planetary traits to astronomical arithmetic, Kepler asks why astronomers from antiquity chose the sacred **sexagesimal** numbers **6**, **12**, and **60** (along with 30 and 180) to divide the zodiacal circle and degrees of arc. Counting the combinatorial invariants across all five regular solids, he reveals that—apart from 10 and 15 (sixth and quarter of 60) and the 24 plane angles of the Cube and Octahedron (itself $2 \times 12 = 3 \times 8 = 4 \times 6$)—every single structural count of the five Platonic solids is a **divisor of 60**:
+It is endless to pursue every detail; nor would an Astrologer reflect further on these things without fruit. Let us look now at the Arithmetic of Astronomers, and the sacred numbers, 6, 12, 60. Thus, with the exception of the fourth part and the sixth part—namely, 15 and 10—all the aliquot parts of sixty are found in these five bodies. Conversely, with the exception of the plane angles of the Octahedron and cube, each of which has 24, all the other things that are counted are aliquot parts of sixty: so that I think scarcely to any number could any natural thing be assigned, even by Pythagoras, which is more peculiarly its own than this number is to the said five bodies.
 
-* **1**: One of each regular solid; one solitary self-dual body (Tetrahedron).
-* **2**: Two secondary solids; two orders; two dual pairs.
-* **3**: Three angles of triangular faces (Tetrahedron, Octahedron, Icosahedron); three primary solids; three species of angle.
-* **4**: Four sides/angles of the Cube's square face; 4 faces and 4 vertices of the Tetrahedron.
-* **5**: Five regular bodies; 5 sides/angles of the Dodecahedron's pentagon.
-* **6**: Six vertices of the Octahedron, 6 edges of the Tetrahedron, 6 faces of the Cube (*"Pulcher numerus"*).
-* **8**: Eight faces of the Octahedron; 8 vertices of the Cube.
-* **12**: Twelve faces of the Dodecahedron, 12 edges of the Octahedron and Cube, 12 vertices of the Icosahedron, 12 plane face-angles of the Tetrahedron—appearing in **all five solids**!
-* **20**: Twenty faces of the Icosahedron; 20 vertices of the Dodecahedron.
-* **30**: Thirty edges of both the Icosahedron and Dodecahedron.
-* **60**: Sixty plane face-angles of both the Dodecahedron ($12 \times 5$) and Icosahedron ($20 \times 3$).
+One Cube, One pyramid, One Dodecahedron, One Icosahedron, One Octahedron—each one solitary without a like.
 
-Even summing across all five solids yields cognate sexagesimal totals: **50 faces** ($6+4+12+20+8$), **50 vertices** ($8+4+20+12+6$), **90 edges** ($12+6+30+30+12$), and **180 plane face-angles** ($24+12+60+60+24$, matching half a circle of $360^\circ$). Scarcely could :person:`Pythagoras <pythagoras>` himself assign to the number 60 a natural archetype more fitting than the five regular solids.
+Two secondary bodies; Two orders of bodies; Twofold pairs ever like to one another; Two such likenesses.
+
+.. folio:: mysterium_cosmographicum:0046
+   :page: p. 36
+
+Three angles of the bases in the pyramid, Icosahedron, and Octahedron, because their bases are three-sided. Three primary bodies. Three differences of angles.
+
+Four angles and sides of the base in the Cube. Four solid angles of the pyramid. Four bases of the same.
+
+Five bodies. Five angles and sides in the dodecahedral base.
+
+Six angles of the Octahedron. Six sides of the pyramid. Six bases of the cube. A fair number.
+
+Eight bases of the octahedron. Eight angles of the cube.
+
+Twelve bases of the dodecahedron. Twelve sides of the Octahedron, and likewise of the cube. Twelve angles of the Icosahedron. Twelve plane angles of the pyramid.
+
+Behold, this number is in all five.
+
+Twenty bases of the Icosahedron. Twenty angles of the dodecahedron.
+
+Twenty-four angles, plane angles of the Octahedron and cube. This number is extraneous, yet neither of a principal thing, nor so extraneous: for it is twice 12, thrice 8, four times 6, all of which are in 60.
+
+Thirty sides of the Icosahedron and Dodecahedron.
+
+Sixty plane angles of the dodecahedron and Icosahedron.
+
+And besides this nothing is counted, unless we wish to enter into the sums of all the sides and angles, which is more extraneous. Then there will come forth 18 angles of the denominating bases. Faces 50, Solid angles as many, sides 90. Plane angles 180. All kindred numbers.

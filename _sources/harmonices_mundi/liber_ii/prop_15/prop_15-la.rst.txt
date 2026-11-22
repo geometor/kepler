@@ -14,4 +14,8 @@ Propositio XV — Non Pauciores Quam Terni ad Solidum Angulum Assurgunt
 
 .. rst-class:: latin-source
 
-*Angulorum planorum non pauciores, quam terni, ad solidum angulum formandum congruunt vel assurgunt.* Bini enim non lateribus tantum, sed totis planitiebus congruerent, nihilque de corpore solido complecterentur.
+**XV. Propositio.**
+
+*Angulorum planorum non pauciores, quàm terni, ad solidum angulum formandum congruunt vel assurgunt.*
+
+Bini enim non lateribus tantùm, sed totis planitiebus congruerent, nihilque de corpore solido complecterentur: quod est contrà def. anguli solidi ap. Euclidem.

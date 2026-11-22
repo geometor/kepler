@@ -14,4 +14,6 @@ Definitio V — Describere Figuram
 
 .. rst-class:: latin-source
 
-*Describere Figuram, est proportionem linearum angulis subtensarum, ad anguli crura geometrico actu determinare; ex determinatis triangula figurae Elementaria construere, ex triangulis coassatis, figuram ipsam perficere.*
+*Describere Figuram, est proportionem linearum angulis subtensarum, ad anguli crura geometrico actu determinare; ex determinatis, triangula figurae Elementaria construere, ex triangulis coassatis, figuram ipsam perficere.*
+
+*Data enim proportione* $DA$ *ad* $AE, ED$, *fiunt triangula* $DAE, DAC, CAB$: *ex quibus constat figura.*

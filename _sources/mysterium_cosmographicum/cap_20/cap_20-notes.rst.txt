@@ -18,5 +18,5 @@ Transcription & Provenance
 --------------------------
 
 * **Primary Witness**: Johannes Kepler, *Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596, Caput XX, pp. 69–74 (folios 0081–0086) <kepler:1596:mc>`; *Editio altera cum notis authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 163–168 <frisch:1858:v1>`).
-* **Folio Scan**: Verified 300-DPI scan ``mysterium_cosmographicum:0081`` (p. 69).
-* **English Track**: Original GEOMETOR English exposition and translation of the 1596 Latin *editio princeps*.
+* **Folio Scans**: Verified 300-DPI scans ``mysterium_cosmographicum:0081``–``0086`` (pp. 69–74). On p. 73 (fol. ``0085``), the 1596 typesetter printed ``275`` opposite Jupiter's motive value ``574`` as a typographical slip for ``572``.
+* **English Track**: Direct first-person English translation of the 1596 Latin *editio princeps*.

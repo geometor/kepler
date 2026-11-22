@@ -6,12 +6,31 @@
 
 .. _hm-liber-ii-figura_aa-la:
 
-De Congruentia Pentagoni, Decagoni & Stellae Quinquangulae (Aa)
-===============================================================
+Figura Aa — De Congruentia Pentagoni, Decagoni et Stellae Quinquangulae
+========================================================================
+
+.. folio:: harmonices_mundi:0070
+   :page: pp. 52–55
 
 .. rst-class:: latin-source
 
-Quamvis autem pentagona et decagona convexa sola planitiem uniformiter continuare nequeant, admisso tamen **Stellae Quinquangulae** (:term:`{5/2} <stella-quinquangula>`) angulo acuto $36^\circ$ et sinu re-entrante $72^\circ$, pulcherrima oritur structura (`Figura Aa`)! Nam circa centrale decagonum :g:`DEC0` (:g:`D_0`) quina pentagona et quinae stellae quinquangulae ita nectuntur, ut duo decagona cum sinu stellae ($144^\circ + 144^\circ + 72^\circ$), item duo pentagona cum decagono ($108^\circ + 108^\circ + 144^\circ$), ac tria pentagona cum cuspide stellae ($3 \times 108^\circ + 36^\circ$) exactissime quatuor rectos expleant, mirabili varietate in infinitum progrediente.
+*(Ex Propositione XIX, ad literas Z et Aa)*
+
+Dimissis jam in ternis coaptandis, Trigonico et Tetragonico, si ad Pentagonicum veniamus, eorum possunt sumi duo, quia superant juncti 2. rectos: et congruit in locum reliquum Decagonicus unus: coronatur enim Decagonus Pentagonis decem: sed non continuatur purè haec forma. Vide Schema literâ Z interius.
+
+Huc ergò refer :term:`stellam Pentagonicam <stella-quinquangula>`, cùm sunt Pentagonici tres, et unius stellae radius; quia cavus stellae angulus capit etiam unum angulum pentagonicum, non minùs, quàm Pentagonicorum trium hiatus, capit radium stellae. Vide eâdem literâ Z exterius.
+
+Quamquam ne sic quidem continuatio succedit in infinitum; est enim insociabile hujus sectae regnum, quà paucis suorum adscitis, statim se munit: Ecce formas has duas etiam aliter, literâ Aa.
+
+Quòd si continuare omninò velis, monstra quaedam sunt adsciscenda, duo Decagoni inter se commissi, exsectis in utroque binis lateribus; fitque series structura quinquangula etiam infinitâ continuatione, sic ut in primâ et angustissimâ quinquangulari serie sint Decagoni quinque, nullum monstrum intermedium: In secundâ laxiori, series lineares Decangulorum mediant singula
+
+.. folio:: harmonices_mundi:0071
+   :page: p. 55
+
+loca occupant singulae copulae ex binis Decagonis inter se commissis, quas mediat Decagonus unus: In quartâ stant rursum integri Decagoni in angulis, mediantque binos angulos bini Decagoni, dispositi aequalibus intervallis: In quintâ stant stellae cum singulis extremis radiis in singulis angulis, implent verò lineas bini Decagoni integri, et in medio, binae commissurae Decagonorum. Et sic consequenter, unaquaelibet forma quinquangula fert novi aliquid. Structura est laboriosissima et artificiosissima, visenda ad eandem literam Aa (:g:`DEC0`, :g:`D_0`).
+
+.. folio:: harmonices_mundi:0078
+   :page: Tabulae Y, Z, Aa
 
 .. container:: kepler-plate-pair
 

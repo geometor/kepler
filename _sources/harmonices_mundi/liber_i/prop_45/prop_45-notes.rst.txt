@@ -22,9 +22,15 @@ $$(2 - u)^3 + (2 - u)^2 - 2(2 - u) - 1 = -u^3 + 7u^2 - 14u + 7 = 0 \implies y^6 
 
 recovering **Jost Bürgi's exact Cossic sextic** verified in ``geometor.kepler.harmonices_geometry.verify_heptagon_cubic_obstruction``!
 
+Modern Algebraic & Constructibility Commentary
+----------------------------------------------
+
+* **Prime Polygons Beyond Five**: Kepler groups together all prime-sided regular polygons beyond the pentagon (7, 11, 13, 17, 19, …) and multiples of nine as non-constructible by Euclidean compass and straightedge. Two centuries later, Gauss (1796) discovered that Fermat primes such as $17$ ($2^{2^2}+1$) *are* constructible, while Wantzel (1837) proved that primes not of Fermat form—beginning with $7$, $11$, $13$, and $19$, as well as $9$—cannot be constructed, confirming Kepler's thesis for the heptagon and nonagon.
+* **Pentagon vs. Heptagon**: In the pentagon only two chord species exist ($s_5$ and $d_5$), locking their ratio into the quadratic $x^2 - x - 1 = 0$ solvable by circle and straight line; in the heptagon three chord species ($s_7$, $d_7$, and the long diagonal) are governed by the irreducible cubic $x^3 + x^2 - 2x - 1 = 0$ with $x = 2\cos(2\pi/7)$, whose three real roots are Galois conjugates corresponding to the $\frac{1}{7}$, $\frac{2}{7}$, and $\frac{3}{7}$ chords.
+
 Transcription & Provenance
 --------------------------
 
-* **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V, pp. 119–125 <frisch:1864:v5>`).
-* **English Track**: *Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 41–46 <kepler:1619:hm>`; :cite:`Frisch V, pp. 119–125 <frisch:1864:v5>`).
-* **Folio Scan**: Verified 300-DPI scan ``harmonices_mundi:0050`` (p. 32).
+* **Latin Witness**: *Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 32–36 <kepler:1619:hm>`; :cite:`ed. Ch. Frisch, Vol. V <frisch:1864:v5>`).
+* **English Track**: *Original GEOMETOR English translation from Johannes Kepler's Harmonices Mundi Liber I, Propositio XLV* (:cite:`Linz, 1619, pp. 32–36 <kepler:1619:hm>`; :cite:`Frisch V <frisch:1864:v5>`).
+* **Folio Scan**: Verified 300-DPI scans ``harmonices_mundi:0050``–``0054`` (pp. 32–36).

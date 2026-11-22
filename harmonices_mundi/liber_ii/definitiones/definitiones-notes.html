@@ -11,11 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <link rel="canonical" href="https://geometor.github.io/kepler/harmonices_mundi/liber_ii/definitiones/definitiones-notes.html" />
-  <meta name="description" content="A classic trap in elementary geometry is to assume that any set of regular polygons whose interior angles sum to $360^\circ$ tiles the plane uniformly. Solving $\sum (n_i - 2)/(2n_i) = 1$…" />
+  <meta name="description" content="Prooemium (p. 47–48): Connects Latin congruere / congruentia directly to Greek ἁρμόττειν / ἁρμονία (“fitting together”), grounding Book II’s geometric combinatorics in Kepler’s metaphysical…" />
   <meta property="og:site_name" content="GEOMETOR" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="II.Def.: Definitions: Notes &amp; Provenance — The Harmony of the World • GEOMETOR" />
-  <meta property="og:description" content="A classic trap in elementary geometry is to assume that any set of regular polygons whose interior angles sum to $360^\circ$ tiles the plane uniformly. Solving $\sum (n_i - 2)/(2n_i) = 1$…" />
+  <meta property="og:description" content="Prooemium (p. 47–48): Connects Latin congruere / congruentia directly to Greek ἁρμόττειν / ἁρμονία (“fitting together”), grounding Book II’s geometric combinatorics in Kepler’s metaphysical…" />
   <meta property="og:url" content="https://geometor.github.io/kepler/harmonices_mundi/liber_ii/definitiones/definitiones-notes.html" />
   <meta property="og:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
   <meta property="og:image:type" content="image/png" />
@@ -24,7 +24,7 @@
   <meta property="og:image:alt" content="Johannes Kepler — GEOMETOR" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="II.Def.: Definitions: Notes &amp; Provenance — The Harmony of the World • GEOMETOR" />
-  <meta name="twitter:description" content="A classic trap in elementary geometry is to assume that any set of regular polygons whose interior angles sum to $360^\circ$ tiles the plane uniformly. Solving $\sum (n_i - 2)/(2n_i) = 1$…" />
+  <meta name="twitter:description" content="Prooemium (p. 47–48): Connects Latin congruere / congruentia directly to Greek ἁρμόττειν / ἁρμονία (“fitting together”), grounding Book II’s geometric combinatorics in Kepler’s metaphysical…" />
   <meta name="twitter:image" content="https://geometor.github.io/kepler/_static/social/harmonices_mundi.png" />
   <meta name="twitter:image:alt" content="Johannes Kepler — GEOMETOR" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -122,24 +122,29 @@
             </nav>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../prop_14/prop_14-en.html" title="Proposition XIV: At Least Three Angles Meet in Plane Congruence"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../prop_14/prop_14-en.html" title="Proposition XIV: At Least Three Plane Angles Meet in Planar Congruence"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content folio-book-page" role="main">
         <section class="level-1" id="definitions-notes-provenance">
         <span id="hm-liber-ii-def-notes"></span><span id="unit-4-harmonices-liber-ii-notes"></span><h1>Definitions: Notes &amp; Provenance<a class="headerlink" href="#definitions-notes-provenance" title="Link to this heading">¶</a></h1>
-        <section class="level-2" id="why-local-diophantine-solutions-fail-globally">
-        <h2>Why Local Diophantine Solutions Fail Globally<a class="headerlink" href="#why-local-diophantine-solutions-fail-globally" title="Link to this heading">¶</a></h2>
-        <p>A classic trap in elementary geometry is to assume that any set of regular polygons whose interior angles sum to $360^\circ$ tiles the plane uniformly. Solving $\sum (n_i - 2)/(2n_i) = 1$ yields <strong>17</strong> unordered multisets (and <strong>21</strong> cyclic vertex necklaces), yet <strong>10</strong> of those cyclic necklaces self-destruct after one or two steps!</p>
-        <p>Consider Kepler’s counterexample <cite>5.5.10</cite> ($108^\circ + 108^\circ + 144^\circ = 360^\circ$): around any 5-sided pentagon, the polygons sharing its five edges would have to alternate <cite>5, 10, 5, 10, ?</cite>—an <strong>odd</strong> cycle of length $5$ cannot alternate two distinct symbols! Similarly, <cite>3.7.42</cite>, <cite>3.8.24</cite>, <cite>3.9.18</cite>, <cite>3.10.15</cite>, and <cite>3.4.3.12</cite> force neighbor collisions. In <code class="docutils literal notranslate"><span class="pre">geometor.kepler.harmonices_geometry._is_globally_extendable_vertex</span></code>, encoding Kepler’s exact odd-cycle walk condition eliminates all false local candidates automatically.</p>
+        <section class="level-2" id="editorial-geometric-apparatus">
+        <h2>Editorial &amp; Geometric Apparatus<a class="headerlink" href="#editorial-geometric-apparatus" title="Link to this heading">¶</a></h2>
+        <ul class="simple">
+        <li><p><strong>Prooemium (p. 47–48)</strong>: Connects Latin <em>congruere</em> / <em>congruentia</em> directly to Greek <em>ἁρμόττειν</em> / <em>ἁρμονία</em> (“fitting together”), grounding Book II’s geometric combinatorics in Kepler’s metaphysical architecture of Creation.</p></li>
+        <li><p><strong>Space-Filling Solids &amp; Honeycomb Cells (Def. V Nota, pp. 48–49)</strong>: Kepler notes that among polyhedra filling 3D space around a point, only the cube and his newly described <em>rhombus dodecahedricus</em> (rhombic dodecahedron, which he links to the 3-rhombus base of bee honeycomb cells) achieve pure one-species space-filling—anticipating crystallography and Fedorov’s parallelohedra.</p></li>
+        <li><p><strong>Infinite Prisms and Antiprisms (Def. X, p. 49)</strong>: Classes <em>A</em> and <em>B</em> on the plate at fol. 53 refer respectively to regular $n$-gonal prisms (starting at $n=3$, where $n=4$ is the cube—a <em>most perfect</em> regular solid) and $n$-gonal antiprisms (starting at $n=3$, the regular octahedron—another <em>most perfect</em> regular solid).</p></li>
+        <li><p><strong>Why Local Diophantine Solutions Fail Globally (Def. XIII)</strong>: A classic trap in elementary geometry is to assume that any set of regular polygons whose interior angles sum to $360^\circ$ tiles the plane uniformly. Solving $\sum (n_i - 2)/(2n_i) = 1$ yields <strong>17</strong> unordered multisets (and <strong>21</strong> cyclic vertex necklaces), yet <strong>10</strong> of those cyclic necklaces self-destruct after one or two steps! Consider Kepler’s counterexample <cite>5.5.10</cite> ($108^\circ + 108^\circ + 144^\circ = 360^\circ$): around any 5-sided pentagon, the polygons sharing its five edges would have to alternate <cite>5, 10, 5, 10, ?</cite>—an <strong>odd</strong> cycle of length $5$ cannot alternate two distinct symbols. Similarly, <cite>3.7.42</cite>, <cite>3.8.24</cite>, <cite>3.9.18</cite>, <cite>3.10.15</cite>, and <cite>3.4.3.12</cite> force neighbor collisions. In <code class="docutils literal notranslate"><span class="pre">geometor.kepler.harmonices_geometry._is_globally_extendable_vertex</span></code>, encoding Kepler’s exact odd-cycle walk condition eliminates all false local candidates automatically.</p></li>
+        <li><p><strong>Print Erratum</strong>: In Def. VII (p. 49), the 1619 Linz edition prints <em>regulatia</em> for <em>regularia</em>. In Def. XI (p. 50), <em>tueans</em> is printed for <em>tueatur</em> (or <em>tuens</em>).</p></li>
+        </ul>
         </section>
         <section class="level-2" id="transcription-provenance">
         <h2>Transcription &amp; Provenance<a class="headerlink" href="#transcription-provenance" title="Link to this heading">¶</a></h2>
         <ul class="simple">
-        <li><p><strong>Latin Witness</strong>: <em>Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber II: Architectonicus, seu ex Geometria Figurata, de Figurarum Regularium Congruentia in Plano vel Solido</em> (<a class="citation-ref" id="occ-cite-kepler-1619-hm-1" href="../../../bibliography.html#cite-kepler-1619-hm" data-cite="kepler:1619:hm" title="Johannes Kepler — Ioannis Keppleri Harmonices Mundi Libri V (Linz: Godofredus Tampachius / excudebat Ioannes Plancus ([8], 66, 255 pp., 5 engraved plates))">Linz, 1619, pp. 47–66</a>; <a class="citation-ref" id="occ-cite-frisch-1864-v5-1" href="../../../bibliography.html#cite-frisch-1864-v5" data-cite="frisch:1864:v5" title="Johannes Kepler (ed. Christian Frisch) — Joannis Kepleri Astronomi Opera Omnia, Volumen V (Frankfurt a. M. &amp; Erlangen: Heyder &amp; Zimmer, pp. 75–334)">ed. Ch. Frisch, Vol. V, pp. 126–144</a>).</p></li>
-        <li><p><strong>English Track</strong>: <em>Original GEOMETOR English translation from Johannes Kepler’s Harmonices Mundi Liber II: Architectonicus, seu ex Geometria Figurata, de Figurarum Regularium Congruentia in Plano vel Solido</em> (<a class="citation-ref" id="occ-cite-kepler-1619-hm-2" href="../../../bibliography.html#cite-kepler-1619-hm" data-cite="kepler:1619:hm" title="Johannes Kepler — Ioannis Keppleri Harmonices Mundi Libri V (Linz: Godofredus Tampachius / excudebat Ioannes Plancus ([8], 66, 255 pp., 5 engraved plates))">Linz: Tampach/Plancus, 1619, pp. 47–66</a>; <a class="citation-ref" id="occ-cite-frisch-1864-v5-2" href="../../../bibliography.html#cite-frisch-1864-v5" data-cite="frisch:1864:v5" title="Johannes Kepler (ed. Christian Frisch) — Joannis Kepleri Astronomi Opera Omnia, Volumen V (Frankfurt a. M. &amp; Erlangen: Heyder &amp; Zimmer, pp. 75–334)">Frisch V, pp. 126–144</a>).</p></li>
-        <li><p><strong>Folio Scan</strong>: Verified 300-DPI scan <code class="docutils literal notranslate"><span class="pre">harmonices_mundi:0065</span></code> (p. 47).</p></li>
+        <li><p><strong>Latin Witness</strong>: <em>Public-domain Neo-Latin text from Ioannis Keppleri Harmonices Mundi Liber II: Architectonicus, seu ex Geometria Figurata, de Figurarum Regularium Congruentia in Plano vel Solido</em> (<a class="citation-ref" id="occ-cite-kepler-1619-hm-1" href="../../../bibliography.html#cite-kepler-1619-hm" data-cite="kepler:1619:hm" title="Johannes Kepler — Ioannis Keppleri Harmonices Mundi Libri V (Linz: Godofredus Tampachius / excudebat Ioannes Plancus ([8], 66, 255 pp., 5 engraved plates))">Linz, 1619, pp. 47–50</a>; <a class="citation-ref" id="occ-cite-frisch-1864-v5-1" href="../../../bibliography.html#cite-frisch-1864-v5" data-cite="frisch:1864:v5" title="Johannes Kepler (ed. Christian Frisch) — Joannis Kepleri Astronomi Opera Omnia, Volumen V (Frankfurt a. M. &amp; Erlangen: Heyder &amp; Zimmer, pp. 75–334)">ed. Ch. Frisch, Vol. V, pp. 126–129</a>).</p></li>
+        <li><p><strong>English Track</strong>: <em>Original GEOMETOR English translation from Johannes Kepler’s Harmonices Mundi Liber II</em> (<a class="citation-ref" id="occ-cite-kepler-1619-hm-2" href="../../../bibliography.html#cite-kepler-1619-hm" data-cite="kepler:1619:hm" title="Johannes Kepler — Ioannis Keppleri Harmonices Mundi Libri V (Linz: Godofredus Tampachius / excudebat Ioannes Plancus ([8], 66, 255 pp., 5 engraved plates))">Linz: Tampach/Plancus, 1619, pp. 47–50</a>; <a class="citation-ref" id="occ-cite-frisch-1864-v5-2" href="../../../bibliography.html#cite-frisch-1864-v5" data-cite="frisch:1864:v5" title="Johannes Kepler (ed. Christian Frisch) — Joannis Kepleri Astronomi Opera Omnia, Volumen V (Frankfurt a. M. &amp; Erlangen: Heyder &amp; Zimmer, pp. 75–334)">Frisch V, pp. 126–129</a>).</p></li>
+        <li><p><strong>Folio Scans</strong>: Verified 300-DPI scans <code class="docutils literal notranslate"><span class="pre">harmonices_mundi:0065</span></code>–<code class="docutils literal notranslate"><span class="pre">0068</span></code> (pp. 47–50).</p></li>
         </ul>
         </section>
         </section>
@@ -155,7 +160,7 @@
             <a class="book-toc-link" href="../../index.html">Harmony of the World</a>
           </div>
           <div class="book-nav-next">
-            <a class="book-nav-btn" href="../prop_14/prop_14-en.html" title="Proposition XIV: At Least Three Angles Meet in Plane Congruence"><span class="nav-label">Next</span> &rarr;</a>
+            <a class="book-nav-btn" href="../prop_14/prop_14-en.html" title="Proposition XIV: At Least Three Plane Angles Meet in Planar Congruence"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </footer>

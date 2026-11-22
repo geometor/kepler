@@ -7,22 +7,30 @@
 .. _hm-cap_06-la:
 .. _hm-cap_04_09-la:
 
-Caput VI — De Cantu Proprio Uniuscujusque Planetae
-==================================================
+Caput VI — In Extremitatibus Motuum Planetariorum Expressos Esse Modos Seu Tonos Musicos
+=========================================================================================
 
 .. folio:: harmonices_mundi:0298
-   :page: pp. 206–208
+   :page: p. 206
 
 .. rst-class:: latin-source
 
-*Quod in Extremis Motibus Planetarum, Modi seu Toni Musici quodammodo exprimantur.* Ecce cantus proprius sex Planetarum et Lunae:
+*CAP. VI. In Extremitatibus motuum Planetariorum expressos esse quodammodo Modos seu Tonos Musicos.*
 
-* **Saturnus**: $1'46'' : 2'15'' \approx 4 : 5$ (*Ditonus*);
-* **Iupiter**: $4'30'' : 5'30'' = 5 : 6$ (*Tertia minor*);
-* **Mars**: $26'14'' : 38'1'' \approx 2 : 3$ (*Diapente*);
-* **Tellus**: $57'3'' : 61'18'' \approx 15 : 16$ (*Semitonium*; *"Tellus canit MI FA MI, ut vel ex syllaba conjicias, in hoc nostro domicilio MIseriam et FAmem obtinere"*);
-* **Venus**: $94'50'' : 97'37'' \approx 24 : 25$ (*Diesis*);
-* **Mercurius**: $164'0'' : 384'0'' = 5 : 12$ (*Diapason cum tertia minore*).
+Sequitur hoc ex antedictis, nec opus est multis verbis, singuli enim planetae singula quodammodo signant loca systematis, motu perihelio, quatenus datum est singulis, percurrere certum aliquod intervallum in Scala Musica, certis ejus Clavibus, seu locis Systematis comprehensum; cujusque ab illa Clave seu loco inceptum, qui capite praecedenti contigit illius motui aphelio, Saturno quidem & Terrae *G*, at Jovi *h*, quae in *G* altius transponi potest, Marti *fe*, Veneri *e*; Mercurio *A*, in altiori Systemate.
+
+Vide singulos in Notis usitatis. Non formant quidem intermedios locos, quos hic vides notis impletos, articulate, sicut extremos: quia ab uno extremo, non saltibus & intervallis, sed continua tensione nituntur ad oppositum,
+
+.. folio:: harmonices_mundi:0299
+   :page: p. 207
+
+media omnia (infinita in potentia) permeantes actu: id quod aliter a me non potuit exprimi, quam per continuam seriem Notarum intermediarum.
+
+.. picture:: 0299.g1.png
+   :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
+   :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
+
+Venus fere manet in unisono non aequans tensionis amplitudine vel minimum ex concinnis intervallis.
 
 .. raw:: html
 
@@ -37,6 +45,11 @@ Caput VI — De Cantu Proprio Uniuscujusque Planetae
      </div>
    </div>
 
-.. picture:: 0299.g1.png
-   :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
-   :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
+Atqui signatura duarum in communi Systemate Clavium, & formatio sceleti Octavae, per comprehensionem certi intervalli concinni, est rudimentum quoddam distinctionis Tonorum seu Modorum: sunt ergo Modi Musici inter Planetas dispertiti. Scio equidem, ad formationem & definitionem distinctorum Modorum requiri plura, quae cantus humani, quippe intervallati, sunt propria: itaque voce quodammodo sum usus.
+
+Liberum autem erit Harmonistae, sententiam depromere suam: quem quisque planeta Modum exprimat propius, extremis hic ipsi assignatis. Ego Saturno darem ex usitatis Septimum vel Octavum, quia si radicalem ejus clavem ponas *G*, perihelius motus ascendit ad *h*: Jovi Primum vel Secundum; quia aphelio ejus motu ad *G* accommodato, perihelius ad *b* pervenit; Marti Quintum vel Sextum; non eo tantum, quia fere Diapente assequitur, quod intervallum commune est omnibus modis:
+sed ideo potissimum, quia redactus cum caeteris ad commune systema, perihelio motu *c* assequitur, aphelio ad *f* alludit: quae radix est Toni seu Modi Quinti vel Sexti: Telluri darem Tertium vel Quartum: quia intra semitonium ejus motus vertuntur; & vero primum illorum Tonorum intervallum est semitonium; Mercurio vero ob amplitudinem intervalli, promiscue omnes Modi vel Toni convenient: Veneri ob angustiam intervalli, plane nullus; at ob commune Systema, etiam Tertius & Quartus; quia ipsa respectu caeterorum obtinet *e*.
+
+.. admonition:: Notatio Marginalis (fol. 0299, p. 207)
+
+   Tellus canit MI FA MI, ut vel ex syllaba conjicias, in hoc nostro domicilio MIseriam & FAmem obtinere.
