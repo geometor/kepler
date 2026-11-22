@@ -15,3 +15,5 @@ Definitio VI — Inscribere Figuram Circulo
 .. rst-class:: latin-source
 
 *Inscribere Figuram circulo, est proportionem lateris figurae ad diametrum circuli, cui est inscribenda, Geometrico actu determinare, qua constituta proportione, facile in circulo figura proposita delineatur.*
+
+*Ut si detur* $LD$ *semidiameter, vel ejus dupla diameter, si sciamus, quid faciendo cum ea, justam longitudinem lateri* $DE$ *indulgeamus; facile postea repetitione ipsius* $DE$, *per circumferentiam, consummamus figuram.*

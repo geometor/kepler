@@ -13,4 +13,6 @@ Definition X: Proper Demonstration
 .. folio:: harmonices_mundi:0026
    :page: p. 9
 
-**Proper demonstration** occurs when the number of angles of the figure itself—or of a kindred figure with double or half as many sides—serves directly as the middle term for determining the proportion of its side to the diameter (since an $n$-gon splits into triangles whose central angle is $1/n$ of four right angles).
+**Proper demonstration** occurs when the number of angles of the Figure itself—or of one kindred to it with double or half the number of sides—becomes the middle term for determining the proportion of its side which it has to the Diameter.
+
+For every regular figure is either itself a triangle, or is resolved into triangles by drawing diagonals. And since every such triangle has three angles equal to two right angles, in the Triangle therefore the angle is a third part, in the smallest angle of the elementary triangle of a Tetragon a fourth part, in that of a Pentagon a fifth part, in that of a Heptagon a seventh part, and so on, of two right angles. And from this quantity of the angle the demonstration of each begins.

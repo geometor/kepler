@@ -14,4 +14,4 @@ Definitio XIV — Tertius Gradus (Effabilis Potentia, ῥητὴ δυνάμει)
 
 .. rst-class:: latin-source
 
-*Tertius Gradus est hic, cum linea longitudine est Ineffabilis, at ejus quadratum Effabile, & pertinens ad secundum gradum. Dicitur ῥητὴ δυνάμει, Effabilis potentia.*
+*Tertius Gradus est hic, cum linea longitudine est Ineffabilis, at ejus quadratum Effabile, & pertinens ad secundum gradum. Dicitur* ῥητὴ δυνάμει, *Effabilis potentia.*

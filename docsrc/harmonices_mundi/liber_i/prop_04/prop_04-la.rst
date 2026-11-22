@@ -14,4 +14,6 @@ Propositio IV — Inscriptio in Unum Circulum
 
 .. rst-class:: latin-source
 
-*Omnes figurae Regulares angulis suis omnibus simul eidem circulo possunt insistere.* Nam per 21. Tertii Euclidis, omnes anguli aequales, eidem, & sic etiam ejusdem circuli aequalibus segmentis inscribi possunt; latera autem omnia sunt aequalia, quare tam angulus quam laterum fines simul in eundem circulum competunt.
+*Omnes figurae Regulares angulis suis omnibus simul eidem circulo possunt insistere.*
+
+Nam per 21. Tertii Euclidis, *Omnes anguli aequales, eidem, & sic etiam ejusdem circuli aequalibus segmentis inscribi possunt*, sunt autem omnes anguli Regularis figurae aequales, omnes igitur unius figurae anguli aequalibus unius circuli segmentis possunt inscribi. Sed & actu omnes inscribi necesse est, uno inscripto. Nam latera omnia sunt aequalia, quare & etiam aequalia segmenta circuli, quae a binis unius anguli lateribus absecantur, per 24. Tertii Euclidis: Ergo tam angulus, quam laterum fines, simul in eundem circulum competunt. Fines vero laterum sunt & ipsi anguli. Secus esset si, quamvis aequalibus angulis, latera non essent aequalia: tunc enim dissolveretur necessitas inscriptionis omnium.

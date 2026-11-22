@@ -9,4 +9,4 @@
 Chapter IV: Summary
 ===================
 
-Derives the exact 5-limit step ratios ($8:9, 9:10, 15:16$) and explains why the difference between major and minor whole tones is the syntonic comma $81:80$.
+Derives the exact 5-limit step ratios ($8:9, 9:10, 15:16, 24:25$) from subtracting consonant ratios rather than composing from a minimal unit, defines third-order intervals ($80:81$ syntonic comma, $128:135$ irregular diesis/limma, $225:256$, $243:256$ Platonic limma, $2048:2187$ apotome), presents the arithmetical square/oblong corollary for $1$–$10$, and explains why pitch height (*acutum/grave*, *altum/profundum*) yields geometric intervals.

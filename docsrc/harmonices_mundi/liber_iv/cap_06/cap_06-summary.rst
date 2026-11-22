@@ -9,4 +9,4 @@
 Chapter VI: Summary
 ===================
 
-Establishes the exact isomorphism between zodiacal aspect fractions $k/n$ and musical string proportions.
+Refutes Kepler's earlier 1606 axiom that musical consonances cause planetary aspects, proving that straight-string Remainders differ essentially from circular arcs—and dramatizing Music and Meteorology as two distinct colonies of Geometry with different laws of citizenship.

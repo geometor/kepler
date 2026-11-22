@@ -7,10 +7,12 @@
 .. _hm-liber-i-def_12-en:
 .. _hm-liber-i-def_12:
 
-Definition XII: First Degree of Knowledge (Identity)
-====================================================
+Definition XII: First Degree of Knowledge
+=========================================
 
 .. folio:: harmonices_mundi:0026
    :page: p. 9
 
-Degrees of scientific knowledge are diverse—some remote, some close at hand. The **first and nearest degree** occurs when a line is known and demonstrated to equal the **diameter itself** ($s_2 = D$), or a plane figure equals the square of the diameter ($D^2$). Here the known measure measures the knowable directly in one single act.
+**The degrees of knowledge are diverse**, some remote, others near. The **first and nearest degree** is when I can know and demonstrate some line to be equal to the diameter, or a plane—though formed otherwise—to be equal to the square of the diameter.
+
+Here the known measure measures the knowable perfectly, namely by itself and in a single act.

@@ -14,4 +14,6 @@ Definitio XXV — Mizon, Elasson & Origines Duodecim Specierum Euclidearum
 
 .. rst-class:: latin-source
 
-*Igitur ex secunda biga sexti gradus Num. XVIII. praemisso, linearum inter se plane incommensurabilium, quibus summa quadratorum est Effabilis, Rectangulum Meson; compositione nascitur MIZON, seu MAIOR dicta; abstractione ELASSON, seu MINOR... Et ecce Originem duodecim specierum Euclidearum, earumque Numeri causas.*
+*Igitur ex secunda biga sexti gradus Num. XVIII. praemisso, linearum inter se plane incommensurabilium, quibus summa quadratorum est Effabilis, Rectangulum Meson; compositione nascitur MIZON, seu MAIOR dicta; abstractione ELASSON, seu MINOR. Ex tertia, ubi summa quadratorum est Meson, Rectangulum Effabile, quae componendo nascitur, nomen habet POTENS EFFABILE ET MESON, quae abstrahendo, FACIENS CUM EFFABILI MESON TOTUM. Denique ex quarta biga septimi gradus, Num. XIX. praemissa, ubi uterque Effectus fit Meson; componendo fit POTENS BINA MEDIA, abstrahendo FACIENS CUM MESO MESON TOTUM.*
+
+*Et ecce Originem duodecim specierum Euclidearum, earumque Numeri causas. Nam ad remotiores, quae vel summam quadratorum, vel Rectangulum commune, vel utrumque, proferunt ultra Effabilia & Mesa, in ignobiliores species, non censuit Euclides sibi progrediendum esse.*

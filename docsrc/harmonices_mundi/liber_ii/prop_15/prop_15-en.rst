@@ -7,10 +7,14 @@
 .. _hm-liber-ii-prop_15-en:
 .. _hm-liber-ii-prop_15:
 
-Proposition XV: At Least Three Angles Form a Solid Angle
-========================================================
+Proposition XV: At Least Three Plane Angles Form a Solid Angle
+==============================================================
 
 .. folio:: harmonices_mundi:0068
    :page: p. 50
 
-No fewer than three plane angles can join or rise upward to form a solid polyhedral corner; for two polygons joined along an edge would collapse face-to-face into a flat double sheet and enclose no three-dimensional volume, contrary to Euclid's definition of a solid angle.
+**Proposition XV.**
+
+*No fewer than three plane angles meet or rise together to form a solid angle.*
+
+For two would coincide not only along their sides, but across their whole plane surfaces, and would enclose nothing of a solid body—which is contrary to the definition of a solid angle in Euclid.

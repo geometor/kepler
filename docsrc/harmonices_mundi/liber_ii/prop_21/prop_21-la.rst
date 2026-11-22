@@ -14,4 +14,8 @@ Propositio XXI — Quatuor vel Plurium Specierum Impossibilitas
 
 .. rst-class:: latin-source
 
-*Quatuor vel plurium specierum figurae planae, non congruunt angulis singulis ad implendum locum solidum.* Minimi enim anguli quatuor sunt hi: Trigonicus, Tetragonicus, Pentagonicus, Hexagonicus; juncti majores quatuor rectis: quare per XVI non congruunt.
+**XXI. Propositio.**
+
+*Quatuor vel plurium specierum figurae planae, non congruunt angulis singulis ad implendum locum solidum.*
+
+Minimi enim anguli quatuor sunt hi, Trigonicus, Tetragonicus, Pentagonicus, Hexagonicus. At horum primus et ultimus aequant duos rectos, secundus est rectus, Tertius verò superat rectum unâ parte quintâ unius recti. Sunt igitur juncti majores quatuor rectis: quare per XVI, non congruunt. Multò magis igitur superabuntur quatuor recti à majoribus angulis.

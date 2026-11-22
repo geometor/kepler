@@ -13,4 +13,6 @@ Definition I: Regular Plane Figures
 .. folio:: harmonices_mundi:0023
    :page: p. 6
 
-A **regular plane figure** is defined as one that possesses all equal sides and all equal outward-facing angles—such as the square $QPRO$, whose four sides $QP, PR, RO, OQ$ are equal and whose four interior angles $\angle QPR, \angle PRO, \angle ROQ, \angle OQP$ are all right angles.
+A **regular plane figure** is said to be one that has all its sides equal and all its angles facing outward equal.
+
+As here in $QPRO$, the sides $QP, PR, RO, OQ$ are equal, and the angles $QPR, PRO, ROQ, OQP$ are equal.

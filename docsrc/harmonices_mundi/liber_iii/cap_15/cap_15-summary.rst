@@ -9,4 +9,4 @@
 Chapter XV: Summary
 ===================
 
-Explains musical *Affektenlehre* (emotional character of Dorian, Phrygian, Lydian, Ionian, Aeolian modes) through exact major/minor third polarity.
+Kepler derives musical affect across ten headings (I–X), linking emotional ethos to melodic ascent/descent, leap, compass, tempo, the pentagon-generated major/minor third polarity and Fibonacci series, semitone position, and imperfect consonances.

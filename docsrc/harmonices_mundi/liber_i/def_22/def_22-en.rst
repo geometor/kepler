@@ -13,4 +13,8 @@ Definition XXII: Binomial, Apotome, Bimedial, and Medial Apotome
 .. folio:: harmonices_mundi:0030
    :page: p. 13
 
-Setting aside length-commensurable pairs, we turn to lines commensurable in **square only**. Combining two expressible lines gives a **Binomial** (:term:`Binominis <binominis-apotome>`); subtracting gives an **Apotome** (six species each in Euclid X.48, 85). Combining two *Mesae* forms first and second **Bimedials**; subtracting forms **Apotomes of a Medial**—whereas combining an expressible line with a *Mese* cannot yet occur here.
+Passing over those lines which are commensurable in length, let us proceed to those which are commensurable in power only. Therefore if two such Expressible lines be composed, there arises a :term:`Binomial <binominis-apotome>` (*Binominis*); if subtracted, from the remainder arises an *Apotome*: of each there are six subordinate species, in Propositions 48 and 85 of the tenth book.
+
+If, however, two such *Mesae* be composed, whether forming an Expressible Rectangle or a *Meson*, by composition arise *Bimedials*, and by subtraction *Apotomes of a Mese*—surnamed there *First*, here *Second*.
+
+Here it is not permitted to conjoin an Expressible line with a *Mese*: for such a pair are simply incommensurable, of which kind we must now treat in what follows.

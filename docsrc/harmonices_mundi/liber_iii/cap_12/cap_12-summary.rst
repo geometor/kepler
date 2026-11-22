@@ -9,4 +9,4 @@
 Chapter XII: Summary
 ====================
 
-Identifies the exact Pythagorean-vs-Just-Intonation comma obstructions ($27:40$ vs. $2:3$, $27:32$ vs. $5:6$) inside the fixed 8-note diatonic scale.
+Exposes the six **comma-impure ("wolf") consonances** (*consonantiae adulterinae*) that arise across the octave junction of the Just-Intonation *Disdiapason*: the Pythagorean ditone $64:81$, abundant fourth $20:27$, deficient fourth $243:320$, deficient minor sixth $81:128$, deficient fifth $27:40$ ($D$–$a$ / $a$–$ee$ / $bb$–$ff$), and abundant fifth $160:243$, each differing from a pure consonance by one **Syntonic Comma** ($80:81$).

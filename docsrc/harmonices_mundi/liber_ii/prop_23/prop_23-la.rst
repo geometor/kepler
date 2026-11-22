@@ -14,4 +14,8 @@ Propositio XXIII — Duo Anguli Imparilaterae Cum Tertio
 
 .. rst-class:: latin-source
 
+**XXIII. Propositio.**
+
 *Duo anguli plani, figurae imparilaterae, cum uno speciei alterius coëuntes, non formant regulare aliquod solidum.*
+
+Nam per XVIII [XVII], anguli solidi fiunt difformes, contra def. à V in X.

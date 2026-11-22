@@ -9,4 +9,4 @@
 Chapter X: Summary
 ==================
 
-Distinguishes conjunct vs. disjunct fourths and expands Aristoxenian tetrachord forms from 3 to 6 by separating $8:9$ and $9:10$ whole tones (`0145.g1.png`).
+Reviewing Greek conjunct (*Synemmena*) and disjunct (*Diezeugmena*) tetrachords alongside Guido of Arezzo's six-syllable hexachord (*Ut, re, mi, fa, sol, la*) and Erycius Puteanus's seven-syllable Belgian solmization (*Bo, ce, di, ga, lo, ma, ni*), Kepler demonstrates why six **true Just-Intonation tetrachord species** (`I–VI`) replace the classical three once the Syntonic distinction between Major Tone ($8:9$) and Minor Tone ($9:10$) is respected (`0145.g1.png`), and shows how overlapping tetrachord structures ground *fuga* and *fantasia* imitation.

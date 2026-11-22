@@ -12,9 +12,10 @@ Chapter XIII: Notes & Provenance
 Transcription & Provenance
 --------------------------
 
-* **Primary Witness**: Johannes Kepler, *Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596, Caput XIII, p. 44 ff. <kepler:1596:mc>`; *Editio altera cum notis authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 141–145 <frisch:1858:v1>`).
-* **Folio Scan**: Transcribed directly from 300-DPI scan ``mysterium_cosmographicum:0054`` (p. 44, featuring Kepler's in-text right-triangle sphere diagram ``O-H-I-G-L-M``).
-* **English Track**: Original GEOMETOR English translation.
+* **Primary Witness**: Johannes Kepler, *Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum* (:cite:`Tübingen, 1596, Caput XIII, pp. 44–47 <kepler:1596:mc>`; *Editio altera cum notis authoris*, :cite:`Frankfurt, 1621 <kepler:1621:mc2>`; :cite:`ed. Ch. Frisch, Vol. I, pp. 143–146 <frisch:1858:v1>`).
+* **Folio Scans**: Transcribed directly from 300-DPI scans ``mysterium_cosmographicum:0054`` (p. 44, right-triangle diagram ``O-H-I-G-L-M``), ``0055`` (p. 45), ``0056`` (p. 46), and ``0057`` (p. 47, Tetrahedron diagram ``N-G-O-I-H-M`` and 1000-part ratio table).
+* **English Track**: Fresh first-person translation directly from the 1596 Latin text.
+* **Key Figures**: On p. 47, Kepler adds the parenthetical note ``707. quadrato Octaedri inscripti circuli`` ($1000/\sqrt{2} \approx 707.11$), which becomes crucial in Chapter XV for Mercury's eccentric orb inscribed in the equatorial square of the Octahedron rather than its triangular face-insphere.
 
 Exact Algebraic Proof of Polar-Duality Sphere Equality
 ------------------------------------------------------

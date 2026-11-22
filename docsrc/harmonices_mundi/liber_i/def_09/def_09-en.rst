@@ -7,10 +7,12 @@
 .. _hm-liber-i-def_09-en:
 .. _hm-liber-i-def_09:
 
-Definition IX: Demonstration (Porima) vs. Description
-=====================================================
+Definition IX: Demonstration (Porima)
+=====================================
 
 .. folio:: harmonices_mundi:0025
    :page: p. 8
 
-**Demonstration** (Greek *Πόριμα*) is the deduction from the diameter, through possible intermediate steps, of a quantity either merely to be **described** or truly **known** (*scienda*). For a line may be geometrically fixed in position (*τακτὴ*) while remaining intellectually unknown in nature, or easily drawn yet utterly resistant to exact science—such as figures lying outside our definition of *scibile*.
+**Demonstration** is the deduction from the Diameter, through possible intermediate steps, of a quantity either to be described or to be known; in Greek it is called Πόριμα (*Porima*).
+
+Thus demonstration in general produces either description or knowledge. And Description indeed professes a bare quantity, whereas knowledge professes besides this both quality, or a determinate quantity. Yet a line may be geometrically determined—in Greek τακτὴ (*takte*)—while by an act of the mind it is not yet known of what kind it is. Conversely, some quality of one or more lines may be known which nevertheless does not yet determine or necessitate those lines themselves, if that quality is common to many other things differing in quantity. Also, the description of certain lines is easy, while their knowledge is most difficult. Finally, many things can be described by some Geometric act or other, which nevertheless cannot be known in their own nature—at least as we have defined the knowable above.

@@ -14,4 +14,6 @@ Axioma XXII — De Tribus Angulis Planis
 
 .. rst-class:: latin-source
 
-*Cum duo plani non sunt majores tertio, non formani cum illo angulum solidum.*
+**XXII. Axioma.**
+
+*Cum duo plani non sunt majores tertio, non formant cum illo angulum solidum.*

@@ -14,4 +14,8 @@ Propositio XXIV — Tres Anguli Trium Specierum Cum Una Imparilatera
 
 .. rst-class:: latin-source
 
+**XXIV. Propositio.**
+
 *Tres anguli plani, trium distinctarum specie figurarum, unius imparilaterae, coëuntes, non absolvunt figuram solidam perfectam.*
+
+Rursum enim per XVII, solidi fiunt diversiformes, quod est contra definitiones.

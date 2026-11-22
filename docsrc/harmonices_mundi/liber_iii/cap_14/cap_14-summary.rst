@@ -9,4 +9,4 @@
 Chapter XIV: Summary
 ====================
 
-Uses the cyclic $12\times 12$ permutation table (`0157.g1.png`) to enumerate which octave species admit valid triadic finals and authentic/plagal modal divisions.
+Kepler derives fourteen concinnous octave species from the 12x12 *Rete intervallorum* (``0157.g1.png``), expands them to 24 and 72 by harmonic means, and reconciles the eight ecclesiastical tones with exact intervals.

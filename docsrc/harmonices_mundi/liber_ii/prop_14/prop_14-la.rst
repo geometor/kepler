@@ -14,4 +14,8 @@ Propositio XIV — Angulorum Planorum Non Pauciores Quam Terni in Plano Congruun
 
 .. rst-class:: latin-source
 
-*Angulorum planorum non pauciores quam terni in plano congruunt.* Nam circa quodlibet concursus punctum est summa quatuor Rectorum angulorum; at nullius figurae angulus aequat summam duorum Rectorum: duo igitur non explent planitiem, per Def. I.
+**XIV. Propositio.**
+
+*Angulorum planorum non pauciores quàm terni in plano congruunt.*
+
+Nam circa quodlibet concursus punctum est summa quatuor Rectorum angulorum: at nullius figurae angulus aequat summam duorum Rectorum, igitur duo quanticunque anguli, sunt adhuc minores quatuor rectis: duo igitur non explent planitiem, per Def. I.

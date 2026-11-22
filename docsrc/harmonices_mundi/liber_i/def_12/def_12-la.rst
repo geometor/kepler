@@ -15,3 +15,5 @@ Definitio XII — Primus Scientiae Gradus
 .. rst-class:: latin-source
 
 *Gradus scientiae diversi sunt, alii remoti, alii propinqui. Primus & proximus gradus, cum lineam aliquam scio & demonstrare possum, esse diametro aequalem, aut planum, licet aliter formatum, quadrato diametri aequale.*
+
+*Hic mensura nota, perfecte, scilicet seipsa & uno actu, mensurat noscibile.*

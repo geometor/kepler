@@ -13,4 +13,4 @@ Definition XI: Improper Demonstration
 .. folio:: harmonices_mundi:0026
    :page: p. 9
 
-**Improper demonstration** occurs when the proportion of a side to the diameter cannot be determined geometrically from its own angle-number directly, except by bringing in the side of another figure whose number of sides is neither double nor half of the first.
+**Improper demonstration** occurs when the proportion of the side to the diameter cannot be determined Geometrically from the number of angles itself immediately applied, unless the side of another figure is employed whose number of sides is not double or half.
