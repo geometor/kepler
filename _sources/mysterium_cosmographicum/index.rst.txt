@@ -8,7 +8,8 @@
 :book_title: The Cosmographic Mystery
 :book_subtitle: Prodromus Dissertationum Cosmographicarum, continens Mysterium Cosmographicum (1596 / 1621) — Johannes Kepler
 :author: Johannes Kepler
-:year: 1596 / 1621
+:year: 1596
+:edition_year: 1621
 :tracks: English: index | Latin: title-la
 :excerpt: Kepler's groundbreaking cosmological treatise nesting the five regular Platonic solids between the six Copernican planetary orbs, proving insphere/circumsphere polar duality, and celebrating the Two Great Treasures of geometry.
 
