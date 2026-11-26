@@ -72,6 +72,10 @@ Pentagonus unus in ternorum planorum copulam assumi non potest, nam ejus angulus
       :alt: Congruentiae planae A–X (Lincii 1619, Lib. II, fol. 0076)
       :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0076): Tabulae A–X congruentiae planae.
 
+   .. picture:: 0076.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Congruentiae planae A–X (Lincii 1619, Lib. II, fol. 0076)
+      :caption: Vectorisatio calibrata (0076.g1.svg): Editio princeps (Lincii 1619, Lib. II, fol. 0076): Tabulae A–X congruentiae planae.
+
    .. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
       :alt: Quatuor Exemplaria Congruentiae Semiregularis in Plano ex Libro II
       :caption: Schema vectoriale: Congruentiae uniformes semiregulares (3.6.3.6, 4.8.8, 3.4.6.4, 3.3.3.3.6).

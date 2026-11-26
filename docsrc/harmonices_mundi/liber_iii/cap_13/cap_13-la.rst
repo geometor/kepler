@@ -26,9 +26,15 @@ Videtur omnino primus author hausisse melodiam hujusmodi inconditam ab instrumen
 
 Concinnus igitur & humanarum aurium judicio aptus cantus est, qui exorsus à certo quodam sono: ab eo per intervalla concinna tendit ad sonos consonos & primò illi, & plerumque etiam inter se mutuò; dissona cursim pervolitans intervalla, in consonis verò immorans, seu mensurâ temporis, Syllabarumque longitudine, seu crebro ad illos reditu, veluti duarum vocum inter se consonantiam affectans, unicae vocis traductione à loco uno Systematis ad alium. *Exemplum.*
 
-.. picture:: 0151.g1.png
-   :alt: Exemplum Victimae paschali laudes (Lincii 1619, Lib. III, p. 61)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 61, fol. 0151): Victimae paschali laudes.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0151.g1.png
+      :alt: Exemplum Victimae paschali laudes (Lincii 1619, Lib. III, p. 61)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 61, fol. 0151): Victimae paschali laudes.
+
+   .. picture:: 0151.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Exemplum Victimae paschali laudes (Lincii 1619, Lib. III, p. 61)
+      :caption: Vectorisatio calibrata (0151.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 61, fol. 0151): Victimae paschali laudes.
 
 Hic sonus initialis est in clavi *G*, cum quâ in cantu molli concordant *b. c. d. g.* Excurrit igitur Cantus (primùm flexu deorsum facto) ad clavem *c.* consonam, & transilit planè dissonum locum *A*; fuisset autem idem, si attigisset ipsum, sed brevi mora; tota verò series reliqua potissimùm in locis *b. d. g.* intonat, sceleton octavae tale exprimens, in *d.* creberrimè rediens, post in *b.* in superius vero *g.* se interdum efferens, in haec omnia loca signanter: non sic in *a.*, vel in *f*, loca primo dissona: tandemque redit ad *G.* ibique finit.
 

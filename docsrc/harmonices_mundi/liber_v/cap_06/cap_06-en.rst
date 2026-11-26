@@ -24,9 +24,15 @@ This follows from what has already been said, nor is there need of many words; f
 
 passing actually through all the intermediate pitches (infinite in potential): a thing which could not be expressed by me otherwise than through a continuous series of intermediate notes.
 
-.. picture:: 0299.g1.png
-   :alt: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius and Luna (Harmonices Mundi Book V, p. 207)
-   :caption: Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets plus the Moon ("Hic locum habet etiam ☽").
+.. container:: kepler-plate-pair
+
+   .. picture:: 0299.g1.png
+      :alt: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius and Luna (Harmonices Mundi Book V, p. 207)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets plus the Moon ("Hic locum habet etiam ☽").
+
+   .. picture:: 0299.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 music engraving of the six planetary melodies Saturnus, Iupiter, Mars, Tellus, Venus, Mercurius and Luna (Harmonices Mundi Book V, p. 207)
+      :caption: Calibrated vectorization (0299.g1.svg): Archival scan (Linz 1619, Lib. V, p. 207, fol. 0299): The engraved musical melodies of all six planets plus the Moon ("Hic locum habet etiam ☽").
 
 Venus remains almost in unison, not equaling by the amplitude of its tension even the least of the concinnous intervals.
 

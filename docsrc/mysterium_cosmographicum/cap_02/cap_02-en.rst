@@ -86,6 +86,10 @@ To this belongs the Third Plate.
       :alt: Archival 1597 folding copperplate Tabula III showing Kepler's five nested Platonic polyhedra between the six planetary orbs
       :caption: Tabula III archival copperplate (Tübingen 1597, ad p. 25, fol. 0034): Christoph Leibfried's original engraving.
 
+   .. picture:: 0034.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1597 folding copperplate Tabula III showing Kepler's five nested Platonic polyhedra between the six planetary orbs
+      :caption: Calibrated vectorization (0034.g1.svg): Tabula III archival copperplate (Tübingen 1597, ad p. 25, fol. 0034): Christoph Leibfried's original engraving.
+
    .. picture:: 0034.cad.png
       :alt: Photorealistic Blender 5.x 3D CAD reconstruction of Kepler's Tabula III matching the 1597 copperplate angle
       :caption: 3D CAD reconstruction (Exact Caput XIII ratios): Six cutaway planetary bowls, five mitered Platonic frames & carved 1597 pedestal.

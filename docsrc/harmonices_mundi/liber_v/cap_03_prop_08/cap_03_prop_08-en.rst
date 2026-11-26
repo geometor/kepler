@@ -33,6 +33,10 @@ and if you ask for the exact moments of time, it was conceived in my mind on the
       :alt: Archival 1619 copperplate showing the five regular solids inscribed in planetary spheres (Harmonices Mundi Book V, ad pag. 186)
       :caption: Archival scan (Linz 1619, Lib. V, ad pag. 186, fol. 0278): Polyhedral spheres and celestial solid intervals.
 
+   .. picture:: 0278.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate showing the five regular solids inscribed in planetary spheres (Harmonices Mundi Book V, ad pag. 186)
+      :caption: Calibrated vectorization (0278.g1.svg): Archival scan (Linz 1619, Lib. V, ad pag. 186, fol. 0278): Polyhedral spheres and celestial solid intervals.
+
    .. picture:: /_static/figures/fig09_kepler_triangle_and_third_law.svg
       :alt: Kepler's Harmonic Third Law orbital ellipse and focal sector geometry
       :caption: Calibrated schematic: Elliptical orbit around center :g:`C_orb`, focal sectors, and the sesquialterate harmonic law $T^2 = a^3$.

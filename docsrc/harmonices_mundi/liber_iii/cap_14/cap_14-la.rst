@@ -43,9 +43,15 @@ Hujus igitur diversitatis causâ, subjungendum hic ante omnia ex Capite XI. conc
 
 *Rete intervallorum in Systematibus, pro indagandis Tonorum diversis speciebus.* (Nota *S* esse Semitonium, *D.* Diesin, *L.* Limma.)
 
-.. picture:: 0157.g1.png
-   :alt: Rete intervallorum 12x12 (Lincii 1619, Lib. III, p. 67)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0157.g1.png
+      :alt: Rete intervallorum 12x12 (Lincii 1619, Lib. III, p. 67)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus.
+
+   .. picture:: 0157.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Rete intervallorum 12x12 (Lincii 1619, Lib. III, p. 67)
+      :caption: Vectorisatio calibrata (0157.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus.
 
 .. folio:: harmonices_mundi:0158
    :page: p. 68

@@ -61,6 +61,12 @@ A triple hexagon fills a plane place, and therefore cannot be mingled with two f
 .. folio:: harmonices_mundi:0079
    :page: Tabula Cc–Pp
 
-.. picture:: 0079.g1.png
-   :alt: Archival 1619 plate of extended semi-regular planar tilings and non-extendable vertex clusters (Harmonices Mundi Book II, fol. 0079)
-   :caption: Archival scan (Linz 1619, Lib. II, fol. 0079): Extended semi-regular planar congruences and vertex obstructions (Cc–Pp).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0079.g1.png
+      :alt: Archival 1619 plate of extended semi-regular planar tilings and non-extendable vertex clusters (Harmonices Mundi Book II, fol. 0079)
+      :caption: Archival scan (Linz 1619, Lib. II, fol. 0079): Extended semi-regular planar congruences and vertex obstructions (Cc–Pp).
+
+   .. picture:: 0079.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 plate of extended semi-regular planar tilings and non-extendable vertex clusters (Harmonices Mundi Book II, fol. 0079)
+      :caption: Calibrated vectorization (0079.g1.svg): Archival scan (Linz 1619, Lib. II, fol. 0079): Extended semi-regular planar congruences and vertex obstructions (Cc–Pp).

@@ -141,9 +141,15 @@ Whereas before fe [f♯] was marked and A omitted, now A is marked and fe [f♯]
 Thus in the heaven, in a twofold way and as it were in two kinds of song, there is expressed a Musical scale, or system of one Octave, with all the places through which natural song is carried in Music.
 The only difference is in this: that in our Harmonic divisions, indeed, both ways begin conjointly from one and the same term G; whereas here in the motions of the planets, what was formerly ♮ now in the Soft kind becomes G.
 
-.. picture:: 0297.g1.png
-   :alt: Archival 1619 musical staff and harmonic scale diagrams for the planets (Harmonices Mundi Book V, p. 205)
-   :caption: Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the cantus durus and cantus mollis modes with string lengths 2160–864.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0297.g1.png
+      :alt: Archival 1619 musical staff and harmonic scale diagrams for the planets (Harmonices Mundi Book V, p. 205)
+      :caption: Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the cantus durus and cantus mollis modes with string lengths 2160–864.
+
+   .. picture:: 0297.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 musical staff and harmonic scale diagrams for the planets (Harmonices Mundi Book V, p. 205)
+      :caption: Calibrated vectorization (0297.g1.svg): Archival scan (Linz 1619, Lib. V, p. 205, fol. 0297): Planetary harmonic scales in the cantus durus and cantus mollis modes with string lengths 2160–864.
 
 For just as in Music 2160 stands to 1800, or 6 to 5, so in that system which the heaven expresses, 1728 stands to 1440, namely also as 6 to 5; and so of most of the rest:
 | 2160 to 1800, 1620, 1440, 1350, 1080.

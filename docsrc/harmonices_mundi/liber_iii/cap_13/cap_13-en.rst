@@ -25,9 +25,15 @@ It seems clear that its first author drew such an uncouth melody from an imprope
 
 Concinnous song, therefore, and apt to the judgment of human ears, is that which, beginning from a certain sound, tends from it through concinnous intervals to sounds consonant both first with it and for the most part also mutually among themselves—skimming swiftly over dissonant intervals, but lingering on consonant ones, whether by measure of time and length of syllables, or by frequent return to them, as if striving after a consonance of two voices between themselves by the leading of a single voice from one place of the System to another. *Example.*
 
-.. picture:: 0151.g1.png
-   :alt: Archival 1619 musical engraving of the Easter sequence Victimae paschali laudes (Harmonices Mundi Book III, p. 61)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 61, fol. 0151): Exemplum of naturally concinnous melody — 'Victimae paschali laudes'.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0151.g1.png
+      :alt: Archival 1619 musical engraving of the Easter sequence Victimae paschali laudes (Harmonices Mundi Book III, p. 61)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 61, fol. 0151): Exemplum of naturally concinnous melody — 'Victimae paschali laudes'.
+
+   .. picture:: 0151.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 musical engraving of the Easter sequence Victimae paschali laudes (Harmonices Mundi Book III, p. 61)
+      :caption: Calibrated vectorization (0151.g1.svg): Archival scan (Linz 1619, Lib. III, p. 61, fol. 0151): Exemplum of naturally concinnous melody — 'Victimae paschali laudes'.
 
 Here the initial sound is on the key *G*, with which in soft song *b, c, d, g* concord. Therefore the song runs out (first having made a downward turn) to the consonant key *c*, and leaps cleanly over the dissonant place *A*—though it would have been the same if it had touched it, but with a brief stay; while the whole remaining series intones chiefly on the places *b, d, g*, expressing such a skeleton of the octave, returning most frequently to *d*, afterward to *b*, and occasionally rising above to *g*, to all these places markedly: not so to *a* or to *f*, places dissonant with the first; and at length it returns to *G* and ends there.
 

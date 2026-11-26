@@ -72,6 +72,10 @@ A single pentagon cannot be taken into a junction of three planes, for its angle
       :alt: Archival 1619 copperplate of planar polygon congruences Plates A–X (Harmonices Mundi Book II)
       :caption: Archival scan (Linz 1619, Lib. II, fol. 0076): Regular and semi-regular planar tilings (Plates A–X).
 
+   .. picture:: 0076.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate of planar polygon congruences Plates A–X (Harmonices Mundi Book II)
+      :caption: Calibrated vectorization (0076.g1.svg): Archival scan (Linz 1619, Lib. II, fol. 0076): Regular and semi-regular planar tilings (Plates A–X).
+
    .. picture:: /_static/figures/fig07_archimedean_planar_tilings.svg
       :alt: Four Representative Uniform Archimedean Planar Congruences in Harmonices Mundi Book II
       :caption: Calibrated vectorization: Uniform Archimedean planar congruences (3.6.3.6, 4.8.8, 3.4.6.4, 3.3.3.3.6).

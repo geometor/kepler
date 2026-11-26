@@ -30,9 +30,15 @@ But the chief necessity of this cutting off lies in the highest interval, which 
 
 Thus there arise in one octave altogether thirteen strings, in these least numbers or terms, between which I have set all the smallest intervals according to their natural order in a full and perfect organ system.
 
-.. picture:: 0137.g1.png
-   :alt: Archival 1619 13-string monochord table 1080–2160 with Semitonium, Limma, and Diesis steps and staff notation (Harmonices Mundi Book III, p. 47)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 47, fol. 0137): Thirteen-pitch Just-Intonation octave scale (1080–2160) showing Semitonium, Limma, and Diesis intervals.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0137.g1.png
+      :alt: Archival 1619 13-string monochord table 1080–2160 with Semitonium, Limma, and Diesis steps and staff notation (Harmonices Mundi Book III, p. 47)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 47, fol. 0137): Thirteen-pitch Just-Intonation octave scale (1080–2160) showing Semitonium, Limma, and Diesis intervals.
+
+   .. picture:: 0137.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 13-string monochord table 1080–2160 with Semitonium, Limma, and Diesis steps and staff notation (Harmonices Mundi Book III, p. 47)
+      :caption: Calibrated vectorization (0137.g1.svg): Archival scan (Linz 1619, Lib. III, p. 47, fol. 0137): Thirteen-pitch Just-Intonation octave scale (1080–2160) showing Semitonium, Limma, and Diesis intervals.
 
 .. folio:: harmonices_mundi:0138
    :page: p. 48

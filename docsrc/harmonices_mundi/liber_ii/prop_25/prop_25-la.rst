@@ -71,6 +71,14 @@ Haec distributio numeris explorari potest, necessitatem infert, corporum numerum
       :alt: Quinque Corpora Regularia cum elementis (Lincii 1619, Lib. II, fol. 0081)
       :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Quinque corpora regularia (Tabulae Oo–Rr).
 
+   .. picture:: 0081.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Quinque Corpora Regularia cum elementis (Lincii 1619, Lib. II, fol. 0081)
+      :caption: Vectorisatio calibrata (0081.g1.svg): Editio princeps (Lincii 1619, Lib. II, fol. 0081): Quinque corpora regularia (Tabulae Oo–Rr).
+
    .. picture:: 0074.g1.png
       :alt: Diagrammata congruentiae angulorum solidorum (Lincii 1619, Lib. II, p. 58)
       :caption: Editio princeps (Lincii 1619, Lib. II, p. 58, fol. 0074): Congruentiae solidorum angulorum.
+
+   .. picture:: 0074.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Diagrammata congruentiae angulorum solidorum (Lincii 1619, Lib. II, p. 58)
+      :caption: Vectorisatio calibrata (0074.g1.svg): Editio princeps (Lincii 1619, Lib. II, p. 58, fol. 0074): Congruentiae solidorum angulorum.

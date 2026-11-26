@@ -139,9 +139,15 @@ Erat autem prius fe signata, A omissa: jam A signatur, fe omittitur; nam section
 
 Est igitur in coelo duplici via, & in duobus quasi generibus cantus, expressa scala Musica, seu systema unius Octavae, cum locis omnibus, per quae in Musica traducitur cantus naturalis. Sola in hoc est differentia, quod in sectionibus quidem nostris Harmonicis, utraque via conjunctim incipit ab uno & eodem termino G; hic vero in motibus planetarum, qui prius erat ♮, jam in Molli genere fit G.
 
-.. picture:: 0297.g1.png
-   :alt: Scalae harmonicae planetarum in cantu duro et molli (Lincii 1619, Lib. V, p. 205)
-   :caption: Editio princeps (Lincii 1619, Lib. V, p. 205, fol. 0297): Scalae harmonicae in cantu duro et molli.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0297.g1.png
+      :alt: Scalae harmonicae planetarum in cantu duro et molli (Lincii 1619, Lib. V, p. 205)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 205, fol. 0297): Scalae harmonicae in cantu duro et molli.
+
+   .. picture:: 0297.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Scalae harmonicae planetarum in cantu duro et molli (Lincii 1619, Lib. V, p. 205)
+      :caption: Vectorisatio calibrata (0297.g1.svg): Editio princeps (Lincii 1619, Lib. V, p. 205, fol. 0297): Scalae harmonicae in cantu duro et molli.
 
 Nam sicut in Musica se habet 2160 ad 1800. vel 6 ad 5. sic in illo systemate, quod coelum exprimit, se habent 1728 ad 1440, scilicet etiam ut 6 ad 5. & sic de caeteris plerisque
 | 2160 ad 1800. 1620. 1440. 1350. 1080.

@@ -19,9 +19,15 @@ Chapter X: Tetrachords and the Six Solmization Syllables (Ut, Re, Mi, Fa, Sol, L
 
 It was customary among the ancients to divide the System of the octave into two tetrachords, and that in different ways according to the different purpose of musicians. For either they were conjunct, called *Synemmena*, with one intermediate sound established which made a fourth both with the lowest below and with the highest above—so that the extremes made a dissonant interval, a seventh [*Dihepta*], and above it one tone was understood to be added: for as often as the order required striking the octave *a*, they struck the first *A*, as if sounding an identical pitch from the opposite side, an antiphon [*ἀντίφωνον*]. In this way there were not truly two tetrachords, but two intervals of a fourth and one heptachord. Or the tetrachords were disjunct by the interval of one major tone, called *Diezeugmena*, which the very nature of things persuades even in our division of the System, in which the lower tetrachord has *G, A, ♮, c*, and the upper *d, e, fe, g*, where a major tone intervenes between *c* and *d*. Perhaps even by their very position the four lowest strings were separated from the four upper ones, a greater gap being left between the two boundary strings.
 
-.. picture:: 0145.g1.png
-   :alt: Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena (conjunct) and Tetrachorda Diezeugmena (disjunct).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0145.g1.png
+      :alt: Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena (conjunct) and Tetrachorda Diezeugmena (disjunct).
+
+   .. picture:: 0145.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)
+      :caption: Calibrated vectorization (0145.g1.svg): Archival scan (Linz 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena (conjunct) and Tetrachorda Diezeugmena (disjunct).
 
 The reason that led them to think about the System of the tetrachord was this: they saw that in one consonance of a fourth there are two and a half tones; and we have a major tone, a minor tone, and a semitone in the perfect fourth—in the minor consonance, namely (for $4:5$ and $5:5$ [i.e., thirds] were not even held to be consonances)—all concinnous elements; and the semitone indeed either in the lowest place, or in the middle, or in the highest. Every song, therefore, seemed to them to be comprehended by three forms of tetrachords.
 

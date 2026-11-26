@@ -34,6 +34,10 @@ eaque si temporis articulos petis, 8. Mart. hujus anni millesimi sexcentesimi de
       :alt: Tabula quinque corporum et orbium coelestium (Lincii 1619, Lib. V, ad pag. 186)
       :caption: Editio princeps (Lincii 1619, Lib. V, ad pag. 186, fol. 0278): Quinque corpora inter orbes.
 
+   .. picture:: 0278.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabula quinque corporum et orbium coelestium (Lincii 1619, Lib. V, ad pag. 186)
+      :caption: Vectorisatio calibrata (0278.g1.svg): Editio princeps (Lincii 1619, Lib. V, ad pag. 186, fol. 0278): Quinque corpora inter orbes.
+
    .. picture:: /_static/figures/fig09_kepler_triangle_and_third_law.svg
       :alt: Schema ellipseos focalis et Legis Tertiae Kepleri
       :caption: Schema vectoriale: Ellipsis focalis (:g:`C_orb`) et proportio sesquialtera $T^2 = a^3$.

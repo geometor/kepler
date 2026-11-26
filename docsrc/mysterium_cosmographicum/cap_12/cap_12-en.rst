@@ -29,10 +29,15 @@ Let there be proposed some string, and its sound *Gamma ut*. Then as many notes 
 .. folio:: mysterium_cosmographicum:0050
    :page: p. 40
 
-.. picture:: 0050.g1.png
-   :class: archival-plate
-   :alt: Archival 1596 musical monochord and zodiacal aspect diagram (p. 40)
-   :caption: Archival scan (Tübingen 1596, p. 40, fol. 0050): Musical consonances and string-division ratios.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0050.g1.png
+      :alt: Archival 1596 musical monochord and zodiacal aspect diagram (p. 40)
+      :caption: Archival scan (Tübingen 1596, p. 40, fol. 0050): Musical consonances and string-division ratios.
+
+   .. picture:: 0050.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1596 musical monochord and zodiacal aspect diagram (p. 40)
+      :caption: Calibrated vectorization (0050.g1.svg): Archival scan (Tübingen 1596, p. 40, fol. 0050): Musical consonances and string-division ratios.
 
 .. raw:: html
 

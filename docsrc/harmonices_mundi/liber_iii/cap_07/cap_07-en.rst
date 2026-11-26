@@ -63,9 +63,15 @@ Therefore the eight strings are set forth by these numbers, reduced to the same 
 
 **In hard song.**
 
-.. picture:: 0136.g1.png
-   :alt: Archival 1619 table In cantu duro showing pitches I–VIII, staff notation, string lengths 360–720, and upper/lower fourths (Harmonices Mundi Book III, p. 46)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 46, fol. 0136): Complete Just-Intonation scale table 'In cantu duro' (strings 360–720).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0136.g1.png
+      :alt: Archival 1619 table In cantu duro showing pitches I–VIII, staff notation, string lengths 360–720, and upper/lower fourths (Harmonices Mundi Book III, p. 46)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 46, fol. 0136): Complete Just-Intonation scale table 'In cantu duro' (strings 360–720).
+
+   .. picture:: 0136.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 table In cantu duro showing pitches I–VIII, staff notation, string lengths 360–720, and upper/lower fourths (Harmonices Mundi Book III, p. 46)
+      :caption: Calibrated vectorization (0136.g1.svg): Archival scan (Linz 1619, Lib. III, p. 46, fol. 0136): Complete Just-Intonation scale table 'In cantu duro' (strings 360–720).
 
 You see expressed in least numbers not only the proportions of all eight lengths, but also of the four highest and the four lowest in smaller numbers; and especially of the three highest and the three lowest, concerning whose middle ones and their numbers a controversy stands between me and the authorities in this chapter. For VII in both genera of song is 405, and II in both is 640.
 

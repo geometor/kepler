@@ -59,10 +59,15 @@ For no certain quantity of $EF$ or $IF$ follows, because that which we think we 
    or              64  40  15  9
    =============== === === === ===
 
-.. picture:: 0052.g1.png
-   :class: archival-plate
-   :alt: Archival 1619 woodcut of regular non-constructible polygons and stars (Harmonices Mundi I.45–46, p. 34)
-   :caption: Archival scan (Linz 1619, Lib. I, p. 34, fol. 0052): Inscribed polygons and non-constructible star chords.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0052.g1.png
+      :alt: Archival 1619 woodcut of regular non-constructible polygons and stars (Harmonices Mundi I.45–46, p. 34)
+      :caption: Archival scan (Linz 1619, Lib. I, p. 34, fol. 0052): Inscribed polygons and non-constructible star chords.
+
+   .. picture:: 0052.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 woodcut of regular non-constructible polygons and stars (Harmonices Mundi I.45–46, p. 34)
+      :caption: Calibrated vectorization (0052.g1.svg): Archival scan (Linz 1619, Lib. I, p. 34, fol. 0052): Inscribed polygons and non-constructible star chords.
 
 .. folio:: harmonices_mundi:0052
    :page: p. 34

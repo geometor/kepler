@@ -33,6 +33,14 @@ Non esse verò plures perfectas Rhomborum congruentias, sic probatur. Sunt enim 
       :alt: Tabulae Vv et Xx: Dodecaedron Rhombicum et Triacontaedron (Lincii 1619, Lib. II, fol. 0081)
       :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Tabulae Vv et Xx corporum rhombicorum.
 
+   .. picture:: 0081.g3.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabulae Vv et Xx: Dodecaedron Rhombicum et Triacontaedron (Lincii 1619, Lib. II, fol. 0081)
+      :caption: Vectorisatio calibrata (0081.g3.svg): Editio princeps (Lincii 1619, Lib. II, fol. 0081): Tabulae Vv et Xx corporum rhombicorum.
+
    .. picture:: 0085.g1.png
       :alt: Diagramma congruentiae rhombicae (Lincii 1619, Lib. II, p. 61)
       :caption: Editio princeps (Lincii 1619, Lib. II, p. 61, fol. 0085): Demonstratio congruentiae rhombicae.
+
+   .. picture:: 0085.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Diagramma congruentiae rhombicae (Lincii 1619, Lib. II, p. 61)
+      :caption: Vectorisatio calibrata (0085.g1.svg): Editio princeps (Lincii 1619, Lib. II, p. 61, fol. 0085): Demonstratio congruentiae rhombicae.

@@ -39,6 +39,10 @@ ad sensum variandas motiunculas, in longum, in latum, totum hoc spacium duplo cr
       :alt: Tabella IIII (Tubingae 1596, p. 49, fol. 0059): Crassitudines orbium planetarum
       :caption: Tabella IIII (Tubingae 1596, ad cap. 14, p. 49, fol. 0059): Ostendens veram amplitudinem orbium coelestium, et interstitiorum, secundum numeros & sententiam Copernici.
 
+   .. picture:: 0059.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabella IIII (Tubingae 1596, p. 49, fol. 0059): Crassitudines orbium planetarum
+      :caption: Vectorisatio calibrata (0059.g1.svg): Tabella IIII (Tubingae 1596, ad cap. 14, p. 49, fol. 0059): Ostendens veram amplitudinem orbium coelestium, et interstitiorum, secundum numeros & sententiam Copernici.
+
    .. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
       :alt: Ordo Sex Orbium Coelestium et Quinque Corporum Regularium
       :caption: Schema vectoriale: Ordo concentricus sex orbium et quinque corporum regularium.

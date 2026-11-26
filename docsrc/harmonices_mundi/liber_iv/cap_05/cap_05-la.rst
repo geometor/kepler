@@ -64,9 +64,15 @@ Angulus figurae vel stellae scibilis & congruae, est modulus anguli Configuratio
 
 *consequuntur, ad oculum patet.*
 
-.. picture:: 0225.g1.png
-   :alt: Figura I et II Oppositionis & Quadrati (Lincii 1619, Lib. IV, p. 135)
-   :caption: Editio princeps (Lincii 1619, Lib. IV, p. 135, fol. 0225): Figurae I & II.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0225.g1.png
+      :alt: Figura I et II Oppositionis & Quadrati (Lincii 1619, Lib. IV, p. 135)
+      :caption: Editio princeps (Lincii 1619, Lib. IV, p. 135, fol. 0225): Figurae I & II.
+
+   .. picture:: 0225.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Figura I et II Oppositionis & Quadrati (Lincii 1619, Lib. IV, p. 135)
+      :caption: Vectorisatio calibrata (0225.g1.svg): Editio princeps (Lincii 1619, Lib. IV, p. 135, fol. 0225): Figurae I & II.
 
 *[In margine: Figura I.]* *Bina namque Schemata sunt ἀντιπεπονθότα, primum diameter sibi ipsi, seu bisecet circulum, ducta per centrum, seu tangat, cum duo radii pro angulo duos rectos seu potius angulum nullum faciunt, in lineam unam rectam ordinati. Idem cogitandum de Conjunctione ☌ vel ☍. Planetarum, quae improprie configuratio dicitur.*
 *Nam si duo Planetae fuerint sub eodem puncto Zodiaci; tunc in centro angulus nullus est, in circumferentia infiniti, & latera figurae sunt puncta: circulus scilicet est veluti Figura Infinitangula. Haec configuratio non habuit opus repraesentatione oculari.*
@@ -370,9 +376,15 @@ Quintus, ultimus & imbecillissimus aspectuum Gradus est Decilis & Tridecilis, Oc
 .. folio:: harmonices_mundi:0239
    :page: p. 149
 
-.. picture:: 0239.g1.png
-   :alt: Figurae Congruentiae Pentagoni, Decagoni & Octogoni (Lincii 1619, Lib. IV, p. 149)
-   :caption: Editio princeps (Lincii 1619, Lib. IV, p. 149, fol. 0239): Congruentiae stellarum.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0239.g1.png
+      :alt: Figurae Congruentiae Pentagoni, Decagoni & Octogoni (Lincii 1619, Lib. IV, p. 149)
+      :caption: Editio princeps (Lincii 1619, Lib. IV, p. 149, fol. 0239): Congruentiae stellarum.
+
+   .. picture:: 0239.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Figurae Congruentiae Pentagoni, Decagoni & Octogoni (Lincii 1619, Lib. IV, p. 149)
+      :caption: Vectorisatio calibrata (0239.g1.svg): Editio princeps (Lincii 1619, Lib. IV, p. 149, fol. 0239): Congruentiae stellarum.
 
 *tiae alienae, illamque, quo minus continuari possit,*
 *ipse Decagonus impedit: Stella ejus etiam hiulcam in mediis interceptis spaciis facit congruentiam. Octogonus vero & stella ejus, alternis juvant continuationem congruentiae, admixtis Quadratis; Congruentia fit diversiformis. Ita pene pares sunt hae quatuor in congruentia plana; praesertim cum areas utraeque figurae habeant ineffabiles.*

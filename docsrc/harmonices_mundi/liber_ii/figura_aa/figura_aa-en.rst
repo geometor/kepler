@@ -37,6 +37,10 @@ places are occupied by single couples of two decagons joined together, which a s
       :alt: Archival 1619 copperplate Plates Y, Z, and Aa showing Kepler's fivefold pentagonal and decagonal star congruence
       :caption: Archival scan (Linz 1619, Lib. II, fol. 0078): Plates Y, Z, and Aa pentagonal-decagonal congruence.
 
+   .. picture:: 0078.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate Plates Y, Z, and Aa showing Kepler's fivefold pentagonal and decagonal star congruence
+      :caption: Calibrated vectorization (0078.g1.svg): Archival scan (Linz 1619, Lib. II, fol. 0078): Plates Y, Z, and Aa pentagonal-decagonal congruence.
+
    .. picture:: /_static/figures/fig08_kepler_pentagram_monster_aa.svg
       :alt: Kepler's Figure Aa Pentagonal-Decagonal Star Congruence and Golden Rhombic Triacontahedron
       :caption: Calibrated vectorization: Figure Aa central decagon, pentagonal flowers, and five-pointed stars.

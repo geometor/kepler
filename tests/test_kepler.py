@@ -265,7 +265,7 @@ def test_archival_bitmaps_vectorizations_and_3d_studios() -> None:
     svg_plates = sorted(docsrc_dir.rglob("*.g*.svg"))
 
     assert len(png_plates) == 43, f"Expected 43 extracted archival bitmap plates, found {len(png_plates)}"
-    assert len(svg_plates) == 14, f"Expected 14 calibrated folio SVG vectorizations, found {len(svg_plates)}"
+    assert len(svg_plates) == 43, f"Expected 43 calibrated folio SVG vectorizations, found {len(svg_plates)}"
 
     for png_path in png_plates:
         header = png_path.read_bytes()[:8]

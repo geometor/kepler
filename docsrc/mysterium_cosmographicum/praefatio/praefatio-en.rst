@@ -38,6 +38,10 @@ Almost an entire summer was spent in this arduous toil. At last, upon a quite sl
       :alt: Archival 1596 woodcut of Kepler's Graz Great-Conjunction equilateral triangle diagram (p. 9)
       :caption: Archival scan (Tübingen 1596, p. 9, fol. 0016): The July 19, 1595 Graz Great-Conjunction diagram.
 
+   .. picture:: 0016.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1596 woodcut of Kepler's Graz Great-Conjunction equilateral triangle diagram (p. 9)
+      :caption: Calibrated vectorization (0016.g1.svg): Archival scan (Tübingen 1596, p. 9, fol. 0016): The July 19, 1595 Graz Great-Conjunction diagram.
+
    .. picture:: /_static/figures/fig01_graz_triangle_conjunction.svg
       :alt: Kepler's July 19, 1595 Graz Great-Conjunction Equilateral Triangle Diagram
       :caption: Calibrated vectorization: Equilateral triangle ABC enveloping Jupiter's circle (OM : OA = 1 : 2).
