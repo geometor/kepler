@@ -22,9 +22,15 @@ those divisions by Axiom IV produce one genus of song, and this produces the oth
 
 Hence therefore are born two Genera of divisions, of which the one has these divisions:
 
-.. picture:: 0133.g1.png
-   :alt: Archival 1619 diagram of Genus Molle and Genus Durum sections, musical staves, and harmonic means (Harmonices Mundi Book III, p. 43)
-   :caption: Archival scan (Linz 1619, Book III, p. 43, fol. 0133): Comparative division of Genus Molle (12–24) and Genus Durum (30–60) with musical Medietates in Notis.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0133.g1.png
+      :alt: Archival 1619 diagram of Genus Molle and Genus Durum sections, musical staves, and harmonic means (Harmonices Mundi Book III, p. 43)
+      :caption: Archival scan (Linz 1619, Book III, p. 43, fol. 0133): Comparative division of Genus Molle (12–24) and Genus Durum (30–60) with musical Medietates in Notis.
+
+   .. picture:: 0133.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 diagram of Genus Molle and Genus Durum sections, musical staves, and harmonic means (Harmonices Mundi Book III, p. 43)
+      :caption: Calibrated vectorization (0133.g1.svg): Archival scan (Linz 1619, Book III, p. 43, fol. 0133): Comparative division of Genus Molle (12–24) and Genus Durum (30–60) with musical Medietates in Notis.
 
 **Soft Genus** (*Genus molle*).
 

@@ -62,10 +62,15 @@ Propositio XLV — De Septangulo aliisque Figuris Inscibilibus
    vel               64  40  15  9
    ================= === === === ===
 
-.. picture:: 0052.g1.png
-   :class: archival-plate
-   :alt: Figurae regulares inscibiles et stellae (Lincii 1619, Lib. I, p. 34)
-   :caption: Editio princeps (Lincii 1619, Lib. I, p. 34, fol. 0052): Polygona inscibilia et stellae.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0052.g1.png
+      :alt: Figurae regulares inscibiles et stellae (Lincii 1619, Lib. I, p. 34)
+      :caption: Editio princeps (Lincii 1619, Lib. I, p. 34, fol. 0052): Polygona inscibilia et stellae.
+
+   .. picture:: 0052.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Figurae regulares inscibiles et stellae (Lincii 1619, Lib. I, p. 34)
+      :caption: Vectorisatio calibrata (0052.g1.svg): Editio princeps (Lincii 1619, Lib. I, p. 34, fol. 0052): Polygona inscibilia et stellae.
 
 .. folio:: harmonices_mundi:0052
    :page: p. 34

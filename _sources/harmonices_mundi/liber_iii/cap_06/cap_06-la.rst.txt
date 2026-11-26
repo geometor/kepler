@@ -22,9 +22,15 @@ De figurarum generibus dictum est lib. primo, Prop. XLIX. quas cum etiam chordae
 
 Hinc ergo nascuntur duo sectionum Genera, unum quidem habet sectiones has:
 
-.. picture:: 0133.g1.png
-   :alt: Genus Molle et Genus Durum in notis (Lincii 1619, Lib. III, p. 43)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 43, fol. 0133): Divisiones Generis Mollis & Duri.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0133.g1.png
+      :alt: Genus Molle et Genus Durum in notis (Lincii 1619, Lib. III, p. 43)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 43, fol. 0133): Divisiones Generis Mollis & Duri.
+
+   .. picture:: 0133.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Genus Molle et Genus Durum in notis (Lincii 1619, Lib. III, p. 43)
+      :caption: Vectorisatio calibrata (0133.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 43, fol. 0133): Divisiones Generis Mollis & Duri.
 
 **Genus molle.**
 

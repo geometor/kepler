@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1300" width="768" height="1300" class="euclid-graphic" data-graphic-id="0086.g1" data-folio="0086" data-graphic="g1" role="img" aria-label="Harmonices Mundi II.28 Archimedean Solids 8 to 13">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <path class="geom-line" d="M 567.00 1206.00 L 570.00 1201.00 L 573.00 1196.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 167.00 126.00 L 175.00 123.00 L 183.00 120.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 459.00 126.00 L 458.50 93.00 L 458.00 60.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 537.00 895.00 L 549.00 896.00 L 561.00 897.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 539.00 941.00 L 539.00 951.50 L 539.00 962.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 491.00 496.00 L 491.00 505.50 L 491.00 515.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 482.00 918.00 L 489.00 915.00 L 496.00 912.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 478.00 746.00 L 474.50 752.00 L 471.00 758.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 99.00 726.00 L 98.50 713.50 L 98.00 701.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 283.00 118.00 L 294.50 114.50 L 306.00 111.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 620.00 642.00 L 623.50 634.50 L 627.00 627.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 448.00 535.00 L 463.50 537.00 L 479.00 539.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 418.00 1177.00 L 415.00 1183.50 L 412.00 1190.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 295.00 187.00 L 282.50 190.50 L 270.00 194.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 38.00 665.00 L 38.50 658.50 L 39.00 652.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 213.00 615.00 L 205.00 615.50 L 197.00 616.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 706.00 1166.00 L 704.00 1174.00 L 702.00 1182.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 39.00 1080.00 L 38.50 1087.00 L 38.00 1094.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 619.00 608.00 L 624.00 597.50 L 629.00 587.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 646.00 257.00 L 651.00 258.00 L 656.00 259.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 603.00 105.00 L 606.00 112.00 L 609.00 119.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 466.00 931.00 L 493.00 932.00 L 520.00 933.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 520.00 933.00 L 528.00 934.00 L 536.00 935.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 219.00 113.00 L 228.00 110.00 L 237.00 107.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 501.00 334.00 L 504.00 327.50 L 507.00 321.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 361.00 1054.00 L 360.50 1066.00 L 360.00 1078.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 541.00 998.00 L 540.00 981.00 L 539.00 964.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 261.00 636.00 L 270.50 619.00 L 280.00 602.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 533.00 1271.00 L 527.00 1268.50 L 521.00 1266.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 209.00 1011.00 L 219.00 1007.00 L 229.00 1003.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 297.00 211.00 L 308.50 208.50 L 320.00 206.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 297.00 158.00 L 290.00 160.50 L 283.00 163.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 279.00 601.00 L 270.50 602.00 L 262.00 603.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 100.00 612.00 L 106.00 604.50 L 112.00 597.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 471.00 905.00 L 491.00 901.50 L 511.00 898.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 75.00 100.00 L 76.00 91.00 L 77.00 82.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 20.00 578.00 L 19.00 637.00 L 18.00 696.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 460.00 984.00 L 460.50 992.50 L 461.00 1001.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 564.00 128.00 L 556.50 126.00 L 549.00 124.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 488.00 1235.00 L 484.50 1241.00 L 481.00 1247.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 149.00 964.00 L 143.00 966.50 L 137.00 969.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 500.00 790.00 L 503.50 784.00 L 507.00 778.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 664.00 790.00 L 658.00 792.50 L 652.00 795.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 315.00 128.00 L 305.00 130.50 L 295.00 133.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 310.00 1073.00 L 303.50 1076.50 L 297.00 1080.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 463.00 1018.00 L 462.50 1010.50 L 462.00 1003.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 97.00 644.00 L 97.50 671.50 L 98.00 699.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 56.00 188.00 L 53.00 205.50 L 50.00 223.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 155.00 1104.00 L 169.50 1108.50 L 184.00 1113.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 596.00 451.00 L 562.50 452.00 L 529.00 453.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 644.00 1057.00 L 647.50 1051.00 L 651.00 1045.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 492.00 1120.00 L 489.50 1113.00 L 487.00 1106.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 366.00 1142.00 L 364.50 1132.00 L 363.00 1122.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 518.00 544.00 L 519.50 561.00 L 521.00 578.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 94.00 541.00 L 92.50 548.50 L 91.00 556.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 517.00 994.00 L 508.00 993.00 L 499.00 992.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 462.00 750.00 L 458.00 757.00 L 454.00 764.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 629.00 997.00 L 632.50 991.00 L 636.00 985.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 608.00 1116.00 L 612.00 1110.00 L 616.00 1104.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 578.00 742.00 L 582.00 734.00 L 586.00 726.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 620.00 191.00 L 621.00 184.50 L 622.00 178.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 107.00 543.00 L 105.50 551.50 L 104.00 560.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 609.00 83.00 L 614.00 78.00 L 619.00 73.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 125.00 480.00 L 149.50 472.50 L 174.00 465.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 471.00 1064.00 L 467.50 1042.00 L 464.00 1020.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 99.00 1085.00 L 91.50 1082.50 L 84.00 1080.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 646.00 640.00 L 642.00 647.50 L 638.00 655.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 620.00 171.00 L 620.00 164.00 L 620.00 157.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 282.00 123.00 L 289.00 121.50 L 296.00 120.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 626.00 551.00 L 629.00 546.00 L 632.00 541.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 561.00 774.00 L 564.00 768.00 L 567.00 762.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 135.00 1205.00 L 129.50 1208.00 L 124.00 1211.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 716.00 204.00 L 715.50 214.00 L 715.00 224.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 294.00 166.00 L 287.00 168.50 L 280.00 171.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 558.00 25.00 L 571.50 28.50 L 585.00 32.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 411.00 1048.00 L 413.00 1071.00 L 415.00 1094.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 105.00 1233.00 L 114.50 1233.50 L 124.00 1234.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 151.00 616.00 L 165.00 616.00 L 179.00 616.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 595.00 1141.00 L 597.00 1134.50 L 599.00 1128.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 601.00 1015.00 L 596.50 1023.00 L 592.00 1031.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 21.00 576.00 L 25.00 570.00 L 29.00 564.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 174.00 952.00 L 167.50 955.50 L 161.00 959.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 469.00 124.00 L 501.00 120.50 L 533.00 117.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 618.00 1052.00 L 619.50 1043.50 L 621.00 1035.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 299.00 144.00 L 308.50 141.00 L 318.00 138.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 713.00 134.00 L 709.00 127.00 L 705.00 120.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 517.00 543.00 L 504.00 541.50 L 491.00 540.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 642.00 593.00 L 637.50 601.00 L 633.00 609.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 504.00 472.00 L 528.50 475.50 L 553.00 479.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 572.00 738.00 L 568.00 745.00 L 564.00 752.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 295.00 623.00 L 299.50 615.00 L 304.00 607.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 511.00 37.00 L 533.50 31.00 L 556.00 25.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 424.00 576.00 L 430.50 563.50 L 437.00 551.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 606.00 566.00 L 606.00 576.50 L 606.00 587.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 482.00 260.00 L 490.00 260.50 L 498.00 261.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 707.00 728.00 L 713.00 731.00 L 719.00 734.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 539.00 930.00 L 537.50 913.00 L 536.00 896.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 633.00 726.00 L 640.00 725.00 L 647.00 724.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 592.00 136.00 L 583.00 133.50 L 574.00 131.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 226.00 512.00 L 219.50 513.50 L 213.00 515.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 729.00 1058.00 L 727.50 1051.00 L 726.00 1044.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 492.00 43.00 L 498.50 41.00 L 505.00 39.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 687.00 271.00 L 689.50 264.50 L 692.00 258.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 186.00 44.00 L 192.50 42.00 L 199.00 40.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 630.00 599.00 L 626.00 608.50 L 622.00 618.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 470.00 502.00 L 465.50 508.00 L 461.00 514.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 470.00 986.00 L 483.50 988.50 L 497.00 991.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 240.00 1142.00 L 233.00 1144.50 L 226.00 1147.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 287.00 1041.00 L 280.50 1044.50 L 274.00 1048.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 264.00 1057.00 L 264.50 1068.00 L 265.00 1079.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 387.00 601.00 L 395.50 604.50 L 404.00 608.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 378.00 622.00 L 378.00 630.50 L 378.00 639.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 614.00 1249.00 L 619.00 1248.50 L 624.00 1248.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 68.00 130.00 L 66.00 143.00 L 64.00 156.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 175.00 1019.00 L 163.00 1013.00 L 151.00 1007.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 70.00 123.00 L 72.00 112.50 L 74.00 102.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 581.00 1199.00 L 584.50 1193.00 L 588.00 1187.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 575.00 713.00 L 571.00 721.00 L 567.00 729.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 538.00 510.00 L 534.00 515.50 L 530.00 521.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 296.00 172.00 L 313.00 167.50 L 330.00 163.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 57.00 1071.00 L 50.50 1068.00 L 44.00 1065.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 376.00 1121.00 L 375.00 1137.00 L 374.00 1153.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 627.00 45.00 L 637.50 48.00 L 648.00 51.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 655.00 534.00 L 652.50 540.00 L 650.00 546.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 288.00 526.00 L 286.00 519.00 L 284.00 512.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 198.00 959.00 L 192.00 955.50 L 186.00 952.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 102.00 70.00 L 112.00 67.00 L 122.00 64.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 426.00 1135.00 L 435.50 1136.00 L 445.00 1137.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 64.00 1148.00 L 61.00 1136.00 L 58.00 1124.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 399.00 146.00 L 401.00 176.00 L 403.00 206.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 502.00 195.00 L 499.00 199.00 L 496.00 203.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 253.00 780.00 L 250.00 774.50 L 247.00 769.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 225.00 639.00 L 225.50 631.50 L 226.00 624.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 610.00 1045.00 L 614.50 1039.50 L 619.00 1034.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 635.00 1236.00 L 642.00 1235.00 L 649.00 1234.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 587.00 687.00 L 591.00 679.50 L 595.00 672.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 523.00 60.00 L 523.00 67.00 L 523.00 74.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 631.00 583.00 L 635.50 574.00 L 640.00 565.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 447.00 1138.00 L 465.50 1140.00 L 484.00 1142.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 359.00 1080.00 L 358.50 1088.00 L 358.00 1096.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 543.00 1143.00 L 550.00 1143.00 L 557.00 1143.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 628.00 692.00 L 632.00 684.00 L 636.00 676.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 279.00 619.00 L 282.50 613.00 L 286.00 607.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 468.00 251.00 L 470.00 238.00 L 472.00 225.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 78.00 607.00 L 67.00 601.50 L 56.00 596.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 253.00 638.00 L 249.00 644.50 L 245.00 651.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 192.00 1085.00 L 194.00 1094.50 L 196.00 1104.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 618.00 1114.00 L 622.50 1106.50 L 627.00 1099.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 650.00 650.00 L 645.50 657.50 L 641.00 665.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 410.00 952.00 L 417.00 950.00 L 424.00 948.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 184.00 45.00 L 174.00 48.00 L 164.00 51.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 511.00 497.00 L 511.00 506.00 L 511.00 515.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 590.00 953.00 L 596.50 955.00 L 603.00 957.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 480.00 489.00 L 485.50 479.50 L 491.00 470.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 463.00 133.00 L 466.50 146.00 L 470.00 159.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 381.00 1104.00 L 384.50 1096.50 L 388.00 1089.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 610.00 643.00 L 613.50 636.50 L 617.00 630.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 246.00 984.00 L 240.00 981.00 L 234.00 978.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 35.00 1142.00 L 36.00 1151.00 L 37.00 1160.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 202.00 1119.00 L 212.50 1112.50 L 223.00 1106.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 678.00 702.00 L 681.00 696.00 L 684.00 690.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 479.00 195.00 L 476.50 207.00 L 474.00 219.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 91.00 300.00 L 97.50 298.50 L 104.00 297.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 458.00 127.00 L 447.50 128.00 L 437.00 129.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 412.00 1047.00 L 420.00 1049.50 L 428.00 1052.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 623.00 572.00 L 629.50 559.00 L 636.00 546.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 576.00 730.00 L 579.00 724.00 L 582.00 718.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 83.00 260.00 L 78.50 262.50 L 74.00 265.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 274.00 1040.00 L 280.50 1035.50 L 287.00 1031.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 35.00 1134.00 L 35.50 1126.50 L 36.00 1119.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 181.00 616.00 L 188.00 616.50 L 195.00 617.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 570.00 899.00 L 591.50 902.00 L 613.00 905.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 135.00 60.00 L 144.00 57.50 L 153.00 55.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 91.00 1130.00 L 85.50 1146.00 L 80.00 1162.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 507.00 792.00 L 511.00 784.00 L 515.00 776.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 156.00 779.00 L 152.00 784.50 L 148.00 790.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 93.00 615.00 L 87.00 612.00 L 81.00 609.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 56.00 1166.00 L 49.50 1164.50 L 43.00 1163.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 612.00 940.00 L 608.50 945.00 L 605.00 950.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 606.00 588.00 L 606.50 594.50 L 607.00 601.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 286.00 209.00 L 276.50 212.50 L 267.00 216.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 534.00 1143.00 L 519.00 1144.00 L 504.00 1145.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 107.00 1082.00 L 105.00 1036.50 L 103.00 991.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 420.00 1128.00 L 418.00 1115.50 L 416.00 1103.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 670.00 581.00 L 665.50 589.00 L 661.00 597.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 281.00 1081.00 L 286.50 1077.50 L 292.00 1074.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 304.00 124.00 L 297.50 125.50 L 291.00 127.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 281.00 89.00 L 274.50 91.50 L 268.00 94.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 467.00 279.00 L 466.50 285.50 L 466.00 292.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 189.00 1065.00 L 190.00 1074.00 L 191.00 1083.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 75.00 562.00 L 76.00 548.00 L 77.00 534.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 402.00 209.00 L 403.00 226.00 L 404.00 243.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 605.00 672.00 L 608.00 666.00 L 611.00 660.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 65.00 1084.00 L 70.00 1083.00 L 75.00 1082.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 530.00 748.00 L 535.50 738.50 L 541.00 729.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 402.00 136.00 L 406.50 128.00 L 411.00 120.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 611.00 473.00 L 603.50 473.50 L 596.00 474.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 374.00 1097.00 L 371.50 1061.50 L 369.00 1026.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 491.00 1121.00 L 485.00 1128.50 L 479.00 1136.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 179.00 1170.00 L 182.00 1163.50 L 185.00 1157.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 150.00 775.00 L 146.00 779.50 L 142.00 784.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 454.00 680.00 L 456.50 673.00 L 459.00 666.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 185.00 1042.00 L 186.00 1049.00 L 187.00 1056.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 57.00 186.00 L 58.50 179.00 L 60.00 172.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 436.00 129.00 L 419.50 133.00 L 403.00 137.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 471.00 664.00 L 473.50 657.50 L 476.00 651.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 552.00 739.00 L 555.00 733.00 L 558.00 727.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 311.00 116.00 L 304.50 117.50 L 298.00 119.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 637.00 1097.00 L 630.50 1107.50 L 624.00 1118.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 359.00 1102.00 L 360.50 1111.00 L 362.00 1120.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 273.00 206.00 L 280.00 204.00 L 287.00 202.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 484.00 776.00 L 487.00 770.00 L 490.00 764.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 458.00 978.00 L 460.00 957.00 L 462.00 936.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 496.00 465.00 L 503.00 463.00 L 510.00 461.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 605.00 758.00 L 609.50 748.50 L 614.00 739.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 281.00 73.00 L 272.00 68.00 L 263.00 63.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 556.00 575.00 L 555.00 582.50 L 554.00 590.00" fill="none" data-ref="arch_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 176.00 464.00 L 185.50 463.00 L 195.00 462.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 548.00 956.00 L 547.00 963.50 L 546.00 971.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 161.00 668.00 L 165.50 662.50 L 170.00 657.00" fill="none" data-ref="arch_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 572.00 200.00 L 568.00 206.50 L 564.00 213.00" fill="none" data-ref="arch_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 361.00 1053.00 L 362.50 1040.50 L 364.00 1028.00" fill="none" data-ref="arch_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 257.00 59.00 L 249.50 53.50 L 242.00 48.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 297.00 186.00 L 303.50 184.00 L 310.00 182.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 119.00 105.00 L 125.50 109.00 L 132.00 113.00" fill="none" data-ref="arch_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 569.00 988.00 L 561.50 992.50 L 554.00 997.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 464.00 929.00 L 465.50 919.50 L 467.00 910.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 401.00 1062.00 L 397.00 1070.50 L 393.00 1079.00" fill="none" data-ref="arch_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.80"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="384.00" y="1274.00" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px;">Archimedean Solids VIII–XIII</text>
+  </g>
+</svg>

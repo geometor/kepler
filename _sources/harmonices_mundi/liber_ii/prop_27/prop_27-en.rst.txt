@@ -32,6 +32,14 @@ Now that there are no more perfect congruences of rhombi is proved thus. In a rh
       :alt: Archival 1619 copperplate Plates Vv and Xx showing the Rhombic Dodecahedron and Golden Rhombic Triacontahedron
       :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): Rhombic Dodecahedron (Vv) and Rhombic Triacontahedron (Xx).
 
+   .. picture:: 0081.g3.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate Plates Vv and Xx showing the Rhombic Dodecahedron and Golden Rhombic Triacontahedron
+      :caption: Calibrated vectorization (0081.g3.svg): Archival scan (Linz 1619, Lib. II, fol. 0081): Rhombic Dodecahedron (Vv) and Rhombic Triacontahedron (Xx).
+
    .. picture:: 0085.g1.png
       :alt: Archival 1619 woodcut diagram of Kepler's rhombic solid congruence proof (p. 61, fol. 0085)
       :caption: Archival scan (Linz 1619, Lib. II, p. 61, fol. 0085): Rhombic congruence construction diagram.
+
+   .. picture:: 0085.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 woodcut diagram of Kepler's rhombic solid congruence proof (p. 61, fol. 0085)
+      :caption: Calibrated vectorization (0085.g1.svg): Archival scan (Linz 1619, Lib. II, p. 61, fol. 0085): Rhombic congruence construction diagram.

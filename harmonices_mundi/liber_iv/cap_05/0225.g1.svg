@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776 1512" width="776" height="1512" class="euclid-graphic" data-graphic-id="0225.g1" data-folio="0225" data-graphic="g1" role="img" aria-label="Harmonices Mundi IV.5 Opposition and Quartile Aspects">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="409.00" cy="371.00" r="346.00" fill="none" data-ref="( O1 A1 )" stroke="var(--geom-fg, #1e293b)" stroke-width="2.80"/>
+    <path class="geom-line" d="M 125.45 87.45 L 409.00 371.00 L 692.55 654.55" fill="none" data-ref="/ S1 S2 /" stroke="var(--geom-accent, #d97706)" stroke-width="2.60"/>
+    <circle class="geom-circle" cx="409.00" cy="1158.00" r="349.00" fill="none" data-ref="( O2 A2 )" stroke="var(--geom-fg, #1e293b)" stroke-width="2.80"/>
+    <path class="geom-line" d="M 162.22 911.22 L 409.00 911.22 L 655.78 911.22" fill="none" data-ref="sq_0" stroke="var(--geom-fg, #1e293b)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 655.78 911.22 L 655.78 1158.00 L 655.78 1404.78" fill="none" data-ref="sq_1" stroke="var(--geom-fg, #1e293b)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 655.78 1404.78 L 409.00 1404.78 L 162.22 1404.78" fill="none" data-ref="sq_2" stroke="var(--geom-fg, #1e293b)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 162.22 1404.78 L 162.22 1158.00 L 162.22 911.22" fill="none" data-ref="sq_3" stroke="var(--geom-fg, #1e293b)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 409.00 1158.00 L 266.16 1015.16 L 123.33 872.33" fill="none" data-ref="/ O2 S3 /" stroke="var(--geom-accent, #d97706)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 409.00 1158.00 L 266.16 1300.84 L 123.33 1443.67" fill="none" data-ref="/ O2 S4 /" stroke="var(--geom-accent, #d97706)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 313.54 1062.54 L 265.81 1110.27 L 218.08 1158.00" fill="none" data-ref="ang_sq_1" stroke="#10b981" stroke-width="2.20"/>
+    <path class="geom-line" d="M 313.54 1253.46 L 265.81 1205.73 L 218.08 1158.00" fill="none" data-ref="ang_sq_2" stroke="#10b981" stroke-width="2.20"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <polygon class="geom-polygon" points="162.22,911.22 655.78,911.22 655.78,1404.78 162.22,1404.78" data-ref="&lt; S3 Q2 Q3 S4 &gt;"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="409.00" cy="371.00" r="6.00" data-ref="O1"/>
+    <circle class="geom-point" cx="409.00" cy="1158.00" r="6.00" data-ref="O2"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="409.00" y="25.00" text-anchor="middle" dominant-baseline="central" style="font-size: 18.0px;" data-ref="O1">Opposition (180° · 1:2)</text>
+    <text class="geom-label" x="409.00" y="760.00" text-anchor="middle" dominant-baseline="central" style="font-size: 18.0px;" data-ref="O2">Quartile (90° · 3:4)</text>
+  </g>
+</svg>

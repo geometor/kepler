@@ -20,9 +20,15 @@ Caput X — De Tetrachordis & Usu Syllabarum Ut, Re, Mi, Fa, Sol, La
 
 Veteribus usitatum erat, Systema octavae distinguere in duo Tetrachorda, idque diversimodè pro diversa intentione Musicorum. Vel enim conjuncta erant, Synemmena dicta, uno sono intermedio statuto, qui & cum gravissimo infrà, & cum acutissimo suprà efficiebat Diatessaron, itaque extremae efficiebant intervallum dissonum, Diheptà, & supra tonus unus subintelligebatur accedere: quoties enim ordo postulabat pulsare octavam *a*, pulsabant primam *A*, quasi ex opposito identicum sonum edentem, ἀντίφωνον. Hoc pacto non verè duo Tetrachorda erant, sed duo quidem diatessaron intervalla, unum verò Heptachordum: Vel disjuncta erant Tetrachorda, intervallo unius Toni majoris, Diezeugmena dicta, quod rerum Natura suadet etiam in nostra Systematis divisione, in qua inferius Tetrachordum habet *G. A. ♮. c.* superius *d. e. fe. g.* ubi inter *c. d.* tonus major interest. Fortassis ipso etiam situ disjunctae erant quatuor imae chordae à quatuor superioribus, relicto scilicet interstitio majori, inter binas limitaneas.
 
-.. picture:: 0145.g1.png
-   :alt: Tetrachorda Synemmena et Diezeugmena (Lincii 1619, Lib. III, p. 55)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena & Diezeugmena.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0145.g1.png
+      :alt: Tetrachorda Synemmena et Diezeugmena (Lincii 1619, Lib. III, p. 55)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena & Diezeugmena.
+
+   .. picture:: 0145.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tetrachorda Synemmena et Diezeugmena (Lincii 1619, Lib. III, p. 55)
+      :caption: Vectorisatio calibrata (0145.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena & Diezeugmena.
 
 Causa ipsis cogitandi de Systemate Tetrachordi, fuit ista, quod videbant in una diatessaron consonantiâ, esse Tonos duos semis: & nos habemus Tonum majorem, minorem & semitonium in Diatessaron perfecto, in Concordantia scilicet minori (nam 4. 5. & 5. 5. ne quidem pro concordantijs habebantur) omnia elementa concinna; & semitonium quidem vel imo loco, vel medio, vel summo. Omnis igitur Cantus videbatur ipsis comprehendi tribus Tetrachordorum formis.
 

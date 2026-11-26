@@ -63,9 +63,15 @@ De caeteris partibus Musices hodiernae agere non est instituti mei; nihil enim p
 
 **Corollaria Arithmetica & Mechanica.**
 
-.. picture:: 0149.g1.png
-   :alt: Corollaria Arithmetica & Mechanica (Lincii 1619, Lib. III, p. 59)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 59, fol. 0149): Tabula divisionis monochordi.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0149.g1.png
+      :alt: Corollaria Arithmetica & Mechanica (Lincii 1619, Lib. III, p. 59)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 59, fol. 0149): Tabula divisionis monochordi.
+
+   .. picture:: 0149.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Corollaria Arithmetica & Mechanica (Lincii 1619, Lib. III, p. 59)
+      :caption: Vectorisatio calibrata (0149.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 59, fol. 0149): Tabula divisionis monochordi.
 
 *Multiplicatio longitudinis chordae gggg exprimit chordas undecim.*
 

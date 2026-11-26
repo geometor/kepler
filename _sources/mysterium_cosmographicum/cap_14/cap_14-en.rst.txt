@@ -38,6 +38,10 @@ What luxury of nature is this? How absurd? How useless? How little customary wit
       :alt: Archival 1596 folding plate Tabella IIII showing planetary orb thicknesses and eccentric shells (p. 49)
       :caption: Tabella IIII archival scan (Tübingen 1596, p. 49, fol. 0059): Planetary orb thicknesses and polyhedral intervals.
 
+   .. picture:: 0059.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1596 folding plate Tabella IIII showing planetary orb thicknesses and eccentric shells (p. 49)
+      :caption: Calibrated vectorization (0059.g1.svg): Tabella IIII archival scan (Tübingen 1596, p. 49, fol. 0059): Planetary orb thicknesses and polyhedral intervals.
+
    .. picture:: /_static/figures/fig02_mysterium_nested_solids.svg
       :alt: Concentric Heliocentric Planetary Orbs and Five Regular Solids in Mysterium Cosmographicum
       :caption: Calibrated schematic: Concentric planetary orbs from Saturn down to Mercury separated by the five regular solids.

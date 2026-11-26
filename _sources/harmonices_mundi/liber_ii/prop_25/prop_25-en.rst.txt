@@ -71,6 +71,14 @@ This distribution can be tested by numbers; it carries necessity with it; it doe
       :alt: Archival 1619 copperplate of the Five Elemental Platonic Solids (Harmonices Mundi Book II, Plates Oo–Rr)
       :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): The Five Platonic Solids with elemental motifs (Plates Oo–Rr).
 
+   .. picture:: 0081.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate of the Five Elemental Platonic Solids (Harmonices Mundi Book II, Plates Oo–Rr)
+      :caption: Calibrated vectorization (0081.g1.svg): Archival scan (Linz 1619, Lib. II, fol. 0081): The Five Platonic Solids with elemental motifs (Plates Oo–Rr).
+
    .. picture:: 0074.g1.png
       :alt: Archival 1619 solid-angle congruence woodcuts (Harmonices Mundi Book II, p. 58, fol. 0074)
       :caption: Archival scan (Linz 1619, Lib. II, p. 58, fol. 0074): Solid-angle closure diagrams.
+
+   .. picture:: 0074.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 solid-angle congruence woodcuts (Harmonices Mundi Book II, p. 58, fol. 0074)
+      :caption: Calibrated vectorization (0074.g1.svg): Archival scan (Linz 1619, Lib. II, p. 58, fol. 0074): Solid-angle closure diagrams.

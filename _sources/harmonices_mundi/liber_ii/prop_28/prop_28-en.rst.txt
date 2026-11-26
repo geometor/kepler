@@ -36,10 +36,15 @@ In these three, therefore, squares stand beside triangles: it follows that we al
 
 4. Five plane triangles do not stand beside one pentagon, because they could not stand even beside a square, which is smaller than it. Therefore four triangles with one pentagon make less than four right angles, and eighty (that is, 20 and 60) triangles are congruent with twelve pentagons to form a ninety-two-faced figure, which I call the **Snub Dodecahedron** (*Dodecaëdron simum*): it is depicted here as Number 13. And in this order of snubs, the Icosahedron could be the third, being as it were a snub Tetrahedron.
 
-.. picture:: 0086.g1.png
-   :class: archival-plate
-   :alt: Archival 1619 woodcut showing semi-regular solid vertex truncation (Harmonices Mundi II.28, p. 62)
-   :caption: Archival scan (Linz 1619, Lib. II, p. 62, fol. 0086): Archimedean solids Nos. 8–13.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0086.g1.png
+      :alt: Archival 1619 woodcut showing semi-regular solid vertex truncation (Harmonices Mundi II.28, p. 62)
+      :caption: Archival scan (Linz 1619, Lib. II, p. 62, fol. 0086): Archimedean solids Nos. 8–13.
+
+   .. picture:: 0086.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 woodcut showing semi-regular solid vertex truncation (Harmonices Mundi II.28, p. 62)
+      :caption: Calibrated vectorization (0086.g1.svg): Archival scan (Linz 1619, Lib. II, p. 62, fol. 0086): Archimedean solids Nos. 8–13.
 
 .. folio:: harmonices_mundi:0087
    :page: p. 63
@@ -79,10 +84,15 @@ One triangle and two squares with one hexagon equal four right angles; with one 
 
 One triangle, one square, and two pentagons exceed four right angles; and much more so if two larger plane angles were mingled in. Thus four plane angles cease to be mingled to form one solid: therefore the triangle also ceases to enter into a threefold mixture. For one triangle, one square,
 
-.. picture:: 0088.g1.png
-   :class: archival-plate
-   :alt: Archival 1619 folding copperplate illustrating all thirteen Archimedean semi-regular solids numbered 1 through 13
-   :caption: Archival scan (Linz 1619, Lib. II, p. 64, fol. 0088): Truncated Archimedean solids Nos. 1–7.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0088.g1.png
+      :alt: Archival 1619 folding copperplate illustrating all thirteen Archimedean semi-regular solids numbered 1 through 13
+      :caption: Archival scan (Linz 1619, Lib. II, p. 64, fol. 0088): Truncated Archimedean solids Nos. 1–7.
+
+   .. picture:: 0088.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 folding copperplate illustrating all thirteen Archimedean semi-regular solids numbered 1 through 13
+      :caption: Calibrated vectorization (0088.g1.svg): Archival scan (Linz 1619, Lib. II, p. 64, fol. 0088): Truncated Archimedean solids Nos. 1–7.
 
 .. folio:: harmonices_mundi:0089
    :page: p. 65

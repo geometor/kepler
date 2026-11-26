@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 487 494" width="487" height="494" class="euclid-graphic" data-graphic-id="0052.g1" data-folio="0052" data-graphic="g1" role="img" aria-label="Harmonices Mundi I.45 Pentagram and Decagon Construction">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="239.00" cy="248.00" r="200.00" fill="none" data-ref="( A B )" stroke="var(--geom-fg, #1e293b)" stroke-width="2.20"/>
+    <path class="geom-line" d="M 239.00 48.00 L 143.89 117.10 L 48.79 186.20" fill="none" data-ref="/ B D /" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 48.79 186.20 L 85.12 298.00 L 121.44 409.80" fill="none" data-ref="/ D F /" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 121.44 409.80 L 239.00 409.80 L 356.56 409.80" fill="none" data-ref="/ F H /" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 356.56 409.80 L 392.88 298.00 L 429.21 186.20" fill="none" data-ref="/ H K /" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 429.21 186.20 L 334.11 117.10 L 239.00 48.00" fill="none" data-ref="/ K B /" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 239.00 48.00 L 180.22 228.90 L 121.44 409.80" fill="none" data-ref="/ B F /" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 121.44 409.80 L 275.33 298.00 L 429.21 186.20" fill="none" data-ref="/ F K /" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 429.21 186.20 L 239.00 186.20 L 48.79 186.20" fill="none" data-ref="/ K D /" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 48.79 186.20 L 202.67 298.00 L 356.56 409.80" fill="none" data-ref="/ D H /" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 356.56 409.80 L 297.78 228.90 L 239.00 48.00" fill="none" data-ref="/ H B /" stroke="var(--geom-accent, #d97706)" stroke-width="2.00"/>
+    <path class="geom-dashed" d="M 239.00 48.00 L 239.00 248.00 L 239.00 448.00" fill="none" data-ref="/ B G /" stroke="#10b981" stroke-width="1.80"/>
+    <path class="geom-dashed" d="M 48.79 186.20 L 202.67 136.20 L 356.56 86.20" fill="none" data-ref="/ D L /" stroke="var(--geom-fg, #1e293b)" stroke-width="1.70"/>
+    <path class="geom-dashed" d="M 48.79 186.20 L 239.00 248.00 L 429.21 309.80" fill="none" data-ref="/ D I /" stroke="var(--geom-fg, #1e293b)" stroke-width="1.70"/>
+    <path class="geom-dashed" d="M 429.21 186.20 L 334.11 217.10 L 239.00 248.00" fill="none" data-ref="/ K A /" stroke="var(--geom-fg, #1e293b)" stroke-width="1.70"/>
+    <path class="geom-dashed" d="M 429.21 186.20 L 334.11 155.29 L 239.00 124.39" fill="none" data-ref="/ K S /" stroke="var(--geom-fg, #1e293b)" stroke-width="1.70"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+    <polygon class="geom-polygon" points="239.00,48.00 121.44,409.80 356.56,409.80" data-ref="&lt; B F H &gt;"/>
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="239.00" cy="248.00" r="3.60" data-ref="A"/>
+    <circle class="geom-point" cx="239.00" cy="48.00" r="3.60" data-ref="B"/>
+    <circle class="geom-point" cx="48.79" cy="186.20" r="3.60" data-ref="D"/>
+    <circle class="geom-point" cx="121.44" cy="409.80" r="3.60" data-ref="F"/>
+    <circle class="geom-point" cx="239.00" cy="448.00" r="3.60" data-ref="G"/>
+    <circle class="geom-point" cx="356.56" cy="409.80" r="3.60" data-ref="H"/>
+    <circle class="geom-point" cx="429.21" cy="309.80" r="3.40" data-ref="I"/>
+    <circle class="geom-point" cx="429.21" cy="186.20" r="3.60" data-ref="K"/>
+    <circle class="geom-point" cx="356.56" cy="86.20" r="3.40" data-ref="L"/>
+    <circle class="geom-point" cx="239.00" cy="186.20" r="3.00" data-ref="R"/>
+    <circle class="geom-point" cx="239.00" cy="124.39" r="3.00" data-ref="S"/>
+    <circle class="geom-point" cx="194.10" cy="186.20" r="3.00" data-ref="T"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="239.00" y="30.00" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="B">B</text>
+    <text class="geom-label" x="30.79" y="186.20" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="D">D</text>
+    <text class="geom-label" x="105.44" y="423.80" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="F">F</text>
+    <text class="geom-label" x="239.00" y="466.00" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="G">G</text>
+    <text class="geom-label" x="372.56" y="423.80" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="H">H</text>
+    <text class="geom-label" x="447.21" y="313.80" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="I">I</text>
+    <text class="geom-label" x="447.21" y="186.20" text-anchor="middle" dominant-baseline="central" style="font-size: 15.0px; font-style: italic;" data-ref="K">K</text>
+    <text class="geom-label" x="370.56" y="72.20" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="L">L</text>
+    <text class="geom-label" x="227.00" y="262.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px; font-style: italic;" data-ref="A">A</text>
+    <text class="geom-label" x="251.00" y="176.20" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px; font-style: italic;" data-ref="R">R</text>
+    <text class="geom-label" x="227.00" y="136.39" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px; font-style: italic;" data-ref="S">S</text>
+    <text class="geom-label" x="182.10" y="200.20" text-anchor="middle" dominant-baseline="central" style="font-size: 13.0px; font-style: italic;" data-ref="T">T</text>
+  </g>
+</svg>

@@ -62,6 +62,12 @@ Hexagonicus triplex implet locum planum, ergò non potest misceri cum duobus se 
 .. folio:: harmonices_mundi:0079
    :page: Tabula Cc–Pp
 
-.. picture:: 0079.g1.png
-   :alt: Congruentiae planae semiregulares (Lincii 1619, Lib. II, fol. 0079)
-   :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0079): Tabulae Cc–Pp.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0079.g1.png
+      :alt: Congruentiae planae semiregulares (Lincii 1619, Lib. II, fol. 0079)
+      :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0079): Tabulae Cc–Pp.
+
+   .. picture:: 0079.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Congruentiae planae semiregulares (Lincii 1619, Lib. II, fol. 0079)
+      :caption: Vectorisatio calibrata (0079.g1.svg): Editio princeps (Lincii 1619, Lib. II, fol. 0079): Tabulae Cc–Pp.

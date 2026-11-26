@@ -37,10 +37,15 @@ In his igitur tribus sunt Tetragoni juxta Trigonos: sequitur ut et Pentagonicos 
 
 4. Quinque plani Trigonici juxta unum Pentagonicum non stant, quia neque juxta minorem eo, Tetragonicum, stare poterant. Quatuor ergò Trigonici, cum uno Pentagonico, minus efficiunt 4 rectis, et congruunt octoginta (id est 20. et 60) Trigoni, cum duodecim Pentagonis, ad formandam Ennenecontakadyhedron, quod appello **Dodecaëdron simum**: Pingitur hic numero 13. Et in hoc ordine simorum, Icosaëdron posset esse tertium, quod est quasi Tetraëdron simum.
 
-.. picture:: 0086.g1.png
-   :class: archival-plate
-   :alt: Schema truncationis corporum semiregularium (Lincii 1619, Lib. II, p. 62)
-   :caption: Editio princeps (Lincii 1619, Lib. II, p. 62, fol. 0086): Corpora Archimedea 8–13.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0086.g1.png
+      :alt: Schema truncationis corporum semiregularium (Lincii 1619, Lib. II, p. 62)
+      :caption: Editio princeps (Lincii 1619, Lib. II, p. 62, fol. 0086): Corpora Archimedea 8–13.
+
+   .. picture:: 0086.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Schema truncationis corporum semiregularium (Lincii 1619, Lib. II, p. 62)
+      :caption: Vectorisatio calibrata (0086.g1.svg): Editio princeps (Lincii 1619, Lib. II, p. 62, fol. 0086): Corpora Archimedea 8–13.
 
 .. folio:: harmonices_mundi:0087
    :page: p. 63
@@ -80,10 +85,15 @@ Unus Trigonicus, duo Tetragonici, cum uno Hexagonico, aequant rectos quatuor; cu
 
 Unus Trigonicus, unus Tetragonicus, et duo Pentagonici superant 4 rectos; multòque magis si bini majores plani anguli admiscerentur. Desinunt igitur misceri anguli plani quaterni ad formandum unum solidum: desinit ergò et Trigonus ingredi mixturam triplicem. Nam unus Trigonicus, unus Tetragoni-
 
-.. picture:: 0088.g1.png
-   :class: archival-plate
-   :alt: Corpora Archimedea 1–7 (Lincii 1619, Lib. II, p. 64, fol. 0088)
-   :caption: Editio princeps (Lincii 1619, Lib. II, p. 64, fol. 0088): Corpora Archimedea truncata (Fig. 1–7).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0088.g1.png
+      :alt: Corpora Archimedea 1–7 (Lincii 1619, Lib. II, p. 64, fol. 0088)
+      :caption: Editio princeps (Lincii 1619, Lib. II, p. 64, fol. 0088): Corpora Archimedea truncata (Fig. 1–7).
+
+   .. picture:: 0088.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Corpora Archimedea 1–7 (Lincii 1619, Lib. II, p. 64, fol. 0088)
+      :caption: Vectorisatio calibrata (0088.g1.svg): Editio princeps (Lincii 1619, Lib. II, p. 64, fol. 0088): Corpora Archimedea truncata (Fig. 1–7).
 
 .. folio:: harmonices_mundi:0089
    :page: p. 65

@@ -34,6 +34,10 @@ Tandem levi quadam occasione in ipsam rem propius irrupi. **Die 9. (vel 19. styl
       :alt: Schema originale coniunctionum magnarum Graecii (Tubingae 1596, p. 9)
       :caption: Editio princeps (Tubingae 1596, p. 9, fol. 0016): Triangula aequilatera coniunctionum magnarum.
 
+   .. picture:: 0016.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Schema originale coniunctionum magnarum Graecii (Tubingae 1596, p. 9)
+      :caption: Vectorisatio calibrata (0016.g1.svg): Editio princeps (Tubingae 1596, p. 9, fol. 0016): Triangula aequilatera coniunctionum magnarum.
+
    .. picture:: /_static/figures/fig01_graz_triangle_conjunction.svg
       :alt: Schema Coniunctionum Magnarum Graecii die 19 Julii 1595
       :caption: Schema vectoriale: Triangulum aequilaterum ABC et proportio OM : OA = 1 : 2.

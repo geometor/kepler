@@ -72,9 +72,17 @@ from the variety of motions granted to each Planet. Let the first skeleton have 
       :alt: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Duri (Harmonices Mundi Book V, p. 209)
       :caption: Archival scan (Linz 1619, Lib. V, p. 209, fol. 0301): Universal six-planet harmonies of the Genus Durum (Major mode).
 
+   .. picture:: 0301.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Duri (Harmonices Mundi Book V, p. 209)
+      :caption: Calibrated vectorization (0301.g1.svg): Archival scan (Linz 1619, Lib. V, p. 209, fol. 0301): Universal six-planet harmonies of the Genus Durum (Major mode).
+
    .. picture:: 0302.g1.png
       :alt: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Mollis (Harmonices Mundi Book V, p. 210)
       :caption: Archival scan (Linz 1619, Lib. V, p. 210, fol. 0302): Universal six-planet harmonies of the Genus Molle (Minor mode).
+
+   .. picture:: 0302.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 music engraving of Harmoniae Planetarum omnium seu Universales Generis Mollis (Harmonices Mundi Book V, p. 210)
+      :caption: Calibrated vectorization (0302.g1.svg): Archival scan (Linz 1619, Lib. V, p. 210, fol. 0302): Universal six-planet harmonies of the Genus Molle (Minor mode).
 
 *That ♮ may concord:* To this universal harmony Saturn concurs with its aphelial motion, Earth with its aphelial, Venus nearly with its aphelial; at the highest pitch Venus concurs with its perihelial; at the middle pitch Saturn concurs with its perihelial, Jupiter with its aphelial, Mercury with its perihelial. Thus Saturn can concur with two motions, Mars with two, Mercury with four.
 

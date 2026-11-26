@@ -63,9 +63,17 @@ cuique Planetae concessorum, conquiramus. Primum sceleton habeat inter Terram & 
       :alt: Harmoniae Planetarum omnium seu Universales Generis Duri (Lincii 1619, Lib. V, p. 209)
       :caption: Editio princeps (Lincii 1619, Lib. V, p. 209, fol. 0301): Harmoniae Universales Generis Duri.
 
+   .. picture:: 0301.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Harmoniae Planetarum omnium seu Universales Generis Duri (Lincii 1619, Lib. V, p. 209)
+      :caption: Vectorisatio calibrata (0301.g1.svg): Editio princeps (Lincii 1619, Lib. V, p. 209, fol. 0301): Harmoniae Universales Generis Duri.
+
    .. picture:: 0302.g1.png
       :alt: Harmoniae Planetarum omnium seu Universales Generis Mollis (Lincii 1619, Lib. V, p. 210)
       :caption: Editio princeps (Lincii 1619, Lib. V, p. 210, fol. 0302): Harmoniae Universales Generis Mollis.
+
+   .. picture:: 0302.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Harmoniae Planetarum omnium seu Universales Generis Mollis (Lincii 1619, Lib. V, p. 210)
+      :caption: Vectorisatio calibrata (0302.g1.svg): Editio princeps (Lincii 1619, Lib. V, p. 210, fol. 0302): Harmoniae Universales Generis Mollis.
 
 *Ut ♮ concordet:* Ad hanc universalem concurrit Saturnus motu aphelio, Terra aphelio, Venus aphelio fere; in altissima tensione concurrit Venus perihelio; in media tensione concurrit Saturnus perihelio, Jupiter aphelio, Mercurius perihelio. Ita Saturnus duobus motibus potest concurrere, Mars duobus, Mercurius 4.
 

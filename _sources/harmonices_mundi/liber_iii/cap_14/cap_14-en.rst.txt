@@ -48,9 +48,15 @@ but so that, once these minimal intervals are contracted into the usual concinno
 
 *Net of intervals in Systems, for investigating the different species of Tones.* (Note that *S* is Semitone, *D* Diesis, *L* Limma.)
 
-.. picture:: 0157.g1.png
-   :alt: Archival 1619 12x12 modal lattice Rete intervallorum showing S (Semitonium), D (Diesis), and L (Limma) across pitches G to f# (Harmonices Mundi Book III, p. 67)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus — 12x12 modal rotation matrix.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0157.g1.png
+      :alt: Archival 1619 12x12 modal lattice Rete intervallorum showing S (Semitonium), D (Diesis), and L (Limma) across pitches G to f# (Harmonices Mundi Book III, p. 67)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus — 12x12 modal rotation matrix.
+
+   .. picture:: 0157.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 12x12 modal lattice Rete intervallorum showing S (Semitonium), D (Diesis), and L (Limma) across pitches G to f# (Harmonices Mundi Book III, p. 67)
+      :caption: Calibrated vectorization (0157.g1.svg): Archival scan (Linz 1619, Lib. III, p. 67, fol. 0157): Rete intervallorum in Systematibus — 12x12 modal rotation matrix.
 
 .. folio:: harmonices_mundi:0158
    :page: p. 68

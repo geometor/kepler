@@ -68,9 +68,15 @@ Igitur chordae octo explicantur his numeris ad eundem communem minimum denominat
 
 **In cantu duro.**
 
-.. picture:: 0136.g1.png
-   :alt: Tabula In cantu duro (Lincii 1619, Lib. III, p. 46)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 46, fol. 0136): Tabula octo vocum in cantu duro.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0136.g1.png
+      :alt: Tabula In cantu duro (Lincii 1619, Lib. III, p. 46)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 46, fol. 0136): Tabula octo vocum in cantu duro.
+
+   .. picture:: 0136.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabula In cantu duro (Lincii 1619, Lib. III, p. 46)
+      :caption: Vectorisatio calibrata (0136.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 46, fol. 0136): Tabula octo vocum in cantu duro.
 
 Expressas vides in numeris minimis, non tantum omnium octo longitudinum proportiones, sed etiam quatuor supremarum, & quatuor imarum, numeris minoribus; inprimis vero trium supremarum & trium imarum, de quarum medijs earumque numeris mihi cum authoribus hoc in capite controversia intercedit, Nam VII. in utroque Genere cantus est 405. Et II. utrinque 640.
 

@@ -68,9 +68,15 @@ The angle of a knowable and congruent figure or star is the modulus of the angle
 .. folio:: harmonices_mundi:0225
    :page: p. 135
 
-.. picture:: 0225.g1.png
-   :alt: Archival 1619 woodcuts Figura I and Figura II illustrating Opposition and Square aspects in circular congruence (Harmonices Mundi Book IV, p. 135)
-   :caption: Archival scan (Linz 1619, Lib. IV, p. 135, fol. 0225): Figura I (Diameter / Opposition 180°) & Figura II (Square 90° reciprocally inscribed).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0225.g1.png
+      :alt: Archival 1619 woodcuts Figura I and Figura II illustrating Opposition and Square aspects in circular congruence (Harmonices Mundi Book IV, p. 135)
+      :caption: Archival scan (Linz 1619, Lib. IV, p. 135, fol. 0225): Figura I (Diameter / Opposition 180°) & Figura II (Square 90° reciprocally inscribed).
+
+   .. picture:: 0225.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 woodcuts Figura I and Figura II illustrating Opposition and Square aspects in circular congruence (Harmonices Mundi Book IV, p. 135)
+      :caption: Calibrated vectorization (0225.g1.svg): Archival scan (Linz 1619, Lib. IV, p. 135, fol. 0225): Figura I (Diameter / Opposition 180°) & Figura II (Square 90° reciprocally inscribed).
 
 *[In the margin: Figure I.]* *For the Diagrams are reciprocal* (ἀντιπεπονθότα) *in pairs: first the diameter to itself, whether it bisects the circle, drawn through the center, or touches it, when two rays make two right angles or rather a null angle in place of an angle, ranged in one straight line.*
 *The same is to be thought of the Conjunction ☌ or ☍ of the Planets, which is improperly called a configuration. For if two Planets should be under the same point of the Zodiac, then at the center the angle is null, at the circumference infinite,*
@@ -422,9 +428,15 @@ The fifth, last, and weakest Degree of aspects is that of the Decile and Trideci
 .. folio:: harmonices_mundi:0239
    :page: p. 149
 
-.. picture:: 0239.g1.png
-   :alt: Archival 1619 woodcuts showing Decagon-Pentagon and Octagon reciprocal star congruences for planetary aspects (Harmonices Mundi Book IV, p. 149)
-   :caption: Archival scan (Linz 1619, Lib. IV, p. 149, fol. 0239): Decagon/Pentagram and Octagon/Octagram aspect congruences.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0239.g1.png
+      :alt: Archival 1619 woodcuts showing Decagon-Pentagon and Octagon reciprocal star congruences for planetary aspects (Harmonices Mundi Book IV, p. 149)
+      :caption: Archival scan (Linz 1619, Lib. IV, p. 149, fol. 0239): Decagon/Pentagram and Octagon/Octagram aspect congruences.
+
+   .. picture:: 0239.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 woodcuts showing Decagon-Pentagon and Octagon reciprocal star congruences for planetary aspects (Harmonices Mundi Book IV, p. 149)
+      :caption: Calibrated vectorization (0239.g1.svg): Archival scan (Linz 1619, Lib. IV, p. 149, fol. 0239): Decagon/Pentagram and Octagon/Octagram aspect congruences.
 
 *ence, and the Decagon itself prevents that congruence from being able to be continued: its Star also makes a gaping congruence in the middle intercepted spaces. The Octagon and its star, however, alternately aid the continuation of congruence, with Squares admixed;*
 *the Congruence becomes of diverse form. Thus these four are nearly equal in plane congruence, especially since both figures have inexpressible areas.*

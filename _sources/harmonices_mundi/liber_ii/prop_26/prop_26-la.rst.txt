@@ -27,10 +27,15 @@ Perfectissimae dicuntur congruentiae, illa solida, haec semisolida, quia ipsis c
 .. folio:: harmonices_mundi:0081
    :page: Tabulae Ss & Tt
 
-.. picture:: 0081.g2.png
-   :class: archival-plate
-   :alt: Tabulae Ss et Tt: Duo Corpora Regularia Stellata (Lincii 1619, Lib. II, fol. 0081)
-   :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Dodecaedron Stellatum Minus (Ss) et Maius (Tt).
+.. container:: kepler-plate-pair
+
+   .. picture:: 0081.g2.png
+      :alt: Tabulae Ss et Tt: Duo Corpora Regularia Stellata (Lincii 1619, Lib. II, fol. 0081)
+      :caption: Editio princeps (Lincii 1619, Lib. II, fol. 0081): Dodecaedron Stellatum Minus (Ss) et Maius (Tt).
+
+   .. picture:: 0081.g2.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabulae Ss et Tt: Duo Corpora Regularia Stellata (Lincii 1619, Lib. II, fol. 0081)
+      :caption: Vectorisatio calibrata (0081.g2.svg): Editio princeps (Lincii 1619, Lib. II, fol. 0081): Dodecaedron Stellatum Minus (Ss) et Maius (Tt).
 
 .. raw:: html
 

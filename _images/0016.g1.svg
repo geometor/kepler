@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500" width="1500" height="1500" class="euclid-graphic" data-graphic-id="0016.g1" data-folio="0016" data-graphic="g1" role="img" aria-label="Mysterium Cosmographicum Praefatio Great Conjunctions Diagram">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="757.00" cy="750.00" r="736.00" fill="none" data-ref="cZOD_out" stroke="var(--geom-fg, #1e293b)" stroke-width="2.60"/>
+    <circle class="geom-circle" cx="757.00" cy="750.00" r="694.00" fill="none" data-ref="cZOD_mid" stroke="var(--geom-fg, #1e293b)" stroke-width="2.40"/>
+    <circle class="geom-circle" cx="757.00" cy="750.00" r="362.00" fill="none" data-ref="cCAUSTIC" stroke="var(--geom-accent, #d97706)" stroke-width="2.60"/>
+    <path class="geom-line" d="M 757.00 56.00 L 757.00 35.00 L 757.00 14.00" fill="none" data-ref="zod_0" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 1104.00 148.98 L 1114.50 130.79 L 1125.00 112.61" fill="none" data-ref="zod_1" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 1358.02 403.00 L 1376.21 392.50 L 1394.39 382.00" fill="none" data-ref="zod_2" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 1451.00 750.00 L 1472.00 750.00 L 1493.00 750.00" fill="none" data-ref="zod_3" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 1358.02 1097.00 L 1376.21 1107.50 L 1394.39 1118.00" fill="none" data-ref="zod_4" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 1104.00 1351.02 L 1114.50 1369.21 L 1125.00 1387.39" fill="none" data-ref="zod_5" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 757.00 1444.00 L 757.00 1465.00 L 757.00 1486.00" fill="none" data-ref="zod_6" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 410.00 1351.02 L 399.50 1369.21 L 389.00 1387.39" fill="none" data-ref="zod_7" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 155.98 1097.00 L 137.79 1107.50 L 119.61 1118.00" fill="none" data-ref="zod_8" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 63.00 750.00 L 42.00 750.00 L 21.00 750.00" fill="none" data-ref="zod_9" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 155.98 403.00 L 137.79 392.50 L 119.61 382.00" fill="none" data-ref="zod_10" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 410.00 148.98 L 399.50 130.79 L 389.00 112.61" fill="none" data-ref="zod_11" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-line" d="M 757.00 56.00 L 1066.18 560.53 L 1375.36 1065.07" fill="none" data-ref="conj_1" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 865.57 64.54 L 1092.01 611.23 L 1318.46 1157.92" fill="none" data-ref="conj_2" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 971.46 89.97 L 1109.59 665.35 L 1247.73 1240.73" fill="none" data-ref="conj_3" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1072.07 131.64 L 1118.50 721.55 L 1164.92 1311.46" fill="none" data-ref="conj_4" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1164.92 188.54 L 1118.50 778.45 L 1072.07 1368.36" fill="none" data-ref="conj_5" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1247.73 259.27 L 1109.59 834.65 L 971.46 1410.03" fill="none" data-ref="conj_6" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1318.46 342.08 L 1092.01 888.77 L 865.57 1435.46" fill="none" data-ref="conj_7" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1375.36 434.93 L 1066.18 939.47 L 757.00 1444.00" fill="none" data-ref="conj_8" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1417.03 535.54 L 1032.73 985.50 L 648.43 1435.46" fill="none" data-ref="conj_9" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1442.46 641.43 L 992.50 1025.73 L 542.54 1410.03" fill="none" data-ref="conj_10" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1451.00 750.00 L 946.47 1059.18 L 441.93 1368.36" fill="none" data-ref="conj_11" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1442.46 858.57 L 895.77 1085.01 L 349.08 1311.46" fill="none" data-ref="conj_12" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1417.03 964.46 L 841.65 1102.59 L 266.27 1240.73" fill="none" data-ref="conj_13" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1375.36 1065.07 L 785.45 1111.50 L 195.54 1157.92" fill="none" data-ref="conj_14" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1318.46 1157.92 L 728.55 1111.50 L 138.64 1065.07" fill="none" data-ref="conj_15" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1247.73 1240.73 L 672.35 1102.59 L 96.97 964.46" fill="none" data-ref="conj_16" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1164.92 1311.46 L 618.23 1085.01 L 71.54 858.57" fill="none" data-ref="conj_17" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 1072.07 1368.36 L 567.53 1059.18 L 63.00 750.00" fill="none" data-ref="conj_18" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 971.46 1410.03 L 521.50 1025.73 L 71.54 641.43" fill="none" data-ref="conj_19" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 865.57 1435.46 L 481.27 985.50 L 96.97 535.54" fill="none" data-ref="conj_20" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 757.00 1444.00 L 447.82 939.47 L 138.64 434.93" fill="none" data-ref="conj_21" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 648.43 1435.46 L 421.99 888.77 L 195.54 342.08" fill="none" data-ref="conj_22" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 542.54 1410.03 L 404.41 834.65 L 266.27 259.27" fill="none" data-ref="conj_23" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 441.93 1368.36 L 395.50 778.45 L 349.08 188.54" fill="none" data-ref="conj_24" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 349.08 1311.46 L 395.50 721.55 L 441.93 131.64" fill="none" data-ref="conj_25" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 266.27 1240.73 L 404.41 665.35 L 542.54 89.97" fill="none" data-ref="conj_26" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 195.54 1157.92 L 421.99 611.23 L 648.43 64.54" fill="none" data-ref="conj_27" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 138.64 1065.07 L 447.82 560.53 L 757.00 56.00" fill="none" data-ref="conj_28" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 96.97 964.46 L 481.27 514.50 L 865.57 64.54" fill="none" data-ref="conj_29" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 71.54 858.57 L 521.50 474.27 L 971.46 89.97" fill="none" data-ref="conj_30" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 63.00 750.00 L 567.53 440.82 L 1072.07 131.64" fill="none" data-ref="conj_31" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 71.54 641.43 L 618.23 414.99 L 1164.92 188.54" fill="none" data-ref="conj_32" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 96.97 535.54 L 672.35 397.41 L 1247.73 259.27" fill="none" data-ref="conj_33" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 138.64 434.93 L 728.55 388.50 L 1318.46 342.08" fill="none" data-ref="conj_34" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 195.54 342.08 L 785.45 388.50 L 1375.36 434.93" fill="none" data-ref="conj_35" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 266.27 259.27 L 841.65 397.41 L 1417.03 535.54" fill="none" data-ref="conj_36" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 349.08 188.54 L 895.77 414.99 L 1442.46 641.43" fill="none" data-ref="conj_37" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 441.93 131.64 L 946.47 440.82 L 1451.00 750.00" fill="none" data-ref="conj_38" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 542.54 89.97 L 992.50 474.27 L 1442.46 858.57" fill="none" data-ref="conj_39" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+    <path class="geom-line" d="M 648.43 64.54 L 1032.73 514.50 L 1417.03 964.46" fill="none" data-ref="conj_40" stroke="var(--geom-fg, #1e293b)" stroke-width="1.60"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="757.00" cy="56.00" r="3.00" data-ref="P1"/>
+    <circle class="geom-point" cx="865.57" cy="64.54" r="3.00" data-ref="P2"/>
+    <circle class="geom-point" cx="971.46" cy="89.97" r="3.00" data-ref="P3"/>
+    <circle class="geom-point" cx="1072.07" cy="131.64" r="3.00" data-ref="P4"/>
+    <circle class="geom-point" cx="1164.92" cy="188.54" r="3.00" data-ref="P5"/>
+    <circle class="geom-point" cx="1247.73" cy="259.27" r="3.00" data-ref="P6"/>
+    <circle class="geom-point" cx="1318.46" cy="342.08" r="3.00" data-ref="P7"/>
+    <circle class="geom-point" cx="1375.36" cy="434.93" r="3.00" data-ref="P8"/>
+    <circle class="geom-point" cx="1417.03" cy="535.54" r="3.00" data-ref="P9"/>
+    <circle class="geom-point" cx="1442.46" cy="641.43" r="3.00" data-ref="P10"/>
+    <circle class="geom-point" cx="1451.00" cy="750.00" r="3.00" data-ref="P11"/>
+    <circle class="geom-point" cx="1442.46" cy="858.57" r="3.00" data-ref="P12"/>
+    <circle class="geom-point" cx="1417.03" cy="964.46" r="3.00" data-ref="P13"/>
+    <circle class="geom-point" cx="1375.36" cy="1065.07" r="3.00" data-ref="P14"/>
+    <circle class="geom-point" cx="1318.46" cy="1157.92" r="3.00" data-ref="P15"/>
+    <circle class="geom-point" cx="1247.73" cy="1240.73" r="3.00" data-ref="P16"/>
+    <circle class="geom-point" cx="1164.92" cy="1311.46" r="3.00" data-ref="P17"/>
+    <circle class="geom-point" cx="1072.07" cy="1368.36" r="3.00" data-ref="P18"/>
+    <circle class="geom-point" cx="971.46" cy="1410.03" r="3.00" data-ref="P19"/>
+    <circle class="geom-point" cx="865.57" cy="1435.46" r="3.00" data-ref="P20"/>
+    <circle class="geom-point" cx="757.00" cy="1444.00" r="3.00" data-ref="P21"/>
+    <circle class="geom-point" cx="648.43" cy="1435.46" r="3.00" data-ref="P22"/>
+    <circle class="geom-point" cx="542.54" cy="1410.03" r="3.00" data-ref="P23"/>
+    <circle class="geom-point" cx="441.93" cy="1368.36" r="3.00" data-ref="P24"/>
+    <circle class="geom-point" cx="349.08" cy="1311.46" r="3.00" data-ref="P25"/>
+    <circle class="geom-point" cx="266.27" cy="1240.73" r="3.00" data-ref="P26"/>
+    <circle class="geom-point" cx="195.54" cy="1157.92" r="3.00" data-ref="P27"/>
+    <circle class="geom-point" cx="138.64" cy="1065.07" r="3.00" data-ref="P28"/>
+    <circle class="geom-point" cx="96.97" cy="964.46" r="3.00" data-ref="P29"/>
+    <circle class="geom-point" cx="71.54" cy="858.57" r="3.00" data-ref="P30"/>
+    <circle class="geom-point" cx="63.00" cy="750.00" r="3.00" data-ref="P31"/>
+    <circle class="geom-point" cx="71.54" cy="641.43" r="3.00" data-ref="P32"/>
+    <circle class="geom-point" cx="96.97" cy="535.54" r="3.00" data-ref="P33"/>
+    <circle class="geom-point" cx="138.64" cy="434.93" r="3.00" data-ref="P34"/>
+    <circle class="geom-point" cx="195.54" cy="342.08" r="3.00" data-ref="P35"/>
+    <circle class="geom-point" cx="266.27" cy="259.27" r="3.00" data-ref="P36"/>
+    <circle class="geom-point" cx="349.08" cy="188.54" r="3.00" data-ref="P37"/>
+    <circle class="geom-point" cx="441.93" cy="131.64" r="3.00" data-ref="P38"/>
+    <circle class="geom-point" cx="542.54" cy="89.97" r="3.00" data-ref="P39"/>
+    <circle class="geom-point" cx="648.43" cy="64.54" r="3.00" data-ref="P40"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="757.00" y="720.00" text-anchor="middle" dominant-baseline="central" style="font-size: 18.0px; font-style: italic;">Schema magnarum Coniunctionum</text>
+    <text class="geom-label" x="757.00" y="755.00" text-anchor="middle" dominant-baseline="central" style="font-size: 16.0px; font-style: italic;">Saturni &amp; Iovis (1595)</text>
+    <text class="geom-label" x="757.00" y="790.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px;">40 Conjunctions · 4 Triplicities</text>
+  </g>
+</svg>

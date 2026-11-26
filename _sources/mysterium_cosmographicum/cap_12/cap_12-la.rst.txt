@@ -30,10 +30,15 @@ Esto proposita fides aliqua, eiusque sonus Γ ut. Igitur quot occurrunt voces a 
 .. folio:: mysterium_cosmographicum:0050
    :page: p. 40
 
-.. picture:: 0050.g1.png
-   :class: archival-plate
-   :alt: Monochordum harmonicum et aspectus planetarum (Tubingae 1596, p. 40)
-   :caption: Editio princeps (Tubingae 1596, p. 40, fol. 0050): Monochordum et consonantiae musicae.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0050.g1.png
+      :alt: Monochordum harmonicum et aspectus planetarum (Tubingae 1596, p. 40)
+      :caption: Editio princeps (Tubingae 1596, p. 40, fol. 0050): Monochordum et consonantiae musicae.
+
+   .. picture:: 0050.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Monochordum harmonicum et aspectus planetarum (Tubingae 1596, p. 40)
+      :caption: Vectorisatio calibrata (0050.g1.svg): Editio princeps (Tubingae 1596, p. 40, fol. 0050): Monochordum et consonantiae musicae.
 
 .. raw:: html
 

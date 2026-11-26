@@ -62,9 +62,15 @@ It is not my purpose to treat of the remaining parts of modern music; for nothin
 
 **Arithmetical and Mechanical Corollaries.**
 
-.. picture:: 0149.g1.png
-   :alt: Archival 1619 three-column monochord arithmetic table Corollaria Arithmetica & Mechanica (Harmonices Mundi Book III, p. 59)
-   :caption: Archival scan (Linz 1619, Lib. III, p. 59, fol. 0149): Corollaria Arithmetica & Mechanica — practical monochord fret construction.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0149.g1.png
+      :alt: Archival 1619 three-column monochord arithmetic table Corollaria Arithmetica & Mechanica (Harmonices Mundi Book III, p. 59)
+      :caption: Archival scan (Linz 1619, Lib. III, p. 59, fol. 0149): Corollaria Arithmetica & Mechanica — practical monochord fret construction.
+
+   .. picture:: 0149.g1.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 three-column monochord arithmetic table Corollaria Arithmetica & Mechanica (Harmonices Mundi Book III, p. 59)
+      :caption: Calibrated vectorization (0149.g1.svg): Archival scan (Linz 1619, Lib. III, p. 59, fol. 0149): Corollaria Arithmetica & Mechanica — practical monochord fret construction.
 
 *Multiplication of the length of the string gggg expresses eleven strings.*
 

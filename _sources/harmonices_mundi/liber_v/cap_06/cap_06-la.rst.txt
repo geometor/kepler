@@ -26,9 +26,15 @@ Vide singulos in Notis usitatis. Non formant quidem intermedios locos, quos hic 
 
 media omnia (infinita in potentia) permeantes actu: id quod aliter a me non potuit exprimi, quam per continuam seriem Notarum intermediarum.
 
-.. picture:: 0299.g1.png
-   :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
-   :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0299.g1.png
+      :alt: Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
+      :caption: Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
+
+   .. picture:: 0299.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Cantus sex planetarum Saturni, Iovis, Martis, Telluris, Veneris, Mercurii et Lunae (Lincii 1619, Lib. V, p. 207)
+      :caption: Vectorisatio calibrata (0299.g1.svg): Editio princeps (Lincii 1619, Lib. V, p. 207, fol. 0299): Cantus proprii sex planetarum et Lunae.
 
 Venus fere manet in unisono non aequans tensionis amplitudine vel minimum ex concinnis intervallis.
 

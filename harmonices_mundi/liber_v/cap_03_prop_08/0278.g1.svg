@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546 1600" width="546" height="1600" class="euclid-graphic" data-graphic-id="0278.g1" data-folio="0278" data-graphic="g1" role="img" aria-label="Harmonices Mundi V.3 Nested Planetary Orbs and Polyhedra">
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.6" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" orient="auto" markerUnits="userSpaceOnUse">
+      <line x1="-3.4" y1="-4.5" x2="-3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+      <line x1="3.4" y1="-4.5" x2="3.4" y2="4.5" stroke="var(--geom-assert, #16a34a)" stroke-width="1.4" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <g id="elements">
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="20.00" fill="none" data-ref="inner_orb_0" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="28.00" fill="none" data-ref="inner_orb_1" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="36.00" fill="none" data-ref="inner_orb_2" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="44.00" fill="none" data-ref="inner_orb_3" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="52.00" fill="none" data-ref="inner_orb_4" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="60.00" fill="none" data-ref="inner_orb_5" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="73.00" fill="none" data-ref="inner_orb_6" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="109.00" fill="none" data-ref="inner_orb_7" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="117.00" fill="none" data-ref="inner_orb_8" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="143.00" fill="none" data-ref="inner_orb_9" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="158.00" fill="none" data-ref="inner_orb_10" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <circle class="geom-circle" cx="275.00" cy="1274.00" r="176.00" fill="none" data-ref="inner_orb_11" stroke="var(--geom-fg, #1e293b)" stroke-width="2.00"/>
+    <path class="geom-circle" d="M 152.79 727.50 A 560.00 560.00 0 0 1 275.00 714.00 A 560.00 560.00 0 0 1 397.21 727.50" fill="none" data-ref="outer_arc_0" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-circle" d="M 145.81 696.27 A 592.00 592.00 0 0 1 275.00 682.00 A 592.00 592.00 0 0 1 404.19 696.27" fill="none" data-ref="outer_arc_1" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-circle" d="M 70.30 358.61 A 938.00 938.00 0 0 1 275.00 336.00 A 938.00 938.00 0 0 1 479.70 358.61" fill="none" data-ref="outer_arc_2" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-circle" d="M 52.41 278.58 A 1020.00 1020.00 0 0 1 275.00 254.00 A 1020.00 1020.00 0 0 1 497.59 278.58" fill="none" data-ref="outer_arc_3" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-circle" d="M 49.79 266.87 A 1032.00 1032.00 0 0 1 275.00 242.00 A 1032.00 1032.00 0 0 1 500.21 266.87" fill="none" data-ref="outer_arc_4" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-circle" d="M 35.82 204.42 A 1096.00 1096.00 0 0 1 275.00 178.00 A 1096.00 1096.00 0 0 1 514.18 204.42" fill="none" data-ref="outer_arc_5" stroke="var(--geom-fg, #1e293b)" stroke-width="2.0"/>
+    <path class="geom-line" d="M 275.00 178.00 L 275.00 216.00 L 275.00 254.00" fill="none" data-ref="/ axis_sat /" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 275.00 682.00 L 275.00 698.00 L 275.00 714.00" fill="none" data-ref="/ axis_jup /" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+    <path class="geom-line" d="M 275.00 1098.00 L 275.00 1274.00 L 275.00 1450.00" fill="none" data-ref="/ axis_inner /" stroke="var(--geom-accent, #d97706)" stroke-width="1.80"/>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;">
+  </g>
+  <g id="points">
+    <circle class="geom-point" cx="275.00" cy="1274.00" r="4.50" data-ref="Sol" fill="var(--geom-accent, #d97706)"/>
+  </g>
+  <g id="labels">
+    <text class="geom-label" x="275.00" y="130.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px;">SATURNI ORBIS</text>
+    <text class="geom-label" x="275.00" y="440.00" text-anchor="middle" dominant-baseline="central" style="font-size: 18.0px;">CUBUS</text>
+    <text class="geom-label" x="275.00" y="620.00" text-anchor="middle" dominant-baseline="central" style="font-size: 14.0px;">JOVIS ORBIS</text>
+    <text class="geom-label" x="275.00" y="850.00" text-anchor="middle" dominant-baseline="central" style="font-size: 16.0px;">TETRAHEDRON</text>
+    <text class="geom-label" x="275.00" y="1399.00" text-anchor="middle" dominant-baseline="central" style="font-size: 11.0px;">DODECAHEDRON</text>
+  </g>
+</svg>

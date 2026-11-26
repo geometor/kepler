@@ -29,9 +29,15 @@ Praecipua vero est hujus abscissionis necessitas in supremo intervallo, quod cap
 
 Itaque fiunt in una octava in universum chordae tredecim, his numeris seu terminis minimis: quibus interposui intervalla omnia minima secundum naturalem ordinem in pleno & perfecto Systemate organico.
 
-.. picture:: 0137.g1.png
-   :alt: Chordae tredecim 1080–2160 in notis usitatis (Lincii 1619, Lib. III, p. 47)
-   :caption: Editio princeps (Lincii 1619, Lib. III, p. 47, fol. 0137): Systema tredecim chordarum 1080–2160.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0137.g1.png
+      :alt: Chordae tredecim 1080–2160 in notis usitatis (Lincii 1619, Lib. III, p. 47)
+      :caption: Editio princeps (Lincii 1619, Lib. III, p. 47, fol. 0137): Systema tredecim chordarum 1080–2160.
+
+   .. picture:: 0137.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Chordae tredecim 1080–2160 in notis usitatis (Lincii 1619, Lib. III, p. 47)
+      :caption: Vectorisatio calibrata (0137.g1.svg): Editio princeps (Lincii 1619, Lib. III, p. 47, fol. 0137): Systema tredecim chordarum 1080–2160.
 
 .. folio:: harmonices_mundi:0138
    :page: p. 48

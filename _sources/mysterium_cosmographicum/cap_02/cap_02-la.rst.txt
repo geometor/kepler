@@ -87,6 +87,10 @@ Huc pertinet Tabula Tertia.
       :alt: Tabula III (Tubingae 1597, fol. 0034): Quinque Corpora Regularia inter sex orbes coelestes
       :caption: Tabula III (Tubingae 1597, ad p. 25, fol. 0034): Ordo quinque corporum regularium inter sex orbes.
 
+   .. picture:: 0034.g1.svg
+      :alt: Vectorisatio calibrata (.euclid-graphic): Tabula III (Tubingae 1597, fol. 0034): Quinque Corpora Regularia inter sex orbes coelestes
+      :caption: Vectorisatio calibrata (0034.g1.svg): Tabula III (Tubingae 1597, ad p. 25, fol. 0034): Ordo quinque corporum regularium inter sex orbes.
+
    .. picture:: 0034.cad.png
       :alt: Exemplar tridimensionale CAD Tabulae III secundum rationes exactas Capitis XIII
       :caption: Exemplar CAD tridimensionale: Sex hemisphaeria planetarum, quinque corpora aperta et basis sculpta.

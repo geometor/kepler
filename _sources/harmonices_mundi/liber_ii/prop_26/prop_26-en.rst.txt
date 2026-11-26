@@ -26,10 +26,15 @@ They are called *most perfect* congruences—the former solid, the latter semiso
 .. folio:: harmonices_mundi:0081
    :page: Plates Ss & Tt
 
-.. picture:: 0081.g2.png
-   :class: archival-plate
-   :alt: Archival 1619 copperplate Plates Ss and Tt showing the Small and Great Stellated Dodecahedra
-   :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): Kepler's Small (Ss) and Great (Tt) Stellated Dodecahedra.
+.. container:: kepler-plate-pair
+
+   .. picture:: 0081.g2.png
+      :alt: Archival 1619 copperplate Plates Ss and Tt showing the Small and Great Stellated Dodecahedra
+      :caption: Archival scan (Linz 1619, Lib. II, fol. 0081): Kepler's Small (Ss) and Great (Tt) Stellated Dodecahedra.
+
+   .. picture:: 0081.g2.svg
+      :alt: Calibrated interactive vectorization: Archival 1619 copperplate Plates Ss and Tt showing the Small and Great Stellated Dodecahedra
+      :caption: Calibrated vectorization (0081.g2.svg): Archival scan (Linz 1619, Lib. II, fol. 0081): Kepler's Small (Ss) and Great (Tt) Stellated Dodecahedra.
 
 .. raw:: html
 
