@@ -46,7 +46,7 @@ Almost an entire summer was spent in this arduous toil. At last, upon a quite sl
       :alt: Kepler's July 19, 1595 Graz Great-Conjunction Equilateral Triangle Diagram
       :caption: Calibrated vectorization: Equilateral triangle ABC enveloping Jupiter's circle (OM : OA = 1 : 2).
 
-In the planar figure above, the equilateral triangle :g:`ABC` inscribed within Saturn's circle :g:`cSAT` about center :g:`O` touches Jupiter's inscribed circle :g:`cJUP` at midpoint :g:`M`, yielding the exact radius ratio $OM : OA = 1 : 2$ and :term:`quadrance <quadrance>` ratio $Q(O, M) / Q(O, A) = \frac{1}{4}$ (:just:`XIII.12`).
+In the planar figure above, the equilateral triangle :g:`ABC` inscribed within Saturn's circle :g:`cSAT` about center :g:`O` touches Jupiter's inscribed circle :g:`cJUP` at midpoint :g:`M`, yielding the exact radius ratio :math:`OM : OA = 1 : 2` and :term:`quadrance <quadrance>` ratio :math:`Q(O, M) / Q(O, A) = \frac{1}{4}` (:just:`XIII.12`).
 
 Immediately I attempted to separate Mars and Jupiter with a square, Earth and Mars with a pentagon, and the remaining intervals with a hexagon, heptagon, and so forth. Yet I saw at once that of regular plane polygons there is an **infinite** multitude, whereas in the sky there are **only five intervals** between the six mobile Copernican orbs! Wherefore, cried I: *"Why do I seek two-dimensional plane polygons for three-dimensional solid orbs? Behold, solid bodies must be interposed between solid spheres! And behold, reader, the invention and entire substance of this little treatise!"* For by :person:`Euclid's <euclid>` final theorem (:just:`XIII.18`), in all of three-dimensional geometry there exist **five, and strictly no more than five**, convex regular solid bodies!
 

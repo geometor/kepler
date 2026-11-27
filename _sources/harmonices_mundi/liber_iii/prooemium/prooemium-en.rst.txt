@@ -47,21 +47,21 @@ Indeed, Pythagoras is said to have been the first, when passing by an iron smith
  so that the large ones gave out low sounds and the small ones high sounds. And since between magnitudes a proportion is properly observed, having weighed the hammers, he easily noticed the proportions by which harmonic intervals of voices are constituted, and by which dissonant ones; by which Concinnous, and by which Inconcinnous.
  For straightaway he passed from hammers to the lengths of strings, where the ears indicate more precisely which parts of a string are consonant with the whole, and which are dissonant from it.
 
-Once certain proportions had been discovered—the *fact* ($\tau\tilde{\omega}\ \text{ὅτι}$)—it remained to investigate the causes, or the *reason why* ($\tau\grave{\text{ὸ}}\ \text{διότι}$),
+Once certain proportions had been discovered—the *fact* (:math:`\tau\tilde{\omega}\ \text{ὅτι}`)—it remained to investigate the causes, or the *reason why* (:math:`\tau\grave{\text{ὸ}}\ \text{διότι}`),
  why these proportions define concinnous, sweet, and consonant intervals of voices, while other proportions define dissonant, unfamiliar ones abhorrent to the ears. And for two thousand years men followed this opinion, that causes should be sought from the properties of the proportions themselves, as contained under terms of discrete quantity, namely Numbers.
- For the Pythagoreans saw that perfect harmonies are established if strings equally stretched have between themselves the double proportion of length, and if the triple, and if the quadruple, between the numbers $1 : 2$, and $1 : 3$, and $1 : 4$. Which proportions are called Multiples in Arithmetic.
- Again, somewhat less perfect are the consonances of strings that make the sesquialter proportion, *Hemiolia*, and the sesquitertian, *Epitriton*, namely between the numbers $2 : 3$ and $3 : 4$; which two proportions joined together make the double proportion between $2 : 4$ or $1 : 2$. And the smaller, between $3 : 4$, taken from the greater $2 : 3$,
- left the sesquioctave, between $8 : 9$. And so much they grasped to be the
+ For the Pythagoreans saw that perfect harmonies are established if strings equally stretched have between themselves the double proportion of length, and if the triple, and if the quadruple, between the numbers :math:`1 : 2`, and :math:`1 : 3`, and :math:`1 : 4`. Which proportions are called Multiples in Arithmetic.
+ Again, somewhat less perfect are the consonances of strings that make the sesquialter proportion, *Hemiolia*, and the sesquitertian, *Epitriton*, namely between the numbers :math:`2 : 3` and :math:`3 : 4`; which two proportions joined together make the double proportion between :math:`2 : 4` or :math:`1 : 2`. And the smaller, between :math:`3 : 4`, taken from the greater :math:`2 : 3`,
+ left the sesquioctave, between :math:`8 : 9`. And so much they grasped to be the
 
 .. folio:: harmonices_mundi:0094
    :page: p. 4
 
-interval of the Tone, most common in all song. Now the number $8$ is the cube of $2$, and the number $9$ is the square of $3$.
- Thus these numbers $1, 2, 3, 4, 8, 9$ were ready to hand. Since, however, the same unity is both its own square and its cube, while the Dyad has its square $4$ and cube $8$, to the Triad also, besides its square $9$, they adjoined its cube $27$, because they judged that one must proceed as far as cubes,
+interval of the Tone, most common in all song. Now the number :math:`8` is the cube of :math:`2`, and the number :math:`9` is the square of :math:`3`.
+ Thus these numbers :math:`1, 2, 3, 4, 8, 9` were ready to hand. Since, however, the same unity is both its own square and its cube, while the Dyad has its square :math:`4` and cube :math:`8`, to the Triad also, besides its square :math:`9`, they adjoined its cube :math:`27`, because they judged that one must proceed as far as cubes,
  since the whole World and all vocal things consist not of empty surfaces, but of solid bodies. Finally, from this beginning so great a reputation of these Numbers grew—because they were Primes, and their squares and cubes—that the Pythagoreans judged that the whole of Philosophy should be ordered from them.
  For unity represented to them Idea and Mind and Form, because just as unity is indivisible and remains the same when multiplied both squarely and cubically, so too ideas are indivisible, universal, and always the Same. Therefore they made unity the symbol of the Nature of Identity, and the remaining Numbers symbols of the Nature of Alterity.
- Thus the Dyad signified alterity and Matter, because it admits division just as matter does, and because when multiplied squarely it becomes $4$, cubically $8$, which are numbers distinct from $2$; so matter can be unstable and multiform. Otherwise, the Dyad also signified the soul, because whereas Mind is immovable, or rejoices in uniform, that is, circular motion,
- the Soul on the contrary receives manifold motions from the body, and is more closely related to rectilinear motions, which are in a sixfold difference. Finally, the Triad denoted to them body, composed of form and Matter, just as $3$ is composed of $2$ and $1$, and because mundane bodies have as many dimensions as the Triad has units.
+ Thus the Dyad signified alterity and Matter, because it admits division just as matter does, and because when multiplied squarely it becomes :math:`4`, cubically :math:`8`, which are numbers distinct from :math:`2`; so matter can be unstable and multiform. Otherwise, the Dyad also signified the soul, because whereas Mind is immovable, or rejoices in uniform, that is, circular motion,
+ the Soul on the contrary receives manifold motions from the body, and is more closely related to rectilinear motions, which are in a sixfold difference. Finally, the Triad denoted to them body, composed of form and Matter, just as :math:`3` is composed of :math:`2` and :math:`1`, and because mundane bodies have as many dimensions as the Triad has units.
 
 
 Nor were Numbers merely Symbols of the three principles, but the Soul itself was now composed by them out of these numbers, all their proportions, and the subdivisions of proportions into sesquialters, sesquitertians, and sesquioctaves: so that the Soul, the bond of Mind and Body, was in its essence nothing other than Harmony, and composed of harmonies.
@@ -70,36 +70,36 @@ Nor were Numbers merely Symbols of the three principles, but the Soul itself was
 **Digression on the Pythagorean Tetractys.**
 
 From the principles set forth shortly before, it seems that that famous Tetractys must be elicited, the perennial fountain of the human Soul,
- by which the Pythagoreans swore; in my opinion thus, that between pairs of the three cubes $1, 8,$ and $27$, for instance between $1$ and $8$, there are two mean proportionals, $2$ and $4$. Thus the four numbers $1, 2, 4, 8$, whose sum is $15$, or $1, 3, 9, 27$, whose sum is $40$, make that Tetractys.
+ by which the Pythagoreans swore; in my opinion thus, that between pairs of the three cubes :math:`1, 8,` and :math:`27`, for instance between :math:`1` and :math:`8`, there are two mean proportionals, :math:`2` and :math:`4`. Thus the four numbers :math:`1, 2, 4, 8`, whose sum is :math:`15`, or :math:`1, 3, 9, 27`, whose sum is :math:`40`, make that Tetractys.
  For pairs of cubes have two mean proportionals, just as pairs of planes have one proportional, as is known from geometry.
 
 .. folio:: harmonices_mundi:0095
    :page: p. 5
 
-Or this was the Tetractys: $1, 2, 3, 4$: $1$, that principle of Numbers; $2$, the first of Numbers and of Evens; $3$, the first of composites and of Odds;
- multiplying $1$ into $3$ makes the rectangle $3$, as from an odd number; multiplying $2$ into itself makes the square $4$, as from an even number, whose length and breadth in construction also ought to be equal, just as in the rectangle of the other they are unequal. Thus the sum of $1, 2, 3, 4$ is $10$,
- and the human soul is accustomed to count up to $10$. And just as there are $4$ Numbers—as many, namely, as there were units in the fourth—so too through them there exist four species of harmonies: between $1$ and $2$ the Diapason, as also between $2$ and $4$, and between $1$ and $4$ the Disdiapason,
- which count as one; between $1$ and $3$ the Diapason Epidiapente, which they held for the greatest Harmony of the system, and here is the second; the third between $2$ and $3$, the Diapente; and the fourth between $3$ and $4$, the Diatessaron. Nor did they recognize more Harmonies.
+Or this was the Tetractys: :math:`1, 2, 3, 4`: :math:`1`, that principle of Numbers; :math:`2`, the first of Numbers and of Evens; :math:`3`, the first of composites and of Odds;
+ multiplying :math:`1` into :math:`3` makes the rectangle :math:`3`, as from an odd number; multiplying :math:`2` into itself makes the square :math:`4`, as from an even number, whose length and breadth in construction also ought to be equal, just as in the rectangle of the other they are unequal. Thus the sum of :math:`1, 2, 3, 4` is :math:`10`,
+ and the human soul is accustomed to count up to :math:`10`. And just as there are :math:`4` Numbers—as many, namely, as there were units in the fourth—so too through them there exist four species of harmonies: between :math:`1` and :math:`2` the Diapason, as also between :math:`2` and :math:`4`, and between :math:`1` and :math:`4` the Disdiapason,
+ which count as one; between :math:`1` and :math:`3` the Diapason Epidiapente, which they held for the greatest Harmony of the system, and here is the second; the third between :math:`2` and :math:`3`, the Diapente; and the fourth between :math:`3` and :math:`4`, the Diatessaron. Nor did they recognize more Harmonies.
 
 These things from my own mind.
  But Joachim Camerarius writes somewhat differently concerning the same Tetractys, nor much more rightly, unless a manifold reading of ancient authors deceived him—who, in his Greek commentaries on the Golden Verses of Pythagoras, writes thus: *First, they singularly designated the Denary by the name of Number.*
- *In which sense Plato said in the Phaedo that when Numbers are sent forth the universe is odd. For let two orders of numbers be written down alternately from unity to the denary; one order will be of Odds, the other of Evens, in this manner:* $1, 3, 5, 7, 9$ *(sum $25$, odd, the square of five, namely as many as were odd),* $2, 4, 6, 8, 10$.
- *Or, omitting unity as principle, and the Denary as singularly called Number, thus:* $2, 4, 6, 8$; $3, 5, 7, 9$ *(sum $24$, even).*
+ *In which sense Plato said in the Phaedo that when Numbers are sent forth the universe is odd. For let two orders of numbers be written down alternately from unity to the denary; one order will be of Odds, the other of Evens, in this manner:* :math:`1, 3, 5, 7, 9` (*sum* :math:`25`, *odd, the square of five, namely as many as were odd*), :math:`2, 4, 6, 8, 10`.
+ *Or, omitting unity as principle, and the Denary as singularly called Number, thus:* :math:`2, 4, 6, 8`; :math:`3, 5, 7, 9` (*sum* :math:`24`, *even*).
 
-*That is the famous enigma: that the Odds are Even. For each of $3, 5, 7, 9$ is odd, yet all together are even in number, four (and the sum $24$ is even).*
+*That is the famous enigma: that the Odds are Even. For each of* :math:`3, 5, 7, 9` *is odd, yet all together are even in number, four (and the sum* :math:`24` *is even*).
 
 
 *Thus the Denary, peculiarly called Number by the Pythagoreans, has this property, that it is collected from unity and its continuous multiples up to the quaternary. For an equilateral numerical Triangle is formed, whose base is the Quaternary and vertex unity. From this the Pythagoreans called every number Tetractys.*
- *For when the sides of the first Tetractys are doubled, another Pythagorean Tetractys is formed, of the Number $36$, most celebrated and useful in every way among them—namely a numerical Trigon whose base is the Octonary. Thus in many demonstrations they used the number $36$, especially in Harmonics.*
- *For in the dispositions of the figures of this Number are found these numbers $12, 9, 8, 6$, in which numbers they demonstrated that all Harmonic Consonances according to the proportions of Intervals are comprehended. For the Number $36$ is a square, and its side is $6$; it is a Trigon, whose side is $8$;*
- *it is an Oblong Rectangle, whose length is $9$ and its other length is $12$ (for four nines and three twelves both make $36$). Finally, when these numbers $6, 8, 9, 12$ are cast into one sum, there arises the Number $35$, called Harmony by the Pythagoreans,*
- *to which unity added again completes the Number $36$. Moreover, of the numbers collected from their antecedents in natural order (that is, from the trigonal numbers $1, 3, 6, 10, 15, 21, 28$), $36$ is the first (and the only one below $1225$) that is a square, and it has side $6$, the first perfect number*
+ *For when the sides of the first Tetractys are doubled, another Pythagorean Tetractys is formed, of the Number* :math:`36`, *most celebrated and useful in every way among them—namely a numerical Trigon whose base is the Octonary. Thus in many demonstrations they used the number* :math:`36`, *especially in Harmonics*.
+ *For in the dispositions of the figures of this Number are found these numbers* :math:`12, 9, 8, 6`, *in which numbers they demonstrated that all Harmonic Consonances according to the proportions of Intervals are comprehended. For the Number* :math:`36` *is a square, and its side is* :math:`6`; *it is a Trigon, whose side is* :math:`8`;
+ *it is an Oblong Rectangle, whose length is* :math:`9` *and its other length is* :math:`12` (*for four nines and three twelves both make* :math:`36`). *Finally, when these numbers* :math:`6, 8, 9, 12` *are cast into one sum, there arises the Number* :math:`35`, *called Harmony by the Pythagoreans*,
+ *to which unity added again completes the Number* :math:`36`. *Moreover, of the numbers collected from their antecedents in natural order (that is, from the trigonal numbers* :math:`1, 3, 6, 10, 15, 21, 28`), :math:`36` *is the first (and the only one below* :math:`1225`) *that is a square, and it has side* :math:`6`, *the first perfect number*
 
 .. folio:: harmonices_mundi:0096
    :page: p. 6
 
-*(composed, namely, of all its aliquot parts $3, 2,$ and $1$).*
- *The same is also produced by multiplying the first two squares $4$ and $9$. The same is gathered and composed from the first two cubes $8$ and $27$, together with cubic unity. On account of so manifold a use of this Speculation, this Tetractys was held by the Pythagoreans among the foremost things worthy of consideration and admiration;*
+(*composed, namely, of all its aliquot parts* :math:`3, 2,` *and* :math:`1`).
+ *The same is also produced by multiplying the first two squares* :math:`4` *and* :math:`9`. *The same is gathered and composed from the first two cubes* :math:`8` *and* :math:`27`, *together with cubic unity. On account of so manifold a use of this Speculation, this Tetractys was held by the Pythagoreans among the foremost things worthy of consideration and admiration*;
  *and therefore they transferred it to Physics, and especially to the contemplation of the Soul, nor less to Ethics; and they mingled some Theological matters. For as Epiphanius shows from Irenaeus against the Valentinians, they made the Tetractys an oath: and by those four they understood Depth, Silence, Mind, Truth.*
  *Although in the Golden Verses the formula of the oath is not the Tetractys itself, but he who through the Tetractys showed forth the perpetuity of the Soul's Essence. Plutarch, indeed, explained the psychic Tetractys physically, as Sense, Opinion, Science, Mind, and added the verse:*
 
@@ -107,8 +107,8 @@ These things from my own mind.
 
 
 *But the mundane Tetractys may be viewed more accurately in this manner: that from unity, produced through the Ternary ratio, with unity taken into the middle to fill the interval, and hedged round on all sides as if with straight lines by Quaternaries, thus at last this Tetractys makes the Denary,*
- *since in this way it is itself the third of the Trigons in generation: (for after unity, the first trigon is $3$, whose base is $2$, the second $6$, whose base is $3$; if you draw the three outer lines of these through the two points there, and three here,*
- *shadowing forth a Trigon, nothing is left in the middle; but if the third Trigon, $10$ with base $4$, receives single lines in place of the fourfold points, going round on the outside, one point is left in the middle, which belongs to none of the bounding lines,*
+ *since in this way it is itself the third of the Trigons in generation: (for after unity, the first trigon is* :math:`3`, *whose base is* :math:`2`, *the second* :math:`6`, *whose base is* :math:`3`; *if you draw the three outer lines of these through the two points there, and three here*,
+ *shadowing forth a Trigon, nothing is left in the middle; but if the third Trigon*, :math:`10` *with base* :math:`4`, *receives single lines in place of the fourfold points, going round on the outside, one point is left in the middle, which belongs to none of the bounding lines*,
  *but shadows forth the inner space, like a heart or kernel). For this reason the Pythagoreans called the Decad*
 
    *All-encompassing Mother, who hedges all things round,*
@@ -125,11 +125,11 @@ These things from my own mind.
 .. folio:: harmonices_mundi:0097
    :page: p. 7
 
-*The Quaternary is the number defining and enumerating the Elements. For the World is a solid body: and two solids always require two means, so that they may agree in continuous proportion. And the sum of these (namely $1, 2, 3,$ and $4$) is the denary,*
+*The Quaternary is the number defining and enumerating the Elements. For the World is a solid body: and two solids always require two means, so that they may agree in continuous proportion. And the sum of these (namely* :math:`1, 2, 3,` *and* :math:`4`) *is the denary*,
  *of which thus far. For this is the adornment of the universe, this the dowry with which its maker endowed it.* Thus far Camerarius from the ancients; with which Hermes Trismegistus (whoever he was) inculcates many agreeing things upon his son Tat: whose words are these, *Unity according to reason embraces the Denary,*
- *and again the Denary embraces unity.* Then he composes the concupiscible faculty of the Soul from $12$ avengers, or Ethical vices, according to the number of the signs of the Zodiac, to which he subjects the Body and this power of the Soul verging toward the body: but the Rational faculty of the Soul
- he himself also composes from the Denary of Ethical Virtues. Thus, whereas the Pythagoreans celebrate the Tetractys as the fountain of Souls, and Camerarius says there were several Tetractyes—not only that which rises from a base of four to the sum $10$, but also another chief one, which from a base of the Ogdoad
- gathers the sum $36$ all the way to the vertex—Tat here also hints the same from the doctrine of his father Hermes, when he says there was a time when he himself was still in the Ogdoad, the Eight: while the Father sends the Son to Pimander, who sings of the Ogdoad;
+ *and again the Denary embraces unity.* Then he composes the concupiscible faculty of the Soul from :math:`12` avengers, or Ethical vices, according to the number of the signs of the Zodiac, to which he subjects the Body and this power of the Soul verging toward the body: but the Rational faculty of the Soul
+ he himself also composes from the Denary of Ethical Virtues. Thus, whereas the Pythagoreans celebrate the Tetractys as the fountain of Souls, and Camerarius says there were several Tetractyes—not only that which rises from a base of four to the sum :math:`10`, but also another chief one, which from a base of the Ogdoad
+ gathers the sum :math:`36` all the way to the vertex—Tat here also hints the same from the doctrine of his father Hermes, when he says there was a time when he himself was still in the Ogdoad, the Eight: while the Father sends the Son to Pimander, who sings of the Ogdoad;
  in which indeed there occurs an Ogdoad of Ethical habits of the Soul, seven indeed corresponding to the seven planets, as appears, beginning from the Moon; and the eighth, more divine and tranquil, belonging I suppose to the idea of the sphere of fixed stars. All things also are carried out through Harmonies;
  very frequent inculcation of Silence, very frequent mention of Mind and Truth; there are also set forth the Cave, the Depth, the Inner Shrine, the Mixing-Bowl of Souls, and many other things: so that there can be no doubt that either Pythagoras Hermetizes, or Hermes Pythagorizes.
  For this also is added, that Hermes hands down a certain Theology and worship of the divine majesty; often a paraphrast of Moses, often of John the Evangelist in his own sense, especially on Regeneration; and he inculcates certain ceremonies upon his disciple; whereas authors affirm the same of the Pythagoreans,
@@ -145,21 +145,21 @@ For to this form of philosophizing through Numbers the Pythagoreans were so devo
    :page: p. 8
 
 for the semitone;
- nor did he only add other superparticulars approved by the ears, such as the sesquiquartan and sesquiquintan, but also adopted some from the superpartients, such as between $3 : 5$ and between $5 : 8$ and others.
+ nor did he only add other superparticulars approved by the ears, such as the sesquiquartan and sesquiquintan, but also adopted some from the superpartients, such as between :math:`3 : 5` and between :math:`5 : 8` and others.
 
 In this way Ptolemy indeed emended the Pythagorean speculation on the origin of harmonic proportions as stumbling,
  yet did not remove it altogether as false; and he who restored the judgment of the ears to its dignity in words and doctrine, nevertheless deserted it again, clinging himself also to the contemplation of abstract numbers. For the cause of number and of individual harmonic proportions is not even thus adequate to its effect,
- but falls short in defining Consonances, and goes to excess in other Concinnous intervals: Ptolemy even denies that minor and major Thirds and Sixths (which are contained in the proportions $4 : 5$, $5 : 6$, $3 : 5$, and $5 : 8$) are consonant, which all well-eared Musicians of today affirm;
- and on the other hand he receives the proportions $6 : 7$ and $7 : 8$ and others among Concinnous Musical intervals, so that in Singing proceeding from UT to FA, some middle voice is set between RE and MI in the proportion in which $7$ is mean between $6$ and $8$,
+ but falls short in defining Consonances, and goes to excess in other Concinnous intervals: Ptolemy even denies that minor and major Thirds and Sixths (which are contained in the proportions :math:`4 : 5`, :math:`5 : 6`, :math:`3 : 5`, and :math:`5 : 8`) are consonant, which all well-eared Musicians of today affirm;
+ and on the other hand he receives the proportions :math:`6 : 7` and :math:`7 : 8` and others among Concinnous Musical intervals, so that in Singing proceeding from UT to FA, some middle voice is set between RE and MI in the proportion in which :math:`7` is mean between :math:`6` and :math:`8`,
  which for the sake of notation may be RI, and now UT, RI, FA could be sung just as UT, RE, MI, FA can be sung—which is most abhorrent to the ears and singing practice of all men, however strings can be tuned in that way; since, being inanimate, they do not interpose their own judgment,
  but follow the hand of an inept theorist without resisting at all.
 
 Moreover, even if that cause sought from abstract Numbers and this effect, the Consonances, were completely equal in breadth, and could not absurdly seem an archetypal cause, testifying to the fact that the Father of things, the eternal Mind,
- having contemplated those Numbers, took thence the Idea of voices and intervals, which, that they might please human Souls, He had to provide for by the conformation of Souls: nevertheless it would not yet be so clear why these numbers $1, 2, 3, 4, 5, 6,$ etc. concur to Musical intervals,
- whereas $7, 11, 13,$ and the like do not concur; nor would numbers as numbers show the cause of this thing out of themselves. For that cause from the Ternary of principles and the family of squares and cubes deduced thence is no cause, since the quinary is exiled from it,
+ having contemplated those Numbers, took thence the Idea of voices and intervals, which, that they might please human Souls, He had to provide for by the conformation of Souls: nevertheless it would not yet be so clear why these numbers :math:`1, 2, 3, 4, 5, 6,` etc. concur to Musical intervals,
+ whereas :math:`7, 11, 13,` and the like do not concur; nor would numbers as numbers show the cause of this thing out of themselves. For that cause from the Ternary of principles and the family of squares and cubes deduced thence is no cause, since the quinary is exiled from it,
  which does not suffer the right of citizenship among the Origin of Musical intervals to be snatched from it.
 
-Nor does this satisfy the theorist, that he knows the Numbers $1, 2, 3$ are symbols of the Principles of which Natural things consist. For an interval is not a natural thing, but a Geometric one;
+Nor does this satisfy the theorist, that he knows the Numbers :math:`1, 2, 3` are symbols of the Principles of which Natural things consist. For an interval is not a natural thing, but a Geometric one;
  unless, therefore, these numbers count something else which is more akin to intervals, the philosopher will be able to give no credence to this cause, but will hold it suspect as no cause.
 
 For these reasons, therefore, for twenty years now I have judged that I must labor at this,

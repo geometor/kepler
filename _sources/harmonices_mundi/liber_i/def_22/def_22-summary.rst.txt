@@ -9,4 +9,4 @@
 Definition XXII: Summary
 ========================
 
-Directly names the **Apotome** ($a - \sqrt{b}$) exemplified geometrically by the regular **Decagon** ($s_{10} = \frac{\sqrt{5}-1}{2} R$, Euclid XIII.9).
+Directly names the **Apotome** (:math:`a - \sqrt{b}`) exemplified geometrically by the regular **Decagon** (:math:`s_{10} = \frac{\sqrt{5}-1}{2} R`, Euclid XIII.9).

@@ -9,4 +9,4 @@
 Proposition XV: Summary
 =======================
 
-Establishes the universal topological lower bound $k \ge 3$ for vertex valence across both planar tessellations and spatial polyhedra.
+Establishes the universal topological lower bound :math:`k \ge 3` for vertex valence across both planar tessellations and spatial polyhedra.

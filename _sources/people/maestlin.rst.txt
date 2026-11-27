@@ -9,4 +9,4 @@
 Michael Mästlin
 ===============
 
-Professor of Mathematics and Astronomy at the University of Tübingen, Kepler's university mentor and lifelong correspondent. Mästlin secured the publication of the 1596 *Mysterium Cosmographicum*, contributed its appended trigonometric treatise on planetary distances, and received Kepler's historic October 1597 letter formulating the Kepler Right Triangle ($1 : \sqrt{\phi} : \phi$).
+Professor of Mathematics and Astronomy at the University of Tübingen, Kepler's university mentor and lifelong correspondent. Mästlin secured the publication of the 1596 *Mysterium Cosmographicum*, contributed its appended trigonometric treatise on planetary distances, and received Kepler's historic October 1597 letter formulating the Kepler Right Triangle (:math:`1 : \sqrt{\phi} : \phi`).

@@ -9,4 +9,4 @@
 Definition XVII: Summary
 ========================
 
-In Degree V, symmetric invariants $x^2 + y^2$ and $xy$ both lie in $\mathbb{Q} \cdot D^2$, allowing nested radical sides $(x \pm y)$ to reduce cleanly to Binomials and Apotomes.
+In Degree V, symmetric invariants :math:`x^2 + y^2` and :math:`xy` both lie in :math:`\mathbb{Q} \cdot D^2`, allowing nested radical sides :math:`(x \pm y)` to reduce cleanly to Binomials and Apotomes.

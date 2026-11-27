@@ -12,7 +12,7 @@ Chapter XI: Notes & Provenance
 The Four Unrolled Belt Woodcuts on Folio 0048 (p. 38)
 -----------------------------------------------------
 
-Folio ``0048`` (p. 38) preserves four crisp 1596 horizontal strip woodcuts showing the antiprismatic equatorial ribbons of the Dodecahedron and Icosahedron superposed over the Octahedron's central equator (both in-phase and shifted by $36^\circ$). Geometrically, Kepler has recognized the **pentagonal antiprism** core of the Icosahedron and the equatorial **Petrie-like decagonal zig-zag** of both icosahedral-symmetry solids—an early visualization of polyhedral belt projections.
+Folio ``0048`` (p. 38) preserves four crisp 1596 horizontal strip woodcuts showing the antiprismatic equatorial ribbons of the Dodecahedron and Icosahedron superposed over the Octahedron's central equator (both in-phase and shifted by :math:`36^\circ`). Geometrically, Kepler has recognized the **pentagonal antiprism** core of the Icosahedron and the equatorial **Petrie-like decagonal zig-zag** of both icosahedral-symmetry solids—an early visualization of polyhedral belt projections.
 
 Transcription & Provenance
 --------------------------

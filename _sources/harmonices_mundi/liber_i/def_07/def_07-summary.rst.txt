@@ -9,4 +9,4 @@
 Definition VII: Summary
 =======================
 
-Formalizes Kepler's epistemological axiom: geometric knowledge is relational measurement against a canonical rational unit—specifically the circle diameter $D$, whose square $D^2$ governs all Euclidean quadratic reductions.
+Formalizes Kepler's epistemological axiom: geometric knowledge is relational measurement against a canonical rational unit—specifically the circle diameter :math:`D`, whose square :math:`D^2` governs all Euclidean quadratic reductions.

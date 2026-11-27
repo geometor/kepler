@@ -12,7 +12,7 @@ Chapter XVII: Notes & Provenance
 Exact Quadrance Geometry of Diagram Q-X-S-H (Folio 0068)
 --------------------------------------------------------
 
-Folio ``0068`` (p. 56) presents one of the finest geometric woodcuts in the 1596 *editio princeps*. Taking unit circumradius $OX = OH = 1$ (so the octahedral edge is $\sqrt{2}$), the cross-section $QXSH$ passing through two opposite vertices $X, H$ and two opposite edge midpoints $Q, S$ is a rhombus with semi-diagonals $OX = 1$ and $OQ = 1/\sqrt{2}$ (edge midpoint distance = inradius of the equatorial square!). Its side length is the equilateral-face altitude $\sqrt{3/2}$, and the perpendicular altitude from center $O$ onto side $XQ$ is indeed $OP = \frac{1 \cdot (1/\sqrt{2})}{\sqrt{3/2}} = \frac{1}{\sqrt{3}}$—a pure Pythagorean proof (:just:`I.47`) of why $OP : OQ : OX = 1/\sqrt{3} : 1/\sqrt{2} : 1$!
+Folio ``0068`` (p. 56) presents one of the finest geometric woodcuts in the 1596 *editio princeps*. Taking unit circumradius :math:`OX = OH = 1` (so the octahedral edge is :math:`\sqrt{2}`), the cross-section :math:`QXSH` passing through two opposite vertices :math:`X, H` and two opposite edge midpoints :math:`Q, S` is a rhombus with semi-diagonals :math:`OX = 1` and :math:`OQ = 1/\sqrt{2}` (edge midpoint distance = inradius of the equatorial square!). Its side length is the equilateral-face altitude :math:`\sqrt{3/2}`, and the perpendicular altitude from center :math:`O` onto side :math:`XQ` is indeed :math:`OP = \frac{1 \cdot (1/\sqrt{2})}{\sqrt{3/2}} = \frac{1}{\sqrt{3}}`—a pure Pythagorean proof (:just:`I.47`) of why :math:`OP : OQ : OX = 1/\sqrt{3} : 1/\sqrt{2} : 1`!
 
 Transcription & Provenance
 --------------------------

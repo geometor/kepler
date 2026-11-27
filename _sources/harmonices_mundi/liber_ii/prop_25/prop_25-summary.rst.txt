@@ -13,4 +13,4 @@ Proposition XXV: Summary
 Completeness of the Five Convex Regular Polyhedra
 -------------------------------------------------
 
-Because the plane angles meeting at any convex polyhedral vertex must sum strictly to less than $360^\circ$, only five regular vertex configurations exist: $\{3,3\}$ (Tetrahedron, $180^\circ$), $\{3,4\}$ (Octahedron, $240^\circ$), $\{3,5\}$ (Icosahedron, $300^\circ$), $\{4,3\}$ (Cube, $270^\circ$), and $\{5,3\}$ (Dodecahedron, $324^\circ$).
+Because the plane angles meeting at any convex polyhedral vertex must sum strictly to less than :math:`360^\circ`, only five regular vertex configurations exist: :math:`\{3,3\}` (Tetrahedron, :math:`180^\circ`), :math:`\{3,4\}` (Octahedron, :math:`240^\circ`), :math:`\{3,5\}` (Icosahedron, :math:`300^\circ`), :math:`\{4,3\}` (Cube, :math:`270^\circ`), and :math:`\{5,3\}` (Dodecahedron, :math:`324^\circ`).

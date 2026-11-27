@@ -40,4 +40,4 @@ eaque si temporis articulos petis, 8. Mart. hujus anni millesimi sexcentesimi de
 
    .. picture:: /_static/figures/fig09_kepler_triangle_and_third_law.svg
       :alt: Schema ellipseos focalis et Legis Tertiae Kepleri
-      :caption: Schema vectoriale: Ellipsis focalis (:g:`C_orb`) et proportio sesquialtera $T^2 = a^3$.
+      :caption: Schema vectoriale: Ellipsis focalis (:g:`C_orb`) et proportio sesquialtera :math:`T^2 = a^3`.

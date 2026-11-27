@@ -19,6 +19,6 @@ Definitio II — Figurae Primae ac Radicales, et Auctae seu Stellae
 .. folio:: harmonices_mundi:0025
    :page: p. 7
 
-*Ut hic* $ABCDE$ *est perfectum quinquangulum, estque figura prima, non desiderans aliam perfectam, ex qua, continuatione laterum, producatur.*
+*Ut hic* :math:`ABCDE` *est perfectum quinquangulum, estque figura prima, non desiderans aliam perfectam, ex qua, continuatione laterum, producatur.*
 
-*At* $FGHIKE$ *est stella quinquangula, & figura aucta, continuatis lateribus binis, non contiguis, verbi causa* $AB$, *&* $DC$, *ad concursum* $I$.
+*At* :math:`FGHIKE` *est stella quinquangula, & figura aucta, continuatis lateribus binis, non contiguis, verbi causa* :math:`AB`, *&* :math:`DC`, *ad concursum* :math:`I`.

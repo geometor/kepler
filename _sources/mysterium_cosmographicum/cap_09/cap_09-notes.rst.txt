@@ -12,7 +12,7 @@ Chapter IX: Notes & Provenance
 Equatorial Geometry of the Octahedron Foreshadowed
 --------------------------------------------------
 
-Buried inside Kepler's qualitative discussion on folio ``0045`` (p. 35) is a sharp geometric observation that becomes crucial quantitatively in Chapter XVII (``0068``): when the Octahedron spins about two opposite vertices, four continuous edges trace an **unobstructed equatorial square** (*quatuor continua latera per medium figurae directum iter transeunt*), whereas every other Platonic solid presents zig-zagging transverse edges around its equator. Kepler later uses this equatorial square ($r/R = 1/\sqrt{2} \approx 0.707$) to explain Mercury's aphelion sphere.
+Buried inside Kepler's qualitative discussion on folio ``0045`` (p. 35) is a sharp geometric observation that becomes crucial quantitatively in Chapter XVII (``0068``): when the Octahedron spins about two opposite vertices, four continuous edges trace an **unobstructed equatorial square** (*quatuor continua latera per medium figurae directum iter transeunt*), whereas every other Platonic solid presents zig-zagging transverse edges around its equator. Kepler later uses this equatorial square (:math:`r/R = 1/\sqrt{2} \approx 0.707`) to explain Mercury's aphelion sphere.
 
 Transcription & Provenance
 --------------------------

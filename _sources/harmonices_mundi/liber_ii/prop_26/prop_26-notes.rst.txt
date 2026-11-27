@@ -19,4 +19,4 @@ Transcription & Provenance
 Geometric Context
 -----------------
 
-Kepler observes that both star polyhedra emerge by extending the planar faces of the convex dodecahedron and icosahedron, leaving the regular pentagon as an interior "heart" (*cor*) inside each pentagrammic face. Both solids are rendered interactively in exact $\mathbb{Q}(\phi)$ coordinates above.
+Kepler observes that both star polyhedra emerge by extending the planar faces of the convex dodecahedron and icosahedron, leaving the regular pentagon as an interior "heart" (*cor*) inside each pentagrammic face. Both solids are rendered interactively in exact :math:`\mathbb{Q}(\phi)` coordinates above.

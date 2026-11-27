@@ -12,7 +12,7 @@ Chapter X: Notes & Provenance
 Euler's Polyhedral Formula Hidden in Kepler's Totals
 ----------------------------------------------------
 
-Notice an extraordinary arithmetic check on Kepler's grand totals on folio ``0046`` (p. 36): across the five convex Platonic solids, $\sum V = 50$, $\sum F = 50$, and $\sum E = 90$, so $\sum (V - E + F) = 50 - 90 + 50 = 10 = 5 \times 2$, reflecting **Euler's formula** $V - E + F = 2$ summed over five spheres! Moreover, the total number of plane face-angles is $2\sum E = 180$, since every edge borders exactly two half-angles at each end—double-counting the edges yields $2 \times 90 = 180$.
+Notice an extraordinary arithmetic check on Kepler's grand totals on folio ``0046`` (p. 36): across the five convex Platonic solids, :math:`\sum V = 50`, :math:`\sum F = 50`, and :math:`\sum E = 90`, so :math:`\sum (V - E + F) = 50 - 90 + 50 = 10 = 5 \times 2`, reflecting **Euler's formula** :math:`V - E + F = 2` summed over five spheres! Moreover, the total number of plane face-angles is :math:`2\sum E = 180`, since every edge borders exactly two half-angles at each end—double-counting the edges yields :math:`2 \times 90 = 180`.
 
 Transcription & Provenance
 --------------------------

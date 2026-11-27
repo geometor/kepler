@@ -17,7 +17,7 @@ Chapter XI: Composition of Greater Systems & Mechanical Monochord Corollaries
 
 *On the composition of Systems.*
 
-Although the voice of one man mostly turns within the System of a single octave, the concord of several melodies teaches us to order several contiguous octaves. Therefore the ancients, defining all things by the properties of numbers, defined the perfect system as the octave-plus-fifth [*Diapason epidiapente*] by the numbers $1, 2, 3$; whereas to us above, each harmonic section yielded its own System, of which the greatest was the double-octave-plus-fifth [*Disdiapason-epidiapente*], by the numbers $1, 5, 6$. Even though to our composers, as they call them, no boundary
+Although the voice of one man mostly turns within the System of a single octave, the concord of several melodies teaches us to order several contiguous octaves. Therefore the ancients, defining all things by the properties of numbers, defined the perfect system as the octave-plus-fifth [*Diapason epidiapente*] by the numbers :math:`1, 2, 3`; whereas to us above, each harmonic section yielded its own System, of which the greatest was the double-octave-plus-fifth [*Disdiapason-epidiapente*], by the numbers :math:`1, 5, 6`. Even though to our composers, as they call them, no boundary
 
 .. folio:: harmonices_mundi:0148
    :page: p. 58
@@ -74,18 +74,18 @@ It is not my purpose to treat of the remaining parts of modern music; for nothin
 
 *Multiplication of the length of the string gggg expresses eleven strings.*
 
-Let *gggg* be $135$; *ggg* $270$; *ccc* $405$; *gg* $540$; *dde* $675$; *cc* $810$; — $945$; *g* $1080$; *f* $1215$; *de* $1350$; — $1485$; *c* $1620$; — $1755$; — $1890$; — $2025$; *G* $2160$. And here *de* and *f* are separated by a sixteenth part of the string, where there is a minor tone, and *f* and *g* where there is a major tone.
+Let *gggg* be :math:`135`; *ggg* :math:`270`; *ccc* :math:`405`; *gg* :math:`540`; *dde* :math:`675`; *cc* :math:`810`; — :math:`945`; *g* :math:`1080`; *f* :math:`1215`; *de* :math:`1350`; — :math:`1485`; *c* :math:`1620`; — :math:`1755`; — :math:`1890`; — :math:`2025`; *G* :math:`2160`. And here *de* and *f* are separated by a sixteenth part of the string, where there is a minor tone, and *f* and *g* where there is a major tone.
 
 *Multiplication of the string ccccc begets eight strings.*
 
-Let *ccccc* be $192$; *ccce* $384$; *ffe* $576$; *cce* $768$; — $960$; *fe* $1152$; — $1344$; *ce* $1536$ [printed $2536$]; *♮* $1728$; *A* $1920$. Here also *A* and *♮*, and *♮* and *ce*, are separated by a ninth part not of the whole string, but of *♮* itself, or a tenth part of *A* itself.
+Let *ccccc* be :math:`192`; *ccce* :math:`384`; *ffe* :math:`576`; *cce* :math:`768`; — :math:`960`; *fe* :math:`1152`; — :math:`1344`; *ce* :math:`1536` [printed :math:`2536`]; *♮* :math:`1728`; *A* :math:`1920`. Here also *A* and *♮*, and *♮* and *ce*, are separated by a ninth part not of the whole string, but of *♮* itself, or a tenth part of *A* itself.
 
-Or divide *G* into $5$, each part into $3$, and this again into $3$, so that $45$ parts are made. Of these, $12$ are *ffe*, $15$ are *dd*, $16$ are *cce*, $18$ are *bb*, $20$ are *a*, $27$ are *e*, and accordingly $24$ are *fe*, $30$ are *d*, $32$ are *ce*, $36$ are *♮*, and $40$ are *A*.
+Or divide *G* into :math:`5`, each part into :math:`3`, and this again into :math:`3`, so that :math:`45` parts are made. Of these, :math:`12` are *ffe*, :math:`15` are *dd*, :math:`16` are *cce*, :math:`18` are *bb*, :math:`20` are *a*, :math:`27` are *e*, and accordingly :math:`24` are *fe*, :math:`30` are *d*, :math:`32` are *ce*, :math:`36` are *♮*, and :math:`40` are *A*.
 
 *Multiplication of the string ffffe [printed dæfffe] begets six strings.*
 
-Let *ffffe* be $288$; *ffe* $576$; *♮♮* $864$; *fe* $1152$; *d* $1440$; *♮* $1728$. Here also *d* and *fe* are separated by a sixth part of *♮* itself.
+Let *ffffe* be :math:`288`; *ffe* :math:`576`; *♮♮* :math:`864`; *fe* :math:`1152`; *d* :math:`1440`; *♮* :math:`1728`. Here also *d* and *fe* are separated by a sixth part of *♮* itself.
 
-*Another division of the Monochord.* Divide *G* into $3$, and each part into $2, 4, 8, 16$, so that $48$ parts are made: of these, $12$ are *gg*, $15$ *dde*, $16$ *dd*, $18$ *cc*, $20$ *bb*, $24$ *g*, $27$ *f*, $30$ *de*, $32$ *d*.
+*Another division of the Monochord.* Divide *G* into :math:`3`, and each part into :math:`2, 4, 8, 16`, so that :math:`48` parts are made: of these, :math:`12` are *gg*, :math:`15` *dde*, :math:`16` *dd*, :math:`18` *cc*, :math:`20` *bb*, :math:`24` *g*, :math:`27` *f*, :math:`30` *de*, :math:`32` *d*.
 
-Again divide *G* into $5$; of these, $3$ will be *e*, $4$ will be *♮*. Finally divide *♮* into $3$, and each into $3$, so that $9$ parts are made: of them, $8$ give *ce*, $10$ give *A*. Lastly trisect *ce*, and take $4$ of these parts for *ge*.
+Again divide *G* into :math:`5`; of these, :math:`3` will be *e*, :math:`4` will be *♮*. Finally divide *♮* into :math:`3`, and each into :math:`3`, so that :math:`9` parts are made: of them, :math:`8` give *ce*, :math:`10` give *A*. Lastly trisect *ce*, and take :math:`4` of these parts for *ge*.

@@ -10,4 +10,4 @@
 Proposition XIX: Summary
 ========================
 
-Exhaustively classifies all $k \in \{3,4,5\}$ two-species vertex configurations, discovering aperiodic/Penrose-like pentagonal-decagonal motifs (*Aa*, *Bb*) centuries before quasi-crystals while preserving legacy ``hm-liber-ii-prop_01_20*`` anchors.
+Exhaustively classifies all :math:`k \in \{3,4,5\}` two-species vertex configurations, discovering aperiodic/Penrose-like pentagonal-decagonal motifs (*Aa*, *Bb*) centuries before quasi-crystals while preserving legacy ``hm-liber-ii-prop_01_20*`` anchors.

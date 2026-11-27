@@ -9,4 +9,4 @@
 Definition X: Summary
 =====================
 
-Explains why regular $2^k \cdot 3$, $2^k \cdot 4$, and $2^k \cdot 5$-gons are *properly* demonstrable directly from their central-angle geometry without borrowing foreign figures.
+Explains why regular :math:`2^k \cdot 3`, :math:`2^k \cdot 4`, and :math:`2^k \cdot 5`-gons are *properly* demonstrable directly from their central-angle geometry without borrowing foreign figures.

@@ -9,4 +9,4 @@
 Chapter I: Summary
 ==================
 
-Derives the complete closed set of primary consonances ($1:2, 2:3, 3:4, 4:5, 5:6, 3:5, 5:8$) purely from Euclidean straightedge-and-compass polygon constructibility over $\{2,3,5\}$.
+Derives the complete closed set of primary consonances (:math:`1:2, 2:3, 3:4, 4:5, 5:6, 3:5, 5:8`) purely from Euclidean straightedge-and-compass polygon constructibility over :math:`\{2,3,5\}`.

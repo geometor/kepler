@@ -9,7 +9,7 @@
 Definition III: Notes & Provenance
 ==================================
 
-Illustrated on p. 7 by two sheared rhombi $NMPO$ and $GEKD$ set side by side in the text column.
+Illustrated on p. 7 by two sheared rhombi :math:`NMPO` and :math:`GEKD` set side by side in the text column.
 
 Transcription & Provenance
 --------------------------

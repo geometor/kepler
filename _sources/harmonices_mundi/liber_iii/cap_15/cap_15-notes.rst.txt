@@ -21,5 +21,5 @@ Transcription & Provenance
 Editorial Notes
 ---------------
 
-* **Triad & Semitone Geometry**: Links modal *ethos* to whether the Major (*Genus Durum*) or Minor (*Genus Molle*) third sits above the final, and whether the $15:16$ semitone rises or falls.
-* **Marginal Diagram (p. 77)**: Illustrates alternating Fibonacci rectangles ($1, 2, 3, 5, 8$) beside the divine-proportion series.
+* **Triad & Semitone Geometry**: Links modal *ethos* to whether the Major (*Genus Durum*) or Minor (*Genus Molle*) third sits above the final, and whether the :math:`15:16` semitone rises or falls.
+* **Marginal Diagram (p. 77)**: Illustrates alternating Fibonacci rectangles (:math:`1, 2, 3, 5, 8`) beside the divine-proportion series.

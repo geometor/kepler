@@ -88,7 +88,7 @@ VII. Two tetrachords of one octave, when the place of the semitone is not the sa
 
 VIII. Akin to this is that three tones in succession in the lowest place of the octave are not sung; yet higher up they are admitted by the laws already stated.
 
-IX. Two semitones do not naturally coalesce into one tone, although the difference in hearing is small; as if the octave were to begin from *E*, between *ce* and *de* there would arise the interval $225:256$ from composition, which is naturally inconcinnous—see Chapter IV.
+IX. Two semitones do not naturally coalesce into one tone, although the difference in hearing is small; as if the octave were to begin from *E*, between *ce* and *de* there would arise the interval :math:`225:256` from composition, which is naturally inconcinnous—see Chapter IV.
 
 .. folio:: harmonices_mundi:0155
    :page: p. 65

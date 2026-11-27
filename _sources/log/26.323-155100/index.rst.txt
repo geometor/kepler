@@ -18,11 +18,11 @@ Rather than treating visual QA as an invisible scratch step, this log preserves 
 
 Every geometric figure, polyhedral frame, and musical notehead was verified by directly inspecting Kepler's 300-DPI *editio princeps* scans rather than relying on embedded OCR layers:
 
-* **Folio 0034 (Tabula III, Tübingen 1597)** — Confirmed Leibfried's cutaway hemispherical planetary bowls ($\alpha$–$\lambda$), mitered open-frame Platonic struts ($\beta$–$\kappa$), eccentric Solar core ($\mu$), and turned Renaissance pedestal, grounding the 13-group parametric CAD model in ``tabula_iii_3d/``.
+* **Folio 0034 (Tabula III, Tübingen 1597)** — Confirmed Leibfried's cutaway hemispherical planetary bowls (:math:`\alpha`–:math:`\lambda`), mitered open-frame Platonic struts (:math:`\beta`–:math:`\kappa`), eccentric Solar core (:math:`\mu`), and turned Renaissance pedestal, grounding the 13-group parametric CAD model in ``tabula_iii_3d/``.
 * **Folio 0299 (Harmonices Mundi Book V, Linz 1619, p. 207)** — Direct visual reading caught two details frequently omitted in secondary transcriptions:
 
-  1. Kepler's **seventh marginal voice** (*"Hic locum habet etiam ☽"*) assigning the Moon a Perfect-4th cradle monody ($G_4$–$A_4$–$B_4$–$C_5$–$B_4$–$A_4$–$G_4$, exact ratio $3:4$); and
-  2. All **14 diamond mensural lozenges** of Mercury's melody—ten stepwise ascending pitches ($C_4 \to E_5$) followed by a four-note descending major-triad arpeggio ($C_5 \to G_4 \to E_4 \to C_4$).
+  1. Kepler's **seventh marginal voice** (*"Hic locum habet etiam ☽"*) assigning the Moon a Perfect-4th cradle monody (:math:`G_4`–:math:`A_4`–:math:`B_4`–:math:`C_5`–:math:`B_4`–:math:`A_4`–:math:`G_4`, exact ratio :math:`3:4`); and
+  2. All **14 diamond mensural lozenges** of Mercury's melody—ten stepwise ascending pitches (:math:`C_4 \to E_5`) followed by a four-note descending major-triad arpeggio (:math:`C_5 \to G_4 \to E_4 \to C_4`).
 
 * **Folios 0297, 0301 & 0302 (Linz 1619, pp. 205, 209–210)** — Verified Kepler's exact integer string-length divisions (``2160`` down to ``864`` for *Cantus Durus* and *Cantus Mollis*) and visually crop-audited both **Universal Six-Planet Creation Chord** engravings (``0301.g1.png`` *Genus Durum* and ``0302.g1.png`` *Genus Molle*), extending ``0301``'s lower margin to ``0.905`` and trimming ``0302``'s bottom to ``0.685`` so every staff border sits cleanly balanced.
 
@@ -41,7 +41,7 @@ Using headless Chromium with offline-vendored Three.js (``docsrc/_static/vendor/
       :alt: Headless Chromium WebGL audit capture of Kepler Tabula III 3D CAD Studio at 85% exploded vertical assembly
       :caption: WebGL Studio Audit (85% Exploded Assembly): Confirms clean separation of all 13 parametric CAD groups from the carved pedestal through Mercury's Octahedron and Sol (μ).
 
-Each CAD shell obeys Kepler's exact **Caput XIII** insphere/circumsphere schedule to $< 10^{-9}$ tolerance: Cube & Octahedron $1/\sqrt{3}$, Tetrahedron $1/3$, and Dodecahedron & Icosahedron $\sqrt{(5 + 2\sqrt{5})/15}$, exported simultaneously as IngeTrazo ``.igz``, Binary glTF ``.glb``, Wavefront ``.obj``/``.mtl``, and native Blender ``.blend``.
+Each CAD shell obeys Kepler's exact **Caput XIII** insphere/circumsphere schedule to :math:`< 10^{-9}` tolerance: Cube & Octahedron :math:`1/\sqrt{3}`, Tetrahedron :math:`1/3`, and Dodecahedron & Icosahedron :math:`\sqrt{(5 + 2\sqrt{5})/15}`, exported simultaneously as IngeTrazo ``.igz``, Binary glTF ``.glb``, Wavefront ``.obj``/``.mtl``, and native Blender ``.blend``.
 
 3. Headless Canvas & Layout Audits: Live Celestial Music Studio
 ---------------------------------------------------------------
@@ -98,7 +98,7 @@ Every commit in this campaign cleared four independent automated verification ga
      - Key Audited Invariants
    * - ``uv run --no-sync pytest``
      - **14 / 14 passed**
-     - Zero ``sp.Float`` coordinates in ``geometor.model``; 10/10 exact ``sp.Rational`` Just-Intonation identities (including syntonic comma $81/80$ and Earth's $15:16$ *MI–FA–MI*); exact Caput XIII CAD shell ratios ($< 10^{-9}$); valid ``glTF``, ``PK`` (``.igz``), ``MThd`` (``.mid``), and ``.mp3`` headers.
+     - Zero ``sp.Float`` coordinates in ``geometor.model``; 10/10 exact ``sp.Rational`` Just-Intonation identities (including syntonic comma :math:`81/80` and Earth's :math:`15:16` *MI–FA–MI*); exact Caput XIII CAD shell ratios (:math:`< 10^{-9}`); valid ``glTF``, ``PK`` (``.igz``), ``MThd`` (``.mid``), and ``.mp3`` headers.
    * - Archival Plates & SVGs
      - **34 PNG + 14 SVG**
      - 34 cropped 300-DPI archival plates and 14 five-layer ``.euclid-graphic`` vectorizations (``elements`` → ``labels``); **0** orphaned files.

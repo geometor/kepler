@@ -22,7 +22,7 @@ Primary Public-Domain Editions of Johannes Kepler
 
 .. _cite-kepler-1597-maestlin:
 
-* **Kepler (1597)** — Johannes Kepler, *Epistola ad Michaelem Mästlinum* (Graz, October 1597), in *Joannis Kepleri Astronomi Opera Omnia*, ed. Ch. Frisch, Vol. I (1858), p. 377. *(Formulates the Kepler Right Triangle $1 : \sqrt{\phi} : \phi$; Public Domain.)*
+* **Kepler (1597)** — Johannes Kepler, *Epistola ad Michaelem Mästlinum* (Graz, October 1597), in *Joannis Kepleri Astronomi Opera Omnia*, ed. Ch. Frisch, Vol. I (1858), p. 377. (*Formulates the Kepler Right Triangle* :math:`1 : \sqrt{\phi} : \phi`; *Public Domain*.)
 
 .. _cite-kepler-1609-an:
 

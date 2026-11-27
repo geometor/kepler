@@ -11,7 +11,7 @@ Chapter V: Notes & Provenance
 
 Starts at the top of folio ``0130`` (p. 40) and runs through ``0132`` (p. 42), ending cleanly before the catchword ``CAPUT VI.`` at the bottom of p. 42.
 
-* **Printed Figures & Marginalia**: Folios ``0130``–``0132`` include inline woodcut mensural staves illustrating the division of the Fourth ($75:80:90:100$ and $72:80:90:96$), *Diapente* / *Diatessaron* / *Dia hex* comparisons, *Mollis* vs. *Dura* thirds/sixths, and *Systemadiapason*. On p. 41 (``0131``), Kepler's marginal note remarks that Vincenzo Galilei uses *Ditonus* in an older Pythagorean sense ($64:81$) differing from the consonant major third ($4:5$), referring forward to Chapter XII.
+* **Printed Figures & Marginalia**: Folios ``0130``–``0132`` include inline woodcut mensural staves illustrating the division of the Fourth (:math:`75:80:90:100` and :math:`72:80:90:96`), *Diapente* / *Diatessaron* / *Dia hex* comparisons, *Mollis* vs. *Dura* thirds/sixths, and *Systemadiapason*. On p. 41 (``0131``), Kepler's marginal note remarks that Vincenzo Galilei uses *Ditonus* in an older Pythagorean sense (:math:`64:81`) differing from the consonant major third (:math:`4:5`), referring forward to Chapter XII.
 
 Transcription & Provenance
 --------------------------

@@ -9,4 +9,4 @@
 Proposition XVII: Summary
 =========================
 
-Kepler's parity theorem: eliminates local angle-sum combinations such as `3.7.42` or `5.5.10` where arithmetic equals $360^\circ$ yet global edge-alternation fails around odd-sided faces.
+Kepler's parity theorem: eliminates local angle-sum combinations such as `3.7.42` or `5.5.10` where arithmetic equals :math:`360^\circ` yet global edge-alternation fails around odd-sided faces.

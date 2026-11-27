@@ -12,7 +12,7 @@ Chapter XX: Notes & Provenance
 From *Anima Motrix* (1596) to *Vis* (1621) & The Third Law (1618)
 -----------------------------------------------------------------
 
-In his famous **1621 Author's Note** to Chapter XX (:cite:`Frankfurt, 1621 <kepler:1621:mc2>`), Kepler replaces the word *soul* (*anima*) with physical **force** (*vis*)—writing that if one substitutes "force" for "soul," one obtains the exact principle of celestial physics expounded in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`)—and triumphantly points out that his 1596 quadratic-like trial law has now been perfected into the exact :term:`sesquialterate proportion <lex-tertia>` $T_1 / T_2 = (a_1 / a_2)^{3/2}$ in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`).
+In his famous **1621 Author's Note** to Chapter XX (:cite:`Frankfurt, 1621 <kepler:1621:mc2>`), Kepler replaces the word *soul* (*anima*) with physical **force** (*vis*)—writing that if one substitutes "force" for "soul," one obtains the exact principle of celestial physics expounded in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`)—and triumphantly points out that his 1596 quadratic-like trial law has now been perfected into the exact :term:`sesquialterate proportion <lex-tertia>` :math:`T_1 / T_2 = (a_1 / a_2)^{3/2}` in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`).
 
 Transcription & Provenance
 --------------------------

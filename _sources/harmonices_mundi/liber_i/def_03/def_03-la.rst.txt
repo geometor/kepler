@@ -14,4 +14,4 @@ Definitio III — Figurae Semiregulares
 
 .. rst-class:: latin-source
 
-*Semiregulares sunt, quae angulos variantes, latera quatuor habent aequalia; ut Rhombi* $NMPO$; $GEKD$.
+*Semiregulares sunt, quae angulos variantes, latera quatuor habent aequalia; ut Rhombi* :math:`NMPO`; :math:`GEKD`.

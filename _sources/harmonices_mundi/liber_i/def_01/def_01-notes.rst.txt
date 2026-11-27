@@ -9,7 +9,7 @@
 Definition I: Notes & Provenance
 ================================
 
-Printed directly below the ornamental tailpiece and heading *De Figurarum Regularium demonstrationibus* on p. 6 alongside the woodcut diagram of square $QPRO$ enclosing cross $MLN$.
+Printed directly below the ornamental tailpiece and heading *De Figurarum Regularium demonstrationibus* on p. 6 alongside the woodcut diagram of square :math:`QPRO` enclosing cross :math:`MLN`.
 
 Transcription & Provenance
 --------------------------

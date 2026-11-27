@@ -12,7 +12,7 @@ Definition VIII: Notes & Provenance
 
 Legacy bundle anchors ``hm-liber-i-def_01_25*`` are preserved on this canonical cornerstone definition.
 
-From the diameter $D = 2R$, Kepler descends through **eight ordered degrees of geometric knowability** (:term:`Degrees II–VIII <mizon-elasson>`), pairing the constructive triumph of the **Regular Pentagon** (:g:`PENT5`, :term:`Apotome <binominis-apotome>` / *Elasson*, :just:`XIII.9`–:just:`XIII.10`) against the irreducible cubic obstruction of the **Regular Heptagon** (see the synoptic diagram in the text tracks). Conversely, lines that can be described by some curve or mechanical motion yet lack any such chain to the diameter—like the regular heptagon—remain **unknowable** (*inscibilia*, treated in Definition IX and Proposition XLV).
+From the diameter :math:`D = 2R`, Kepler descends through **eight ordered degrees of geometric knowability** (:term:`Degrees II–VIII <mizon-elasson>`), pairing the constructive triumph of the **Regular Pentagon** (:g:`PENT5`, :term:`Apotome <binominis-apotome>` / *Elasson*, :just:`XIII.9`–:just:`XIII.10`) against the irreducible cubic obstruction of the **Regular Heptagon** (see the synoptic diagram in the text tracks). Conversely, lines that can be described by some curve or mechanical motion yet lack any such chain to the diameter—like the regular heptagon—remain **unknowable** (*inscibilia*, treated in Definition IX and Proposition XLV).
 
 Transcription & Provenance
 --------------------------

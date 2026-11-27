@@ -19,17 +19,17 @@ Extending :person:`Pappus's <pappus>` planar honeycomb analysis into three dimen
    :widths: 24 14 18 18 26
 
    * - Polyhedron
-     - $F / V / E$
+     - :math:`F / V / E`
      - Diagonal Ratio
      - Dihedral Angle
      - Dual / Space-Filling Property
    * - **Rhombic Dodecahedron** (*Dodecaedron Rhombicum*)
-     - $12 / 14 / 24$
-     - $\sqrt{2} : 1$ ($Q = 2$)
-     - $120^\circ$ ($\cos\theta = -\frac{1}{2}$)
-     - Dual of Cuboctahedron; **3D Voronoi space-filler** ($3 \times 120^\circ = 360^\circ$)
+     - :math:`12 / 14 / 24`
+     - :math:`\sqrt{2} : 1` (:math:`Q = 2`)
+     - :math:`120^\circ` (:math:`\cos\theta = -\frac{1}{2}`)
+     - Dual of Cuboctahedron; **3D Voronoi space-filler** (:math:`3 \times 120^\circ = 360^\circ`)
    * - **Rhombic Triacontahedron** (*Triacontaedron Rhombicum*)
-     - $30 / 32 / 60$
-     - $\phi : 1$ ($Q = \phi + 1$)
-     - $144^\circ$ ($\cos\theta = -\frac{\phi}{2}$)
+     - :math:`30 / 32 / 60`
+     - :math:`\phi : 1` (:math:`Q = \phi + 1`)
+     - :math:`144^\circ` (:math:`\cos\theta = -\frac{\phi}{2}`)
      - Dual of Icosidodecahedron; golden icosahedral zonohedron

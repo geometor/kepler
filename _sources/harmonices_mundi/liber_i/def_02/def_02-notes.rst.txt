@@ -9,7 +9,7 @@
 Definition II: Notes & Provenance
 =================================
 
-Definition II spans the bottom of folio ``0023`` (p. 6) and the top woodcuts of folio ``0024`` (p. 7), depicting the pentagon $ABCDE$ alongside the circumscribed pentagram $FGHIKE$.
+Definition II spans the bottom of folio ``0023`` (p. 6) and the top woodcuts of folio ``0024`` (p. 7), depicting the pentagon :math:`ABCDE` alongside the circumscribed pentagram :math:`FGHIKE`.
 
 Transcription & Provenance
 --------------------------

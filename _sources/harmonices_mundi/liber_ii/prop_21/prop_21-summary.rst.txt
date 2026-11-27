@@ -9,4 +9,4 @@
 Proposition XXI: Summary
 ========================
 
-Proves $m \le 3$ distinct face species per uniform vertex via a two-line arithmetic lower bound ($\frac{1}{6}+\frac{1}{4}+\frac{3}{10}+\frac{1}{3} = \frac{21}{20} > 1$).
+Proves :math:`m \le 3` distinct face species per uniform vertex via a two-line arithmetic lower bound (:math:`\frac{1}{6}+\frac{1}{4}+\frac{3}{10}+\frac{1}{3} = \frac{21}{20} > 1`).

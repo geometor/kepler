@@ -12,7 +12,7 @@ Chapter XVIII: Notes & Provenance
 The Road From Graz to Tycho Brahe's Uraniborg Data
 --------------------------------------------------
 
-Chapter XVIII reveals why Kepler sent copies of the 1596 *Mysterium* directly to :person:`Tycho Brahe <brahe>` and :person:`Galileo Galilei <galileo>`. Kepler's candid refusal to fudge numbers—acknowledging every arcminute of mismatch with Copernicus while scrutinizing the error bars of the Prutenic Tables—epitomizes the exact empirical rigor that later forced him to abandon circular orbits over a mere $8'$ discrepancy in Mars (*Astronomia Nova*, :cite:`1609 <kepler:1609:an>`).
+Chapter XVIII reveals why Kepler sent copies of the 1596 *Mysterium* directly to :person:`Tycho Brahe <brahe>` and :person:`Galileo Galilei <galileo>`. Kepler's candid refusal to fudge numbers—acknowledging every arcminute of mismatch with Copernicus while scrutinizing the error bars of the Prutenic Tables—epitomizes the exact empirical rigor that later forced him to abandon circular orbits over a mere :math:`8'` discrepancy in Mars (*Astronomia Nova*, :cite:`1609 <kepler:1609:an>`).
 
 Transcription & Provenance
 --------------------------

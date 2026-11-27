@@ -9,4 +9,4 @@
 Definition XV: Summary
 ======================
 
-Degree IV handles fourth-root radicals $\sqrt{\sqrt{q}} D = q^{1/4} D$, whose squares $\sqrt{q} D^2$ (*Meson* areas) appear naturally in the areas of inscribed regular octagons and dodecagons.
+Degree IV handles fourth-root radicals :math:`\sqrt{\sqrt{q}} D = q^{1/4} D`, whose squares :math:`\sqrt{q} D^2` (*Meson* areas) appear naturally in the areas of inscribed regular octagons and dodecagons.

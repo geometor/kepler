@@ -9,7 +9,7 @@
 Definition V: Notes & Provenance
 ================================
 
-Illustrated by the decomposed pentagon on folio ``0024`` with dashed internal diagonals $DA$ and $AC$.
+Illustrated by the decomposed pentagon on folio ``0024`` with dashed internal diagonals :math:`DA` and :math:`AC`.
 
 Transcription & Provenance
 --------------------------

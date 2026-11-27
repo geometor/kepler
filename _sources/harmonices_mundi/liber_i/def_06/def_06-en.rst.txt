@@ -15,4 +15,4 @@ Definition VI: Inscribing a Figure in a Circle
 
 **To Inscribe a Figure in a circle** is to determine by a Geometric act the proportion of the side of the figure to the diameter of the circle in which it is to be inscribed; once that proportion has been established, the proposed figure is easily delineated in the circle.
 
-Thus if the semidiameter $LD$, or its double the diameter, be given, and if we know what to do with it so as to grant the exact length to the side $DE$, afterwards by repeating $DE$ itself along the circumference we easily complete the figure.
+Thus if the semidiameter :math:`LD`, or its double the diameter, be given, and if we know what to do with it so as to grant the exact length to the side :math:`DE`, afterwards by repeating :math:`DE` itself along the circumference we easily complete the figure.

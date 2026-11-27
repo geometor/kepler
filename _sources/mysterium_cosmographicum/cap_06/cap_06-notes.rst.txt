@@ -12,7 +12,7 @@ Chapter VI: Notes & Provenance
 The Tetrahedron–Octahedron Honeycomb & Structural Rigidity
 ----------------------------------------------------------
 
-Kepler's third point on folio ``0040`` (p. 30)—that a regular Tetrahedron decomposes into four half-scale regular Tetrahedra and one central Octahedron—anticipates the **alternated cubic honeycomb** (octet truss) that he revisits in *Strena* (1611) when refuting :person:`Aristotle's <aristotle>` claim (*De Caelo* III.8) that regular tetrahedra alone fill space. Its extreme insphere ratio $r_{\text{in}}/R_{\text{out}} = 1/3$ matches the dramatic observational gap between Mars ($1.52\,\text{AU}$) and Jupiter ($5.20\,\text{AU}$).
+Kepler's third point on folio ``0040`` (p. 30)—that a regular Tetrahedron decomposes into four half-scale regular Tetrahedra and one central Octahedron—anticipates the **alternated cubic honeycomb** (octet truss) that he revisits in *Strena* (1611) when refuting :person:`Aristotle's <aristotle>` claim (*De Caelo* III.8) that regular tetrahedra alone fill space. Its extreme insphere ratio :math:`r_{\text{in}}/R_{\text{out}} = 1/3` matches the dramatic observational gap between Mars (:math:`1.52\,\text{AU}`) and Jupiter (:math:`5.20\,\text{AU}`).
 
 Transcription & Provenance
 --------------------------

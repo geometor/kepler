@@ -9,4 +9,4 @@
 Definition XI: Summary
 ======================
 
-Characterizes composite polygons like the **Pentadecagon** ($n = 15$, Euclid IV.16), constructed not from a direct $24^\circ$ equation alone but by subtracting the hexagon/triangle arc from the pentagon arc ($\frac{1}{3} - \frac{1}{5} = \frac{2}{15}$).
+Characterizes composite polygons like the **Pentadecagon** (:math:`n = 15`, Euclid IV.16), constructed not from a direct :math:`24^\circ` equation alone but by subtracting the hexagon/triangle arc from the pentagon arc (:math:`\frac{1}{3} - \frac{1}{5} = \frac{2}{15}`).

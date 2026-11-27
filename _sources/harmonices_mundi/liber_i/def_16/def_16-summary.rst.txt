@@ -9,4 +9,4 @@
 Definition XVI: Summary
 =======================
 
-Sets up the pairing mechanism (sum of squares $x^2 + y^2$ vs. product rectangle $xy$) behind Degrees V, VI, and VII, echoing Euclid X.36–X.114.
+Sets up the pairing mechanism (sum of squares :math:`x^2 + y^2` vs. product rectangle :math:`xy`) behind Degrees V, VI, and VII, echoing Euclid X.36–X.114.

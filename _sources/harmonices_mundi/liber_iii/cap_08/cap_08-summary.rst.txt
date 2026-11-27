@@ -9,4 +9,4 @@
 Chapter VIII: Summary
 =====================
 
-Constructs the 13-pitch microtonal tuning lattice `1080..2160` partitioned into $7\,\text{Semitones} + 3\,\text{Limmas} + 2\,\text{Dieses}$, forming the exact acoustic framework used in Book V.
+Constructs the 13-pitch microtonal tuning lattice `1080..2160` partitioned into :math:`7\,\text{Semitones} + 3\,\text{Limmas} + 2\,\text{Dieses}`, forming the exact acoustic framework used in Book V.

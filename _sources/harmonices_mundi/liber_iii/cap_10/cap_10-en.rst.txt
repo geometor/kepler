@@ -29,7 +29,7 @@ It was customary among the ancients to divide the System of the octave into two 
       :alt: Calibrated interactive vectorization: Archival 1619 musical staff contrasting Tetrachorda Synemmena and Tetrachorda Diezeugmena (Harmonices Mundi Book III, p. 55)
       :caption: Calibrated vectorization (0145.g1.svg): Archival scan (Linz 1619, Lib. III, p. 55, fol. 0145): Tetrachorda Synemmena (conjunct) and Tetrachorda Diezeugmena (disjunct).
 
-The reason that led them to think about the System of the tetrachord was this: they saw that in one consonance of a fourth there are two and a half tones; and we have a major tone, a minor tone, and a semitone in the perfect fourth—in the minor consonance, namely (for $4:5$ and $5:5$ [i.e., thirds] were not even held to be consonances)—all concinnous elements; and the semitone indeed either in the lowest place, or in the middle, or in the highest. Every song, therefore, seemed to them to be comprehended by three forms of tetrachords.
+The reason that led them to think about the System of the tetrachord was this: they saw that in one consonance of a fourth there are two and a half tones; and we have a major tone, a minor tone, and a semitone in the perfect fourth—in the minor consonance, namely (for :math:`4:5` and :math:`5:5` [i.e., thirds] were not even held to be consonances)—all concinnous elements; and the semitone indeed either in the lowest place, or in the middle, or in the highest. Every song, therefore, seemed to them to be comprehended by three forms of tetrachords.
 
 *[Musical example: Tone, Tone, Semitone | Tone, Semitone, Tone | Semitone, Tone, Tone.]*
 

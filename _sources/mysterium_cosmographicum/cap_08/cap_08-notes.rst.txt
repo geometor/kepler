@@ -12,7 +12,7 @@ Chapter VIII: Notes & Provenance
 Palindromic Polar Symmetry of the Cosmic Nesting
 ------------------------------------------------
 
-Look at the exact pairing symmetry revealed on folio ``0042`` (p. 32): reading outward from Earth ($R = 1$), the radial-ratio sequence is golden-dual (**Dodecahedron**, $0.795$) $\rightarrow$ self-dual (**Tetrahedron**, $0.333$) $\rightarrow$ rational-dual (**Cube**, $0.577$); reading inward from Earth, it is golden-dual (**Icosahedron**, $0.795$) $\rightarrow$ rational-dual (**Octahedron**, $0.577$). The entire chapter is typeset on folio ``0042`` in a graceful tapering colophon (*cul-de-lampe*) ending with Kepler's vivid image of the two orders standing *heel-to-heel* (*calcibus invicem*) at Earth.
+Look at the exact pairing symmetry revealed on folio ``0042`` (p. 32): reading outward from Earth (:math:`R = 1`), the radial-ratio sequence is golden-dual (**Dodecahedron**, :math:`0.795`) :math:`\rightarrow` self-dual (**Tetrahedron**, :math:`0.333`) :math:`\rightarrow` rational-dual (**Cube**, :math:`0.577`); reading inward from Earth, it is golden-dual (**Icosahedron**, :math:`0.795`) :math:`\rightarrow` rational-dual (**Octahedron**, :math:`0.577`). The entire chapter is typeset on folio ``0042`` in a graceful tapering colophon (*cul-de-lampe*) ending with Kepler's vivid image of the two orders standing *heel-to-heel* (*calcibus invicem*) at Earth.
 
 Transcription & Provenance
 --------------------------
