@@ -56,8 +56,8 @@ Books in This Collection
       .. container:: home-actions
 
          * :doc:`Open Six-Cornered Snowflake → <strena_sexangula/index>`
-         * :doc:`Read Section I → <strena_sexangula/sec_01/sec_01-en>`
-         * :doc:`Sphere Packing & Honeycomb → <strena_sexangula/sec_03/sec_03-en>`
+         * :doc:`Read Section I → <strena_sexangula/sec_01/index>`
+         * :doc:`Sphere Packing & Honeycomb → <strena_sexangula/sec_03/index>`
 
 .. container:: home-book-hero
 

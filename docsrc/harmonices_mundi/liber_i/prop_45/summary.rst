@@ -1,0 +1,15 @@
+:type: summary
+:layout: book
+:canonical_id: I.Prop. XLV
+:order: 28
+:folio: harmonices_mundi:0050
+
+.. _hm-liber-i-prop_45-summary:
+
+Proposition XLV: Summary
+========================
+
+Kepler's Anticipation of Galois Multiplicity
+--------------------------------------------
+
+In Proposition XLV, :person:`Kepler <kepler>` points out not only that :person:`Jost Bürgi's <buergi>` chord polynomial :math:`y^6 - 7y^4 + 14y^2 - 7 = 0` has cubic degree in :math:`y^2`, but also that its three positive roots :math:`2\sin(\pi/7), 2\sin(2\pi/7), 2\sin(3\pi/7)` are **algebraically indistinguishable conjugates** over :math:`\mathbb{Q}`—remarkably foreshadowing Galois-group symmetry two centuries before Galois and :person:`Wantzel <wantzel>` (:cite:`1837 <wantzel:1837>`).

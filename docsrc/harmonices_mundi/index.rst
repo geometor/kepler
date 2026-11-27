@@ -65,15 +65,6 @@ The Five Books of The Harmony of the World
    liber_v/index
 
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   liber_i/index
-   liber_ii/index
-   liber_iii/index
-   liber_iv/index
-   liber_v/index
 
 .. toctree::
    :maxdepth: 1

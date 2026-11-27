@@ -1,0 +1,12 @@
+:type: summary
+:layout: book
+:canonical_id: I.Prop. XXIV
+:order: 25
+:folio: harmonices_mundi:0030
+
+.. _hm-liber-i-prop_24-summary:
+
+Proposition XXIV: Summary
+=========================
+
+Demonstrates the algebraic reciprocity :math:`(x+y)^2 = x^2 + y^2 + 2xy` and :math:`(x-y)^2 = x^2 + y^2 - 2xy` geometrically with an inscribed subdivided square on folio ``0032`` (p. 14).

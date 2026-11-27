@@ -1,0 +1,19 @@
+:type: la
+:layout: book
+:canonical_id: I.Def. VI
+:order: 7
+:folio: harmonices_mundi:0025
+
+.. _hm-liber-i-def_06-la:
+
+Definitio VI — Inscribere Figuram Circulo
+=========================================
+
+.. folio:: harmonices_mundi:0025
+   :page: p. 8
+
+.. rst-class:: latin-source
+
+*Inscribere Figuram circulo, est proportionem lateris figurae ad diametrum circuli, cui est inscribenda, Geometrico actu determinare, qua constituta proportione, facile in circulo figura proposita delineatur.*
+
+*Ut si detur* :math:`LD` *semidiameter, vel ejus dupla diameter, si sciamus, quid faciendo cum ea, justam longitudinem lateri* :math:`DE` *indulgeamus; facile postea repetitione ipsius* :math:`DE`, *per circumferentiam, consummamus figuram.*

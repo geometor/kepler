@@ -1,0 +1,55 @@
+:layout: book
+:canonical_id: IV.Cap. II
+:order: 3
+:folio: harmonices_mundi:0210
+
+.. _hm-liber-iv-cap_02-en:
+.. _hm-liber-iv-cap_02:
+
+Chapter II: Faculties of the Soul According to Harmonies
+========================================================
+
+.. folio:: harmonices_mundi:0210
+   :page: p. 120
+
+We have spoken thus far concerning harmonic proportions, what they are and wherein they consist; yet we do not yet seem to have touched upon the question suited to our purpose, which turns not so much upon harmonic proportions themselves as upon the harmonic faculty of the Soul—namely, that of acting according to proportions. Thus far, therefore, we have treated of
+
+.. folio:: harmonices_mundi:0211
+   :page: p. 121
+
+proportions for the sake of their own Essence; now we must treat of the same for the sake of the Soul itself.
+
+Now there exists a twofold faculty regarding harmonic proportions: the one discursive, mental, or quasi-mental; the other operative. And the mental is again twofold: for it either discovers the proportions themselves from abstract quantities, or recognizes and perceives chosen proportions in sensible things. The faculty, therefore, which investigates harmonic ratios is the same that embraces all the other sciences and arts—namely, the higher part of the human Mind. For of God nothing is said here, inasmuch as He investigates nothing by discourse and study, but knows from eternity.
+
+That faculty which notices and recognizes noble proportions in sensible things, or even in other things situated outside itself, is a lower faculty of the soul, directly informing the senses—or one lower still, namely merely a faculty of the vital soul—since it neither reasons discursively as Philosophers are wont, nor uses this method; nor is it present in man alone, but also in wild beasts and cattle, and in the sublunary Soul. You may ask: if it is not capable of discursive reasoning, and therefore cannot apprehend the science of Harmonic proportions, whence does it have this power of recognizing them when offered from without?
+For to recognize is to compare an external sensible thing with internal Ideas, and to judge it congruent with them—which Proclus beautifully expresses by the word *awakening*, as though from sleep. For just as sensible things occurring outside make us remember those which we had known before, so sensible mathematical objects, if they are recognized, draw forth intellectual ones already present within, so that what previously lay hidden in the Soul as beneath a veil of potentiality now shines forth in act. How then did they break within? I answer, altogether the Ideas or formal ratios of harmonies, as we discoursed of them above, are present in those beings which are endowed with this faculty of recognizing;
+yet they are not newly received within by discursive reasoning, but rather depend upon natural instinct and are born together with them, just as the number of leaves in a flower and of chambers in a fruit (an intellectual thing) is born together with the forms of plants. Which experience in plants, similar to harmonic ratios (for number and proportion are kindred things, as appeared above), makes me hesitate confidently to deny even to the vegetative faculty of the soul, and to Plants themselves, the faculty of recognizing the harmonic proportions of Sidereal rays—although without experiments of my own I decide nothing.
+Thus it comes about that children, unlettered rustics, barbarians, and even wild beasts perceive harmonies of voices, though they know nothing of harmonic science. If you ask whence they have this instinct, I shall either take refuge in God, who fashions and sets these forms over bodies—all of them images of Himself, though in greater or lesser degree—and makes them carry harmonic ratios about with themselves, even as He Himself embraced them from eternity in His mind and expressed them in creation, as was said above;
+or, what comes to the same thing, I shall allege the kinship, touched upon in Chapter I, of these souls, even the lower ones, with the circle, after which as a rule and law they have been composed and conformed, and together with the circle itself and its demonstrability they have put on the Idea of the harmonic proportions dependent thereon. For Nativities strongly confirm this Philosophy, since we see the character of the confluence
+
+.. folio:: harmonices_mundi:0212
+   :page: p. 122
+
+of celestial rays to the same point, as if from a common circle, imprinted upon the soul of the newborn—concerning which more below in Chapter VII.
+
+Moreover, the means which these lower faculties of the Soul use for perceiving the harmonies of external things are the same by which they receive the external objects themselves within. If they are sensible, they are perceived also through the senses—namely, by the faculties of the soul informing the senses, which themselves no less than the higher faculty are occupied in the comparison of determinate things, yet do this by instinct, not by discourse. Thus sounds are discerned by hearing and the power set over it, consonant from dissonant. Thus Architectural proportions are perceived by the eyes, and by the faculty set over sight, the beautiful and congruent are discerned from the incongruous.
+But if the things themselves in which a harmonic ratio resides are not sensible, yet perchance perceptible by another faculty, those same proportions of things likewise shine forth in the soul—as is the case with the proportions of sidereal rays, which how they are perceived by the sublunary soul we shall inquire below in Chapter VII.
+
+Yet this perception of Harmonies in the lower faculties of the Soul is dull and obscure, and in a manner material, and as it were beneath a cloud of ignorance: for they do not know that they perceive—just as when, seeing something, we nevertheless do not notice that we see it.
+Such are those natural impulses and fears, celebrated by the Stoics, arising without deliberation and beyond the will; such also is the affection of Hatred or of natural Love—marked above all by wondrous ingenuity—which, estimating from the proportion of limbs and the qualities of voice and temperament the goodness or likeness of another's Soul to its own, blazes up wonderfully toward her. Thus a lovesick youth loves a girl, yet knows not why, or what in her he chiefly loves that any passing harlot might not offer him, if the love be unchaste, or any marriageable maiden, if lawful.
+Yet the Physiognomist, coming upon them, finds in both persons some likeness of character—which, if faulty, gives occasion for perpetual quarrels in marriage; if good, for tranquillity of life. And indeed to this must be referred the entire Physiognomonic instinct, which—though mute and in a manner brute (by no means acquired by art, although it may be cultivated by art)—is yet the sole interpreter and arbiter of human affairs. For each person obtains (speaking naturally) just so much prosperity as his countenance, bodily proportion, gait, and movement of limbs smile upon those who hold power, and steal into their favor even when they have taken no counsel upon the matter,
+as it were secretly; so that they often testify that they love or hate someone without knowing for what cause. Such, I say, is the sense of proportions without sense in the lower faculties of the Soul. Indeed, they neither distinguish proportion from its Terms or subject (as when, hearing a pleasant tune, we think nothing of the art itself beyond the sounds themselves), nor clearly distinguish diverse Harmonies from one another; for they perceive only that they are, while what or how varied they are they do not know.
+For the very Ideas of Harmonies which these lower faculties of the Soul carry within themselves are not instilled in them altogether pure, but together with the wrappings of the subject species—that namely which is the object of each faculty. Doubtless the faculty of hearing (to use the example of concordant sounds in place of all), standing closest to the body, was too gross, and therefore unfit to receive the purest Idea of proportion, as I shall straightway explain more fully.
+
+.. folio:: harmonices_mundi:0213
+   :page: p. 123
+
+For now I come to the energetic Faculties which are occupied about Harmonic proportions.
+For this too is twofold: it is active either within itself, or in things outside itself—on the one side assimilating its own works to proportions, on the other introducing proportions into those things. And the former is indeed akin to a passive faculty, while the latter beyond controversy is exercised in acting; the former therefore is again an offspring of the lower faculties of the Soul, the latter of the higher: the former is subject to the powers of Nature, the latter to the will of man. The former assuredly excels in a motion of alteration which it inflicts upon its own body, so as altogether to belong to the vital faculty.
+For the fact that we are delighted by the Harmonies of sounds has the appearance of a passion—of soothing and caressing—whence it is even called by Philosophers, from suffering, a Sympathy of souls with Song; yet it is in truth an operation of the soul, acting upon itself by a natural motion and rousing itself up, to which it is carried not by deliberation or will, but by natural instinct;
+and it has already from its very origin Ideas connected and as it were fused into one—both of Harmonies embodied in sounds and of answering affections of the soul—so that the Idea of Harmony is implanted in it in no other way than insofar as it gladdens and is something delectable, and insofar as it is interwoven with the Idea of a conformable motion.
+This, I suppose, Proclus meant above when he affirmed that the Paradigms of Mathematical things (and thus also, and much more, of Harmonies) exist in the Mind *intellectually*, but in the Soul *vitally*: for thus they will exist also in the faculty of hearing sonorously, and in the vital faculty of sublunary things radiantly and operatively; namely, they are not the pure internal Paradigms themselves, but Icons of them, derived outward.
+
+And that we are not only delighted by the Harmony of song, but also adapt the motions of fingers, mouth, feet, and body: this we already perform by the animal faculty, conjoined with the will. And when we also adapt the voice to intelligible Harmonies, meditating a well-ordered song not heard before, here we use all the highest and lowest faculties together: the highest indeed, in that we both will and use deliberation; the lowest, in that we are able, and that even without intellectual grasp of the proportions we express in song the bare Ideas of intervals implanted by nature, excluding all incongruous intervals and ranging only through harmonious ones.
+
+The harmonic faculties explained thus far, that essential Harmony, GOD Himself, breathed forth in creating—as He who is *being in act* (*οὐσία ἐνεργείᾳ*)—and breathed this particle of His image into all Souls whatsoever, yet according to greater and lesser degree; with which inculcation I set an end also to this chapter.

@@ -29,10 +29,10 @@ Strena seu de Nive Sexangula
 Conspectus Totius Operis
 ------------------------
 
-* Sectio I — Prooemium ad Ioannem Matthaeum Wackherum: :doc:`Latin <sec_01/sec_01-la>` · :doc:`English <sec_01/sec_01-en>` · :doc:`Summary <sec_01/sec_01-summary>` · :doc:`Notes <sec_01/sec_01-notes>`
-* Sectio II — De Favagine et Granis Mali Punici: :doc:`Latin <sec_02/sec_02-la>` · :doc:`English <sec_02/sec_02-en>` · :doc:`Summary <sec_02/sec_02-summary>` · :doc:`Notes <sec_02/sec_02-notes>`
-* Sectio III — De Quincunce in Floribus et Fructibus: :doc:`Latin <sec_03/sec_03-la>` · :doc:`English <sec_03/sec_03-en>` · :doc:`Summary <sec_03/sec_03-summary>` · :doc:`Notes <sec_03/sec_03-notes>`
-* Sectio IV — De Facultate Formatrice et Nive Sexangula: :doc:`Latin <sec_04/sec_04-la>` · :doc:`English <sec_04/sec_04-en>` · :doc:`Summary <sec_04/sec_04-summary>` · :doc:`Notes <sec_04/sec_04-notes>`
+* Sectio I — Prooemium ad Ioannem Matthaeum Wackherum: :doc:`Latin <sec_01/la>` · :doc:`English <sec_01/index>` · :doc:`Summary <sec_01/summary>` · :doc:`Notes <sec_01/notes>`
+* Sectio II — De Favagine et Granis Mali Punici: :doc:`Latin <sec_02/la>` · :doc:`English <sec_02/index>` · :doc:`Summary <sec_02/summary>` · :doc:`Notes <sec_02/notes>`
+* Sectio III — De Quincunce in Floribus et Fructibus: :doc:`Latin <sec_03/la>` · :doc:`English <sec_03/index>` · :doc:`Summary <sec_03/summary>` · :doc:`Notes <sec_03/notes>`
+* Sectio IV — De Facultate Formatrice et Nive Sexangula: :doc:`Latin <sec_04/la>` · :doc:`English <sec_04/index>` · :doc:`Summary <sec_04/summary>` · :doc:`Notes <sec_04/notes>`
 
 ----
 
