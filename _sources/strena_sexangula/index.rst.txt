@@ -36,33 +36,7 @@ Table of Contents
 -----------------
 
 .. collection::
-
-   sec_01/sec_01-en
-   sec_02/sec_02-en
-   sec_03/sec_03-en
-   sec_04/sec_04-en
-
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-
-   sec_01/sec_01-en
-   sec_01/sec_01-la
-   sec_01/sec_01-summary
-   sec_01/sec_01-notes
-   sec_02/sec_02-en
-   sec_02/sec_02-la
-   sec_02/sec_02-summary
-   sec_02/sec_02-notes
-   sec_03/sec_03-en
-   sec_03/sec_03-la
-   sec_03/sec_03-summary
-   sec_03/sec_03-notes
-   sec_04/sec_04-en
-   sec_04/sec_04-la
-   sec_04/sec_04-summary
-   sec_04/sec_04-notes
+   :sort: order
 
 .. toctree::
    :maxdepth: 1
