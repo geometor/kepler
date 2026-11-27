@@ -44,13 +44,13 @@ Further, just as in the preceding chapter proportions were considered in two way
  which is the greater term of the one and the lesser of the other verging toward graver pitches), that interval is always called *lower* which is between graver pitches, and that *upper* which is between acuter pitches.
 
 And in Geometry indeed proportions are acknowledged as equal,
- even though the terms of the one are unequal to the terms of the other, and the excess of the terms of the one is unequal to the excess of the terms of the other: as if there be three strings in the proportion of the numbers $4, 6, 9$, the same proportion is reckoned
+ even though the terms of the one are unequal to the terms of the other, and the excess of the terms of the one is unequal to the excess of the terms of the other: as if there be three strings in the proportion of the numbers :math:`4, 6, 9`, the same proportion is reckoned
 
 .. folio:: harmonices_mundi:0123
    :page: p. 33
 
-$4:6$ as $6:9$,
- notwithstanding that both the terms themselves and also the excesses $2$ and $3$ are unequal.
+:math:`4:6` as :math:`6:9`,
+ notwithstanding that both the terms themselves and also the excesses :math:`2` and :math:`3` are unequal.
 
 In Harmonics likewise all intervals of pitches coming from strings which are of the same proportion are both reckoned equal and written by the same numerical mark; nay more, they are painted by equal intervals of lines in a diagram:
  so that we altogether forget that inequality which lies between the excesses of different strings.
@@ -77,11 +77,11 @@ Thus therefore it must be held that consonant Intervals (except those of which o
    :page: p. 34
 
 in such a way, indeed, that although their differences are expressed in numbers, which in simple numbers is a sign of commensuration,
- yet these differences, inasmuch as they are not simple numbers, but fractions, are not an aliquot part or parts of the differing intervals according to any number. For example, the two proportions $1:2$ and $1:4$ are to one another as the number $1$ to the number $2$;
- they are therefore commensurable, for $1:4$ is double of $1:2$. This has place only in the series of continually doubled proportions. For in the series of triples and the rest of the Multiples, two consonant proportions are not given: as $1:9$ is indeed triple [*i.e.* duplicate] of $1:3$,
- yet $1:3$ alone is among the consonants, while $1:9$ is among the dissonants, by Axiom III. The same is also to be seen in non-multiples: as in the consonant sesquialteran $2:3$, a multiple of it is indeed given and so commensurable; for $4:9$ is to $2:3$
- as the Number $2$ to $1$, yet $4:9$ is not among the consonants. On the contrary, let there be two other consonants than from the series of continually doubled proportions, such as $1:4$ and $2:3$: these two proportions are not commensurable with one another, that is, not as number to number:
- for the excess $3:8$ of $1:4$ over $2:3$ measures neither $1:4$ nor $2:3$.
+ yet these differences, inasmuch as they are not simple numbers, but fractions, are not an aliquot part or parts of the differing intervals according to any number. For example, the two proportions :math:`1:2` and :math:`1:4` are to one another as the number :math:`1` to the number :math:`2`;
+ they are therefore commensurable, for :math:`1:4` is double of :math:`1:2`. This has place only in the series of continually doubled proportions. For in the series of triples and the rest of the Multiples, two consonant proportions are not given: as :math:`1:9` is indeed triple [*i.e.* duplicate] of :math:`1:3`,
+ yet :math:`1:3` alone is among the consonants, while :math:`1:9` is among the dissonants, by Axiom III. The same is also to be seen in non-multiples: as in the consonant sesquialteran :math:`2:3`, a multiple of it is indeed given and so commensurable; for :math:`4:9` is to :math:`2:3`
+ as the Number :math:`2` to :math:`1`, yet :math:`4:9` is not among the consonants. On the contrary, let there be two other consonants than from the series of continually doubled proportions, such as :math:`1:4` and :math:`2:3`: these two proportions are not commensurable with one another, that is, not as number to number:
+ for the excess :math:`3:8` of :math:`1:4` over :math:`2:3` measures neither :math:`1:4` nor :math:`2:3`.
 
 Consonant Intervals, therefore, are prior by Nature to the lesser intervals which we call concinnous: nor are the former composed out of the latter as out of Elements, or out of some smaller quantity; but on the contrary,
  the latter arise out of the former as out of causes.
@@ -115,13 +115,13 @@ Further, the Method of comparison or abstraction is of two kinds: one general or
 
 Therefore there lie between:
 
-* Between $2:3$ and $3:4$ — $8:9$
-* Between $2:3$ and $3:5$ — $9:10$
-* Between $2:3$ and $5:8$ — $15:16$
-* Between $3:4$ and $4:5$ — $15:16$
-* Between $3:4$ and $5:6$ — $9:10$
-* Between $4:5$ and $5:6$ — $24:25$
-* Between $3:5$ and $5:8$ — $24:25$
+* Between :math:`2:3` and :math:`3:4` — :math:`8:9`
+* Between :math:`2:3` and :math:`3:5` — :math:`9:10`
+* Between :math:`2:3` and :math:`5:8` — :math:`15:16`
+* Between :math:`3:4` and :math:`4:5` — :math:`15:16`
+* Between :math:`3:4` and :math:`5:6` — :math:`9:10`
+* Between :math:`4:5` and :math:`5:6` — :math:`24:25`
+* Between :math:`3:5` and :math:`5:8` — :math:`24:25`
 
 *In musical notation, by anticipation.*
 
@@ -131,29 +131,29 @@ The harmonic comparison of Consonant intervals looks to their origin, and what p
 .. folio:: harmonices_mundi:0126
    :page: p. 36
 
-Therefore for all the numbers of the greater terms from the 7 Harmonic sections—namely $2, 3, 4, 5, 6, 5, 8$—
- their least common dividend $120$ is to be sought; and the whole string is to be divided into as many equal parts, so that the sound of the whole string may be set as the common greater term of all the consonances made through the sections, and the lesser terms accommodated,
+Therefore for all the numbers of the greater terms from the 7 Harmonic sections—namely :math:`2, 3, 4, 5, 6, 5, 8`—
+ their least common dividend :math:`120` is to be sought; and the whole string is to be divided into as many equal parts, so that the sound of the whole string may be set as the common greater term of all the consonances made through the sections, and the lesser terms accommodated,
  so that compared among themselves they may constitute the concinnous intervals which are investigated in this chapter: and the very same come forth as before arithmetically.
 
 *Behold in Musical Notation, by anticipation.*
 
-*For of 120 the part is:* $1/2 \to 60$; $3/5 \to 72$; $5/8 \to 75$; $2/3 \to 80$; $3/4 \to 90$; $4/5 \to 96$; $5/6 \to 100$ (whole string $120$).
+*For of 120 the part is:* :math:`1/2 \to 60`; :math:`3/5 \to 72`; :math:`5/8 \to 75`; :math:`2/3 \to 80`; :math:`3/4 \to 90`; :math:`4/5 \to 96`; :math:`5/6 \to 100` (whole string :math:`120`).
 
-*And the proportion of the parts is this:* $72:75 = 24:25$; $75:80 = 15:16$ ($72:80 = 9:10$); $80:90 = 8:9$; $90:96 = 15:16$; $96:100 = 24:25$ ($90:100 = 9:10$).
+*And the proportion of the parts is this:* :math:`72:75 = 24:25`; :math:`75:80 = 15:16` (:math:`72:80 = 9:10`); :math:`80:90 = 8:9`; :math:`90:96 = 15:16`; :math:`96:100 = 24:25` (:math:`90:100 = 9:10`).
 
 This therefore is the origin of Concinnous dissonant intervals, to which a little below I shall give their names.
 
 It follows that I should also speak of the origin of third-order intervals, which although they are not exquisitely concinnous, yet serve concinnous song, or take the place of concinnous intervals. Now these arise from subtractions or comparisons of concinnous intervals (in the same way as concinnous from consonant ones).
  For between concinnous or second intervals there are these third-order intervals:
 
-* Between $8:9$ and $9:10$ — $80:81$
-* Between $8:9$ and $15:16$ — $128:135$ (*which is composed of $24:25$ and $80:81$, and is a very little smaller than two $15:16$*)
-* Between $9:10$ and $15:16$ — $24:25$
+* Between :math:`8:9` and :math:`9:10` — :math:`80:81`
+* Between :math:`8:9` and :math:`15:16` — :math:`128:135` (*which is composed of* :math:`24:25` *and* :math:`80:81`, *and is a very little smaller than two* :math:`15:16`)
+* Between :math:`9:10` and :math:`15:16` — :math:`24:25`
 
 .. folio:: harmonices_mundi:0127
    :page: p. 37
 
-To these may be added the doubled interval $15:16$, namely $225:256$, which exceeds the interval $8:9$ by a little less than $15:16$ exceeds the interval $128:135$. And the first three indeed arise from the mutual subtraction of different Concinnous intervals: while this arises from the addition of two equal concinnous intervals,
+To these may be added the doubled interval :math:`15:16`, namely :math:`225:256`, which exceeds the interval :math:`8:9` by a little less than :math:`15:16` exceeds the interval :math:`128:135`. And the first three indeed arise from the mutual subtraction of different Concinnous intervals: while this arises from the addition of two equal concinnous intervals,
  though less customarily.
 
 And hence flashes forth an
@@ -162,14 +162,14 @@ And hence flashes forth an
 
 *exceedingly fair in numbers and in the following figure.*
 
-The numbers $1, 2, 3, 4, 5, 6, 7, 8, 9, 10$ with their flanking squares and oblongs: $(3, 4)$, $(8, 9)$, $(15, 16)$, $(24, 25)$, $(35, 36)$, $(48, 49)$, $(63, 64)$, $(80, 81)$.
+The numbers :math:`1, 2, 3, 4, 5, 6, 7, 8, 9, 10` with their flanking squares and oblongs: :math:`(3, 4)`, :math:`(8, 9)`, :math:`(15, 16)`, :math:`(24, 25)`, :math:`(35, 36)`, :math:`(48, 49)`, :math:`(63, 64)`, :math:`(80, 81)`.
 
-Namely, the square of every number below ten with the rectangle of the two numbers next surrounding it constitutes either a consonant, or a concinnous, or a Third-order interval, except the square of the septenary $49$ and its two rectangles $35$ and $63$. Yet here the concinnous $9:10$ is exiled,
- and most of the consonants except $3:4$. It is therefore fortuitous with respect to the order of Numbers and the making of this figure.
+Namely, the square of every number below ten with the rectangle of the two numbers next surrounding it constitutes either a consonant, or a concinnous, or a Third-order interval, except the square of the septenary :math:`49` and its two rectangles :math:`35` and :math:`63`. Yet here the concinnous :math:`9:10` is exiled,
+ and most of the consonants except :math:`3:4`. It is therefore fortuitous with respect to the order of Numbers and the making of this figure.
 
 In vain will the arithmetician seek causes from this; in vain will the Pythagorean busy himself with the superstition of the septenary, as of numbering number:
  the matter must be fetched deeper from Geometry, and from numbered and figured Numbers—namely, from the indemonstrable figures themselves, of which the first is the heptagon. For as to why the pattern cannot be continued beyond ten while the nature of the Concinnous follows,
- it is no longer the septenary that hinders, but other numbers of indemonstrable figures, $9$ and $11$, which make the rectangle $99$, which with the square of the Denary $100$ constitutes an interval utterly abhorrent to the nature of Song. So great is the difference between doxastic and epistemonic Axioms.
+ it is no longer the septenary that hinders, but other numbers of indemonstrable figures, :math:`9` and :math:`11`, which make the rectangle :math:`99`, which with the square of the Denary :math:`100` constitutes an interval utterly abhorrent to the nature of Song. So great is the difference between doxastic and epistemonic Axioms.
 
 **Order of concinnous intervals in perfection, and their appellations.**
 
@@ -177,26 +177,26 @@ I have spoken hitherto of the origin and order of Intervals which are smaller th
  since I had to depart from them both in the things themselves and in their causes.
 
 It is therefore consonant with what was said above, especially with Axiom II, that each of these intervals pertaining to the nature of the concinnous should retain the nature of those consonant intervals by which it is constituted.
- Since therefore among consonant intervals smaller than the double interval, the most perfect are $2:3$ and $3:4$
+ Since therefore among consonant intervals smaller than the double interval, the most perfect are :math:`2:3` and :math:`3:4`
 
 .. folio:: harmonices_mundi:0128
    :page: p. 38
 
-on account of the Nobility of the figures from which they draw their origin, their common offspring among concinnous intervals, namely $8:9$, will also be preferred to the rest.
+on account of the Nobility of the figures from which they draw their origin, their common offspring among concinnous intervals, namely :math:`8:9`, will also be preferred to the rest.
  This interval therefore let us call by the name TONE, in common with the ancients; and on account of this excellence, the *perfect Tone*; but on account of the magnitude of its proportion, the *Major Tone*.
 
-Conversely, if you compare the greater perfect consonance $2:3$ with the greater imperfect $3:5$ above,
- or the lesser of the perfect ones $3:4$ with the lesser of the imperfect ones $5:6$ below, there will be born from this union a more imperfect concinnous interval $9:10$, which is smaller than $8:9$; and since this interval had scarcely been noticed in ancient Music before Ptolemy,
+Conversely, if you compare the greater perfect consonance :math:`2:3` with the greater imperfect :math:`3:5` above,
+ or the lesser of the perfect ones :math:`3:4` with the lesser of the imperfect ones :math:`5:6` below, there will be born from this union a more imperfect concinnous interval :math:`9:10`, which is smaller than :math:`8:9`; and since this interval had scarcely been noticed in ancient Music before Ptolemy,
  inasmuch as the Theorists demonstrated everything by the full tones defined earlier, we shall give it the name of the *minor* or *small Tone*, so that this may be a mark of its imperfection. Where let the reader be warned in one word that some have given that name to another interval,
  lest, if perchance he light upon reading them, he be confused by carelessness.
 
-But if you have associated the greater perfect $2:3$ with the lesser imperfect $5:8$ above, or the lesser perfect $3:4$ with the greater imperfect $4:5$ below, the Concinnous interval arisen from the comparison, namely $15:16$,
+But if you have associated the greater perfect :math:`2:3` with the lesser imperfect :math:`5:8` above, or the lesser perfect :math:`3:4` with the greater imperfect :math:`4:5` below, the Concinnous interval arisen from the comparison, namely :math:`15:16`,
  again draws something of imperfection from this its origin, and will be called a *semitone*, by the same word which this interval itself has in common modern music, because it is a little greater than half of a major Tone.
  Some have kept calling this the *Minor Tone*, against whom let the reader beware, lest he be confused.
 
 These three therefore, arisen from perfect intervals compared either with themselves or with imperfect ones, have obtained this, that they are concinnous by themselves and always.
 
-On the contrary, if you have compared imperfect intervals among themselves, arisen from the Pentagon or Decagon—either $3:5$ with $5:8$ above, or $4:5$ with $5:6$ below—the interval arisen hence, namely $24:25$, is of so great imperfection that it almost ceases to be among concinnous intervals.
+On the contrary, if you have compared imperfect intervals among themselves, arisen from the Pentagon or Decagon—either :math:`3:5` with :math:`5:8` above, or :math:`4:5` with :math:`5:6` below—the interval arisen hence, namely :math:`24:25`, is of so great imperfection that it almost ceases to be among concinnous intervals.
  This interval we shall call *Diesis*, by an ancient word; as if you were to say, a slackening of the string. Nor am I anxious to set forth under this word the same quantity of interval as the ancients, which it suffices to have warned once more.
  The causes of imperfection are three: its origin, its smallness (since it does not equal the third part of a perfect tone), and because it was also numbered above among the Third-order intervals, among those namely which serve to make concinnous the genera of song: for it also arises from the minor tone and semitone compared.
  For this interval is not concinnous by itself, nor always: for the human voice is not accustomed to lead song by one and the same ἀγωγῇ through this interval, as through the other intervals, but neglects and leaps over it, except only in a variation of song, for the sake of seasoning:
@@ -205,22 +205,22 @@ On the contrary, if you have compared imperfect intervals among themselves, aris
 .. folio:: harmonices_mundi:0129
    :page: p. 39
 
-I have begun to speak of the Third-order intervals; for the first of them, $24:25$ or the diesis, was also the last of the concinnous ones. Now follow also the appellations of the rest. For $128:135$, which arises from $15:16$ and $8:9$, can be called the *major and irregular diesis*;
- which, as was said above, is a very little smaller (namely by the quantity $2025:2048$) than the concinnous interval of a semitone, and is scarcely distinguished from it. And on this account it is among concinnous intervals, because it sustains the place of a legitimate diesis, especially in a change of song.
+I have begun to speak of the Third-order intervals; for the first of them, :math:`24:25` or the diesis, was also the last of the concinnous ones. Now follow also the appellations of the rest. For :math:`128:135`, which arises from :math:`15:16` and :math:`8:9`, can be called the *major and irregular diesis*;
+ which, as was said above, is a very little smaller (namely by the quantity :math:`2025:2048`) than the concinnous interval of a semitone, and is scarcely distinguished from it. And on this account it is among concinnous intervals, because it sustains the place of a legitimate diesis, especially in a change of song.
  For its genesis is not so much natural as necessary by usage, so that semitones and dieses may be ready at hand everywhere for the various seasonings of song. For which reason, when a legitimate semitone is cut off from a major Tone,
  we can also call this remaining interval by the Greek word *Limma*, or *Residue*.
 
-Finally, the difference $80:81$ falling between the Concinnous intervals $8:9$ and $9:10$ can be called by us a *Comma*, in Latin *segmentum* or *concisio*:
- for the Ancients used to cut their Diesis into $4$ parts, and thence called them Commas, supposing this to be the common Element of all consonances: yet this interval is a little greater than the fourth part of our diesis, and smaller than the third part.
- For $24:25$ is $72:75$ or $96:100$. Therefore the third part would be $74:75$, and the fourth part about $96:97$; whereas $80:81$ lies between the two. By a nearer number we could define it as the eighth part of a major tone, namely $8:9$. Which also appears thus:
- Here the major Tone $8:9$ is divided into the diesis $72:75$, the semitone $75:80$, and the comma $80:81$; and the comma was just now about a third part of the diesis: therefore about $4$ commas equal half of a Tone, and eight the whole Tone, very nearly indeed, though not in every way.
- This interval therefore is altogether not among those concinnous ones which are sung in succession, on account of a smallness scarcely perceptible to the hearing, much less expressible by two successive pitches in human singing by itself apart. Yet it does not therefore cease to be concinnous like $11:12$ and the like:
+Finally, the difference :math:`80:81` falling between the Concinnous intervals :math:`8:9` and :math:`9:10` can be called by us a *Comma*, in Latin *segmentum* or *concisio*:
+ for the Ancients used to cut their Diesis into :math:`4` parts, and thence called them Commas, supposing this to be the common Element of all consonances: yet this interval is a little greater than the fourth part of our diesis, and smaller than the third part.
+ For :math:`24:25` is :math:`72:75` or :math:`96:100`. Therefore the third part would be :math:`74:75`, and the fourth part about :math:`96:97`; whereas :math:`80:81` lies between the two. By a nearer number we could define it as the eighth part of a major tone, namely :math:`8:9`. Which also appears thus:
+ Here the major Tone :math:`8:9` is divided into the diesis :math:`72:75`, the semitone :math:`75:80`, and the comma :math:`80:81`; and the comma was just now about a third part of the diesis: therefore about :math:`4` commas equal half of a Tone, and eight the whole Tone, very nearly indeed, though not in every way.
+ This interval therefore is altogether not among those concinnous ones which are sung in succession, on account of a smallness scarcely perceptible to the hearing, much less expressible by two successive pitches in human singing by itself apart. Yet it does not therefore cease to be concinnous like :math:`11:12` and the like:
  because we also compare those which are separated in place and time. Now a double semitone is to be established for this reason, that in the division of Tones ordered in succession, two semitones are sometimes placed in succession, and those who affect variety and strangeness sometimes use them fused into one
  in place of a tone, to express grave motions of the spirits.
 
-Note that between the semitone $15:16$ and the Diesis $24:25$ lies $125:128$, nearly $42:43$, or a double comma. To which if you add the Comma $80:81$, it becomes $625:648$, nearly $27:28$, or a triple comma.
- Now the same $80:81$ taken away from the diesis $24:25$ leaves $243:250$, which is as nearly as possible $35:36$. The same comma taken away from the semitone $15:16$ leaves the Platonic Limma $243:256$, which is nearly $19:20$; while added to $15:16$ it makes $25:27$, which is between $12:13$ and $13:14$.
- Thus two major Tones $8:9$ added make $64:81$; by taking away which interval from $3:4$, Plato constituted his Limma. Now when this $243:256$, as a limma, was taken away from a major Tone, there remained to Plato $2048:2187$, which he called the *Apotome*, and it is greater by one comma $80:81$ than our Limma $128:135$,
- and surpasses the semitone $15:16$ by very little.
+Note that between the semitone :math:`15:16` and the Diesis :math:`24:25` lies :math:`125:128`, nearly :math:`42:43`, or a double comma. To which if you add the Comma :math:`80:81`, it becomes :math:`625:648`, nearly :math:`27:28`, or a triple comma.
+ Now the same :math:`80:81` taken away from the diesis :math:`24:25` leaves :math:`243:250`, which is as nearly as possible :math:`35:36`. The same comma taken away from the semitone :math:`15:16` leaves the Platonic Limma :math:`243:256`, which is nearly :math:`19:20`; while added to :math:`15:16` it makes :math:`25:27`, which is between :math:`12:13` and :math:`13:14`.
+ Thus two major Tones :math:`8:9` added make :math:`64:81`; by taking away which interval from :math:`3:4`, Plato constituted his Limma. Now when this :math:`243:256`, as a limma, was taken away from a major Tone, there remained to Plato :math:`2048:2187`, which he called the *Apotome*, and it is greater by one comma :math:`80:81` than our Limma :math:`128:135`,
+ and surpasses the semitone :math:`15:16` by very little.
 
 Although these are unusual intervals, yet mention will be made of some of them below in Book V.

@@ -9,4 +9,4 @@
 Chapter IV: Summary
 ===================
 
-Explains why circular celestial angles obey different congruence rules than linear monochord pitches, legitimizing Kepler's new minor aspects ($72^\circ, 144^\circ, 135^\circ$).
+Explains why circular celestial angles obey different congruence rules than linear monochord pitches, legitimizing Kepler's new minor aspects (:math:`72^\circ, 144^\circ, 135^\circ`).

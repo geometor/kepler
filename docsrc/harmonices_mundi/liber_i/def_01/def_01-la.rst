@@ -16,4 +16,4 @@ Definitio I — De Figura Plana Regulari
 
 *Plana Figura regularis illa dicitur, quae omnia latera & omnes angulos extrorsum versos, aequales habet.*
 
-*Ut hic* $QPRO$, *latera* $QP, PR, RO, OQ$, *sunt aequalia, & anguli* $QPR, PRO, ROQ, OQP$, *aequales.*
+*Ut hic* :math:`QPRO`, *latera* :math:`QP, PR, RO, OQ`, *sunt aequalia, & anguli* :math:`QPR, PRO, ROQ, OQP`, *aequales.*

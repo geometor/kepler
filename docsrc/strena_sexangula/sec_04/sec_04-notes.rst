@@ -12,12 +12,12 @@ Pentamerous Blossoms & the Six-Cornered Snowflake: Notes & Provenance
 Fibonacci Recurrence and Morphogenetic Teleology
 ------------------------------------------------
 
-In fol. ``0034`` (p. 12), :person:`Kepler <kepler>` is the first mathematician to formulate the integer recurrence $1, 1, 2, 3, 5, 8, 13, 21\dots$ explicitly as an algebraic approximation to the continuous ratio of Euclid Book II.11 and VI.30 (:just:`II.11`, :just:`XIII.5`). He identifies the vegetative *anima formatrix* as an operating algorithm that steps discrete integers forward through successive additions ($F_{n+1} = F_n + F_{n-1}$) to realize golden pentagonal geometry in flowers and seed chambers without requiring radical calculations.
+In fol. ``0034`` (p. 12), :person:`Kepler <kepler>` is the first mathematician to formulate the integer recurrence :math:`1, 1, 2, 3, 5, 8, 13, 21\dots` explicitly as an algebraic approximation to the continuous ratio of Euclid Book II.11 and VI.30 (:just:`II.11`, :just:`XIII.5`). He identifies the vegetative *anima formatrix* as an operating algorithm that steps discrete integers forward through successive additions (:math:`F_{n+1} = F_n + F_{n-1}`) to realize golden pentagonal geometry in flowers and seed chambers without requiring radical calculations.
 
-The $3 \times 3$ Cubic Vapor-Sphere Lattice (``0037.g1``, p. 15)
-----------------------------------------------------------------
+The :math:`3 \times 3` Cubic Vapor-Sphere Lattice (``0037.g1``, p. 15)
+----------------------------------------------------------------------
 
-On fol. ``0037`` (p. 15), Kepler introduces the woodcut ``0037.g1`` depicting nine touching circles in a $3 \times 3$ square planar grid, each inscribed with orthogonal diameters representing four in-plane neighbors and two additional neighbors understood above and below. Contrast this loose 6-neighbor simple cubic lattice ($\eta_{\text{cubic}} = \pi / 6$) with the tight 12-neighbor face-centered cubic (FCC) sphere packing analyzed in :ref:`strena-sec_03` (``0031.g1``, ``0032.g1``). On fol. ``0042`` (p. 20), Kepler explicitly invokes the geometric duality between the cube (8 vertices, 6 faces; figure of expansion) and the octahedron (6 vertices, 8 faces; figure of contraction).
+On fol. ``0037`` (p. 15), Kepler introduces the woodcut ``0037.g1`` depicting nine touching circles in a :math:`3 \times 3` square planar grid, each inscribed with orthogonal diameters representing four in-plane neighbors and two additional neighbors understood above and below. Contrast this loose 6-neighbor simple cubic lattice (:math:`\eta_{\text{cubic}} = \pi / 6`) with the tight 12-neighbor face-centered cubic (FCC) sphere packing analyzed in :ref:`strena-sec_03` (``0031.g1``, ``0032.g1``). On fol. ``0042`` (p. 20), Kepler explicitly invokes the geometric duality between the cube (8 vertices, 6 faces; figure of expansion) and the octahedron (6 vertices, 8 faces; figure of contraction).
 
 Observational Self-Correction & Chemical Crystallography (pp. 21–24)
 --------------------------------------------------------------------

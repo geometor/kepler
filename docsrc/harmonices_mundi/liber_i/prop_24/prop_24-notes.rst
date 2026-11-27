@@ -9,7 +9,7 @@
 Proposition XXIV: Notes & Provenance
 ====================================
 
-Spans folio ``0031`` (p. 13) bottom onto ``0032`` (p. 14) with the gnomon-subdivided square diagram labeled $\theta, \lambda, \pi, \sigma, \mu, \kappa, \xi, o$.
+Spans folio ``0031`` (p. 13) bottom onto ``0032`` (p. 14) with the gnomon-subdivided square diagram labeled :math:`\theta, \lambda, \pi, \sigma, \mu, \kappa, \xi, o`.
 
 Textual & Mathematical Notes
 ----------------------------

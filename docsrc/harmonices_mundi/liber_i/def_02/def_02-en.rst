@@ -18,6 +18,6 @@ Of these, some are **primary and radical**, which do not go beyond their own bou
 .. folio:: harmonices_mundi:0025
    :page: p. 7
 
-Thus here $ABCDE$ is a complete pentagon, and it is a primary figure, requiring no other complete figure from which it may be produced by continuing the sides.
+Thus here :math:`ABCDE` is a complete pentagon, and it is a primary figure, requiring no other complete figure from which it may be produced by continuing the sides.
 
-Whereas $FGHIKE$ is a pentagonal star, and an augmented figure, formed by continuing pairs of non-adjacent sides—for instance $AB$ and $DC$—to their intersection $I$.
+Whereas :math:`FGHIKE` is a pentagonal star, and an augmented figure, formed by continuing pairs of non-adjacent sides—for instance :math:`AB` and :math:`DC`—to their intersection :math:`I`.

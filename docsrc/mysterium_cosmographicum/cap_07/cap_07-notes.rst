@@ -12,7 +12,7 @@ Chapter VII: Notes & Provenance
 Kepler's *Permutatio Basium et Angulorum*
 -----------------------------------------
 
-Point 4 on folio ``0041`` (p. 31) (*Octaedron cum cubo, Icosaedron cum Dodecaedro permutant numerum basium & angulorum*) and Point 3 (*aequealtum est*) jointly articulate both combinatorial duality and metric radial duality—the exact theorem verified symbolically in ``geometor.kepler.mysterium_spheres.verify_polar_duality_ratios()`` over $\mathbb{Q}(\sqrt{3})$ and $\mathbb{Q}(\phi)$.
+Point 4 on folio ``0041`` (p. 31) (*Octaedron cum cubo, Icosaedron cum Dodecaedro permutant numerum basium & angulorum*) and Point 3 (*aequealtum est*) jointly articulate both combinatorial duality and metric radial duality—the exact theorem verified symbolically in ``geometor.kepler.mysterium_spheres.verify_polar_duality_ratios()`` over :math:`\mathbb{Q}(\sqrt{3})` and :math:`\mathbb{Q}(\phi)`.
 
 Transcription & Provenance
 --------------------------

@@ -15,4 +15,4 @@ Definition I: Regular Plane Figures
 
 A **regular plane figure** is said to be one that has all its sides equal and all its angles facing outward equal.
 
-As here in $QPRO$, the sides $QP, PR, RO, OQ$ are equal, and the angles $QPR, PRO, ROQ, OQP$ are equal.
+As here in :math:`QPRO`, the sides :math:`QP, PR, RO, OQ` are equal, and the angles :math:`QPR, PRO, ROQ, OQP` are equal.

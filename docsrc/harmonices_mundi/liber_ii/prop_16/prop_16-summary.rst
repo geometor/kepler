@@ -9,4 +9,4 @@
 Proposition XVI: Summary
 ========================
 
-States Descartes'/Euclid's angular-defect boundary: zero angular defect gives Euclidean plane tilings; positive defect $2\pi - \sum \theta_i > 0$ produces convex solid vertices.
+States Descartes'/Euclid's angular-defect boundary: zero angular defect gives Euclidean plane tilings; positive defect :math:`2\pi - \sum \theta_i > 0` produces convex solid vertices.

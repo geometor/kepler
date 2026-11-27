@@ -9,4 +9,4 @@
 Chapter X: Summary
 ==================
 
-Reviewing Greek conjunct (*Synemmena*) and disjunct (*Diezeugmena*) tetrachords alongside Guido of Arezzo's six-syllable hexachord (*Ut, re, mi, fa, sol, la*) and Erycius Puteanus's seven-syllable Belgian solmization (*Bo, ce, di, ga, lo, ma, ni*), Kepler demonstrates why six **true Just-Intonation tetrachord species** (`I–VI`) replace the classical three once the Syntonic distinction between Major Tone ($8:9$) and Minor Tone ($9:10$) is respected (`0145.g1.png`), and shows how overlapping tetrachord structures ground *fuga* and *fantasia* imitation.
+Reviewing Greek conjunct (*Synemmena*) and disjunct (*Diezeugmena*) tetrachords alongside Guido of Arezzo's six-syllable hexachord (*Ut, re, mi, fa, sol, la*) and Erycius Puteanus's seven-syllable Belgian solmization (*Bo, ce, di, ga, lo, ma, ni*), Kepler demonstrates why six **true Just-Intonation tetrachord species** (`I–VI`) replace the classical three once the Syntonic distinction between Major Tone (:math:`8:9`) and Minor Tone (:math:`9:10`) is respected (`0145.g1.png`), and shows how overlapping tetrachord structures ground *fuga* and *fantasia* imitation.

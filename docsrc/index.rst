@@ -101,7 +101,7 @@ Interactive Studios & Key Features
 
       **3D Star Polyhedra & 616 Archival Folios**
 
-      Spin the Small and Great Stellated Dodecahedra ($\{5/2, 5\}$ and $\{5/2, 3\}$) beside Kepler's 1619 engravings in :ref:`Book II, Prop. XXVI <hm-liber-ii-prop_26-en>`, and compare original 1596/1611/1619 copperplates with interactive ``.euclid-graphic`` vectorizations beginning in :ref:`Chapter I <mc-cap_01-en>`.
+      Spin the Small and Great Stellated Dodecahedra (:math:`\{5/2, 5\}` and :math:`\{5/2, 3\}`) beside Kepler's 1619 engravings in :ref:`Book II, Prop. XXVI <hm-liber-ii-prop_26-en>`, and compare original 1596/1611/1619 copperplates with interactive ``.euclid-graphic`` vectorizations beginning in :ref:`Chapter I <mc-cap_01-en>`.
 
 Reference & Project
 -------------------

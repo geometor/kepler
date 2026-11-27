@@ -9,4 +9,4 @@
 Definition XII: Summary
 =======================
 
-Degree I corresponds to pure rational identity ($1 : 1$) with the diameter $D$ or its square $D^2$.
+Degree I corresponds to pure rational identity (:math:`1 : 1`) with the diameter :math:`D` or its square :math:`D^2`.

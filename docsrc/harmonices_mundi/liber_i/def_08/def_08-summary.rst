@@ -10,4 +10,4 @@
 Definition VIII: Summary
 ========================
 
-Defines Kepler's constructibility boundary—equivalent in modern Galois theory to $\deg_{\mathbb{Q}}(s_n/D) = 2^k$—and hosts the synoptic comparison plate contrasting the Euclidean pentagon ($n=5$) with the cubic heptagon ($n=7$).
+Defines Kepler's constructibility boundary—equivalent in modern Galois theory to :math:`\deg_{\mathbb{Q}}(s_n/D) = 2^k`—and hosts the synoptic comparison plate contrasting the Euclidean pentagon (:math:`n=5`) with the cubic heptagon (:math:`n=7`).

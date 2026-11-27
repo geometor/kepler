@@ -9,4 +9,4 @@
 Definition XVIII: Summary
 =========================
 
-Degree VI generates the Major (*Mizon*) and Minor (*Elasson*) radical classes of Euclid X.39 and X.76 that govern the **Regular Pentagon** side and chord ($s_5, d_5$).
+Degree VI generates the Major (*Mizon*) and Minor (*Elasson*) radical classes of Euclid X.39 and X.76 that govern the **Regular Pentagon** side and chord (:math:`s_5, d_5`).

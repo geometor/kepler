@@ -12,9 +12,11 @@ Honeycombs & Rhombic Polyhedra: Notes & Provenance
 The Maraldi Angle of the Honeycomb Rhombus
 ------------------------------------------
 
-In ``geometor.kepler.strena_packing.analyze_rhombic_dodecahedron``, each face of the Rhombic Dodecahedron has half-diagonals $\sqrt{2}$ and $1$ and edge length $\sqrt{3}$. By the law of cosines on the rhombus triangles:
+In ``geometor.kepler.strena_packing.analyze_rhombic_dodecahedron``, each face of the Rhombic Dodecahedron has half-diagonals :math:`\sqrt{2}` and :math:`1` and edge length :math:`\sqrt{3}`. By the law of cosines on the rhombus triangles:
 
-$$\cos\alpha_{\text{obtuse}} = \frac{3 + 3 - 8}{2 \cdot 3} = -\frac{1}{3} \implies \alpha_{\text{obtuse}} = \arccos\!\left(-\frac{1}{3}\right) \approx 109^\circ 28' 16'',$$
+.. math::
+
+   \cos\alpha_{\text{obtuse}} = \frac{3 + 3 - 8}{2 \cdot 3} = -\frac{1}{3} \implies \alpha_{\text{obtuse}} = \arccos\!\left(-\frac{1}{3}\right) \approx 109^\circ 28' 16'',
 
 the celebrated **Maraldi tetrahedral angle** (rediscovered experimentally in beehives by Giacomo Filippo Maraldi in 1712), minimizing wax surface area for a given hexagonal cell volume!
 

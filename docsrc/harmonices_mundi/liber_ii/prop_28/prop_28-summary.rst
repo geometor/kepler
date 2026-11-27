@@ -12,4 +12,4 @@ Proposition XXVIII: Summary
 Completeness of the 13 Archimedean Convex Solids
 ------------------------------------------------
 
-By separating regular prisms ($4.4.n$) and antiprisms ($3.3.3.n$) into two infinite families, :person:`Kepler <kepler>` delivered the first complete modern proof that exactly **13** convex vertex-transitive semi-regular solids exist, enumerating all 13 systematically by vertex-angle deficiency ($< 360^\circ$) and naming each solid.
+By separating regular prisms (:math:`4.4.n`) and antiprisms (:math:`3.3.3.n`) into two infinite families, :person:`Kepler <kepler>` delivered the first complete modern proof that exactly **13** convex vertex-transitive semi-regular solids exist, enumerating all 13 systematically by vertex-angle deficiency (:math:`< 360^\circ`) and naming each solid.

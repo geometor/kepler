@@ -106,13 +106,13 @@ Porro comparationis seu abstractionis Methodus alia est generalis seu arithmetic
 
 Intersunt ergo:
 
-* *Inter consona ista* $2/3$ & $3/4$ — *Concinna haec* $8/9$
-* *Inter consona ista* $2/3$ & $3/5$ — *Concinna haec* $9/10$
-* *Inter consona ista* $2/3$ & $5/8$ — *Concinna haec* $15/16$
-* *Inter consona ista* $3/4$ & $4/5$ — *Concinna haec* $15/16$
-* *Inter consona ista* $3/4$ & $5/6$ — *Concinna haec* $9/10$
-* *Inter consona ista* $4/5$ & $5/6$ — *Concinna haec* $24/25$
-* *Inter consona ista* $3/5$ & $5/8$ — *Concinna haec* $24/25$
+* *Inter consona ista* :math:`2/3` & :math:`3/4` — *Concinna haec* :math:`8/9`
+* *Inter consona ista* :math:`2/3` & :math:`3/5` — *Concinna haec* :math:`9/10`
+* *Inter consona ista* :math:`2/3` & :math:`5/8` — *Concinna haec* :math:`15/16`
+* *Inter consona ista* :math:`3/4` & :math:`4/5` — *Concinna haec* :math:`15/16`
+* *Inter consona ista* :math:`3/4` & :math:`5/6` — *Concinna haec* :math:`9/10`
+* *Inter consona ista* :math:`4/5` & :math:`5/6` — *Concinna haec* :math:`24/25`
+* *Inter consona ista* :math:`3/5` & :math:`5/8` — *Concinna haec* :math:`24/25`
 
 *In notis, ex anticipato.*
 
@@ -127,18 +127,18 @@ monicis. Igitur omnibus numeris majorum terminorum ex sectionibus 7. Harmonicis,
 
 *Ecce in Notis ex anticipato.*
 
-*Nam de 120. pars est:* $1/2 \to 60$; $3/5 \to 72$; $5/8 \to 75$; $2/3 \to 80$; $3/4 \to 90$; $4/5 \to 96$; $5/6 \to 100$ (chorda tota $120$).
+*Nam de 120. pars est:* :math:`1/2 \to 60`; :math:`3/5 \to 72`; :math:`5/8 \to 75`; :math:`2/3 \to 80`; :math:`3/4 \to 90`; :math:`4/5 \to 96`; :math:`5/6 \to 100` (chorda tota :math:`120`).
 
-*Et partium proportio haec:* $72:75 = 24/25$; $75:80 = 15/16$ ($72:80 = 9/10$); $80:90 = 8/9$; $90:96 = 15/16$; $96:100 = 24/25$ ($90:100 = 9/10$).
+*Et partium proportio haec:* :math:`72:75 = 24/25`; :math:`75:80 = 15/16` (:math:`72:80 = 9/10`); :math:`80:90 = 8/9`; :math:`90:96 = 15/16`; :math:`96:100 = 24/25` (:math:`90:100 = 9/10`).
 
 Hic igitur est ortus intervallorum Concinnorum dissonorum, quibus paulo post sua dabimus nomina.
 
 Sequitur, ut etiam de ortu tertiorum intervallorum dicamus, quae licet concinna exquisite non sint, concinno tamen cantui inserviunt, aut concinnorum vicem sustinent. Illa vero ex concinnorum (similiter ut concinna ex consonorum) subtractionibus seu comparationibus oriuntur.
  Nam inter concinna seu secunda intervalla sunt tertia intervalla ista:
 
-* $8/9$ & $9/10$ — $80/81$
-* $8/9$ & $15/16$ — $128/135$ (*quod componitur ex 24. 25. & 80. 81. & paulo admodum est minus quam duo 15. 16.*)
-* $9/10$ & $15/16$ — $24/25$
+* :math:`8/9` & :math:`9/10` — :math:`80/81`
+* :math:`8/9` & :math:`15/16` — :math:`128/135` (*quod componitur ex 24. 25. & 80. 81. & paulo admodum est minus quam duo 15. 16.*)
+* :math:`9/10` & :math:`15/16` — :math:`24/25`
 
 .. folio:: harmonices_mundi:0127
    :page: p. 37
@@ -151,7 +151,7 @@ Atque hinc emicat
 
 *pulchrum admodum in numeris & typo sequenti.*
 
-Numeri $1, 2, 3, 4, 5, 6, 7, 8, 9, 10$ cum quadratis et rectangulis circumstantibus: $(3, 4)$, $(8, 9)$, $(15, 16)$, $(24, 25)$, $(35, 36)$, $(48, 49)$, $(63, 64)$, $(80, 81)$.
+Numeri :math:`1, 2, 3, 4, 5, 6, 7, 8, 9, 10` cum quadratis et rectangulis circumstantibus: :math:`(3, 4)`, :math:`(8, 9)`, :math:`(15, 16)`, :math:`(24, 25)`, :math:`(35, 36)`, :math:`(48, 49)`, :math:`(63, 64)`, :math:`(80, 81)`.
 
 Omnis sc. numeri infra decem quadratum cum rectangulo binorum numerorum illum proxime circumstantium constituit intervallum vel consonum vel concinnum vel Tertium, excepto septenarij quadrato 49. & rectangulis ejus duobus 35. & 63. Sed hic exulat concinnum 9. 10. & consona pleraque, praeter 3. 4. Est igitur fortuitum, respectu ordinis Numerorum & facturae hujus typi.
 

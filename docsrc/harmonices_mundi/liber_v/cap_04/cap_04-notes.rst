@@ -9,7 +9,7 @@
 Chapter IV: Notes & Provenance
 ==============================
 
-Directly bridges Book V Chapter III's Third Law ($T^2 \propto a^3$) to the specific Just-Intonation scales of Chapters V–VII.
+Directly bridges Book V Chapter III's Third Law (:math:`T^2 \propto a^3`) to the specific Just-Intonation scales of Chapters V–VII.
 
 Transcription & Provenance
 --------------------------

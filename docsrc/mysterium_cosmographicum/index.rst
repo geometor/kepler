@@ -38,7 +38,7 @@ The Cosmographic Mystery
 Interactive 3D CAD Model — Tabula III (Folio 0034)
 --------------------------------------------------
 
-Parametric 3D CAD reconstruction of Kepler's 1597 folding copperplate (**Tabula III**): six cutaway hemispherical planetary shells ($\alpha$ Saturn through $\lambda$ Mercury), five watertight mitered open-frame Platonic scaffolds (**Cube** $\beta \supset$ **Tetrahedron** $\delta \supset$ **Dodecahedron** $\zeta \supset$ **Icosahedron** $\theta \supset$ **Octahedron** $\kappa$), central **Sun** ($\mu$), and carved Renaissance pedestal. Drag to orbit, scrub **Explode**, toggle **Cutaway / Full Orbs / Solids**, or switch between **Exact 1:1 Caput XIII** and **Expanded Core** proportions.
+Parametric 3D CAD reconstruction of Kepler's 1597 folding copperplate (**Tabula III**): six cutaway hemispherical planetary shells (:math:`\alpha` Saturn through :math:`\lambda` Mercury), five watertight mitered open-frame Platonic scaffolds (**Cube** :math:`\beta \supset` **Tetrahedron** :math:`\delta \supset` **Dodecahedron** :math:`\zeta \supset` **Icosahedron** :math:`\theta \supset` **Octahedron** :math:`\kappa`), central **Sun** (:math:`\mu`), and carved Renaissance pedestal. Drag to orbit, scrub **Explode**, toggle **Cutaway / Full Orbs / Solids**, or switch between **Exact 1:1 Caput XIII** and **Expanded Core** proportions.
 
 .. raw:: html
 

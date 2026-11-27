@@ -12,7 +12,7 @@ Chapter III: Notes & Provenance
 Trihedral Primacy & Early Polar Duality
 ---------------------------------------
 
-Kepler's fourth criterion—that secondary solids arise *facta commutatione* ("by interchange") from primary ones—is one of the clearest early Renaissance statements of **polyhedral polar duality** (exchanging face counts and vertex counts: Cube $\leftrightarrow$ Octahedron, Dodecahedron $\leftrightarrow$ Icosahedron, Tetrahedron self-dual). Notice that Kepler's taxonomic split coincides exactly with the modern Schläfli criterion $q = 3$ (primary) versus $p = 3, q > 3$ (secondary).
+Kepler's fourth criterion—that secondary solids arise *facta commutatione* ("by interchange") from primary ones—is one of the clearest early Renaissance statements of **polyhedral polar duality** (exchanging face counts and vertex counts: Cube :math:`\leftrightarrow` Octahedron, Dodecahedron :math:`\leftrightarrow` Icosahedron, Tetrahedron self-dual). Notice that Kepler's taxonomic split coincides exactly with the modern Schläfli criterion :math:`q = 3` (primary) versus :math:`p = 3, q > 3` (secondary).
 
 Transcription & Provenance
 --------------------------

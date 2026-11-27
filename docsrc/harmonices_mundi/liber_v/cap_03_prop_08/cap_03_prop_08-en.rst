@@ -39,4 +39,4 @@ and if you ask for the exact moments of time, it was conceived in my mind on the
 
    .. picture:: /_static/figures/fig09_kepler_triangle_and_third_law.svg
       :alt: Kepler's Harmonic Third Law orbital ellipse and focal sector geometry
-      :caption: Calibrated schematic: Elliptical orbit around center :g:`C_orb`, focal sectors, and the sesquialterate harmonic law $T^2 = a^3$.
+      :caption: Calibrated schematic: Elliptical orbit around center :g:`C_orb`, focal sectors, and the sesquialterate harmonic law :math:`T^2 = a^3`.

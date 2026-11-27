@@ -12,7 +12,7 @@ Chapter XXIII: Notes & Provenance
 Irrational Ratios & The Refutation of Eternal Recurrence
 --------------------------------------------------------
 
-Kepler's argument against the *Annus Platonicus* echoes Nicole Oresme's fourteenth-century *De commensurabilitate vel incommensurabilitate motuum celi*: if even a single pair of planetary mean motions has an irrational ratio (as forced by $\sqrt{3}$ or $\phi$ in the five solids, and later by $(a_1/a_2)^{3/2}$), their simultaneous conjunction never recurs exactly. Immediately following **FINIS.** on folio ``0095`` (p. 83), the 1596 Tübingen volume binds :person:`Michael Mästlin's <maestlin>` preface and :person:`Rheticus's <rheticus>` *Narratio Prima* (``0097``–``0194``).
+Kepler's argument against the *Annus Platonicus* echoes Nicole Oresme's fourteenth-century *De commensurabilitate vel incommensurabilitate motuum celi*: if even a single pair of planetary mean motions has an irrational ratio (as forced by :math:`\sqrt{3}` or :math:`\phi` in the five solids, and later by :math:`(a_1/a_2)^{3/2}`), their simultaneous conjunction never recurs exactly. Immediately following **FINIS.** on folio ``0095`` (p. 83), the 1596 Tübingen volume binds :person:`Michael Mästlin's <maestlin>` preface and :person:`Rheticus's <rheticus>` *Narratio Prima* (``0097``–``0194``).
 
 Transcription & Provenance
 --------------------------

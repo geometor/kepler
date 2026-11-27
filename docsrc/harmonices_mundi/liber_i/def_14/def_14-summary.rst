@@ -9,4 +9,4 @@
 Definition XIV: Summary
 =======================
 
-Degree III covers pure quadratic irrationals $\sqrt{q} D$ ($q \in \mathbb{Q}_{>0}$), where the ratio of :term:`quadrances <quadrance>` is purely rational.
+Degree III covers pure quadratic irrationals :math:`\sqrt{q} D` (:math:`q \in \mathbb{Q}_{>0}`), where the ratio of :term:`quadrances <quadrance>` is purely rational.

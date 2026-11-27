@@ -36,7 +36,7 @@ The Harmony of the World
 Interactive Celestial Music Studio — Folios 0297–0302 (1619)
 ------------------------------------------------------------
 
-Hear Kepler's *Music of the Spheres* live in **exact 5-limit Just Intonation** transcribed verbatim from the 1619 Linz engravings. Ignite the **Live Keplerian Orbital Orrery** (each planet singing its instantaneous angular velocity $\omega \propto 1/r^2$ as golden consonance beams flash across pure intervals), play the **1619 Planetary Melodies** (including Earth's *MI–FA–MI* and Mercury's 14-note arpeggio), strike all **Four Universal Six-Planet Creation Chords** (pp. 209–210), or pluck the **Vibrating Brass Monochord**.
+Hear Kepler's *Music of the Spheres* live in **exact 5-limit Just Intonation** transcribed verbatim from the 1619 Linz engravings. Ignite the **Live Keplerian Orbital Orrery** (each planet singing its instantaneous angular velocity :math:`\omega \propto 1/r^2` as golden consonance beams flash across pure intervals), play the **1619 Planetary Melodies** (including Earth's *MI–FA–MI* and Mercury's 14-note arpeggio), strike all **Four Universal Six-Planet Creation Chords** (pp. 209–210), or pluck the **Vibrating Brass Monochord**.
 
 .. raw:: html
 

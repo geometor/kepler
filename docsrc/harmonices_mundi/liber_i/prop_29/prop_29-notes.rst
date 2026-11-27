@@ -12,7 +12,7 @@ Proposition XXIX: Notes & Provenance
 Ptolemy's Construction & Euclid XIII.5
 --------------------------------------
 
-In *Almagest* I.10, :person:`Ptolemy <ptolemy>` derived his chord table using the construction Kepler formalizes in Proposition XXIX: bisecting half-radius $GA$ at $M$ and swinging arc $MG$ down to diameter $PX$ cuts off the divine section ($PG$ and $GX$). Euclid demonstrates in *Elements* XIII.5 that adding the greater segment $PG$ to the whole $GX$ yields a new line $PGX$ cut in the same ratio, a property Kepler distinguishes carefully from the qualitative classifications of Book X (*Elasson* and *Mizon*).
+In *Almagest* I.10, :person:`Ptolemy <ptolemy>` derived his chord table using the construction Kepler formalizes in Proposition XXIX: bisecting half-radius :math:`GA` at :math:`M` and swinging arc :math:`MG` down to diameter :math:`PX` cuts off the divine section (:math:`PG` and :math:`GX`). Euclid demonstrates in *Elements* XIII.5 that adding the greater segment :math:`PG` to the whole :math:`GX` yields a new line :math:`PGX` cut in the same ratio, a property Kepler distinguishes carefully from the qualitative classifications of Book X (*Elasson* and *Mizon*).
 
 Transcription & Provenance
 --------------------------

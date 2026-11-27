@@ -9,4 +9,4 @@
 Definition VI: Summary
 ======================
 
-Fixes the exact problem of Book I: every $n$-gon reduces to determining its chord ratio $s_n / D = \sin(\pi/n)$ relative to the circle's diameter $D$.
+Fixes the exact problem of Book I: every :math:`n`-gon reduces to determining its chord ratio :math:`s_n / D = \sin(\pi/n)` relative to the circle's diameter :math:`D`.

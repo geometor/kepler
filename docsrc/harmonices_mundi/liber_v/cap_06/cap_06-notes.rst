@@ -10,12 +10,12 @@
 Chapter VI: Notes & Provenance
 ==============================
 
-Legacy anchors ``hm-cap_04_09*`` are preserved on this chapter. All interactive studio voices, MIDI exports, and cathedral-organ audio assets derive directly from exact ``sp.Rational`` frequencies anchored at $G_2 = 98\text{ Hz}$ in 5-limit Just Intonation.
+Legacy anchors ``hm-cap_04_09*`` are preserved on this chapter. All interactive studio voices, MIDI exports, and cathedral-organ audio assets derive directly from exact ``sp.Rational`` frequencies anchored at :math:`G_2 = 98\text{ Hz}` in 5-limit Just Intonation.
 
 Textual & Notational Apparatus
 ------------------------------
 
-* **German Key Letters (*h* vs. *b*)**: Following standard Renaissance German tablature and solmization, Kepler uses blackletter *h* (here transcribed *h*) for $B\natural$ (*B-durum*) and italic *b* for $B\flat$ (*B-molle*). Thus Saturn rises from *G* to *h* (major third), whereas Jupiter transposed to *G* rises to *b* (minor third).
+* **German Key Letters (*h* vs. *b*)**: Following standard Renaissance German tablature and solmization, Kepler uses blackletter *h* (here transcribed *h*) for :math:`B\natural` (*B-durum*) and italic *b* for :math:`B\flat` (*B-molle*). Thus Saturn rises from *G* to *h* (major third), whereas Jupiter transposed to *G* rises to *b* (minor third).
 * **Mars Aphelial Key (*fe* / *f*)**: On p. 206 (fol. 0298), the 1619 Linz edition prints *Marti fe*, reflecting Mars's slightly-more-than-fifth span (*Mars ferè*, p. 207) whose aphelion in Chapter V falls just below *f*; on p. 207 (fol. 0299) Kepler explicitly states *aphelio ad f alludit*.
 * **The Moon's Stave**: Immediately to the right of Mercury's 14-note arpeggio on p. 207 (fol. 0299), the engraving adds a seventh staff captioned *Hic locum habet etiam ☽* ("Here the Moon also has a place"), echoing the lunar velocity ratios discussed in Book V, Chapter IV.
 * **Marginal Epigram**: Beside the discussion of the Earth's semitone on p. 207 (fol. 0299), Kepler prints the marginal pun: *"Tellus canit MI FA MI, ut vel ex syllaba conjicias, in hoc nostro domicilio MIseriam & FAmem obtinere."*

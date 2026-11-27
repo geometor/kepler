@@ -9,4 +9,4 @@
 Proposition XIV: Summary
 ========================
 
-Book II passes directly from Definitions I–XIII (covered in *Definitiones*) to Proposition XIV, ruling out $2$-valent planar vertices because every convex $n$-gon angle is strictly acute/obtuse $< \pi$.
+Book II passes directly from Definitions I–XIII (covered in *Definitiones*) to Proposition XIV, ruling out :math:`2`-valent planar vertices because every convex :math:`n`-gon angle is strictly acute/obtuse :math:`< \pi`.

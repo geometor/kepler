@@ -12,7 +12,7 @@ Chapter XV: Notes & Provenance
 Why Tabella V Matters for Kepler's Later Transition to the True Sun
 -------------------------------------------------------------------
 
-**Tabella V** (``0062``, explicitly captioned *Ad cap. 15. Pag. 51*) marks a landmark breakthrough in physical astronomy: Copernicus had referenced planetary eccentricities to the *mean sun* (the empty center of Earth's orbit, point $B$), whereas Kepler insists in Chapter XV on measuring every planetary aphelion and perihelion directly from the **true physical body of the Sun** (point $A$). This seemingly modest technical choice was the direct seed of his dynamical physics in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`).
+**Tabella V** (``0062``, explicitly captioned *Ad cap. 15. Pag. 51*) marks a landmark breakthrough in physical astronomy: Copernicus had referenced planetary eccentricities to the *mean sun* (the empty center of Earth's orbit, point :math:`B`), whereas Kepler insists in Chapter XV on measuring every planetary aphelion and perihelion directly from the **true physical body of the Sun** (point :math:`A`). This seemingly modest technical choice was the direct seed of his dynamical physics in *Astronomia Nova* (:cite:`1609 <kepler:1609:an>`).
 
 Transcription & Provenance
 --------------------------

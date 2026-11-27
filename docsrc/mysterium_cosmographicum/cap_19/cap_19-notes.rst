@@ -12,7 +12,7 @@ Chapter XIX: Notes & Provenance
 Mästlin's Role in the 1596 Edition & The Venus Anomaly
 ------------------------------------------------------
 
-Folios ``0080``–``0081`` (pp. 68–69) preserve :person:`Michael Mästlin's <maestlin>` direct voice inside Kepler's text—explaining why the Mercury column in Table V (Chapter XV; marginal note on p. 68: *"Hi numeri sunt in Tabula V. quae est Cap. XV. ad ☿"*) was computed for Ptolemy's epoch rather than Copernicus's, and confirming how closely teacher and pupil collaborated during the Tübingen printing. Historically, the $2^\circ 18'$ residual on Venus proved real rather than observational: in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`), Kepler finally explained why Venus's aphelion/perihelion shell departs from the pure Icosahedron through the musical consonances of extremal angular velocities.
+Folios ``0080``–``0081`` (pp. 68–69) preserve :person:`Michael Mästlin's <maestlin>` direct voice inside Kepler's text—explaining why the Mercury column in Table V (Chapter XV; marginal note on p. 68: *"Hi numeri sunt in Tabula V. quae est Cap. XV. ad ☿"*) was computed for Ptolemy's epoch rather than Copernicus's, and confirming how closely teacher and pupil collaborated during the Tübingen printing. Historically, the :math:`2^\circ 18'` residual on Venus proved real rather than observational: in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`), Kepler finally explained why Venus's aphelion/perihelion shell departs from the pure Icosahedron through the musical consonances of extremal angular velocities.
 
 Textual & Typographical Notes on the 1596 Print
 -----------------------------------------------

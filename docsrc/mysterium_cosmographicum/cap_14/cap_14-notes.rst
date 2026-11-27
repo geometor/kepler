@@ -13,7 +13,7 @@ Editorial & Cosmographical Context
 ----------------------------------
 
 * **Tabella IIII vs. "Tabula QUINTA"**: On p. 49 (folio ``0060``), the printed marginal note reads *Huc pertinet Tabula QUINTA*, whereas the folding copperplate/woodcut plate bound opposite p. 49 (folio ``0059``) is engraved **TABELLA IIII** (*Ad cap. 14, Pag. 49*).
-* **Octahedral Square Variant for Mercury**: Kepler already flags ``577 vel 707`` for Mercury inside the Octahedron (the face-insphere $1000/\sqrt{3} \approx 577$ versus the equatorial-square incircle $1000/\sqrt{2} \approx 707$), anticipating his full geometrical justification in Chapter XVII.
+* **Octahedral Square Variant for Mercury**: Kepler already flags ``577 vel 707`` for Mercury inside the Octahedron (the face-insphere :math:`1000/\sqrt{3} \approx 577` versus the equatorial-square incircle :math:`1000/\sqrt{2} \approx 707`), anticipating his full geometrical justification in Chapter XVII.
 * **1621 Author's Notes (*Notae Authoris*)**: In the second edition (:cite:`Frankfurt, 1621 <kepler:1621:mc2>`), Kepler notes that the small residual discrepancies between thin polyhedral spheres and :person:`Tycho Brahe's <brahe>` observations do not refute the five regular bodies, but correspond to the orbital eccentricities governed by harmonic consonances in *Harmonices Mundi* Book V (:cite:`1619 <kepler:1619:hm>`).
 
 Transcription & Provenance

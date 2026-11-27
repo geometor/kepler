@@ -9,4 +9,4 @@
 Definition II: Summary
 ======================
 
-By formally admitting star polygons into the canon of regular figures (rather than dismissing them as curiosities), Kepler lays the geometric basis for both Book II's star-polyhedra ($\{5/2, 5\}$ and $\{5/2, 3\}$) and Book IV's astrological star aspects.
+By formally admitting star polygons into the canon of regular figures (rather than dismissing them as curiosities), Kepler lays the geometric basis for both Book II's star-polyhedra (:math:`\{5/2, 5\}` and :math:`\{5/2, 3\}`) and Book IV's astrological star aspects.

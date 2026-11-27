@@ -9,7 +9,7 @@
 Definition VI: Notes & Provenance
 =================================
 
-Accompanied on p. 8 by a pentagon woodcut highlighting center $L$, radius $LD$, and side $DE$.
+Accompanied on p. 8 by a pentagon woodcut highlighting center :math:`L`, radius :math:`LD`, and side :math:`DE`.
 
 Transcription & Provenance
 --------------------------

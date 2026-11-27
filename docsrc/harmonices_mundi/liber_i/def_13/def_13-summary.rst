@@ -9,4 +9,4 @@
 Definition XIII: Summary
 ========================
 
-Degree II captures all rational multiples $q D \in \mathbb{Q} \cdot D$. The hexagon is the sole non-degenerate regular polygon whose side is rational in length relative to the diameter ($s_6 / D = \frac{1}{2}$).
+Degree II captures all rational multiples :math:`q D \in \mathbb{Q} \cdot D`. The hexagon is the sole non-degenerate regular polygon whose side is rational in length relative to the diameter (:math:`s_6 / D = \frac{1}{2}`).

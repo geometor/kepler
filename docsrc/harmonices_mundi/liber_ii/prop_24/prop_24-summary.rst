@@ -9,4 +9,4 @@
 Proposition XXIV: Summary
 =========================
 
-Eliminates hypothetical three-species solids containing triangles or pentagons at $k=3$ valence (leaving only even-even-even `4.6.8` and `4.6.10`, the truncated cuboctahedron and truncated icosidodecahedron, realized in Prop. XXVIII!).
+Eliminates hypothetical three-species solids containing triangles or pentagons at :math:`k=3` valence (leaving only even-even-even `4.6.8` and `4.6.10`, the truncated cuboctahedron and truncated icosidodecahedron, realized in Prop. XXVIII!).
